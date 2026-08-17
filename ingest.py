@@ -162,8 +162,20 @@ def ingest_city(con: sqlite3.Connection, path: Path) -> dict[str, int]:
     clear_city(con, city_id)
     update_profile(con, city_id, payload.get("profile", {}))
 
+    diverted_cycles = 0
     cycle_ids: dict[str, int] = {}
     for cycle in payload.get("cycles", []):
+        if not cycle.get("election_date"):
+            # Researchers sometimes file a structural source document (a budget, a
+            # charter) as a cycle. It has no election date, and letting it raise
+            # would roll back the whole city rather than the one bad row.
+            con.execute(
+                "INSERT INTO run_log (city_id, step, outcome, detail) "
+                "VALUES (?, 'registry', 'success', ?)",
+                (city_id, f"non-cycle row moved to run_log: {cycle.get('source_url')}"),
+            )
+            diverted_cycles += 1
+            continue
         cur = con.execute(
             "INSERT INTO cycles (city_id, election_date, seats_up, status, source_url) "
             "VALUES (?, ?, ?, ?, ?)",
@@ -179,6 +191,20 @@ def ingest_city(con: sqlite3.Connection, path: Path) -> dict[str, int]:
 
     person_cache: dict[tuple[int, str], int] = {}
     for tenure in payload.get("tenures", []):
+        if tenure.get("notes_end_bound"):
+            # `tenures` has no notes column, and an end_date that is a proven upper
+            # bound reads identically to a sourced exit once loaded. Preserve the
+            # distinction in the run log rather than dropping it on ingest.
+            con.execute(
+                "INSERT INTO run_log (city_id, step, outcome, detail) "
+                "VALUES (?, 'validation', 'success', ?)",
+                (
+                    city_id,
+                    f"end_date is a BOUND, not a sourced exit — "
+                    f"{tenure['seat_label']} / {tenure['person']} "
+                    f"(ends {tenure.get('end_date')}): {tenure['notes_end_bound']}",
+                ),
+            )
         person_id = resolve_person(
             con,
             person_cache,
@@ -389,12 +415,23 @@ def report_holes(con: sqlite3.Connection, city_id: int) -> list[str]:
             (city_id, city_id),
         )
     }
-    return [
-        f"{seat} {year}"
-        for seat in seats
-        for year in PANEL_YEARS
-        if (seat, year) not in covered
-    ]
+    # Only INTERIOR gaps count. A seat's own observed span bounds the check, because
+    # councils are restructured mid-panel: seats are created, abolished and redrawn.
+    # A seat running 2019-2025 and stopping is an abolished seat, not six holes in
+    # 2026; a seat starting in 2025 was created, not absent for six years. A missing
+    # year *between* a seat's first and last appearance is the real defect.
+    holes: list[str] = []
+    for seat in seats:
+        years = sorted(y for s, y in covered if s == seat)
+        if not years:
+            holes.extend(f"{seat} {y} (seat never sourced)" for y in PANEL_YEARS)
+            continue
+        holes.extend(
+            f"{seat} {year}"
+            for year in range(years[0], years[-1] + 1)
+            if (seat, year) not in covered
+        )
+    return holes
 
 
 def main(argv: list[str]) -> int:

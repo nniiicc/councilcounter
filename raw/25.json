@@ -1,0 +1,1019 @@
+{
+ "city_id": 25,
+ "city": "Greenfield",
+ "state": "Massachusetts",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 13,
+  "seat_scheme": "mixed",
+  "term_length": 4,
+  "stagger_pattern": "Half the 13-member council every 2 years, all seats 4-year terms. Cohort A (2 of the 4 at-large seats + Precincts 1-4 = 6 seats) elected 2015/2019/2023; Cohort B (the other 2 at-large seats + Precincts 5-9 = 7 seats) elected 2017/2021/2025. Precinct and at-large seats are on the SAME cadence. Terms run Jan 1 - Dec 31. Mayor is a separate directly elected 4-year office, 2019 and 2023.",
+  "mayor_selection": "elected",
+  "election_month": "November (odd years)",
+  "profile_source_url": "https://greenfield-ma.gov/government/city_council/city_council_members.php"
+ },
+ "cycles": [
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://recorder.com/2017/11/08/greenfield-2017-town-council-election-13603855/"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 8,
+   "status": "sourced",
+   "source_url": "https://recorder.com/2019/11/06/greenfield-city-council-election-results-30069601/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://recorder.com/2021/11/03/winners-of-two-city-council-seats-unclear-with-write-in-votes-43352027/"
+  },
+  {
+   "election_date": "2023-11-07",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "William Martin",
+   "name_variants": [
+    "William F. Martin"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2019-01-01",
+   "end_date": "2020-01-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/03/martin-updates-executive-order-talks-next-steps-31003502/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Roxann Wedegartner",
+   "name_variants": [
+    "Roxann D. Wedegartner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-01-02",
+   "end_date": "2024-01-01",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Virginia DeSorgher",
+   "name_variants": [
+    "Virginia “Ginny” DeSorgher",
+    "Ginny Desorgher",
+    "Virginia Desorgher"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2024-01-02",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2024/01/02/at-inauguration-new-greenfield-mayor-pledges-to-ensure-that-all-voices-are-heard-53548232/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Karen Renaud",
+   "name_variants": [
+    "Karen “Rudy” Renaud"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/05/14/greenfield-city-councilor-resigns-for-personal-reasons-on-eve-of-big-council-meeting-25553708/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Ashli Stempel",
+   "name_variants": [
+    "Ashli Stempel-Rae"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2020-01-02",
+   "end_date": "2020-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2020/01/03/city-council-reorganizes-31671635/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Penny Ricketts",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2021-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2021/11/03/winners-of-two-city-council-seats-unclear-with-write-in-votes-43352027/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Sheila Gilmour",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2022-01-04",
+   "end_date": "2022-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2022/01/04/gilmour-named-city-council-president-councilors-school-committee-members-sworn-in-44390371/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Daniel Guin",
+   "name_variants": [
+    "Dan Guin"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2023-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "John Bottomley",
+   "name_variants": [
+    "John R. Bottomley"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2024-01-03",
+   "end_date": "2024-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2024/01/03/bottomley-tapped-greenfield-city-council-chair-johnson-mussad-to-head-school-committee-53562523/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Lora Wondolowski",
+   "name_variants": [
+    "Lora L. Wondolowski"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2025-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2025/06/04/june-12-deadline-looms-for-precinct-6-council-nomination-in-greenfield-61577537/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Karen Renaud",
+   "name_variants": [
+    "Karen “Rudy” Renaud"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 1",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/26/greenfield-elected-officials-reflect-on-tenure-31452602/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Christine Forgey",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 1",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "John Garrett",
+   "name_variants": [
+    "John James Garrett"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 1",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Isaac Mass",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 2",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/26/greenfield-elected-officials-reflect-on-tenure-31452602/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Philip Elmer",
+   "name_variants": [
+    "Phil Elmer"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 2",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Wahab Minhas",
+   "name_variants": [
+    "Wahab Shahbaz Minhas"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 2",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Penny Ricketts",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 3",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2018/01/02/town-council-elects-new-president-vp-2018-14662435/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Penny Ricketts",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 3",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2024-08-19",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2024/08/19/penny-ricketts-resigns-from-greenfield-city-council-56603828/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Sara Brown",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 3",
+   "role": "council_member",
+   "start_date": "2024-10-16",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2024/10/10/committee-chairs-recommends-sara-brown-for-city-council-57400501/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Sara Brown",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 3",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Ashli Stempel",
+   "name_variants": [
+    "Ashli Stempel-Rae"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 4",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2018/01/02/town-council-elects-new-president-vp-2018-14662435/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Michael Terounzo",
+   "name_variants": [
+    "Michael Terrounzo",
+    "Mike Terounzo"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 4",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2021/11/05/write-in-candidates-helie-terounzo-win-greenfield-city-council-seats-43406053/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Maisie Sibbison-Alves",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large 4",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Verne Sund",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 1",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://recorder.com/2019/12/26/greenfield-elected-officials-reflect-on-tenure-31452602/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Edward Jarvis",
+   "name_variants": [
+    "Ed Jarvis"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 1",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2022-05-31",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2022/04/28/greenfield-precinct-1-councilor-jarvis-resigns-effective-may-31-46143924/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Katherine Golub",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 1",
+   "role": "council_member",
+   "start_date": "2022-06-15",
+   "end_date": "2023-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2022/06/08/katherine-golub-considered-to-fill-precinct-1-council-vacancy-in-greenfield-46725881/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Katherine Golub",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 1",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Mark Berson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 2",
+   "role": "council_member",
+   "start_date": "2019-02-20",
+   "end_date": "2019-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/02/21/mark-berson-officially-becomes-precinct-2-councilor-to-fill-out-remaining-10-months-of-term-23627096/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Daniel Guin",
+   "name_variants": [
+    "Dan Guin"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 2",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Rachel Gordon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 2",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Brickett Allis",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 3",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/26/greenfield-elected-officials-reflect-on-tenure-31452602/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Virginia DeSorgher",
+   "name_variants": [
+    "Virginia “Ginny” DeSorgher"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 3",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Michael Mastrototaro",
+   "name_variants": [
+    "Michael J. Mastrototaro"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 3",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2026-01-12",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2026/01/13/michael-mastrototaro-resigns-greenfield/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Ann Dillemuth",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 3",
+   "role": "council_member",
+   "start_date": "2026-04-15",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2026/04/21/ann-dillemuth-appointed-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Wanda Pyfrom",
+   "name_variants": [
+    "Wanda Muzyka-Pyfrom"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 4",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/26/greenfield-elected-officials-reflect-on-tenure-31452602/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "John Bottomley",
+   "name_variants": [
+    "John R. Bottomley"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 4",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "John Bottomley",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 4",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://recorder.com/2023/11/08/garrett-minhas-win-at-large-seats-on-greenfield-city-council-52943722/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Timothy Dolan",
+   "name_variants": [
+    "Tim Dolan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 5",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2018/01/02/town-council-elects-new-president-vp-2018-14662435/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Marianne Bullock",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 5",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2021/11/03/winners-of-two-city-council-seats-unclear-with-write-in-votes-43352027/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Marianne Bullock",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 5",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Sheila Gilmour",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 6",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2018/01/02/town-council-elects-new-president-vp-2018-14662435/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Sheila Gilmour",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 6",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-04-23",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2025/06/04/june-12-deadline-looms-for-precinct-6-council-nomination-in-greenfield-61577537/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Patricia Williams",
+   "name_variants": [
+    "Patricia Wiliams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 6",
+   "role": "council_member",
+   "start_date": "2025-06-18",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2025/07/25/trio-unopposed-for-greenfield-city-council-seats-62594464/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Patricia Williams",
+   "name_variants": [
+    "Patricia Wiliams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 6",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Otis Wheeler",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 7",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2018/01/02/town-council-elects-new-president-vp-2018-14662435/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Jasper Lapienski",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 7",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2023-12-18",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2023/12/18/jasper-lapienski-resigns-from-city-council-53410810/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "William Perry",
+   "name_variants": [
+    "William “Wid” Perry",
+    "Wid Perry"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 7",
+   "role": "council_member",
+   "start_date": "2024-02-21",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2024/02/23/william-wid-perry-appointed-to-precinct-7-vacancy-54147243/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Sarah Bolduc",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 7",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Douglas Mayo",
+   "name_variants": [
+    "Doug Mayo"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 8",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2018/01/02/town-council-elects-new-president-vp-2018-14662435/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Douglas Mayo",
+   "name_variants": [
+    "Doug Mayo"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 8",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2023-09-30",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2023/10/04/precinct-8-councilor-resigns-citing-frustration-with-greenfield-leaders-52535995/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Lora Wondolowski",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 8",
+   "role": "council_member",
+   "start_date": "2024-01-03",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2024/01/07/i-wanted-to-be-of-service-lora-wondolowski-joins-greenfield-city-council-as-precinct-8-rep-53577163/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Lora Wondolowski",
+   "name_variants": [
+    "Lora L. Wondolowski"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 8",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Daniel Leonovich",
+   "name_variants": [
+    "Dan Leonovich"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 9",
+   "role": "council_member",
+   "start_date": "2018-01-02",
+   "end_date": "2019-05-14",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://recorder.com/2019/05/14/greenfield-city-councilor-resigns-for-personal-reasons-on-eve-of-big-council-meeting-25553708/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Norman Hirschfeld",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 9",
+   "role": "council_member",
+   "start_date": "2019-07-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/07/26/my-turn-chris-collins-in-the-arena-072619-27258587/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Norman Hirschfeld",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 9",
+   "role": "council_member",
+   "start_date": "2020-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2019/12/30/mayor-to-swear-in-and-city-council-to-reorganize-31641277/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Derek Helie",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 9",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://recorder.com/2021/11/05/write-in-candidates-helie-terounzo-win-greenfield-city-council-seats-43406053/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Max Webbe",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Precinct 9",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://greenfield-ma.gov/Document_Center/Department/Elections/Official%20Results%20-%20November%204,%202025%20Local%20General%20Election.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "blocked",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "Registry route greenfield-ma.gov/elections_and_voting/election_results.php is a STUB (200 but no result links). The live archive is greenfield-ma.gov/elections_and_voting/elections_results.php (note plural 'elections'), and it only reaches back to March 2024 - no 2019/2021/2023 local results are hosted. electionstats.state.ma.us not retried (registry: zero municipal races)."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 5,
+   "searches": 0,
+   "detail": "CADENCE RESOLVED = reading (a). 13 seats (9 precinct + 4 at-large), ALL 4-year terms, half the council elected every 2 years in November of odd years; precinct and at-large seats run on the SAME cadence (2 at-large in each cycle). Three independent proofs: (1) city council members page carries a 'Term expires 12/31 of the year' column showing at-large Garrett/Minhas + Precincts 1-4 = 2027 and at-large Brown/Sibbison-Alves + Precincts 5-9 = 2029, i.e. 4 years after their 2023 and 2025 elections; (2) the OFFICIAL Nov 4 2025 results PDF prints 'City Councilor - Vote for one' with zero ballots cast in Precincts 1-4 and ballots only in Precincts 5-9, plus 'City Councilor at Large - Vote for two'; (3) the 2023 ballot-position list on the city clerk page contains Mayor, Councilor Precinct 1/2/3/4 and Councilor at Large and NO Precincts 5-9. Cohort A = At-Large x2 + Precincts 1-4 (elected 2015/2019/2023, 6 seats); Cohort B = At-Large x2 + Precincts 5-9 (elected 2017/2021/2025, 7 seats). The Recorder's 2019 results story states it verbatim: 'Each City Council position has a four-year term, with the exception of Precinct 9, which is for a two-year term' (Precinct 9 2019 was an unexpired-term special). Terms run Jan 1 - Dec 31; swearing-in at the first-week-of-January reorganization."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 12,
+   "searches": 1,
+   "detail": "greenfield-ma.gov holds only the 2024-2025 results. Rebuilt 2017/2019/2021/2023 from the Greenfield Recorder, which is WordPress and fully open to curl via /wp-json/wp/v2/posts?search=&after=&before= (article bodies also curl cleanly, no paywall on body text). Archive reaches at least to 2017; a 2015 query returned nothing, so the 2015 cycle was not retrieved - not needed, because the six Cohort-A holders of 2019 were sourced directly by name from 2018-2019 reporting."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 10,
+   "searches": 0,
+   "detail": "NINE mid-term changes found. 2019: Precinct 2 John Lobik resigned around the turn of 2018/19 (applicants published 2019-01-02); seat vacant 2019-01-01 to 2019-02-20 when Mark Berson was sworn to the remaining 10 months. 2019-05-14 Precinct 9 Daniel Leonovich resigned (Tuesday - day-of-week checked); Norman Hirschfeld appointed c. July 2019 and then elected 2019-11-05 to the 2-year unexpired remainder. 2022-05-31 Precinct 1 Ed Jarvis resigned; Katherine Golub appointed June 2022. 2023 late-Sept Precinct 8 Doug Mayo resigned; seat vacant to 2024-01-03 (Lora Wondolowski). 2023-12-18 Precinct 7 Jasper Lapienski resigned; William 'Wid' Perry sworn 2024-02-21. 2024-08-19 At-Large Penny Ricketts resigned; Sara Brown appointed 2024-10-16. 2025-04-23 Precinct 6 Sheila Gilmour resigned; Patricia Williams appointed at the 2025-06-18 meeting. 2026-01-12 Precinct 3 Michael Mastrototaro resigned (Monday - checked); Ann Dillemuth sworn c. 2026-04-15. Independent cross-check: in June 2025 Councilor Golub stated on the record that Williams would be 'the fifth councilor out of the 13 to be appointed' - exactly matching Golub, Wondolowski, Perry, Brown, Williams, which confirms no additional un-found appointment was sitting. Two searches across 2020-01 to 2022-03 for resignations/appointments returned nothing, so 2020-2021 was a stable council."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "2019 roster closed exactly: a 2019-12-26 Recorder piece names the six outgoing councilors - Verne Sund, Mark Berson, Wanda Pyfrom, Brickett Allis, Isaac Mass, Karen 'Rudy' Renaud - which is precisely Cohort A (Precincts 1-4 + At-Large x2) and confirms Pyfrom and Sund each 'served four years'. Seat count 13 in every panel year. Day-of-week checks passed: 2019-05-14 Tuesday, 2020-01-02 Thursday (inauguration), 2026-01-12 Monday, 2025-06-18 and 2024-02-21 are third Wednesdays (regular meeting night). Massachusetts has no 'unopposed candidates are not on the ballot' rule of the Alabama/Georgia kind - Greenfield prints unopposed candidates on the ballot and reports their vote totals (2023 and 2025 confirm), so an absent seat here really is an absent seat; no gap was suppressed on that basis. SOFT DATES (recorded medium confidence, not gaps): Golub 2022-06-15, Hirschfeld 2019-07-01, Brown 2024-10-16, Dillemuth 2026-04-15, Mayo end 2023-09-30 - each is the reported council meeting or reported month, not a quoted date. Pre-window tenures for Cohort A 2016-2019 are truncated to 2019-01-01 rather than asserting an unsourced 2016 swearing-in date; Cohort B 2018-2021 uses the sourced 2018-01-02 swearing-in."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "All 13 seats x 8 years (2019-2026) plus Mayor and Council President covered by tenure rows; zero gaps."
+  }
+ ],
+ "totals": {
+  "tool_calls": 44,
+  "searches": 2
+ }
+}

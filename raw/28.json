@@ -1,0 +1,759 @@
+{
+  "city_id": 28,
+  "city": "Homewood city",
+  "state": "Alabama",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 12,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "No stagger: every seat is elected concurrently at each quadrennial municipal election. COUNCIL SIZE IS NOT CONSTANT. 2016-11-07 through 2025-11-03 the body was 12 elective offices: Mayor (at-large) + Council President (at-large council seat, presides over the council) + 10 ward councilors (5 wards x Place 1/Place 2) = an 11-member council. On 2024-09-24 voters adopted the Council-Manager form (Title 11 Ch. 43A); effective with the 2025-08-26 election the city dropped to 4 wards with one councilor each plus a directly elected Mayor who serves as Council President, i.e. a 5-member council / 5 elective offices from 2025-11-03. Terms 2020-11-02 to 2025-11-03 were FIVE years because Alabama's 2021 Act (SB119, signed April 2021) moved the August 2024 municipal election to August 2025; Homewood WAS covered by it (audit Exhibit #1 shows every 2020-elected member with 'Term Expires 2025' and the city voted 2025-08-26).",
+    "mayor_selection": "elected",
+    "election_month": "August (4th Tuesday); runoff late Sept/early Oct; terms begin the first Monday in November",
+    "profile_source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-08-23",
+      "seats_up": 12,
+      "status": "sourced",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/"
+    },
+    {
+      "election_date": "2020-08-25",
+      "seats_up": 12,
+      "status": "sourced",
+      "source_url": "https://thehomewoodstar.com/news/election-day-results-2020/"
+    },
+    {
+      "election_date": "2020-10-06",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://thehomewoodstar.com/news/Runoff-election-results-201006/"
+    },
+    {
+      "election_date": "2025-08-26",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://thehomewoodstar.com/news/municipal-election-what-you-need-to-know/"
+    },
+    {
+      "election_date": "2025-09-23",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://thehomewoodstar.com/news/homewood-city-council-ward-3-runoff-results/"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Scott McBrayer",
+      "name_variants": [
+        "Scott McBrayer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Bruce Limbaugh",
+      "name_variants": [
+        "Bruce Limbaugh"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2016-11-07",
+      "end_date": "2019-10-04",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://irp.cdn-website.com/441cb6f7/files/uploaded/2019+Audit.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Peter Wright",
+      "name_variants": [
+        "Peter Wright"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2019-10-04",
+      "end_date": "2020-11-02",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://irp.cdn-website.com/441cb6f7/files/uploaded/121619%20Council%20Meeting%20Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Andy Gwaltney",
+      "name_variants": [
+        "Andy Gwaltney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Place 1",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Britt Thames",
+      "name_variants": [
+        "Britt Thames"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Place 2",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Mike Higginbotham",
+      "name_variants": [
+        "Mike Higginbotham"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Place 1",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Andrew Wolverton",
+      "name_variants": [
+        "Andrew Wolverton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Place 2",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Patrick McClusky",
+      "name_variants": [
+        "Patrick McClusky"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Place 1",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Walter Jones",
+      "name_variants": [
+        "Walter Jones"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Place 2",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Barry Smith",
+      "name_variants": [
+        "Barry Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Place 1",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Alex Wyatt",
+      "name_variants": [
+        "Alex Wyatt"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Place 2",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Jennifer Andress",
+      "name_variants": [
+        "Jennifer Andress"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5 Place 1",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2020-11-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "Peter Wright",
+      "name_variants": [
+        "Peter Wright"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5 Place 2",
+      "role": "council_member",
+      "start_date": "2016-11-07",
+      "end_date": "2019-10-04",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://thehomewoodstar.com/news/homewood-announces-official-election-winners830/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2016-08-23"
+    },
+    {
+      "person": "John Hardin",
+      "name_variants": [
+        "John Hardin"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5 Place 2",
+      "role": "council_member",
+      "start_date": "2019-11-04",
+      "end_date": "2020-11-02",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/city-council-recap110519/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Patrick McClusky",
+      "name_variants": [
+        "Patrick McClusky"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-11-02",
+      "end_date": "2024-10-31",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.cityofhomewood.com/city-leadership-changes",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2020-10-06"
+    },
+    {
+      "person": "Alex Wyatt",
+      "name_variants": [
+        "Alex Wyatt"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-11-01",
+      "end_date": "2025-11-03",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofhomewood.com/city-leadership-changes",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Alex Wyatt",
+      "name_variants": [
+        "Alex Wyatt"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2020-11-02",
+      "end_date": "2024-10-31",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Walter Jones",
+      "name_variants": [
+        "Walter Jones"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2024-11-01",
+      "end_date": "2025-11-03",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofhomewood.com/city-leadership-changes",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Andy Gwaltney",
+      "name_variants": [
+        "Andy Gwaltney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Place 1",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Melanie Geer",
+      "name_variants": [
+        "Melanie Geer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Place 2",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Carlos Aleman",
+      "name_variants": [
+        "Carlos Alemán",
+        "Carlos Aleman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Place 1",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Andrew Wolverton",
+      "name_variants": [
+        "Andrew Wolverton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Place 2",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/Runoff-election-results-201006/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2020-10-06"
+    },
+    {
+      "person": "Nick Sims",
+      "name_variants": [
+        "Nick Sims"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Place 1",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://thehomewoodstar.com/news/Runoff-election-results-201006/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2020-10-06"
+    },
+    {
+      "person": "Walter Jones",
+      "name_variants": [
+        "Walter Jones"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Place 2",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2024-11-01",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.cityofhomewood.com/city-leadership-changes",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Jody Brant",
+      "name_variants": [
+        "Jody Brant"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Place 2",
+      "role": "council_member",
+      "start_date": "2024-12-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofhomewood.com/council-appoints-jody-brant-for-ward-3-seat",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Barry Smith",
+      "name_variants": [
+        "Barry Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Place 1",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Jalete Nelms",
+      "name_variants": [
+        "Jalete Nelms",
+        "Jelete Nelms"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Place 2",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Jennifer Andress",
+      "name_variants": [
+        "Jennifer Andress"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5 Place 1",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "John Hardin",
+      "name_variants": [
+        "John Hardin"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5 Place 2",
+      "role": "council_member",
+      "start_date": "2020-11-02",
+      "end_date": "2025-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-08-25"
+    },
+    {
+      "person": "Jennifer Andress",
+      "name_variants": [
+        "Jennifer Andress"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofhomewood.com/homewood-welcomes-new-leadership",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-08-26"
+    },
+    {
+      "person": "Jennifer Andress",
+      "name_variants": [
+        "Jennifer Andress"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofhomewood.com/homewood-welcomes-new-leadership",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-08-26"
+    },
+    {
+      "person": "Paul S. Simmons II",
+      "name_variants": [
+        "Paul S. Simmons II",
+        "Paul Simmons II",
+        "Paul Simmons"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1",
+      "role": "council_member",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofhomewood.com/homewood-welcomes-new-leadership",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-08-26"
+    },
+    {
+      "person": "Nick Sims",
+      "name_variants": [
+        "Nick Sims"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2",
+      "role": "council_member",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofhomewood.com/homewood-welcomes-new-leadership",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-08-26"
+    },
+    {
+      "person": "Nick Sims",
+      "name_variants": [
+        "Nick Sims"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro-Tem",
+      "role": "vice_mayor",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofhomewood.com/homewood-welcomes-new-leadership",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-08-26"
+    },
+    {
+      "person": "Chris Lane",
+      "name_variants": [
+        "Chris Lane"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3",
+      "role": "council_member",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://thehomewoodstar.com/news/homewood-city-council-ward-3-runoff-results/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2025-09-23"
+    },
+    {
+      "person": "Winslow Armstead",
+      "name_variants": [
+        "Winslow Armstead"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4",
+      "role": "council_member",
+      "start_date": "2025-11-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofhomewood.com/homewood-welcomes-new-leadership",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-08-26"
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2019,
+      "seat_label": "Ward 5 Place 2",
+      "reason": "vacant",
+      "attempted": "Sourced vacancy, not a research failure. Peter Wright vacated Ward 5 Place 2 to become Council President after Bruce Limbaugh's sudden resignation on 2019-10-04; John Hardin was appointed and sworn in 2019-11-04 (thehomewoodstar.com/news/city-council-recap110519/, corroborated by the 2019-12-16 council minutes roll call). Seat was vacant 2019-10-04 to 2019-11-04.",
+      "notes": "Approximately one month vacant."
+    },
+    {
+      "year": 2024,
+      "seat_label": "Ward 3 Place 2",
+      "reason": "vacant",
+      "attempted": "Sourced vacancy. Walter Jones vacated Ward 3 Place 2 on 2024-11-01 when he succeeded to Council President (Alex Wyatt having succeeded to Mayor on McClusky's 2024-10-31 retirement); the council appointed Jody Brant in November 2024 and he was sworn in at the 2024-12-02 council meeting. Sources: cityofhomewood.com/city-leadership-changes; cityofhomewood.com/council-appoints-jody-brant-for-ward-3-seat; thehomewoodstar.com/news/council-sets-public-hearings-on-sign-variances/",
+      "notes": "Vacant 2024-11-01 to 2024-12-02."
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Read agent-brief.md and the Alabama + cross-state sections of state-registry.md. Registry's two Homewood warnings (variable council size; unresolved 2021 Act status) both proved real and both were resolved."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 2,
+      "detail": "Alabama: 4th Tuesday in August, terms begin first Monday in November. Cycles touching the panel: 2016-08-23 (term 2016-11-07 to 2020-11-02), 2020-08-25 + 2020-10-06 runoff (term 2020-11-02 to 2025-11-03, FIVE years), 2025-08-26 + 2025-09-23 runoff (term from 2025-11-03). 2021 ACT RESOLVED: Homewood WAS covered by the 2021 Act (SB119, signed April 2021), which moved the August 2024 election to August 2025 and extended the 2020 term to five years. Proof is direct, not inferred: EOPA audit Exhibit #1 lists every 2020-elected member with 'Term Expires 2025', and the city in fact voted 2025-08-26. Homewood is NOT exempt like Mobile and NOT unaffected like Auburn. Settled on the decisive test - WAS THERE A 2024 ELECTION? No. Three independent lines of evidence: (a) EOPA audit Exhibit #1 shows every 2020-elected member with 'Term Expires 2025'; (b) the FY2023 audited officials page and the EOPA report's 2024-12-19 exit-conference attendance list both show the same 2020-elected council still seated straight through 2024, with no new cohort; (c) the next municipal election actually held was 2025-08-26, with terms beginning 2025-11-03. Homewood therefore matches Fairhope: a five-year term running 2020-11-02 to 2025-11-03."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "EOPA audit-report route from the registry WORKS and was the single highest-value document: https://alison.legislature.state.al.us/files/pdf/eopa/audit_reports/25__169_25-169-City%20of%20Homewood.pdf (Special Review, period 2021-10-01 to 2024-03-31, filed 2025-01-10). WebFetch was not needed; curl with a browser UA fetched the 2.4MB binary and pdftotext -layout extracted it. Exhibit #1 ('Members of the City Council, Mayor and Administrative Personnel', p.23) names all 11 council members with term-expiry years plus 'Hon. Patrick McClusky, Former Mayor, October 31, 2024'. Body text also states the structural fact verbatim: 'the council was comprised of a Council President and ten Council members that represented the five wards of the City'. Only one Homewood report exists in the EOPA repository (25-169); there is no earlier per-year series for this city."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 4,
+      "detail": "thehomewoodstar.com is fully fetchable by WebFetch and carries official canvass reporting for every cycle: 2016 official winners (/news/homewood-announces-official-election-winners830/), 2020 election night (/news/election-day-results-2020/), 2020 runoff (/news/Runoff-election-results-201006/), 2020 candidate guide with incumbency and ward/place labels (/news/in-the-running/), 2025 election night (/news/municipal-election-what-you-need-to-know/), 2025 Ward 3 runoff (/news/homewood-city-council-ward-3-runoff-results/). Its own site search (?s=) is JS-driven and returns nothing to curl - use a search engine instead."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 3,
+      "detail": "FOUR mid-term changes found, all dated. (1) 2019-10-04: Council President Bruce Limbaugh resigned suddenly. (2) 2019-10/11: Peter Wright moved from Ward 5 Place 2 to Council President; (3) 2019-11-04: John Hardin appointed and sworn in to Ward 5 Place 2. The structural tell was Hardin appearing as a 2020 'incumbent' who won no 2016 race. (4) 2024-10-31: Mayor Patrick McClusky retired; Council President Alex Wyatt succeeded to mayor under Ala. Code order of succession ('the president of the council shall succeed to the office of the mayor for the unexpired term'), Walter Jones moved from Ward 3 Place 2 to Council President, and Jody Brant was appointed to Ward 3 Place 2 (sworn in 2024-12-02). No mid-term change occurred between 2020-11-02 and 2024-10-31: the audit Exhibit #1 covering 2021-10 to 2024-03 lists exactly the eleven people elected in 2020, with 'Former' annotations applied only to the mayor and to administrative staff."
+    },
+    {
+      "step": "validation",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Registry's Rung-6 tip confirmed: https://www.cityofhomewood.com/city-council-archives fetches and indexes Jan 2016 - Aug 2026, with minutes as direct PDFs at https://irp.cdn-website.com/441cb6f7/files/uploaded/{MMDDYY}%20Council%20Meeting%20Minutes.pdf. Two roll calls extracted locally with pdftotext for independent composition proof. 2019-12-16: 'called to order by President Wright'; present Gwaltney, Thames, Higginbotham, Wolverton, McClusky, Jones, Smith, Wyatt, Andress, Hardin, Wright (11) plus 'Mayor Scott McBrayer' - exactly the reconstructed 2019 roster including the Limbaugh/Wright/Hardin succession. 2022-12-19: 'called to order by President Wyatt'; present Gwaltney, Alemán, Wolverton, Jones, Smith, Nelms, Andress, Hardin, Wyatt, absent Geer and Sims (11) plus 'Mayor McClusky' - exactly the reconstructed 2020-term roster. SEAT-COUNT SANITY: 12 elective offices per year 2019 through 2025-11-02; 5 from 2025-11-03. Name variants observed: Carlos Alemán/Aleman; Jalete Nelms (minutes) vs Jelete Nelms (audit) - same person, same seat, no merge risk. PRESIDING OFFICER: the Council President is a separately elected at-large council seat that presides, not an internal election, so it is carried as a single vice_mayor-role seat rather than double-counted. Homewood also has an internal 'President Pro Tempore' - Alex Wyatt held it in 2020 while sitting for Ward 4 Place 2 (thehomewoodstar.com/news/in-the-running/) - but no dated start/end could be sourced for it, so it is deliberately NOT emitted as a tenure row. From 2025-11-03 the directly elected Mayor serves as Council President and Nick Sims is Mayor Pro-Tem."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 1,
+      "detail": "ANNUAL AUDITED-FINANCIAL-STATEMENT SERIES (the ACFR-class source). Homewood's independent audits carry an officials page identical in function to a 'List of Principal Officials' and are ANNUAL, which is what pins the council-size change to a specific fiscal year. FY2019 (as of 2019-09-30): https://irp.cdn-website.com/441cb6f7/files/uploaded/2019+Audit.pdf - MAYOR Scott McBrayer; CITY COUNCIL PRESIDENT Bruce Limbaugh; CITY COUNCIL Gwaltney/Thames (Ward 1), Higginbotham/Wolverton (Ward 2), McClusky/Jones (Ward 3), Smith/Wyatt (Ward 4), Andress/Wright (Ward 5). FY2023: https://abc3340.com/resources/pdf/34f7027c-c17f-4c37-8144-3c043d648cda-HW2023AuditBMSS.pdf - MAYOR Patrick McClusky; CITY COUNCIL PRESIDENT Alex Wyatt; CITY COUNCIL Gwaltney/Geer, Aleman/Wolverton, Sims/Jones, Smith/Nelms, Andress/Hardin. Both state verbatim: 'The governing body is an elected Mayor, elected City Council President, and a ten-member elected City Council' - i.e. 12 elective offices, and the size was UNCHANGED across FY2019-FY2023. The reduction therefore lands entirely at the 2025-11-03 seating, not anywhere inside the 2019-2024 span. Extracted locally with pdftotext -layout, never via the summarizer. Note the FY2019 page is dated 2019-09-30, four days before Limbaugh's resignation, which is why it still shows Limbaugh and shows Wright in Ward 5 rather than as President."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "UNOPPOSED-SEAT TRAP CHECKED AND CLEARED. Alabama declares a sole qualified candidate elected without a ballot, so unopposed seats can be missing from results pages. Homewood is not affected here because thehomewoodstar.com reported the unopposed seats explicitly alongside the contested ones: 2016 - Bruce Limbaugh (Council President), Mike Higginbotham (W2P1), Patrick McClusky (W3P1) and Alex Wyatt (W4P2) all recorded 'unopposed'; 2020 - Alex Wyatt (Council President), Andy Gwaltney (W1P1) and Jennifer Andress (W5P1) recorded unopposed. All 12 seats are accounted for in every cycle and no gap was filed for an absent-from-results seat. The distinction the coordinator flagged is explicitly maintained: the only seats that DISAPPEAR are the six abolished at the 2025-11-03 transition (Council President as a separate elective office, and the Place 2 seats plus the fifth ward), and that abolition is corroborated by three independent sources, not inferred from an omission."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Full coverage 2019-2026. Council-size change fully resolved: 12 elective offices (Mayor + at-large Council President + 5 wards x 2 places) through 2025-11-03, then 5 (Mayor + 4 single-member wards) after the 2024-09-24 special election adopted the Council-Manager form. Seat labels 'Ward N Place M' before the change and 'Ward N' after; the two schemes are not interchangeable because the 2025 wards were redrawn from scratch. bhamwiki.com is Cloudflare-walled to both curl and WebFetch (403) - the only dead route encountered."
+    }
+  ],
+  "totals": {
+    "tool_calls": 45,
+    "searches": 13
+  }
+}

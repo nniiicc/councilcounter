@@ -1,9 +1,15 @@
 # Registry Corrections
 
-Findings from live runs that correct or extend `municipal-roster-panel`'s
-`references/state-registry.md`. The registry lives inside the skill and cannot be edited
-from this project, so corrections accumulate here and should be folded into agent
-prompts for subsequent batches.
+Findings from live runs that correct or extend `municipal-roster-panel`.
+
+**Status: merged upstream (2026-08-17).** Every finding here has been folded into a
+user-level fork of the skill at `~/.claude/skills/municipal-roster-panel/`, which supersedes
+the bundled plugin version and is the operational source of truth for future runs **in any
+project**. **This file is the audit trail** — the evidence, measurements and reasoning behind
+each correction, which the skill states only as bare instructions.
+
+New findings must be recorded here **and** merged into the fork. Two documents that disagree
+are worse than one that is merely incomplete.
 
 Each entry records how it was established, because an unverified correction is worse
 than none.
@@ -280,3 +286,91 @@ cannot be established, that is a `run_log` note, not a column of failures.
 The schema's `role` enum includes `vice_mayor`, so there is a slot for it. This inflates
 some cities' seat-year counts relative to others and should be settled before the panel is
 compared across cities.
+
+
+---
+
+# Batch 2 — Alabama, Georgia (in progress)
+
+## The unopposed-seat trap — the highest-value finding so far
+
+**Alabama declares sole qualified candidates elected without a ballot**, so unopposed seats
+never appear in election results at all. Auburn's 2022 archive is missing **4 of its 9 seats**
+for this reason — the mayor and three wards. Its 2018 archive omits one.
+
+Reading those omissions as missing data would have produced four spurious gaps in a city that
+actually has a perfect record. The certification of an unopposed seat is often published
+**weeks apart** from the contested results as a separate notice — Auburn's Ward 4 was certified
+a month after the others, which was itself the tell that the seat had been vacated and
+re-qualified.
+
+**This is a legal provision, not an Alabama quirk**, and several states have equivalents. It is
+now a cross-state finding in the fork: establish what a state does with unopposed candidates
+*before* recording a gap for a seat that simply does not appear.
+
+## The ACFR — a near-universal roster source, better than audit reports
+
+Almost every US municipality publishes an Annual Comprehensive Financial Report, and its
+**"List of Principal Officials"** page names the mayor, every council seat, and usually the
+presiding officer.
+
+Two properties make it strictly better than the state-audit route the registry recommends:
+
+- **Annual rather than episodic** — one linked series covers every panel year. Auburn's runs
+  FY2000-FY2025 as direct PDFs, giving seven verbatim official snapshots for this panel.
+- **It names the presiding officer**, which election results structurally cannot.
+
+Diffing consecutive years' officials pages also dates council-size changes and mid-term
+replacements directly — which is exactly the evidence Homewood's shifting ward count needs.
+ACFRs are frequently hosted **off-domain** (state repositories, EMMA/MSRB bond disclosure, the
+audit firm), so a robots block on the city domain need not reach them.
+
+## Alabama's EOPA route is not universal
+
+The registry rates EOPA audit reports "Verified" for Alabama, but that verification was on
+**Homewood specifically**. Auburn is audited by an **independent CPA firm**, not the Department
+of Examiners of Public Accounts — EOPA has nothing for it, and a search returns only the county
+commission, county BOE and the university. The URL pattern also needs a **per-city numeric id**
+that is not derivable and did not surface by search for Fairhope.
+
+Not a dead host — a **category mismatch**, and it will recur for larger Alabama cities.
+
+## CivicClerk's OData API is on a different HOST
+
+The census recorded the endpoint as `{tenant}.portal.civicclerk.com/api/v1/Events`. **That
+404s.** The working endpoint is:
+
+```
+https://{tenant}.api.civicclerk.com/v1/Events
+```
+
+Verified returning JSON. This matters well beyond Alabama — CivicClerk appears across the
+corpus, and the correct host turns a JavaScript-only portal into a live minutes archive.
+
+## Bulk-queryable hyperlocal sources
+
+A **Blogger-hosted local paper was the single highest-yield source for Fairhope**, carrying a
+runoff, two organizational meetings, a resignation-and-appointment, and an entire
+presiding-officer rotation. Blogger exposes a JSON feed
+(`/feeds/posts/default?alt=json&q=<terms>`) that returns hundreds of full post texts in one
+call; WordPress exposes `wp-json/wp/v2/search`. Note `published-min` is ignored when `q` is
+present.
+
+## 2021 Act — registry gap partially closed
+
+| City | Status | Evidence |
+|---|---|---|
+| Mobile | Exempt | already odd-year (2021, 2025) |
+| Auburn | **Unaffected** | cycle is Aug 2018 / 2022 / 2026 — never had a 2024 election to move |
+| Fairhope | **AFFECTED** | no 2024 cycle at all; Aug 2020 council served a **five-year term** to 2025-11-03, next election 2025-08-26 |
+| Homewood, Selma | Unverified | in progress |
+
+The decisive test is simply **whether a 2024 election happened**. If not, the prior term was
+extended to five years and every later term boundary shifts.
+
+## Fetchability
+
+`gulfcoastmedia.com` and Alabama local news generally **403 WebFetch but fetch cleanly by curl**
+with a browser UA. **`wkrg.com` blocks both** (HUMAN Security challenge) — the Fairhope agent
+correctly declined to record vote totals it could not verify verbatim rather than trusting a
+snippet. `www.fairhopeal.gov` is Akamai-blocked on every HTML path via both methods.

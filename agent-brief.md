@@ -75,6 +75,26 @@ election offices publish incumbent lists and cities-and-towns rosters as PDFs �
 precisely the mid-term data election results structurally cannot contain. Two-thirds of one
 town's entire yield came from three such documents. Try these before the newspaper rungs.
 
+**An absent seat may mean UNOPPOSED, not missing.** Some states declare sole qualified
+candidates elected without a ballot, so unopposed seats never appear in results — one Alabama
+cycle was missing 4 of 9 seats, including the mayor. Certification for those is often published
+weeks apart, as a separate notice. **Establish what the state does before recording a gap for a
+seat that simply does not appear.**
+
+**The ACFR is a near-universal roster source.** Almost every US municipality publishes an Annual
+Comprehensive Financial Report whose **"List of Principal Officials"** page names the mayor, every
+council seat, and usually the presiding officer — **annually**, so one linked series covers every
+panel year, and it names the presiding officer that election results cannot. Diffing consecutive
+years dates council-size changes and mid-term replacements directly. Often hosted off-domain
+(state repositories, EMMA/MSRB, the audit firm), so a robots block on the city domain need not
+reach it.
+
+**Portal APIs beat portal HTML.** CivicClerk: `https://{tenant}.api.civicclerk.com/v1/Events`
+(a different host — the `portal.` subpath 404s). CivicEngage AgendaCenter:
+`/AgendaCenter/Search/?CIDs=<id>&startDate=&endDate=` is often reachable by curl when browse URLs
+are blocked. Blogger: `/feeds/posts/default?alt=json&q=<terms>`. WordPress:
+`wp-json/wp/v2/search`. These turn JavaScript-only or robots-blocked portals into live archives.
+
 **A 403 from a local paper is not the end.** Syndication mirrors of the same article
 (yahoo.com and similar) often fetch cleanly when the origin blocks you.
 
@@ -92,6 +112,14 @@ blocked and move on; do not conclude the record does not exist.
   a document containing only surnames — and the invented names were **correct**, which makes
   the failure invisible by inspection. Re-source anything a summary asserts; prefer locally
   extracted text.
+- **Check the day of the week against any claimed date.** This caught four separate errors in one
+  session — a fabricated "January 5, 2018" that was a Friday, a summarizer's "January 7, 2025" that
+  was a Tuesday, a republished archive article whose "Dec. 4 runoff" placed it in 2007 rather than
+  2019, and two minutes files internally dated "March 03, 2019" (a Sunday) that actually carried the
+  2020 roll call. It is the cheapest validation available.
+- **Beware undated republished archive content.** One local paper reposts old articles without
+  dates; a search snippet presented a 2007 council race as 2019, which would have seated the wrong
+  person for four years.
 - **Seat count sanity.** Does the number of seats match the form of government? Council size
   is **not constant** across a panel — cities add, drop and redistrict seats mid-window.
 - **Continuity.** A person appearing, vanishing and reappearing usually signals a missed

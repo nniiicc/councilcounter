@@ -1,0 +1,558 @@
+{
+  "city_id": 50,
+  "city": "Richmond city",
+  "state": "Georgia",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 5,
+    "seat_scheme": "position-numbered",
+    "term_length": 4,
+    "stagger_pattern": "Mayor + Post 1 + Post 2 elected together (Nov 2017, 2021, 2025); Post 3 + Post 4 elected together (Nov 2019, 2023). Terms begin at the first organizational meeting in January following the election. Majority-vote requirement (50%+1) with runoffs in early December.",
+    "mayor_selection": "elected",
+    "election_month": "November (odd years); runoffs in early December",
+    "profile_source_url": "https://www.richmondhill-ga.gov/195/Elections"
+  },
+  "cycles": [
+    {
+      "election_date": "2019-03-19",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_04022019-193"
+    },
+    {
+      "election_date": "2019-11-05",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.wtoc.com/2019/11/06/new-council-members-richmond-hill-runoff-third-seat/"
+    },
+    {
+      "election_date": "2019-12-03",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.wtoc.com/2019/12/04/richmond-hill-guyton-walthourville-runoffs-decided/"
+    },
+    {
+      "election_date": "2021-03-16",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01192021-261"
+    },
+    {
+      "election_date": "2021-11-02",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01042022-448"
+    },
+    {
+      "election_date": "2023-11-07",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01022024-640"
+    },
+    {
+      "election_date": "2025-11-04",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.richmondhill-ga.gov/195/Elections"
+    },
+    {
+      "election_date": "2025-12-02",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.wsav.com/news/your-local-election-hq/richmond-hill-city-council-post-2-election-results-announced/amp/"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Russ Carpenter",
+      "name_variants": ["Russ Carpenter", "RussCarpenter"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2022-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_04022019-193",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Russ Carpenter",
+      "name_variants": ["Russ Carpenter"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-01-04",
+      "end_date": "2026-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01042022-448",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Kristi Cox",
+      "name_variants": ["Kristi Cox", "Kristi F. Cox", "KristiCox"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/Minutes/_01062026-1118",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+
+    {
+      "person": "Kristi Cox",
+      "name_variants": ["Kristi Cox", "Kristi F. Cox"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 1",
+      "role": "council_member",
+      "start_date": "2019-04-02",
+      "end_date": "2022-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_04022019-193",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2019-03-19"
+    },
+    {
+      "person": "Kristi Cox",
+      "name_variants": ["Kristi Cox", "Kristi F. Cox"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 1",
+      "role": "council_member",
+      "start_date": "2022-01-04",
+      "end_date": "2026-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01042022-448",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Cindy Hatala",
+      "name_variants": ["Cindy Hatala"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 1",
+      "role": "council_member",
+      "start_date": "2026-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/Minutes/_01062026-1118",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+
+    {
+      "person": "Tara Baraniak",
+      "name_variants": ["Tara Baraniak"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-08-20",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_04022019-193",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Robbie Ward",
+      "name_variants": ["Robbie Ward", "RobbieWard"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 2",
+      "role": "council_member",
+      "start_date": "2020-01-07",
+      "end_date": "2022-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-richmond-hill-fy2021-financial-report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Robbie Ward",
+      "name_variants": ["Robbie Ward"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 2",
+      "role": "council_member",
+      "start_date": "2022-01-04",
+      "end_date": "2026-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01042022-448",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Kevin P. Bowes",
+      "name_variants": ["Kevin P. Bowes", "Kevin Bowes"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 2",
+      "role": "council_member",
+      "start_date": "2026-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/Minutes/_01062026-1118",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+
+    {
+      "person": "John Fesperman",
+      "name_variants": ["John Fesperman", "JohnFesperman"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-03-05",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.bryancountynews.com/news/fussell-appointed-richmond-hill-city-council-fesperman-resigns/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": "2015-11-03"
+    },
+    {
+      "person": "Bill Donahue",
+      "name_variants": ["Bill Donahue"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 3",
+      "role": "council_member",
+      "start_date": "2019-03-19",
+      "end_date": "2020-01-07",
+      "entry_mode": "appointed",
+      "exit_mode": "defeated",
+      "source_url": "https://www.bryancountynews.com/news/voters-have-options-richmond-hill-council-races/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Mark Ott",
+      "name_variants": ["Mark Ott", "MarkOtt"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 3",
+      "role": "council_member",
+      "start_date": "2020-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.bryancountynews.com/news/councilman-resigns/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Les Fussell",
+      "name_variants": ["Les Fussell", "Leslie Fussell"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 3",
+      "role": "council_member",
+      "start_date": "2021-04-06",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-richmond-hill-fy2021-financial-report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2021-03-16"
+    },
+    {
+      "person": "Van Hunter",
+      "name_variants": ["Van Hunter"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 3",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01022024-640",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+
+    {
+      "person": "Jan Bass",
+      "name_variants": ["Jan Bass", "JanBass"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 4",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-03-05",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.bryancountynews.com/news/fussell-appointed-richmond-hill-city-council-fesperman-resigns/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": "2015-11-03"
+    },
+    {
+      "person": "Les Fussell",
+      "name_variants": ["Les Fussell", "Leslie Fussell"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 4",
+      "role": "council_member",
+      "start_date": "2019-03-05",
+      "end_date": "2020-01-07",
+      "entry_mode": "appointed",
+      "exit_mode": "defeated",
+      "source_url": "https://www.bryancountynews.com/news/fussell-appointed-richmond-hill-city-council-fesperman-resigns/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Steve Scholar",
+      "name_variants": ["Steve Scholar", "Steven Scholar", "SteveScholar"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 4",
+      "role": "council_member",
+      "start_date": "2020-01-07",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.wtoc.com/2019/12/04/richmond-hill-guyton-walthourville-runoffs-decided/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2019-12-03"
+    },
+    {
+      "person": "Steve Scholar",
+      "name_variants": ["Steve Scholar", "Steven Scholar"],
+      "first_name_sourced": 1,
+      "seat_label": "Post 4",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://richmondhill-ga.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01022024-640",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+
+    {
+      "person": "Tara Baraniak",
+      "name_variants": ["Tara Baraniak"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-08-20",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://www.wtoc.com/2019/09/18/new-mayor-pro-tem-selected-richmond-hill/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Kristi Cox",
+      "name_variants": ["Kristi Cox", "Kristi F. Cox"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-09-17",
+      "end_date": "2024-01-02",
+      "entry_mode": "appointed",
+      "exit_mode": "unknown",
+      "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-richmond-hill-fy2021-financial-report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kristi Cox",
+      "name_variants": ["Kristi Cox", "Kristi F. Cox"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-06",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://richmondhill-ga.gov/DocumentCenter/View/5871/2023-Audit",
+      "retrieval_method": "audit_report",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Cindy Hatala",
+      "name_variants": ["Cindy Hatala"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2026-02-03",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.richmondhill-ga.gov/199/Meet-the-Mayor-Council",
+      "retrieval_method": "other",
+      "confidence": "low",
+      "election_date": null
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2019,
+      "seat_label": "Post 1",
+      "reason": "vacant",
+      "attempted": "Post 1 was lawfully vacant 2019-01-01 to 2019-04-02. Councilman and Mayor Pro Tem Johnny Murphy died in December 2018; because more than one year remained on his term the charter required a special election rather than a council appointment (Bryan County News, 'Fussell appointed to Richmond Hill City Council; Fesperman resigns'). Kristi Cox won the March 19, 2019 special election and was sworn in at the April 2, 2019 council meeting (city minutes id 193). No holder existed in the interval.",
+      "notes": "Complete finding, not a research failure."
+    },
+    {
+      "year": 2019,
+      "seat_label": "Post 2",
+      "reason": "vacant",
+      "attempted": "Post 2 was lawfully vacant from Tara Baraniak's resignation (after the council's second August 2019 meeting, ~2019-08-20; she moved to Jacksonville FL) until Robbie Ward was seated in January 2020. Because Baraniak's term ran to January 2022, the seat could not be filled by appointment; it went on the November 5, 2019 ballot as an unexpired-term race (WTOC 2019-09-18; WTOC 2019-11-06). Exact resignation date not published.",
+      "notes": "Complete finding, not a research failure."
+    },
+    {
+      "year": 2021,
+      "seat_label": "Post 3",
+      "reason": "vacant",
+      "attempted": "Post 3 was lawfully vacant from Mark Ott's resignation in early January 2021 until Les Fussell took his seat at the April 6, 2021 meeting. Ott is absent from the January 5, February 2 and March 2, 2021 roll calls (minutes ids 258/268/275) and the January 19, 2021 workshop minutes (id 261) record 'Overview of Special Election for Post 3 - special election will be held on March 16, 2021'. WTOC (2021-01-19) confirms 'Ott resigned earlier this month'.",
+      "notes": "Complete finding, not a research failure."
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Read agent-brief.md, state-registry.md (Georgia + cross-state), registry-corrections.md. Confirmed identity correction: subject is RICHMOND HILL, Bryan County, GA; every query used 'Richmond Hill'. gacities.com/gma-cities-districts/richmond-hill/65044 is LIVE and correct (Mayor Kristi Cox; Mayor Pro Tem Cindy Hatala; Councilmembers Kevin Bowes, Van Hunter, Steven Scholar) - registry entry re-verified 2026-08-17. On the batch warning that gacities.com merges outgoing with incoming members and overstates council size: it did NOT do so here - the GMA page listed exactly five names, matching the city's own /199/Meet-the-Mayor-Council roster and the January 2026 minutes. It was still cross-checked rather than trusted alone, and since it carries no post numbers it could not establish the seat map by itself."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "richmondhill-ga.gov/195/Elections (fetched by curl, NOT robots-blocked) gives the structural profile verbatim: 'governed by a Mayor and four at-large Council Members; all are elected by City-wide popular vote... four-year staggered terms... two (2) term limit placed on the position of Mayor... Elected officials take office at the first organizational meeting in January following the election.' Charter requires 50%+1, hence December runoffs. Seat scheme is stable at 4 Posts + mayor across the whole 2019-2026 window - no council-size or seat-scheme change despite rapid growth, and no districting (all Posts remain at-large)."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "THE UNLOCK: the census flagged richmondhill-ga.gov/Archive.aspx as robots-blocked, but the CivicPlus AgendaCenter serves archived minutes to plain curl at /AgendaCenter/ViewFile/ArchivedMinutes/_MMDDYYYY-NNN. The DATE SEGMENT IS COSMETIC - only the trailing integer id selects the document. So the archive can be ENUMERATED by id with a dummy date. Ids ~120-780 were swept in three parallel batches (xargs -P 12/14) and each PDF's date line and 'Present from City Council:' roll call extracted locally with pdftotext -layout. That produced ~70 dated roll calls spanning 2016-2026 for essentially zero search budget and is the spine of this entire reconstruction. Current-year minutes live at the ordinary /AgendaCenter/ViewFile/Minutes/ path and are listed by /AgendaCenter/Search/?term=&CIDs=1&startDate=..&endDate=.. (that Search endpoint returns ONLY the current rolling year here, not the archive - the id sweep is what reaches 2019)."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "ACFR route (per mid-flight coordinator note) partially available: richmondhill-ga.gov/142/Audit-Reports lists 2014-2019, 2022, 2023. Only the FY2022 and FY2023 documents are full ACFRs with a 'List of Principal Officials' page; both read verbatim 'Mayor Russ Carpenter / Council Member-Mayor Pro Tem Kristi Cox / Council Member Robbie Ward / Council Member Les Fussell / Council Member Steve Scholar'. The 2018 and 2019 'audits' are plain financial-statement reports addressed generically to 'Honorable Mayor and Members of the City Council' and name nobody. FY2020, FY2021, FY2024 and FY2025 are not posted. The three budget PDFs on /141/Budget are adoption ordinances only and name no officials. So the ACFR series here is a two-year corroborating anchor, not a spine - the minutes id sweep carried the panel."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 7,
+      "searches": 4,
+      "detail": "Election results themselves came from local news, as the registry predicts: WTOC 2019-11-06 names 'Post 2 Councilman Robbie Ward' and 'Post 3 Councilman Mark Ott' as the two winners with Post 4 going to a runoff; WTOC 2019-12-04 states verbatim 'The City of Richmond Hill held a runoff Tuesday for council Post 4. The winner is Steve Scholar. Scholar received 312 votes defeating Les Fussell, who received 242 votes.' WSAV /amp/ gives the 2025-12-02 Post 2 runoff (Bowes 906, Holly 291). The city's own Elections page carries the 2025-11-04 general totals (Cox 69.80%/1,817 v. Howell-Cowart 30.20%/786; Hatala 55.57% v. Singleton 44.43%; Post 2 four-way forcing the runoff). WTOC and WSAV article bodies are inside an Arc Publishing JSON blob - extract '\"type\":\"text\",\"content\":\"...\"' rather than trusting the rendered page, which returns navigation chrome only."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Seat assignment was settled by ORGANIZATIONAL-MEETING OATH TEXT, which is stronger than any results report because it names the post and the term span together. 2022-01-04 (id 448): Congressman Buddy Carter 'administered the oath of office to re-elected council members, Kristi Cox and Robbie Ward' under the heading 'OATH OF COUNCILMEMBERS FOR POST 1 & POST 2 (2022-2026)', and swore Carpenter in 'as Mayor for his second term'. 2024-01-02 (id 640): 'OATH OF COUNCILMEMBERS FOR POST 3 & POST 4 (2024-2028)' to 're-elected Councilmember Steve Scholar and newly elected Councilmember Van Hunter'. 2026-01-06 (id 1118): roll call reads 'Russ Carpenter, Outgoing Mayor, Kristi Cox, Incoming Mayor; Councilmembers: Van Hunter (Post 3) and Steve Scholar (Post 4); and incoming councilmembers Cindy Hatala (Post 1) and Kevin Bowes (Post 2)'. Together these fix the stagger as Mayor+P1+P2 / P3+P4 and prove Ward's November 2019 win was for an UNEXPIRED Post 2 term ending January 2022."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 0,
+      "detail": "CVIOG/TED PORTAL CONFIRMED FOR RICHMOND HILL (per mid-flight coordinator note) and it closed the seat-assignment question outright. There is no need to find the city's node id - the documents are directly constructible and open to curl: https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-{city-slug}-fy{YYYY}-financial-report.pdf (note the doubled slash after 'files', and the upper-case FINANCIAL-DOCUMENTS path segment - both are required). Richmond Hill returns FY2020, FY2021, FY2022 and FY2023; FY2019, FY2024 and FY2025 404 under every name variant tried, and the parallel budget-report/ path yields FY2020 and FY2022 documents that contain NO officials list, so the coordinator's 'budgets map names to Posts' tip does not hold here. THE DECISIVE DOCUMENT IS THE FY2021 ACFR: its 'LIST OF PRINCIPAL OFFICIALS / DECEMBER 31, 2021' page is laid out as a photo board and prints the post numbers explicitly - 'Kristi Cox / Mayor Pro Tem / Post 1', 'Robbie Ward / Post 2', 'Les Fussell / Post 3', 'Steve Scholar / Post 4', 'Russ Carpenter / Mayor'. That independently corroborates, name-for-name and post-for-post, a seat map that had been derived from oath text and roll calls, and it upgrades Ward/Post 2, Fussell/Post 3 and Cox as Mayor Pro Tem from medium to high. FY2020 (as of 2020-12-31) additionally fixes Mark Ott in office at year end and Cox as Mayor Pro Tem in 2020; FY2022 and FY2023 repeat the same five names in the prose format. Council size is four Posts plus mayor in every one of the four Principal Officials pages, which is the clean annual diff the coordinator asked for: RICHMOND HILL DID NOT CHANGE COUNCIL SIZE OR SEAT SCHEME during the panel window despite its growth."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 2,
+      "detail": "SEVEN mid-term changes found, all invisible in election results. (1) Post 1: Johnny Murphy, councilman and mayor pro tem, DIED December 2018; seat vacant into 2019, special election 2019-03-19, Kristi Cox sworn in 2019-04-02 ('SWEARING IN OF POST 1 COUNCILMEMBER KRISTI COX ... who won the 2019 March Special Election', minutes id 193). (2) Post 4: two-term councilwoman Jan Bass resigned (moving to Tennessee) and Les Fussell was APPOINTED to her seat, ~March 2019. (3) Post 3: two-term councilman John Fesperman resigned in open session at the same meeting, after Carpenter, 'Mayor Pro Tem Tara Baraniak' and Bass publicly called for him to step down over residency; (4) Bill Donahue was appointed to Post 3 in March 2019 ('A Ford Plantation resident, Donahue was appointed to city council in March 2019'). (5) Post 2: Mayor Pro Tem Tara Baraniak resigned after the second August 2019 meeting and moved to Jacksonville FL. (6) Mayor Pro Tem: council selected Kristi Cox to replace Baraniak on 2019-09-17 (WTOC). (7) Post 3: Mark Ott resigned January 2021 with three years left ('It is with great sadness... effective immediately... my term is set to run until December 2023'), triggering the 2021-03-16 special election that Les Fussell won. THE STRUCTURAL TELL THE BRIEF DESCRIBES FIRED TWICE HERE: a Post 2 race in 2019 AND again in 2021 exposed Baraniak's unexpired term, and an off-cycle March 2021 Post 3 race exposed Ott's resignation."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "FABRICATION CAUGHT. A WebSearch summary asserted that the 2019 Post 3 result was 'Jimmy Hires 507 defeating Van Hunter 216' and that Post 4 was 'Billy Albritton 264, Marilyn Hodges 254'. Fetching the underlying Bryan County News article ('Unofficial election results are in') showed it is an UNDATED archive page for a 'Dec. 4 Runoff' - Dec 4 was a Tuesday in 2007, not 2019 - and the verified WTOC contemporaneous reporting gives Ott and Scholar. Bryan County News republishes old articles without visible dates; do not date its content from the search snippet. Separately, minutes ids 278/286 are internally dated 'March 03, 2019' but carry the 2020 roll call (Cox, Ott, Scholar, Ward); March 3 2019 was a Sunday and March 3 2020 a Tuesday - a typo in the city's own document, resolved to 2020. Seat-count sanity: exactly 4 council posts + mayor in every roll call 2019-2026, matching the charter. Continuity: Les Fussell appears in Post 4 (2019), disappears, and reappears in Post 3 (2021) - genuinely two separate tenures in two different seats, proved by the Post 4 runoff loss and the Post 3 special election, not a missed appointment."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 1,
+      "detail": "COORDINATOR'S QUESTION ANSWERED - Georgia behaves like Alabama. O.C.G.A. Sec. 21-2-291 ('Procedure as to unopposed candidates'): where no candidate is opposed, no election is held in that precinct absent a qualified write-in or a ballot question, and 'unopposed candidates shall be deemed elected', certified by the superintendent under Sec. 21-2-493. So in Georgia too, a seat absent from a November results report may mean 'unopposed and certified', NOT 'no data' - never record a gap on that basis. It did not bite here because this reconstruction is anchored on minutes roll calls and oath text, which cover every seat whether or not it appeared on a ballot."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "SOFT DATE BOUNDARIES (caveats on sourced seat-years - recorded here, not as gaps, per the brief). (a) Terms begin 'at the first organizational meeting in January'; 2020-01-07 and 2021-01-04/05 organizational minutes were not among the ids recoverable, so 2020-01-07 is the charter-implied first Tuesday rather than a document date. (b) Baraniak's exact resignation date is not published; 2019-08-20 is the second August 2019 meeting, per WTOC's 'resigned a few weeks ago' published 2019-09-18. (c) Ott resigned 'on Monday' per Bryan County News and 'earlier this month' per WTOC 2021-01-19; he is present 2020-12-01 and absent 2021-01-05, so 2021-01-04 is used. (d) Fesperman's and Bass's departures are dated to the same undated council meeting, placed at 2019-03-05 from the March 12 application deadline and the March 2019 appointment of Donahue; Fussell is on the roll call by 2019-04-02. (e) Fussell's Post 3 start is his first recorded roll call (2021-04-06); the March 2021 swearing-in minutes are not among the recoverable ids, so his win of the 2021-03-16 special is established by the announced special election plus his continuous presence from April 2021, not by a results report - hence 'medium'."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "MAYOR PRO TEM 2024-2026 is the weakest strand. Cox is documented as Mayor Pro Tem from 2019-09-17 (WTOC) and in the FY2022 and FY2023 ACFRs; no FY2024/FY2025 ACFR is posted and no 2024-2025 minutes mention the office, so 2024-01-02 to 2026-01-06 rests on continuity and is flagged 'low'. For 2026 the record is explicit and unusual: at the 2026-01-06 organizational meeting the 'Election and Swearing-In of Mayor Pro-Tem' was TABLED on Bowes's motion, and the 2026-01-20 workshop records 'Council discussed the tabled appointment of Mayor Pro-Tem. Councilmembers Hatala and Scholar expressed interest in the role... A proposal to implement a yearly rotation among all councilmembers was also suggested.' The February, March and April 2026 minutes contain no pro-tem action, yet both the city roster page and the GMA directory now list Hatala as Mayor Pro Tem. Her start date is therefore approximated at 2026-02-03 and flagged 'low'. No gap row is filed for the January 2026 interval - the office is real and sourced, and a phantom-vacancy row would misstate it."
+    },
+    {
+      "step": "escalation",
+      "rung": null,
+      "outcome": "not_found",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Not attempted, by design: results.enr.clarityelections.com and results.sos.ga.gov are recorded dead in the registry for Georgia and no budget was spent on them. The Bryan County Probate Court (which runs Richmond Hill's municipal elections) was not needed - the city's own minutes archive outperformed it. Ballotpedia was not required. Zero blocked hosts encountered: richmondhill-ga.gov, gacities.com, wtoc.com, wsav.com and bryancountynews.com all returned 200 to curl with a browser UA."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "48 seat-years in scope (Mayor + Posts 1-4 + Mayor Pro Tem, 2019-2026). All 48 carry a tenure row with a source URL; 3 partial-year lawful vacancies additionally recorded in gaps. Zero unrecoverable seat-years."
+    }
+  ],
+  "totals": {
+    "tool_calls": 54,
+    "searches": 6
+  }
+}

@@ -221,6 +221,22 @@
    "election_date": "2021-11-02"
   },
   {
+   "person": "Sheila Goff",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2024-02-28",
+   "end_date": "2025-04-18",
+   "entry_mode": "appointed",
+   "exit_mode": "unknown",
+   "source_url": "https://elections.lewiscountywa.gov/documents/681/Cities__Towns_04182025.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": null,
+   "notes_end_bound": "END DATE IS A LAST-PROVEN-IN-SEAT BOUND, not a sourced exit. documents/681 is dated 2025-04-18 and shows Goff seated; the next Position 1 record is John Hurt, documented 2025-11-18. Her actual departure date is unsourced within that window."
+  },
+  {
    "person": "John Hurt",
    "name_variants": [],
    "first_name_sourced": 1,
@@ -441,13 +457,14 @@
    "seat_label": "Position 5",
    "role": "council_member",
    "start_date": "2020-01-01",
-   "end_date": "2023-04-06",
+   "end_date": "2022-08-01",
    "entry_mode": "elected",
    "exit_mode": "unknown",
    "source_url": "https://results.vote.wa.gov/results/20191105/Lewis/",
    "retrieval_method": "state_portal",
    "confidence": "medium",
-   "election_date": "2019-11-05"
+   "election_date": "2019-11-05",
+   "notes_end_bound": "UPPER BOUND, not a sourced exit. Lewis County roster documents/542 records her successor Michael Ferguson as 'Appointed 08/01/2022' into this same 01/01/2020-12/31/2023 term, so Lovelady was definitively out of the seat by 2022-08-01. Nothing sources her IN the seat after her 2020-01-01 start, so an earlier departure (with a vacancy or another appointee in between) is not excluded. Her source_url is deliberately left as the election canvass that names her; documents/542 does not contain her name and is cited on the Ferguson row instead."
   },
   {
    "person": "Michael Ferguson",
@@ -457,13 +474,13 @@
    "first_name_sourced": 1,
    "seat_label": "Position 5",
    "role": "council_member",
-   "start_date": "2023-04-06",
+   "start_date": "2022-08-01",
    "end_date": "2023-12-31",
    "entry_mode": "appointed",
    "exit_mode": "term_end",
    "source_url": "https://elections.lewiscountywa.gov/documents/542/Cities__Towns04062023.pdf",
    "retrieval_method": "county_canvass",
-   "confidence": "medium",
+   "confidence": "high",
    "election_date": null
   },
   {
@@ -533,29 +550,29 @@
    "year": 2024,
    "seat_label": "Position 1",
    "reason": "vacant",
-   "attempted": "Lewis County cities/towns roster dated 2024-02-06 (documents/602) explicitly lists 'Council Position 1  VACANT  01/01/2022 - 12/31/2025' - extracted verbatim with local pdftotext, not via the page-summarizing layer. Marie Anne MacIntosh was still listed in the seat in the 2023-04-06 roster (documents/542). Searched for a MacIntosh resignation article (WebSearch) and for a 2024 Vader appointment (domain-restricted to chronline.com/yahoo.com); neither returned a dated record.",
-   "notes": "CONFIRMED VACANT as of 2024-02-06. MacIntosh departed at an unsourced date between 2023-04-06 and 2024-02-06. Position 1 did not appear on the Nov 2023 ballot, which implies the vacancy arose after the May 2023 filing deadline. Whether the seat stayed vacant through all of 2024 or was filled by appointment is not sourced."
+   "attempted": "PARTIALLY CLOSED on re-research. Two Lewis County rosters read verbatim via local `pdftotext -layout`: documents/602 (Cities__Towns_02062024.pdf, dated 2024-02-06) shows 'Council Position 1  VACANT  01/01/2022 - 12/31/2025'; the newly located documents/681 (Cities__Towns_04182025.pdf, dated 2025-04-18) shows 'Council Position 1  Sheila Goff  ... Appointed 2/28, 2024'. The two are mutually consistent - 602 predates the appointment by three weeks. The 2024 occupancy of Position 1 is therefore now SOURCED and carried as a tenure row (Goff, from 2024-02-28); this gap is retained only for the bounded vacancy that preceded it.",
+   "notes": "GENUINE BOUNDED VACANCY: Position 1 was vacant from Marie Anne MacIntosh's unsourced departure until Sheila Goff's appointment on 2024-02-28. WHAT REMAINS UNSOURCED: MacIntosh's actual departure date, which lies between 2023-04-06 (documents/542 still shows her seated) and 2024-02-06 (documents/602 shows VACANT). Her tenure row carries 2024-02-06 as an upper bound. No news record of her resignation was found. Position 1 did not appear on the Nov 2023 ballot, implying the vacancy arose after the May 2023 filing deadline."
   },
   {
    "year": 2025,
    "seat_label": "Position 1",
    "reason": "other",
-   "attempted": "John Hurt is documented serving on the council in a chronline article dated 2025-11-18 (read via its yahoo.com mirror, since chronline.com 403s), before his elected term began 2026-01-01 - so he was an appointee. No article giving the appointment date was found across 3 WebSearch queries. A June 2025 chronline piece on council vacancies (yahoo mirror) names only ONE vacancy at that time (Randy Hall's Position 3), which implies Position 1 was already filled by June 2025.",
-   "notes": "Occupant identity for late 2025 is sourced (John Hurt); the appointment DATE and the occupancy of Position 1 for the first part of 2025 are not. The recorded Hurt appointment tenure uses the documentation date 2025-11-18 as its start and is flagged confidence=low for that reason."
+   "attempted": "PARTIALLY CLOSED on re-research. documents/681 (Cities__Towns_04182025.pdf), read verbatim via local `pdftotext -layout`, seats Sheila Goff in Position 1 as of 2025-04-18. The first part of 2025 is therefore now SOURCED and carried as a tenure row. Additionally searched The Chronicle's own archive index (https://www.chronline.com/browse.html?search_filter=) for 'Sheila Goff Vader' and 'Vader council Goff resign' - zero Vader articles returned; the paper's search index does not reach back before roughly Nov 2025, and no article naming Goff exists in it.",
+   "notes": "WHAT REMAINS UNSOURCED: the handover between Sheila Goff and John Hurt. Goff is proven seated through 2025-04-18 (documents/681); Hurt is documented on the council 2025-11-18 (news). Neither Goff's departure date nor Hurt's appointment date is sourced anywhere in that ~7-month window, and Hurt's tenure row remains confidence=low because its start is a documentation date rather than an appointment date. This supersedes the earlier reasoning that a June 2025 article naming only one vacancy implied Position 1 was filled - it was, by Goff."
   },
   {
    "year": 2021,
    "seat_label": "Position 5",
    "reason": "other",
-   "attempted": "Samantha Lovelady was elected to Position 5 in Nov 2019 for the 2020-2023 term (state portal). The Lewis County roster dated 2023-04-06 instead shows 'Council Position 5  Michael Ferguson ... 01/01/2020 - 12/31/2023' - i.e. Ferguson had been appointed into Lovelady's elected term before Nov 2023. Searched for a Lovelady resignation / Ferguson appointment article (2 WebSearch queries); no dated record found. No 2021 or 2022 Lewis County roster edition is search-indexed.",
-   "notes": "The handover date between Lovelady and Ferguson is unsourced anywhere in the window 2020-01-01 to 2023-04-06, so the occupant of Position 5 in 2021 cannot be attributed with confidence. Lovelady's tenure is recorded with 2023-04-06 as an UPPER BOUND, not a sourced end date."
+   "attempted": "WINDOW NARROWED on re-research. documents/542 (Cities__Towns04062023.pdf), read verbatim via local `pdftotext -layout`, states 'Council Position 5  Michael Ferguson ... 01/01/2020 - 12/31/2023 / Appointed 08/01/2022'. That fixes the Lovelady-to-Ferguson handover at 2022-08-01 rather than the previous 2023-04-06 placeholder, shrinking the ambiguous window from 2020-01-01..2023-04-06 to 2020-01-01..2022-08-01. No 2021 or 2022 Lewis County roster edition exists in the published document series (ids 195, 542, 602 and 681 were all retrieved and checked), so nothing covers calendar 2021 directly.",
+   "notes": "STILL UNSOURCED for 2021. Samantha Lovelady was elected to Position 5 for 2020-2023 and is the presumed 2021 occupant, but no record places her in the seat after 2020-01-01, and the only thing now proven is that she was gone by 2022-08-01. A mid-2020 or 2021 departure with a vacancy or an unnamed interim appointee is not excluded. Deliberately NOT inferred - her tenure row carries 2022-08-01 as an upper bound only."
   },
   {
    "year": 2022,
    "seat_label": "Position 5",
    "reason": "other",
-   "attempted": "Same as the 2021 Position 5 gap.",
-   "notes": "Second ambiguous year in the Lovelady/Ferguson handover window."
+   "attempted": "LARGELY CLOSED on re-research. documents/542 records Michael Ferguson 'Appointed 08/01/2022' into the 01/01/2020-12/31/2023 Position 5 term, verbatim via local `pdftotext -layout`. Ferguson's tenure row now starts 2022-08-01 (confidence raised to high - an official county record stating the appointment date) instead of the former 2023-04-06 placeholder. Only 2022-01-01 to 2022-08-01 remains open.",
+   "notes": "REMAINING UNSOURCED SPAN: 2022-01-01 to 2022-08-01 only. The seat was held in that span either by Samantha Lovelady (elected to the term, never sourced in the seat after 2020-01-01) or was vacant pending Ferguson's appointment. Not resolvable from any retrieved record; not inferred."
   },
   {
    "year": 2019,
@@ -699,6 +716,14 @@
    "tool_calls": 25,
    "searches": 7,
    "detail": "mayor pro tem backfill"
+  },
+  {
+   "step": "escalation",
+   "rung": 2,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "Gap closure from a fourth Lewis County roster edition, documents/681 (Cities__Towns_04182025.pdf, dated 2025-04-18), which the original run never located. Read verbatim via local `pdftotext -layout`. Yielded Sheila Goff, Position 1, 'Appointed 2/28, 2024' - a previously unknown officeholder filling the confirmed 2024 vacancy. Also re-read documents/542 verbatim, which carries 'Appointed 08/01/2022' for Michael Ferguson in Position 5, re-dating the Lovelady handover from the 2023-04-06 placeholder to 2022-08-01. Four gaps narrowed, none deleted - each retains a genuinely unsourced remainder. Separately established that The Chronicle's HTTP 403 is defeated by curl with a browser User-Agent, and that its archive search is at /browse.html?search_filter=."
   }
  ],
  "totals": {

@@ -1,0 +1,998 @@
+{
+  "city_id": 33,
+  "city": "Memphis city",
+  "state": "Tennessee",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 13,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "No stagger - mayor and all 13 council seats are elected concurrently every 4 years (Oct 2019, Oct 2023, next Oct 2027); terms begin January 1 following the election. 7 single-member Districts 1-7 (majority required, runoff ~6 weeks later if no candidate exceeds 50%) plus two multi-member Super Districts, 8 and 9, each electing 3 members at Positions 1/2/3 by plurality. Mayor elected citywide by plurality.",
+    "mayor_selection": "elected",
+    "election_month": "October",
+    "profile_source_url": "https://www.memphistn.gov/wp-content/uploads/2025/04/FY24-ACFR-Updated-version.pdf"
+  },
+  "cycles": [
+    {
+      "election_date": "2019-10-03",
+      "seats_up": 14,
+      "status": "sourced",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf"
+    },
+    {
+      "election_date": "2019-11-14",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/11.14.19-Official-Combined-Results-GEMS-SOVC-REPORT.pdf"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://ballotpedia.org/Jana_Swearengen-Washington"
+    },
+    {
+      "election_date": "2023-10-05",
+      "seats_up": 14,
+      "status": "sourced",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf"
+    },
+    {
+      "election_date": "2023-11-16",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/Nov-16-2023-Certification-Packet-Signed-Copy.pdf"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Jim Strickland",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jim Strickland",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Paul A. Young",
+      "name_variants": [
+        "Paul Young",
+        "Paul A. Young"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Sherman Greer",
+      "name_variants": [
+        "Sherman D. Greer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2019-01-08",
+      "end_date": "2019-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "defeated",
+      "source_url": "https://www.finfedmem.com/news/posts/greer-johnson-and-currie-appointed-to-city-council",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Frank H. Colvett, Jr.",
+      "name_variants": [
+        "Frank Colvett, Jr.",
+        "Frank H. Colvett, Jr"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Patrice J. Robinson",
+      "name_variants": [
+        "Patrice Robinson",
+        "Patrice Jordan Robinson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jamita Swearengen",
+      "name_variants": [
+        "Jamita E. Swearengen"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Worth Morgan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Gerre Currie",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 6",
+      "role": "council_member",
+      "start_date": "2019-01-08",
+      "end_date": "2019-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.finfedmem.com/news/posts/greer-johnson-and-currie-appointed-to-city-council",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Berlin Boyd",
+      "name_variants": [
+        "Berlin F. Boyd"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 7",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Joe W. Brown",
+      "name_variants": [
+        "Joe Brown"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 1",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Cheyenne Johnson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 2",
+      "role": "council_member",
+      "start_date": "2019-01-08",
+      "end_date": "2019-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.finfedmem.com/news/posts/greer-johnson-and-currie-appointed-to-city-council",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Martavius Jones",
+      "name_variants": [
+        "Martavius D. Jones"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kemp Conrad",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 1",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "J. Ford Canale",
+      "name_variants": [
+        "Ford Canale"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Reid Hedgepeth",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Rhonda Logan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/11.14.19-Official-Combined-Results-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Frank Colvett, Jr.",
+      "name_variants": [
+        "Frank H. Colvett, Jr.",
+        "Frank Colvett"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Patrice Robinson",
+      "name_variants": [
+        "Patrice J. Robinson",
+        "Patrice Jordan Robinson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Worth Morgan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Edmund Ford, Sr.",
+      "name_variants": [
+        "Edmund H. Ford Sr",
+        "Edmund Ford Sr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 6",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Michalyn Easter-Thomas",
+      "name_variants": [
+        "Michalyn C.S. Easter-Thomas",
+        "Michalyn Easter- Thomas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 7",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/11.14.19-Official-Combined-Results-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "JB Smiley, Jr.",
+      "name_variants": [
+        "JB Smiley Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 1",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Cheyenne Johnson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 2",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Martavius Jones",
+      "name_variants": [
+        "Martavius D. Jones"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 3",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Chase Carlisle",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 1",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "J. Ford Canale",
+      "name_variants": [
+        "Ford Canale"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 2",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Jeff Warren",
+      "name_variants": [
+        "Dr. Jeff Warren"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 3",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2025/09/10.03.19-Official-Combined-GEMS-SOVC-REPORT.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Jamita Swearengen",
+      "name_variants": [
+        "Jamita E. Swearengen"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2022-08-09",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://dailymemphian.com/article/30251/memphis-city-council-jamita-swearengen-resigns",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2019-10-03"
+    },
+    {
+      "person": "Teri Dockery",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2022-09-01",
+      "end_date": "2022-11-20",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://wreg.com/news/local/teri-dockery-appointed-to-memphis-city-council/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jana Swearengen-Washington",
+      "name_variants": [
+        "Jana E. Swearengen-Washington",
+        "Jana Swearengen Washington"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2022-11-21",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://ballotpedia.org/Jana_Swearengen-Washington",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Rhonda Logan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Jerri Green",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/04/FY24-ACFR-Updated-version.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Pearl Eva Walker",
+      "name_variants": [
+        "Pearl \"Eva\" Walker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/04/FY24-ACFR-Updated-version.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Jana Swearengen-Washington",
+      "name_variants": [
+        "Jana Swearengen Washington",
+        "Jana E. Swearengen-Washington"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Philip Spinosa",
+      "name_variants": [
+        "Philip Spinosa Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Edmund Ford, Sr.",
+      "name_variants": [
+        "Edmund H. Ford Sr",
+        "Edmund Ford Sr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 6",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Michalyn Easter-Thomas",
+      "name_variants": [
+        "Michalyn C.S. Easter-Thomas",
+        "Michalyn Easter- Thomas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 7",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/04/FY24-ACFR-Updated-version.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "JB Smiley, Jr.",
+      "name_variants": [
+        "JB Smiley Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 1",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Janika White",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 2",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Yolanda Cooper-Sutton",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 8 Position 3",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Chase Carlisle",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 1",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "J. Ford Canale",
+      "name_variants": [
+        "Ford Canale"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 2",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Jeff Warren",
+      "name_variants": [
+        "Dr. Jeff Warren"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Super District 9 Position 3",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.electionsshelbytn.gov/wp-content/uploads/2026/06/10.5.23-Results-combined.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-10-05"
+    },
+    {
+      "person": "Kemp Conrad",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY19-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Patrice J. Robinson",
+      "name_variants": [
+        "Patrice Robinson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY20-Annual-Report.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Frank Colvett, Jr.",
+      "name_variants": [
+        "Frank H. Colvett, Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://memphis.granicus.com/MetaViewer.php?view_id=6&clip_id=8203&meta_id=421788",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jamita Swearengen",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2022-01-01",
+      "end_date": "2022-08-09",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/01/FY22-Printable_Complete-Book_Annual-Comprehensive-Financial-Report-1.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Martavius Jones",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2022-08-09",
+      "end_date": "2022-12-31",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://dailymemphian.com/article/32322/memphis-city-council-elects-martavius-jones-as-chairman",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Martavius Jones",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://memphistn.gov/wp-content/uploads/2025/01/FY23-ACFR.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "JB Smiley, Jr.",
+      "name_variants": [
+        "JB Smiley Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.memphistn.gov/wp-content/uploads/2025/04/FY24-ACFR-Updated-version.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "J. Ford Canale",
+      "name_variants": [
+        "Ford Canale"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://memphistn.gov/wp-content/uploads/2025/09/Regular-Agenda-09-09-2025.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jana Swearengen-Washington",
+      "name_variants": [
+        "Jana Swearengen Washington"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chairman",
+      "role": "vice_mayor",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://memphistn.gov/wp-content/uploads/2026/01/Committee-Agenda-January-27-2026-v4-12726-10-am.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Read agent-brief.md and the TN state-registry entry. Registry held up: Shelby County Election Commission (electionsshelbytn.gov) fetched cleanly by both WebFetch and curl; state hosts were never needed. Registry's warning that MTAS 'Next Election' contradicts Memphis's Oct/4-year cycle was honoured - MTAS was not used at all. Tennessee Town & City was NOT needed: the county commission plus the city's own ACFR series covered every cycle."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "Confirmed Oct 4-year cycle: 2019-10-03 and 2023-10-05 are the only regular municipal cycles in the panel; no 2021 or 2025 election exists (structural, not a gap). Runoffs 2019-11-14 (Districts 1 and 7) and 2023-11-16 (Districts 2, 3, 7). One OFF-CYCLE special general on 2022-11-08 for District 4 - the structural tell that cracked open the single mid-term vacancy of the 2020-2023 term. Terms begin Jan 1 following the election, so the Oct 2019 winners' rows start 2020-01-01 and calendar 2019 is served by the 2015-elected body."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 1,
+      "detail": "SCEC past-elections index -> per-year pages -> certified SOVC PDFs. WebFetch reported the PDFs as unreadable but the binaries landed on disk; pdftotext -layout gave verbatim per-race grand totals. 2019 general SOVC is a 390-page per-precinct report - grand totals extracted by splitting on the 'Page:N of M' footer and taking the trailing jurisdiction-wide Total block. 2023 general is a clean summary sheet. CONFIRMED 13-seat mixed scheme directly from the ballot: CITY COUNCIL DIST 1-7 + SUPER DISTRICT 8 POS 1/2/3 + SUPER DISTRICT 9 POS 1/2/3."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "2023-11-16 runoff: SCEC 'Nov-16-2023-Certification-Packet-Signed-Copy.pdf' downloads (71 KB) but is an image-only scan - pdftotext yields 0 lines and no OCR tool was available. NOT recorded as a gap: all three runoff seats (D2 Jerri Green, D3 Pearl Eva Walker, D7 Michalyn Easter-Thomas) are independently sourced at high confidence from the FY24 ACFR City Officials page, and the Oct 5 general PDF establishes which three races went to runoff and who the two qualifiers were in each."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "ACFR route (cross-state finding 3c) paid off completely - Memphis publishes true ACFRs with a 'CITY OFFICIALS' page naming the mayor, all 13 council seats WITH district labels, and the Chairman. Retrieved FY19, FY20, FY22, FY23, FY24, FY25 (as-of June 30 each year). Handling notes: (a) the bare host memphistn.gov returns a ~5 KB HTML challenge for PDFs - use www.memphistn.gov with a browser UA; (b) filenames are inconsistent across the series (FY19/FY20 = 'FYnn-Annual-Report.pdf', FY22 = 'FY22-Printable_Complete-Book_...-1.pdf', FY23 = 'FY23-ACFR.pdf', FY24 = 'FY24-ACFR-Updated-version.pdf', FY25 = 'Revised-FY25-COM-ACFR.pdf') and directories vary (2025/01, 2025/04, 2026/01); (c) FY24/FY25 extract with all spaces stripped from the officials page - names must be re-segmented by hand; (d) the WordPress media REST API and the /finance-files/ page are both JS-driven and returned nothing. FY21 ACFR was NOT located (four filename patterns x three directories all 404) - it was the only year needed for the 2021 Chairman, which was sourced from news instead."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 4,
+      "detail": "Diffing consecutive ACFR officials pages did most of the work and is what surfaced the District 4 handover that no election result contains. Changes found: (1) Jan 2019 - three seats were still vacant on Jan 1 2019 from Aug-2018 county-office departures and were filled by council vote at the first session of the year, Tue 2019-01-08 (day-of-week verified): Sherman Greer D1, Cheyenne Johnson SD8-2, Gerre Currie D6. NOTE - the page summarizer scrambled the predecessor-to-seat mapping for these three; the district assignments recorded here come from the FY19 ACFR officials page, not from the news summary. (2) District 4: Jamita Swearengen resigned 2022-08-09 on winning Shelby County Circuit Court Clerk (Aug 4 2022); Teri Dockery appointed and sworn Thu 2022-09-01 (day-of-week verified) as interim; Jana Swearengen-Washington (Jamita's sister - NOT the same person, distinct first names, both recorded) won the 2022-11-08 special general and assumed office 2022-11-21. (3) No other mid-term change: FY20, FY22 and FY23 officials pages are identical apart from District 4, and FY24, FY25 and the live council roster are identical, so the 2024-2027 term has had no turnover through Aug 2026. A targeted search for a 2021 vacancy returned nothing."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 2,
+      "detail": "Council Chairman rotates annually and was tracked as its own seat. Chairs: Conrad 2019, Robinson 2020, Colvett 2021, Swearengen 2022 (to Aug 9), Jones acting Aug-Dec 2022 then elected for 2023, Smiley 2024, Canale 2025, Swearengen-Washington 2026 - 8 distinct holders. CONTRADICTION RESOLVED: the FY25 ACFR officials page (as of 2025-06-30) still prints 'JB Smiley, Jr., Chairman' but the City Council's own Regular Agenda for 2025-09-09 names 'Super District 9-2. Chairman J. Ford Canale' with 'District 4. Vice Chairwoman Jana Swearengen-Washington'. The FY25 officials page is a stale carry-over from FY24; the agenda is taken as authoritative for 2025. This is the one place the ACFR series is demonstrably wrong. The 2021 Chairman is also on a primary document: memphis.granicus.com MetaViewer serves a City Council letter dated 2021-03-02 signed 'FRANK H. COLVETT, JR. / CHAIRMAN, MEMPHIS CITY COUNCIL'. NOTE FOR THE REGISTRY: the census recorded the Memphis Granicus viewer as blocked - it is NOT. memphis.granicus.com/MetaViewer.php?view_id=6&clip_id={id}&meta_id={id} returns a real PDF to curl with a browser UA and extracts cleanly under pdftotext."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Seat count constant at 13 in every ACFR year FY19-FY25 and on the 2023 ballot. Super-district positions are labelled 'Super District 8 Position 1/2/3' and 'Super District 9 Position 1/2/3' so the six multi-member seats never collapse into duplicate labels. Majority/plurality rules verified against the vote totals: districts require a majority (D2 2023 leader Scott McCormick at 39% went to a runoff and LOST to Jerri Green; D5 2023 Philip Spinosa at 53.6% won outright with no runoff), while super districts and the mayoralty are plurality (SD8-3 Yolanda Cooper-Sutton won with 25.9%; Paul Young won the mayoralty with 27.6%). 'Winning is not holding' checked on Philip Spinosa - he is confirmed SEATED, appearing on both the FY24 and FY25 officials pages and the live roster. Two Swearengens and two Fords in the record were kept distinct: Jamita Swearengen vs Jana Swearengen-Washington (sisters), and Edmund Ford Sr. (D6 from 2020) vs Edmund Ford Jr., whose Aug-2018 departure for county office created the D6 vacancy Gerre Currie filled. Brief sub-year vacancies exist but every seat-year is covered by a named holder, so none are filed as gaps: D1/D6/SD8-2 vacant 2019-01-01 to 2019-01-07, and D4 vacant 2022-08-10 to 2022-08-31."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "14 seats (Mayor + 13 council) x 8 years = 112 seat-years, plus 8 Council Chairman seat-years = 120. All sourced; zero gaps."
+    }
+  ],
+  "totals": {
+    "tool_calls": 42,
+    "searches": 11
+  }
+}

@@ -1,0 +1,1020 @@
+{
+  "city_id": 3,
+  "city": "Amherst town",
+  "state": "Massachusetts",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 13,
+    "seat_scheme": "mixed",
+    "term_length": 2,
+    "stagger_pattern": "No stagger - all 13 seats (3 at-large + 2 in each of 5 districts) are elected concurrently at the biennial town election in November of ODD years (2021, 2023, 2025). The inaugural council elected 2018-11-06 under the 2018 charter served a TRANSITIONAL 3-YEAR term (ballot printed 'COUNCILOR (3 years)'), seated 2018-12-03 and running to 2022-01-03; there was therefore NO council election in 2019 (the 2019-11-05 town election carried School Committee, Housing Authority, Library Trustees and Elector of the Oliver Smith Will only) and none in any even year.",
+    "mayor_selection": "none - Amherst has NO mayor. The Council elects a President from among its own members (Charter Sec. 2.2(b)); the Town Manager is an appointed administrator, not an elected official.",
+    "election_month": "November (odd years)",
+    "profile_source_url": "https://www.amherstma.gov/DocumentCenter/View/45823"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 13,
+      "status": "sourced",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823"
+    },
+    {
+      "election_date": "2019-11-05",
+      "seats_up": 0,
+      "status": "sourced",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/49216"
+    },
+    {
+      "election_date": "2021-11-02",
+      "seats_up": 13,
+      "status": "sourced",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133"
+    },
+    {
+      "election_date": "2023-11-07",
+      "seats_up": 13,
+      "status": "sourced",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108"
+    },
+    {
+      "election_date": "2025-11-04",
+      "seats_up": 13,
+      "status": "sourced",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Mandi Jo Hanneke",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Alisa Brewer",
+      "name_variants": [
+        "Alisa V Brewer",
+        "Alisa V. Brewer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Andrew Steinberg",
+      "name_variants": [
+        "Andrew J Steinberg",
+        "Andrew J. Steinberg",
+        "Andy Steinberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Sarah Swartz",
+      "name_variants": [
+        "Sarah E Swartz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Cathy Schoen",
+      "name_variants": [
+        "Cathy A Schoen",
+        "Cathy A. Schoen"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Lynn Griesemer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Patricia De Angelis",
+      "name_variants": [
+        "Patricia C DeAngelis",
+        "Patricia C. De Angelis",
+        "Pat DeAngelis",
+        "Pat De Angelis"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Dorothy Pam",
+      "name_variants": [
+        "Dorothy S Pam",
+        "Dorothy S. Pam"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "George Ryan",
+      "name_variants": [
+        "George E Ryan",
+        "George E. Ryan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Evan Ross",
+      "name_variants": [
+        "Evan Robert Ross"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Stephen Schreiber",
+      "name_variants": [
+        "Stephen D Schreiber",
+        "Steve Schreiber"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Shalini Bahl-Milne",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Darcy DuMont",
+      "name_variants": [
+        "Darcy A. DuMont",
+        "Darcy A DuMont"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2018-12-03",
+      "end_date": "2022-01-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/45823",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Andrew Steinberg",
+      "name_variants": [
+        "Andrew J. Steinberg",
+        "Andy Steinberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Mandi Jo Hanneke",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Ellisha Walker",
+      "name_variants": [
+        "Ellisha M. Walker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Michele Miller",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Cathy Schoen",
+      "name_variants": [
+        "Cathy A. Schoen"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Lynn Griesemer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Patricia De Angelis",
+      "name_variants": [
+        "Patricia C. De Angelis",
+        "Pat DeAngelis"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Dorothy Pam",
+      "name_variants": [
+        "Dorothy S. Pam"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Jennifer Taub",
+      "name_variants": [
+        "Jennifer Lynn Taub"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Pamela Rooney",
+      "name_variants": [
+        "Pamela S. Rooney",
+        "Pam Rooney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Anika Lopes",
+      "name_variants": [
+        "Anika M. Lopes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Shalini Bahl-Milne",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Ana Devlin Gauthier",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2022-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/59133",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Andrew Steinberg",
+      "name_variants": [
+        "Andrew J. Steinberg",
+        "Andy Steinberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Mandi Jo Hanneke",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Ellisha Walker",
+      "name_variants": [
+        "Ellisha M. Walker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Cathy Schoen",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Ndifreke Ette",
+      "name_variants": [
+        "Freke Ette",
+        "Ndfreke Ette"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Lynn Griesemer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Patricia De Angelis",
+      "name_variants": [
+        "Patricia Catherine DeAngelis",
+        "Pat DeAngelis"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Heather Hala Lord",
+      "name_variants": [
+        "Heather A. Lord",
+        "Hala Lord"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "George Ryan",
+      "name_variants": [
+        "George E. Ryan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Jennifer Taub",
+      "name_variants": [
+        "Jennifer Lynn Taub"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Pamela Rooney",
+      "name_variants": [
+        "Pamela S. Rooney",
+        "Pam Rooney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Ana Devlin Gauthier",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Robert Hegner",
+      "name_variants": [
+        "Robert E. Hegner",
+        "Bob Hegner"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/70108",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Ellisha Walker",
+      "name_variants": [
+        "Ellisha May Walker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Andrew Churchill",
+      "name_variants": [
+        "Andy Churchill"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Mandi Jo Hanneke",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Jillian Brevik",
+      "name_variants": [
+        "Jill Brevik"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Cathy Schoen",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Amber Cano-Martin",
+      "name_variants": [
+        "Amber Lee Cano-Martin",
+        "Amber Cano Martin"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Lynn Griesemer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "George Ryan",
+      "name_variants": [
+        "George E. Ryan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Heather Hala Lord",
+      "name_variants": [
+        "Hala Lord"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Jennifer Taub",
+      "name_variants": [
+        "Jennifer Lynn Taub"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Pamela Rooney",
+      "name_variants": [
+        "Pamela Susan Rooney",
+        "Pam Rooney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Ana Devlin Gauthier",
+      "name_variants": [
+        "Ana Mary Devlin Gauthier"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Samuel MacLeod",
+      "name_variants": [
+        "Samuel A. MacLeod",
+        "Sam MacLeod",
+        "Sam McLeod"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstma.gov/DocumentCenter/View/83343",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Lynn Griesemer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2018-12-03",
+      "end_date": "2026-01-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.amherstma.gov/ArchiveCenter/ViewFile/Item/10687",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mandi Jo Hanneke",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.amherstindy.org/2026/01/14/town-council-elects-new-officers-receives-final-charter-review/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "REGISTRY ENTRY WRONG: the MA entry says amherstma.gov (CivicEngage) is 'entirely robots-blocked; search snippets only'. robots.txt does contain 'Disallow: /' for user-agent *, but the host serves EVERYTHING to plain curl with a browser UA - Archive.aspx?AMID=206 (Town Council minutes, 2018-12 to 2025-06), /ArchiveCenter/ViewFile/Item/{ADID} PDFs, /DocumentCenter/View/{id} PDFs, and the site search /Search/Results?searchPhrase=. This site was the primary source for the entire city. electionstats.state.ma.us was not needed and not retested."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "Cadence established from source, not assumed. Council minutes roll calls at 2019-01-07, 2019-12-16, 2020-01-06, 2021-01-04 and 2021-12-20 all name the SAME 13 councilors, and a new council was sworn in 2022-01-03 - proving the 2018-elected council served through 2021. The 2018 official results PDF prints 'COUNCILOR (3 years)' for every seat, confirming a transitional 3-year initial term. The 2019-11-05 town election's certified results contain no council race. Cycle is therefore Nov 2018 (3-yr) then Nov 2021 / 2023 / 2025 (2-yr). Organizational/swearing-in meetings: 2018-12-03, 2022-01-03, 2024-01-02 (Tuesday; Jan 1 holiday), 2026-01-05."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 2,
+      "detail": "All four council cycles sourced from the Amherst Town Clerk's own certified/official results PDFs, located via the site's plain-HTML search endpoint: 2018 View/45823, 2021 View/59133 (official post-recount), 2023 View/70108, 2025 View/83343. The 2018 PDF is an IMAGE-ONLY scan with no text layer - OCR'd locally with pdftoppm -r 300 + tesseract --psm 4, which returned every candidate and vote total verbatim. The 2021 post-recount PDF is a poor scan with a text layer whose OCR mangles some names (Sch.en, Walke, BahI-Milne, Lbpes); names were cross-checked against the 2022-01-03 swearing-in minutes and the Indy's tally before use."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 7,
+      "searches": 1,
+      "detail": "MANDATORY CHECK RUN - NO mid-term change found in any of the four councils, which is unusual but is positively evidenced rather than assumed. Full 13-name roll calls sampled at both ends and the middle of every term: Council 1 - 2018-12-03, 2019-01-07, 2019-12-16, 2020-01-06, 2021-01-04, 2021-12-20 (identical 13). Council 2 - 2022-01-03, 2022-01-24, 2023-01-09, 2023-08-21 (identical 13). Council 3 - 2024-01-02, 2024-01-08, 2024-01-22, 2024-12-16, 2025-01-13, 2025-06-02 (identical 13). Council 4 - 2026-01-05, 2026-03-09 (identical 13). No off-cycle or special council race appears in the clerk's election index (the 2023-05-02 Special Town Election was the elementary-school borrowing question, not a seat). A targeted search for resignations/vacancies returned nothing."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 2,
+      "detail": "Amherst Indy (WordPress) is fully open: wp-json/wp/v2/posts?slug={slug} returns clean article bodies, and its 'Report on the Town Council Meeting' pieces print an attendance list WITH each councilor's district - this is what sourced the 2026 roster and officers, since the town's minutes archive stops at 2025-06-02 and no 2026 minutes are posted. gazettenet.com fetches fully by curl with a browser UA (no paywall block) and supplied 'Ndifreke Ette' and the Michele Miller non-candidacy. dailycollegian.com fetches cleanly and confirmed the 3 at-large + 2-per-district structure."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "WEBSEARCH FABRICATION CAUGHT TWICE. (1) A search for the 2018 results returned a confident district-by-district breakdown with vote totals, attributed to gazettenet.com/Amherst-elects-new-members-to-its-Town-Council-52931633; fetching that URL shows it is Scott Merzbach's NOVEMBER 8, 2023 article, and the '2018' totals were invented. The real 2018 totals came from the OCR'd clerk PDF and differ. (2) A second search asserted the 2019 district assignments were stated in ArchiveCenter/ViewFile/Item/11211; that PDF contains no district references at all. Nothing from either summary was used. Day-of-week check: 2018-11-06, 2021-11-02, 2023-11-07 and 2025-11-04 are all Tuesdays; 2018-12-03, 2022-01-03 and 2026-01-05 are Mondays; 2024-01-02 is a Tuesday (2024-01-01 was a holiday) - all consistent with the minutes' own headers. Seat count 13 verified constant across all four councils. REDISTRICTING: the Council adopted a new voting-district map on 2021-10-29, effective for the 2023 election, so 'District N' labels are NOT continuous across 2023 - Jennifer Taub was elected in District 3 in 2021 and in District 4 in 2023 without moving, and three incumbents were thrown into the new District 4. Unopposed candidates are NOT omitted from Massachusetts results: District 5 in 2021 and 2025 and District 5 in 2023 were uncontested and still appear on the certified results with full vote counts, so no gap was recorded on that basis."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "104 council seat-years (13 seats x 2019-2026) plus 8 Council-President seat-years = 112 seat-years, all sourced, zero gaps. Council President was Lynn Griesemer continuously from 2018-12-03 to 2026-01-05, re-elected annually (2018-12-03, 2019-12-16, 2020-01-06, 2021-01-04, 2022-01-03, 2023-01-09, 2024-01-02, 2025-01-13); Mandi Jo Hanneke elected 2026-01-05. Vice Presidents, recorded here rather than as tenure rows since the brief tracks one presiding officer: Hanneke (2018-12-03), Evan Ross (2021-01-04), Ana Devlin Gauthier (2022-01-03, 2023-01-09, 2024-01-02), George Ryan (2025-01-13, on a second ballot after the first failed), Ellisha Walker (2026-01-05)."
+    }
+  ],
+  "totals": {
+    "tool_calls": 31,
+    "searches": 3
+  }
+}

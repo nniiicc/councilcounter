@@ -1,0 +1,610 @@
+{
+ "city_id": 34,
+ "city": "Milledgeville city",
+ "state": "Georgia",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 6,
+  "seat_scheme": "ward",
+  "term_length": 4,
+  "stagger_pattern": "No stagger. The mayor and all six District seats are elected concurrently in November of every fourth year (2017, 2021, 2025); terms begin Jan. 1 following the election. Verbatim: 'All six seats on city council, meanwhile, are up for re-election' (U-R, 2021-10-30) and 'Voters will cast ballots for mayor and six city council seats' (U-R, 2021-11-02). There is therefore NO city election in 2019 or 2023 - those are holdover years, a structural fact, not a gap. Off-cycle special elections are held on the even-year November date (District 5, 2022-11-08, runoff 2022-12-06).",
+  "mayor_selection": "elected",
+  "election_month": "November (odd years, every 4th year: 2017, 2021, 2025)",
+  "profile_source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/budget-report/city-milledgeville-fy2025-budget-report.pdf"
+ },
+ "cycles": [
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://unionrecorder.com/2017/12/30/parham-copelan-becomes-citys-first-woman-mayor/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://unionrecorder.com/2021/11/08/lewis-and-wicker-to-square-off-in-special-gmc-election-nov-30/"
+  },
+  {
+   "election_date": "2022-11-08",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://unionrecorder.com/2022/07/09/special-election-set-for-vacant-city-council-seat/"
+  },
+  {
+   "election_date": "2022-12-06",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://unionrecorder.com/2022/12/17/mapp-sworn-in-as-new-city-council-member/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://unionrecorder.com/2025/11/04/mary-parham-copelan-wins-3rd-term/"
+  },
+  {
+   "election_date": "2025-12-02",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://unionrecorder.com/2025/12/02/simmons-wins-d2-city-council-runoff/"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Mary Parham-Copelan",
+   "name_variants": [
+    "Mary Parham Copelan",
+    "Mary Parham-Copelan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Mary Parham-Copelan",
+   "name_variants": [
+    "Mary Parham Copelan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2023-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Mary Parham-Copelan",
+   "name_variants": [
+    "Mary Parham Copelan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/11/04/mary-parham-copelan-wins-3rd-term/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Collinda J. Lee",
+   "name_variants": [
+    "Dr. Collinda Lee",
+    "Dr. Collinda J. Lee",
+    "Collinda Lee"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Collinda J. Lee",
+   "name_variants": [
+    "Dr. Collinda J. Lee"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Collinda J. Lee",
+   "name_variants": [
+    "Dr. Collinda J. Lee"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/08/26/milledgeville-voters-to-decide-mayoral-race-council-seats-and-gmc-boar/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Jeanette Walden",
+   "name_variants": [
+    "Jeanette H. Walden"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Jeanette Walden",
+   "name_variants": [
+    "Jeanette H. Walden"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Arlene Simmons",
+   "name_variants": [
+    "Arlene Simmons"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/12/02/simmons-wins-d2-city-council-runoff/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-12-02"
+  },
+  {
+   "person": "Denese Shinholster",
+   "name_variants": [
+    "Denese Ray Shinholster",
+    "Denese Shinholster",
+    "Denese Shinhoister"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Denese Shinholster",
+   "name_variants": [
+    "Denese Ray Shinholster"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Denese Shinholster",
+   "name_variants": [
+    "Denese Ray Shinholster"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/08/26/milledgeville-voters-to-decide-mayoral-race-council-seats-and-gmc-boar/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Walter Reynolds",
+   "name_variants": [
+    "Walter Reynolds Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Walter Reynolds",
+   "name_variants": [
+    "Walter Reynolds Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Morgan Pendergast",
+   "name_variants": [
+    "Morgan Pendergast"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/08/26/milledgeville-voters-to-decide-mayoral-race-council-seats-and-gmc-boar/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Richard \"Boo\" Mullins Jr.",
+   "name_variants": [
+    "Richard \u201cBoo\u201d Mullins",
+    "Richard Mullins",
+    "Richard \u201cBoo\u201d Mullins Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Richard \"Boo\" Mullins Jr.",
+   "name_variants": [
+    "Richard \u201cBoo\u201d Mullins Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2022-04-23",
+   "entry_mode": "elected",
+   "exit_mode": "died",
+   "source_url": "https://unionrecorder.com/2022/07/09/special-election-set-for-vacant-city-council-seat/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Shonya Mapp",
+   "name_variants": [
+    "Shonya A. Mapp"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2022-12-13",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2022-12-06"
+  },
+  {
+   "person": "Shonya Mapp",
+   "name_variants": [
+    "Shonya A. Mapp"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/08/26/milledgeville-voters-to-decide-mayoral-race-council-seats-and-gmc-boar/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Steve Chambers",
+   "name_variants": [
+    "Stephen Chambers",
+    "Steve Chambers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Steve Chambers",
+   "name_variants": [
+    "Stephen Chambers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Jeffery Wells",
+   "name_variants": [
+    "Jeff Wells",
+    "Dr. Jeffery Wells",
+    "Jeffrey Wells"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://unionrecorder.com/2025/11/04/mary-parham-copelan-wins-3rd-term/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Steve Chambers",
+   "name_variants": [
+    "Stephen Chambers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2018-01-09",
+   "end_date": "2020-02-25",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2019-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Denese Shinholster",
+   "name_variants": [
+    "Denese Ray Shinholster"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2020-02-25",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2021-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Steve Chambers",
+   "name_variants": [
+    "Stephen Chambers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2024-02-27",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2022-financial-report.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Denese Shinholster",
+   "name_variants": [
+    "Denese Ray Shinholster"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2024-02-27",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/budget-report/city-milledgeville-fy2025-budget-report.pdf",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  }
+ ],
+ "gaps": [
+  {
+   "year": 2022,
+   "seat_label": "District 5",
+   "reason": "vacant",
+   "attempted": "Not a retrieval failure. Alderman Richard 'Boo' Mullins Jr. died 2022-04-23; council adopted Ordinance 0-2207-09 calling a special election for the unexpired term (U-R 2022-07-09, which describes 'The five members of city council, along with Mayor Mary Parham-Copelan'). Seat lawfully vacant 2022-04-23 to 2022-12-13, when Shonya Mapp was sworn in after winning the 2022-12-06 runoff.",
+   "notes": "Sources: https://unionrecorder.com/2022/07/09/special-election-set-for-vacant-city-council-seat/ ; https://unionrecorder.com/2022/12/17/mapp-sworn-in-as-new-city-council-member/ ; independently confirmed by the FY2022 ACFR List of Principal Officials (June 30, 2022), which lists the sixth council line verbatim as 'Vacant': https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2022-financial-report.pdf"
+  }
+ ],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Registry Georgia entry re-verified. gacities.com/gma-cities-districts/milledgeville/51492 is LIVE (WebFetch and curl). BUT it is not a clean current roster: it lists ten names (mayor + 9 members) for a six-member council, because it merges the outgoing 2022-2025 members (Chambers, Reynolds, Walden) with the incoming 2026 members (Pendergast, Simmons, Wells). Useful only for confirming Shinholster as sitting Mayor Pro-Tem and the mayor. Do NOT trust its seat count. Clarity/results.sos.ga.gov not attempted per registry (robots-blocked / JS SPA). milledgevillega.us not attempted (whole domain robots-disallowed per census)."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 1,
+   "detail": "Registry's 'GA = November of odd years' holds, but Milledgeville is QUADRENNIAL, not biennial: mayor and all six District seats run concurrently on one 4-year cycle - 2017-11-07, 2021-11-02, 2025-11-04. 2019 and 2023 have NO city election (holdover years). Confirmed verbatim by U-R 2021-10-30 ('All six seats on city council, meanwhile, are up for re-election') and U-R 2025-08-26 (all six districts plus mayor on the ballot). Runoffs land in December, as the registry warns: 2022-12-06 and 2025-12-02."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 10,
+   "searches": 0,
+   "detail": "The Union-Recorder is fully fetchable by curl with a browser UA - no 403, no syndication mirror needed. It is a WordPress site: the TownNews-style /search/?q= path 404s, but BOTH ?s=<query> site search AND the WordPress REST API work: https://unionrecorder.com/wp-json/wp/v2/posts?search=<term>&after=YYYY-MM-DDT00:00:00&before=...&per_page=60&_fields=date,link,title. The REST API is the single highest-value retrieval tool found for this city - it enumerates dated permalinks with zero search-engine budget. Note: multi-word `search` is AND-matched; single words are far more productive. Caveat: the CMS carries CNHI syndicated content from Dalton/Valdosta/Moultrie/Thomasville, so every hit must be checked for Milledgeville relevance (a 'History-making Reed wins District 1 seat' hit from 2018 is NOT Milledgeville)."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "REST-API sweeps on 'alderman', 'alderwoman', 'resigns', 'vacancy' across 2019-2026 found exactly ONE mid-term change in the window: the death of District 5 Alderman Richard 'Boo' Mullins Jr. on 2022-04-23, the resulting vacancy, the 2022-11-08 special election, the 2022-12-06 runoff (Mapp def. Oscar Davis Jr.) and Mapp's swearing-in at the 2022-12-13 council meeting. No resignations, appointments or other vacancies 2019-2026. The presiding office changed hands three times (see mayor-pro-tem rows). The 2017 District 5 vacancy/appointment and a 2018 District 1 story are OUTSIDE the panel window and were not pursued."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "SEAT COUNT: six, verbatim - 'the six-member city council panel' (U-R 2022-08-02) and 'the city council has four women and two men' (U-R 2022-12-17). This refutes the ten-name gacities.com listing. ROSTER CROSS-CHECKS at four independent points, all agreeing: 2017-12-30 swearing-in photo caption (Reynolds, Shinholster, Walden, Lee, Chambers, Mullins); 2019-06-04 tie vote naming all six by name; 2020-02-29 pro-tem vote naming all six; 2021-11-08 results naming all six with districts; 2022-12-17 naming all six; 2025-08-26 naming all six with districts. FABRICATION CAUGHT: the single WebSearch's summary asserted 'Karen W. Snider was the winner in Milledgeville City Council District 3' - false. Karen Snider won the GMC Board of Trustees District 2 seat, unopposed; council District 3 was Shinholster, unopposed. Verified against the verbatim U-R 2025-11-04 results article. KNOWN TYPO IN SOURCE: U-R 2021-10-30 calls Chambers '(District 4)' in one clause while naming him the District 6 incumbent in the next paragraph and in both election-night stories - District 6 is correct."
+  },
+  {
+   "step": "escalation",
+   "rung": 7,
+   "outcome": "success",
+   "tool_calls": 5,
+   "searches": 2,
+   "detail": "ACFR ROUTE - CONFIRMED FOR GEORGIA, AND IT ROUTES AROUND THE ROBOTS BLOCK. milledgevillega.us is entirely robots-disallowed, but the city's audited ACFRs are mirrored OFF-DOMAIN on the Carl Vinson Institute of Government's local-government finance portal, which is open and fetchable by curl: index at https://ted.cviog.uga.edu/financial-documents/node/532 (city node id; enumerate the .pdf hrefs), files at https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy{YYYY}-financial-report.pdf and .../budget-report/city-milledgeville-fy{YYYY}-budget-report.pdf. FY2007-FY2024 audits and FY2008-FY2025 budgets are all present, HTTP 200, 1-3.5 MB each. WebFetch was not used; curl plus 'pdftotext -layout -f 1 -l 25' gave verbatim text. Every audit carries a 'LIST OF PRINCIPAL OFFICIALS' page dated as of June 30 of the fiscal year, naming the mayor, the MAYOR PRO-TEM and the five other council members - an annual official roster snapshot, exactly as the coordinator described. Verbatim yields: FY2019 (6/30/2019) Mayor Parham-Copelan, Mayor Pro-Tem Stephen Chambers, Council Lee/Walden/Reynolds/Mullins Jr./Shinholster; FY2020 and FY2021 Mayor Pro-Tem Denese R. Shinholster; FY2022 Mayor Pro-Tem Stephen Chambers with the sixth council line reading 'Vacant'; FY2023 and FY2024 Pro-Tem Chambers with Shonya Mapp seated. Fourteen council/mayor tenure rows and three presiding-officer rows were upgraded from newspaper/medium to audit_report/high on the strength of this series, and it independently confirmed the entire 2019-2024 reconstruction built from the Union-Recorder, name for name, including the District 5 vacancy. USAGE NOTE for other agents: the audit has TWO rosters and they mean different things - the introductory-section letterhead lists the council sitting on the PUBLICATION date (FY2022's letterhead already shows Mapp, who was not seated until Dec 2022), while the 'List of Principal Officials' page is as of FISCAL YEAR END. Use the latter. The audits give no district numbers; the FY2025 budget does, verbatim ('Councilwoman - District I ... Collinda J. Lee' through 'Councilman - District VI ... Stephen Chambers')."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 1,
+   "detail": "GEORGIA'S UNOPPOSED-CANDIDATE RULE, per the coordinator's Alabama question: Georgia DOES have an Alabama-like provision, so the warning is live in this state. O.C.G.A. Sec. 21-2-285(c) / Sec. 21-2-291 - where there is no opposed candidate in a precinct in a general or special election, no election is held in that precinct unless a write-in has qualified or a question is on the ballot; each unopposed candidate is deemed to have voted for himself or herself and is certified elected by the superintendent. A seat absent from a Georgia results report therefore means 'unopposed and certified', not 'no data'. It did not bite this city: NO gap row here rests on a seat missing from a results report, and Milledgeville's unopposed candidates were in fact balloted and given vote totals in 2021 (Lee 89, Walden 47, Shinholster 53, Reynolds 23, Mayor Parham-Copelan 717) because contested council and GMC Board races kept the precincts open. The same held in 2025 (unopposed GMC candidate Karen Snider drew 189 votes), though the U-R results story reported totals only for the contested council races - so the unopposed 2026 seatings (Lee D1, Shinholster D3, Pendergast D4, Mapp D5) rest on the qualifying report, the swearing-in report and the GMA roster rather than on vote totals."
+  },
+  {
+   "step": "escalation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "No escalation needed beyond Rung 4. Rungs 1-3 (state portal, county canvass, filing lists) were skipped deliberately: Georgia has no fetchable structured results, and Baldwin County's municipal elections are run by the city with the Probate Judge as elections superintendent. Every row is therefore newspaper-sourced ('medium'), not canvass-sourced; no row qualifies for 'high'. DATE ANOMALY LEFT VISIBLE, not smoothed over: the swearing-in article at https://unionrecorder.com/2025/01/01/milledgeville-mayor-council-members-take-oaths-of-office/ carries a CMS date of 2025-01-01 (confirmed via the REST API, which returns it under 2025-01-01 and returns zero posts for Dec 2025-Jan 2026 on the same terms), but its content is unambiguously the JANUARY 2026 ceremony - it describes Parham-Copelan's third term, Simmons defeating two opponents for D2, Pendergast succeeding Reynolds and Wells succeeding Chambers, all outcomes of the 2025-11-04 election. The published date is wrong by one year. The 2026-01-01 seating date used here rests instead on U-R 2025-08-26 ('Whoever wins the mayoral race will assume office Jan. 1, 2026'), U-R 2025-12-12 (outgoing members' farewell) and U-R 2026-01-15 (Shinholster presiding as mayor pro tem at the new council's first 2026 meeting)."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "7 seats x 8 years (2019-2026) = 56 council/mayor seat-years, all sourced except the 2022 District 5 vacancy (lawfully vacant, dated). Mayor Pro Tem tracked as an 8th stable seat_label, 8 further seat-years, all covered. Not attempted, for budget: 13WMAZ, Georgia College student press, baldwin2k.com (a hyperlocal Milledgeville outlet found in the one WebSearch, confirmed fetchable at HTTP 200 - a good second route if the U-R ever closes)."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "CONTRADICTION LEFT VISIBLE, not smoothed over - the presiding officer in 2024-2025. The FY2024 ACFR List of Principal Officials (as of 6/30/2024, published 2025-09-03) names Stephen Chambers as Mayor Pro-Tem: https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/financial-report/city-milledgeville-fy2024-financial-report.pdf . That is almost certainly a stale copy-paste of the FY2023 page (the two pages carry the identical misspelling 'Denise R. Shinholster' for a name spelled 'Denese' everywhere else in the same document, including its own letterhead). Three independent sources outweigh it: the contemporaneous U-R report of the 2024-02-27 council vote, which quotes the mechanism in detail ('When Mayor Pro-Tem Steve Chambers, who has served in that position for the past two years, called for a vote, Shinholster was unanimously elected' - also establishing that Chambers held the office through 2022 and 2023); the FY2025 adopted budget, which prints 'Councilwoman - District III ... Denese R. Shinholster, Mayor Pro Tem'; and U-R 2026-01-15, which shows Shinholster presiding as mayor pro tem at the new council's first meeting of 2026. Recorded as Shinholster from 2024-02-27, confidence medium. Separately, the Chambers pro-tem row beginning 2022-01-01 has an APPROXIMATE start date: Shinholster held the office in Nov 2021 (U-R) and Chambers held it by 6/30/2022 (FY2022 ACFR), the charter requires an election every year, and no source dates the 2022 vote. That date is a placeholder inside a two-source bracket, not a sourced date."
+  },
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": null,
+   "searches": null,
+   "detail": "STRUCTURE SOURCE (moved from cycles by ingest \u2014 not an election): https://ted.cviog.uga.edu/FINANCIAL-DOCUMENTS/sites/default/files//budgetdoc/budget-report/city-milledgeville-fy2025-budget-report.pdf \u2014 FY2025 adopted budget - verbatim district-numbered roster and charter structure"
+  }
+ ],
+ "totals": {
+  "tool_calls": 31,
+  "searches": 3
+ }
+}
