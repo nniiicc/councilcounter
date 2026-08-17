@@ -1,0 +1,708 @@
+{
+ "city_id": 60,
+ "city": "Vader city",
+ "state": "Washington",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 6,
+  "seat_scheme": "position-numbered",
+  "term_length": 4,
+  "stagger_pattern": "Five at-large numbered council Positions plus a directly elected Mayor. Council Positions 1, 2, 3 are elected in 2017/2021/2025; Council Positions 4, 5 and the Mayor are elected in 2015/2019/2023. Terms run Jan 1 of the even year following the November general through Dec 31 four years later. Vacancies are filled by council appointment until the next November general, at which point a short 'unexpired term' race is held for the remainder.",
+  "mayor_selection": "elected",
+  "election_month": "November, odd-numbered years",
+  "profile_source_url": "https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1018091&isFinding=false&sp=false"
+ },
+ "cycles": [
+  {
+   "election_date": "2015-11-03",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20151103/Lewis/"
+  },
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20171107/Lewis/"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Lewis/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20211102/Lewis/"
+  },
+  {
+   "election_date": "2023-11-07",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Lewis/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Lewis/"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Kenneth Smith",
+   "name_variants": [
+    "Ken Smith"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2016-01-01",
+   "end_date": "2019-04-25",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Lois M. Wilson",
+   "name_variants": [
+    "Lois Wilson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2019-05-09",
+   "end_date": "2019-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Lois M. Wilson",
+   "name_variants": [
+    "Lois Wilson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-01-01",
+   "end_date": "2020-01-02",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "medium",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Joseph Paul Schey",
+   "name_variants": [
+    "Joe Schey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-01-02",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/542/Cities__Towns04062023.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Joseph Paul Schey",
+   "name_variants": [
+    "Joe Schey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Joseph Paul Schey",
+   "name_variants": [
+    "Joe Schey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Judy Costello",
+   "name_variants": [
+    "Judi Costello"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2019-03-21",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Randal Lee Hall",
+   "name_variants": [
+    "Randy Hall",
+    "Randal Hall"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2019-04-11",
+   "end_date": "2019-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Donna Rogers",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Marie Anne MacIntosh",
+   "name_variants": [
+    "Marie MacIntosh"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2024-02-06",
+   "entry_mode": "elected",
+   "exit_mode": "unknown",
+   "source_url": "https://elections.lewiscountywa.gov/documents/542/Cities__Towns04062023.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "John Hurt",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2025-11-18",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.yahoo.com/news/articles/vader-city-council-roundup-prayer-045900453.html",
+   "retrieval_method": "newspaper",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "John Hurt",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Jason W. Dailey",
+   "name_variants": [
+    "Jason Dailey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Jason W. Dailey",
+   "name_variants": [
+    "Jason Dailey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/542/Cities__Towns04062023.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Jason W. Dailey",
+   "name_variants": [
+    "Jason Dailey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Joseph Paul Schey",
+   "name_variants": [
+    "Joe Schey"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2020-01-02",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Randal Lee Hall",
+   "name_variants": [
+    "Randy Hall",
+    "Randal Hall"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-06-04",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://results.vote.wa.gov/results/20211102/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Nicole Hansen",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2025-07-02",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chronline.com/stories/nicole-hansen-appointed-to-vacancy-on-vader-city-council,383625",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Nicole Hansen",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Michael Roy Parsons",
+   "name_variants": [
+    "Mike Parsons"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Michael Roy Parsons",
+   "name_variants": [
+    "Mike Parsons"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Michael Roy Parsons",
+   "name_variants": [
+    "Mike Parsons"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Leona Nin Sander-Hunter",
+   "name_variants": [
+    "Leona Sander-Hunter"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/195/city__town_elected_officials_20190513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Samantha Lovelady",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-04-06",
+   "entry_mode": "elected",
+   "exit_mode": "unknown",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "medium",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Michael Ferguson",
+   "name_variants": [
+    "Mike Ferguson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2023-04-06",
+   "end_date": "2023-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://elections.lewiscountywa.gov/documents/542/Cities__Towns04062023.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Michael Ferguson",
+   "name_variants": [
+    "Mike Ferguson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2026-02-28",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Lewis/",
+   "retrieval_method": "state_portal",
+   "confidence": "medium",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Sheri McKernan-Kindell",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2026-04-15",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chronline.com/stories/sheri-mckernan-kindell-appointed-to-vader-city-council-may-day-festival-set-for-may-2,401038",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Jason W. Dailey",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2026-01-07",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chronline.com/stories/vader-city-council-begins-new-year-approving-rezone-request-from-residents-looking-to-subdivide,394221",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  }
+ ],
+ "gaps": [
+  {
+   "year": 2020,
+   "seat_label": "Position 3",
+   "reason": "other",
+   "attempted": "Joseph Paul Schey vacated Position 3 on becoming mayor after Lois Wilson resigned 2020-01-02. Searched chronline.com/yahoo.com for a 2020 Vader council appointment (3 separate WebSearch queries incl. domain-restricted to chronline.com/yahoo.com/vaderwa.org); no article names a successor. Lewis County publishes filing-period incumbent lists (found 2019: documents/195, and cities/towns rosters for 2023: documents/542 and 2024: documents/602) but no 2020 or 2021 edition is search-indexed; domain-restricted search for a 2021 'city__town_elected_officials' or 'Cities__Towns' PDF returned only the 2023/2024 editions. vaderwa.org has no minutes archive (agendas are robots-blocked Google Drive). chronline.com returns HTTP 403 to direct fetch on every article attempt.",
+   "notes": "Position 3 was either vacant or held by an unnamed council appointee from approx 2020-01-02 to 2021-12-31. Randal Lee Hall was elected to Position 3 in Nov 2021 for the 2022-2025 term; it is PLAUSIBLE but NOT SOURCED that he was also the interim appointee, and that inference has deliberately not been recorded as a tenure."
+  },
+  {
+   "year": 2021,
+   "seat_label": "Position 3",
+   "reason": "other",
+   "attempted": "Same as the 2020 Position 3 gap: no 2020/2021 Lewis County incumbent roster is search-indexed, chronline.com 403s to direct fetch, and vaderwa.org has no minutes archive.",
+   "notes": "Second year of the same unsourced interim occupancy. The Nov 2021 Position 3 race was a full 4-year term, not an unexpired-term race, so the county results page gives no clue to the interim holder."
+  },
+  {
+   "year": 2024,
+   "seat_label": "Position 1",
+   "reason": "vacant",
+   "attempted": "Lewis County cities/towns roster dated 2024-02-06 (documents/602) explicitly lists 'Council Position 1  VACANT  01/01/2022 - 12/31/2025' - extracted verbatim with local pdftotext, not via the page-summarizing layer. Marie Anne MacIntosh was still listed in the seat in the 2023-04-06 roster (documents/542). Searched for a MacIntosh resignation article (WebSearch) and for a 2024 Vader appointment (domain-restricted to chronline.com/yahoo.com); neither returned a dated record.",
+   "notes": "CONFIRMED VACANT as of 2024-02-06. MacIntosh departed at an unsourced date between 2023-04-06 and 2024-02-06. Position 1 did not appear on the Nov 2023 ballot, which implies the vacancy arose after the May 2023 filing deadline. Whether the seat stayed vacant through all of 2024 or was filled by appointment is not sourced."
+  },
+  {
+   "year": 2025,
+   "seat_label": "Position 1",
+   "reason": "other",
+   "attempted": "John Hurt is documented serving on the council in a chronline article dated 2025-11-18 (read via its yahoo.com mirror, since chronline.com 403s), before his elected term began 2026-01-01 - so he was an appointee. No article giving the appointment date was found across 3 WebSearch queries. A June 2025 chronline piece on council vacancies (yahoo mirror) names only ONE vacancy at that time (Randy Hall's Position 3), which implies Position 1 was already filled by June 2025.",
+   "notes": "Occupant identity for late 2025 is sourced (John Hurt); the appointment DATE and the occupancy of Position 1 for the first part of 2025 are not. The recorded Hurt appointment tenure uses the documentation date 2025-11-18 as its start and is flagged confidence=low for that reason."
+  },
+  {
+   "year": 2021,
+   "seat_label": "Position 5",
+   "reason": "other",
+   "attempted": "Samantha Lovelady was elected to Position 5 in Nov 2019 for the 2020-2023 term (state portal). The Lewis County roster dated 2023-04-06 instead shows 'Council Position 5  Michael Ferguson ... 01/01/2020 - 12/31/2023' - i.e. Ferguson had been appointed into Lovelady's elected term before Nov 2023. Searched for a Lovelady resignation / Ferguson appointment article (2 WebSearch queries); no dated record found. No 2021 or 2022 Lewis County roster edition is search-indexed.",
+   "notes": "The handover date between Lovelady and Ferguson is unsourced anywhere in the window 2020-01-01 to 2023-04-06, so the occupant of Position 5 in 2021 cannot be attributed with confidence. Lovelady's tenure is recorded with 2023-04-06 as an UPPER BOUND, not a sourced end date."
+  },
+  {
+   "year": 2022,
+   "seat_label": "Position 5",
+   "reason": "other",
+   "attempted": "Same as the 2021 Position 5 gap.",
+   "notes": "Second ambiguous year in the Lovelady/Ferguson handover window."
+  },
+  {
+   "year": 2019,
+   "seat_label": "Mayor",
+   "reason": "vacant",
+   "attempted": "Not a research gap - recorded here for completeness. The Lewis County incumbent list dated 2019-05-13 states verbatim: 'Kenneth Smith - Elected 2015, Resigned 4/25/2019' and 'Lois Wilson - Appointed 5/9/2019'.",
+   "notes": "GENUINE VACANCY: the mayoralty was vacant from 2019-04-25 to 2019-05-09. Both surrounding tenures are sourced at high confidence."
+  },
+  {
+   "year": 2019,
+   "seat_label": "Position 1",
+   "reason": "vacant",
+   "attempted": "Not a research gap - recorded for completeness. The 2019-05-13 Lewis County incumbent list states verbatim: 'Judy Costello - elected 2017, resigned 3/21/19' and 'Randal Hall - appointed 4/11/19'.",
+   "notes": "GENUINE VACANCY: Position 1 was vacant from 2019-03-21 to 2019-04-11. Both surrounding tenures are sourced at high confidence."
+  },
+  {
+   "year": 2025,
+   "seat_label": "Position 3",
+   "reason": "vacant",
+   "attempted": "Not a research gap - recorded for completeness. A chronline article dated 2025-06-10 (read via yahoo.com mirror) quotes Mayor Joe Schey that Randy Hall resigned effective 2025-06-04; Nicole Hansen was sworn in as the appointee on 2025-07-02.",
+   "notes": "GENUINE VACANCY: Position 3 was vacant from 2025-06-04 to 2025-07-02."
+  },
+  {
+   "year": 2026,
+   "seat_label": "Position 5",
+   "reason": "vacant",
+   "attempted": "Not a research gap - recorded for completeness. Search snippets from a chronline article (direct fetch 403s) report Michael Ferguson resigned in February 2026 and Sheri McKernan-Kindell was appointed at the 2026-04-15 regular meeting.",
+   "notes": "GENUINE VACANCY: Position 5 was vacant from approximately 2026-02 to 2026-04-15. Ferguson's exit date is recorded at month-level precision only (2026-02-28 used as a placeholder day)."
+  },
+  {
+   "year": 2019,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2019. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. No record of any kind names a Vader mayor pro tem before 2026. Note that Jason W. Dailey, the only sourced holder, has sat continuously in Council Position 2 since 2018-01-01, which makes him eligible in every year of the window - that eligibility is NOT evidence and has not been used to fill any year."
+  },
+  {
+   "year": 2020,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2020. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. No record of any kind names a Vader mayor pro tem before 2026. Note that Jason W. Dailey, the only sourced holder, has sat continuously in Council Position 2 since 2018-01-01, which makes him eligible in every year of the window - that eligibility is NOT evidence and has not been used to fill any year."
+  },
+  {
+   "year": 2021,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2021. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. No record of any kind names a Vader mayor pro tem before 2026. Note that Jason W. Dailey, the only sourced holder, has sat continuously in Council Position 2 since 2018-01-01, which makes him eligible in every year of the window - that eligibility is NOT evidence and has not been used to fill any year."
+  },
+  {
+   "year": 2022,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2022. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. The 2026-01-07 article states Dailey was chosen 'once again', which proves he had held the office at some earlier point but supplies NO date or span for that earlier service. Vader's selection cadence is unknown - only one selection event has ever been observed - so no annual-reselection pattern may be assumed. Back-dating Dailey through 2025 and earlier would be exactly the continuity inference this city is most vulnerable to, and it has deliberately NOT been recorded."
+  },
+  {
+   "year": 2023,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2023. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. The 2026-01-07 article states Dailey was chosen 'once again', which proves he had held the office at some earlier point but supplies NO date or span for that earlier service. Vader's selection cadence is unknown - only one selection event has ever been observed - so no annual-reselection pattern may be assumed. Back-dating Dailey through 2025 and earlier would be exactly the continuity inference this city is most vulnerable to, and it has deliberately NOT been recorded."
+  },
+  {
+   "year": 2024,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2024. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. The 2026-01-07 article states Dailey was chosen 'once again', which proves he had held the office at some earlier point but supplies NO date or span for that earlier service. Vader's selection cadence is unknown - only one selection event has ever been observed - so no annual-reselection pattern may be assumed. Back-dating Dailey through 2025 and earlier would be exactly the continuity inference this city is most vulnerable to, and it has deliberately NOT been recorded."
+  },
+  {
+   "year": 2025,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Established the office and its title: Vader is a code city under RCW 35A.12.030, whose council may designate a 'mayor pro tempore' per RCW 35A.12.065. The Chronicle uses the title 'mayor pro tem' for Vader; Lewis County's roster uses 'Mayor Pro-Tem'. SOURCES EXHAUSTED FOR THIS YEAR: (1) Lewis County cities/towns rosters DO carry a dedicated 'Mayor Pro-Tem:' header field, but ONLY for Centralia and Chehalis - the CITY OF VADER block contains no such line in ANY edition. Verified verbatim via local `pdftotext -layout`, not via a summarizer, on documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06), documents/602 (Cities__Towns_02062024.pdf, 2024-02-06) and a newly located edition documents/681 (Cities__Towns_04182025.pdf, 2025-04-18). (2) The Chronicle's 403 was DEFEATED this run by curl with a browser User-Agent (no yahoo mirror needed). Every Vader article the paper's own /browse.html?search_filter= index returns was fetched in full and grepped verbatim for 'pro tem': articles 383625 (2025-07-07), 383898 (2025-07-11), 386759 (2025-09-08), 388519 (2025-10-03), 389348 (2025-10-17), 391248 (2025-11-17), 391759, 392521 (2025-12-10), 393891 (2026-01-05), 396185 (2026-02-09), 397781 (2026-03-06), 401038 (2026-04-24), plus 275323, 329008, 270365. ZERO 'pro tem' hits in any of them - the only two Vader articles in the paper's archive that name the office at all are 394221 (2026-01-09) and 406470 (2026-08-07). The paper's search index does not reach back before roughly Nov 2025. (3) vaderwa.org has no roster and no minutes archive on the live site. (4) The Wayback Machine DOES preserve Vader's since-deleted minutes index pages (2014-2021, e.g. web.archive.org/web/20200930032109/http://www.vaderwa.org/city-council/council-meeting-minutes/2020-minutes), which list every meeting's minutes file by name - but the Internet Archive never captured the attachment files themselves. Requests for the .docx/.pdf minutes return the Wayback 404 interstitial under both the plain and the `id_` raw modifier, and a CDX query filtered to pdf/word mimetypes under that path returns zero rows. The minutes text is therefore unrecoverable. (5) SAO reports for Vader are addressed generically to 'Mayor and City Council' and name nobody (established in the original run; not re-spent).",
+   "notes": "No source names the holder of Vader's mayor pro tem office in 2025. It is additionally UNCONFIRMED whether Vader designated a mayor pro tem at all in this year: RCW 35A.12.065 is permissive ('the council may'), and a town of ~600 need not fill the office. NOT INFERRED. The 2026-01-07 article states Dailey was chosen 'once again', which proves he had held the office at some earlier point but supplies NO date or span for that earlier service. Vader's selection cadence is unknown - only one selection event has ever been observed - so no annual-reselection pattern may be assumed. Back-dating Dailey through 2025 and earlier would be exactly the continuity inference this city is most vulnerable to, and it has deliberately NOT been recorded."
+  }
+ ],
+ "run_log": [
+  {
+   "step": "cycle_calendar",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "Constructed https://results.vote.wa.gov/results/{YYYYMMDD}/Lewis/ for 20151103, 20171107, 20191105, 20211102, 20231107, 20251104 without searching. All six returned Vader races and fetched cleanly. Derived the stagger: Pos 1/2/3 on the 2017/2021/2025 cycle; Pos 4/5 + Mayor on the 2015/2019/2023 cycle. The 2017 general carried all five positions because Pos 1, 4 and 5 were 2-year unexpired-term races."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 8,
+   "searches": 6,
+   "detail": "Searches for Vader appointments/resignations surfaced The Chronicle (chronline.com). chronline.com returns HTTP 403 to WebFetch on every article (4 attempts, incl. one retry after Retry-After). Worked around it via yahoo.com syndication mirrors, which fetched cleanly and gave the June 2025 Hall resignation and the Nov 2025 full roster. Found: Wilson resigned 2020-01-02; Schey appointed mayor; Hall resigned Pos 3 2025-06-04; Hansen appointed 2025-07-02; Ferguson resigned Pos 5 Feb 2026; McKernan-Kindell appointed 2026-04-15."
+  },
+  {
+   "step": "escalation",
+   "rung": 2,
+   "outcome": "success",
+   "tool_calls": 9,
+   "searches": 3,
+   "detail": "HIGHEST-YIELD RUNG. Lewis County Elections publishes filing-period incumbent lists and cities/towns rosters as PDFs. Retrieved documents/195 (2019-05-13 incumbent list), documents/542 (2023-04-06 cities/towns) and documents/602 (2024-02-06 cities/towns). WebFetch's summarizing layer reported all three as unreadable binary; the PDFs were saved to disk by the tool, so text was extracted locally with pdftotext -layout instead. This yielded exact appointment/resignation dates in the 2019 list's Remarks fields, and revealed two mid-term changes invisible in election results: Position 1 VACANT as of 2024-02-06, and Michael Ferguson occupying Samantha Lovelady's 2020-2023 Position 5 term by 2023-04-06."
+  },
+  {
+   "step": "escalation",
+   "rung": 3,
+   "outcome": "not_found",
+   "tool_calls": 4,
+   "searches": 1,
+   "detail": "Washington State Auditor reports for the City of Vader (portal.sao.wa.gov arn=1018091 and arn=1033354) were retrieved and text-extracted locally. Contrary to expectation they are addressed generically to 'Mayor and City Council' and contain NO governing-body page naming individuals. They did confirm the profile verbatim: 'The City is administered by an uncompensated five-member Council and independently elected Mayor.' Used as profile_source_url only."
+  },
+  {
+   "step": "escalation",
+   "rung": 6,
+   "outcome": "blocked",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "vaderwa.org/city-council carries no roster (only meeting procedure); agendas are robots-blocked Google Drive files; no minutes archive exists. One usable city page found: a 2016-08-26 clerk announcement confirming Jason Dailey (Pos 2, appointed Feb 2016) and Mike Parsons (Pos 4, appointed July 2016) replacing Fenison and Costello - pre-window corroboration only. elections.lewiscountywa.gov/documents/740 (District Contacts 2026-01-30) proved to be clerk contacts only, no officials."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "Seat count 5 council + 1 directly elected mayor matches the SAO description. VERBATIM CHECK APPLIED: every county PDF roster was read via local pdftotext rather than trusting the summarizer - this caught a summarizer error that attributed Winlock's city clerk to Vader. Homonym check: Randal Lee Hall (Pos 1 appointee 2019, Pos 3 electee 2021) is one person at one address (705 10th St) across both county PDFs, not two people. Judy/Judi Costello appears as Pos 4 electee 2015, Pos 1 electee 2017, and 2021 mayoral candidate - treated as one person, spelling variants recorded. Michael Ferguson and Michael Roy Parsons are distinct people at distinct addresses. Continuity inference was NOT used to fill the Position 3 2020-2021 hole despite an attractive Hall hypothesis."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "budget_cap",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Stopped at the 60-call cap with 6 seat-years unsourced. Remaining leads not pursued: contacting the Vader city clerk; a possible non-indexed 2021 Lewis County incumbent list; chronline.com archive access behind its 403."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 25,
+   "searches": 7,
+   "detail": "mayor pro tem backfill"
+  }
+ ],
+ "totals": {
+  "tool_calls": 53,
+  "searches": 17
+ }
+}

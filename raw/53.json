@@ -1,0 +1,814 @@
+{
+ "city_id": 53,
+ "city": "Seattle city",
+ "state": "Washington",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 9,
+  "seat_scheme": "mixed",
+  "term_length": 4,
+  "stagger_pattern": "9 council seats: Districts 1-7 elected together in odd years divisible-by-odd cycle 2015/2019/2023/2027; citywide Positions 8 and 9 elected together in 2017/2021/2025. Directly elected Mayor shares the Position 8/9 cycle (2017/2021/2025). Terms begin January 1 following the November general; winners of special elections for an unexpired term take office on certification (late November).",
+  "mayor_selection": "elected",
+  "election_month": "November odd years",
+  "profile_source_url": "https://www.seattle.gov/council/meet-the-council"
+ },
+ "cycles": [
+  {
+   "election_date": "2015-11-03",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf"
+  },
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20171107/King/"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20211102/King/"
+  },
+  {
+   "election_date": "2023-11-07",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20231107/King/"
+  },
+  {
+   "election_date": "2024-11-05",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20241105/King/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20251104/King/"
+  },
+  {
+   "election_date": "2026-11-03",
+   "seats_up": 1,
+   "status": "flagged",
+   "source_url": null
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Jenny Durkan",
+   "name_variants": [
+    "Jenny A. Durkan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Bruce Harrell",
+   "name_variants": [
+    "Bruce A. Harrell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://results.vote.wa.gov/results/20211102/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Katie Wilson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Lisa Herbold",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Lisa Herbold",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Rob Saka",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Bruce Harrell",
+   "name_variants": [
+    "Bruce A. Harrell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Tammy Morales",
+   "name_variants": [
+    "Tammy J. Morales"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Tammy Morales",
+   "name_variants": [
+    "Tammy J. Morales"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2025-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.theurbanist.org/2025/01/27/seattle-council-appoints-mark-solomon-to-fill-district-2-vacancy/",
+   "retrieval_method": "trade_press",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Mark Solomon",
+   "name_variants": [
+    "Mark A. Solomon"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2025-01-27",
+   "end_date": "2025-11-25",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.theurbanist.org/2025/01/27/seattle-council-appoints-mark-solomon-to-fill-district-2-vacancy/",
+   "retrieval_method": "trade_press",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Eddie Lin",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2025-11-25",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Kshama Sawant",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Kshama Sawant",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Joy Hollingsworth",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Rob Johnson",
+   "name_variants": [
+    "Robert Johnson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-04-04",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.seattletimes.com/seattle-news/politics/seattle-city-council-appoints-abel-pacheco-to-succeed-rob-johnson/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Abel Pacheco Jr.",
+   "name_variants": [
+    "Abel Pacheco",
+    "Abel Pacheco, Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2019-04-22",
+   "end_date": "2019-11-26",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.seattletimes.com/seattle-news/politics/seattle-city-council-appoints-abel-pacheco-to-succeed-rob-johnson/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Alex Pedersen",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2019-11-26",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://sccinsight.com/2019/11/26/pedersen-sworn-in-as-district-4-council-member/",
+   "retrieval_method": "trade_press",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Maritza Rivera",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Debora Juarez",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Debora Juarez",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Cathy Moore",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2025-07-07",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.seattle.gov/city-clerk/council-vacancy",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Debora Juarez",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2025-07-28",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.seattle.gov/city-clerk/council-vacancy",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Mike O'Brien",
+   "name_variants": [
+    "Michael O'Brien"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Dan Strauss",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Dan Strauss",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Sally Bagshaw",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Andrew J. Lewis",
+   "name_variants": [
+    "Andrew Lewis"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://results.vote.wa.gov/results/20191105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Bob Kettle",
+   "name_variants": [
+    "Robert Kettle"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Teresa Mosqueda",
+   "name_variants": [
+    "Teresa C. Mosqueda"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 8",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Teresa Mosqueda",
+   "name_variants": [
+    "Teresa C. Mosqueda"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 8",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2024-01-02",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://council.seattle.gov/2024/01/04/seattle-city-council-announces-process-to-fill-council-vacancy/",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Tanya Woo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 8",
+   "role": "council_member",
+   "start_date": "2024-01-23",
+   "end_date": "2024-11-26",
+   "entry_mode": "appointed",
+   "exit_mode": "defeated",
+   "source_url": "https://www.fox13seattle.com/news/tanya-woo-appointed-to-seattle-city-council",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Alexis Mercedes Rinck",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 8",
+   "role": "council_member",
+   "start_date": "2024-11-26",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20241105/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Alexis Mercedes Rinck",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 8",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "M. Lorena González",
+   "name_variants": [
+    "Lorena González",
+    "Lorena Gonzalez",
+    "M. Lorena Gonzalez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 9",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Sara Nelson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 9",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://results.vote.wa.gov/results/20211102/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Dionne Foster",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 9",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/King/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Bruce Harrell",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2018-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://council.seattle.gov/2017/12/11/council-sets-2018-19-committee-assignments/",
+   "retrieval_method": "public_notice",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "M. Lorena González",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2020-01-06",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://council.seattle.gov/2020/01/06/colleagues-unanimously-elect-gonzalez-as-council-president-making-her-the-first-latinx-council-president-in-history/",
+   "retrieval_method": "public_notice",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Debora Juarez",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2022-01-04",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://council.seattle.gov/2022/01/04/city-council-unanimously-elects-debora-juarez-as-council-president-making-her-the-first-indigenous-council-president-in-city-history/",
+   "retrieval_method": "public_notice",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Sara Nelson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2024-01-02",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://council.seattle.gov/2024/01/02/seattle-city-council-unanimously-elects-sara-nelson-as-president/",
+   "retrieval_method": "public_notice",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Joy Hollingsworth",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council President",
+   "role": "vice_mayor",
+   "start_date": "2026-01-06",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://council.seattle.gov/2026/01/06/a-new-day-councilmembers-rinck-and-foster-sworn-in-hollingsworth-selected-as-council-president/",
+   "retrieval_method": "public_notice",
+   "confidence": "high",
+   "election_date": null
+  }
+ ],
+ "gaps": [
+  {
+   "year": 2026,
+   "seat_label": "District 5",
+   "reason": "other",
+   "attempted": "Cathy Moore's unexpired term runs through 2027; her appointed successor Debora Juarez serves only until the November 3, 2026 general election is certified. That election has not yet been held as of the research date (2026-08-17), so the holder of District 5 from late November 2026 through December 2026 is not yet determinable. Checked https://www.seattle.gov/city-clerk/council-vacancy and https://results.vote.wa.gov/results/ (no 20261103 results exist yet).",
+   "notes": "Juarez is sourced as the seat-holder for the majority of 2026 (2025-07-28 onward). Only the final ~5 weeks of 2026 are indeterminate. Juarez has publicly said she will not run for the seat."
+  },
+  {
+   "year": 2019,
+   "seat_label": "District 4",
+   "reason": "other",
+   "attempted": "Exact end date of Abel Pacheco Jr.'s appointed service. Sources conflict by one day: Seattle Times/KING5 coverage says he served 'until November 26, 2019'; a secondary source says 'through November 27, 2019'. Alex Pedersen's swearing-in is firmly dated 2019-11-26 (sccinsight.com).",
+   "notes": "Recorded Pacheco end_date as 2019-11-26 at medium confidence. Immaterial to any seat-year assignment."
+  },
+  {
+   "year": 2024,
+   "seat_label": "Position 8",
+   "reason": "other",
+   "attempted": "Exact start date of Tanya Woo's appointed service. Council vote and 'effective immediately' reported 2024-01-23 (FOX 13, council.seattle.gov); a secondary source gives 2024-01-24 as the first day of service.",
+   "notes": "Recorded as 2024-01-23 at medium confidence. Immaterial to any seat-year assignment."
+  }
+ ],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Confirmed Seattle scheme from source rather than assumption: 7 numbered council districts elected 2015/2019/2023, plus citywide Positions 8 and 9 and a directly elected Mayor on the 2017/2021/2025 cycle. Confirmed 9-member council against https://www.seattle.gov/council/meet-the-council."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "Built calendar reaching back to the 2015 general (districts seated 2016-2019, covering calendar 2019) and the 2017 general (Positions 8/9 and Mayor seated 2018-2021). Added two off-calendar cycles discovered during the mid-term check: the 2024-11-05 special for Position 8 and the 2025-11-04 special for District 2, plus a pending 2026-11-03 special for District 5."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "Constructed https://results.vote.wa.gov/results/{YYYYMMDD}/King/ for 20171107, 20191105, 20211102, 20231107, 20241105 and 20251104. All six fetched cleanly and returned City of Seattle races verbatim. No searching required for any of these cycles."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": null,
+   "outcome": "not_found",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "https://results.vote.wa.gov/results/20151103/King/ returns HTTP 200 but carries NO Seattle races. Verified by a second targeted fetch: the only City/Town races on that page are Auburn, Bothell, Milton and Pacific — i.e. only the four King County cities that straddle a county line. The state portal's 2015 archive appears to carry multi-county races only. This is a portal coverage limitation, not absence of the election."
+  },
+  {
+   "step": "escalation",
+   "rung": 2,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 1,
+   "detail": "Escalated the 2015-11-03 cycle (not the whole city) to the county canvass. One search located the King County Elections certified results PDF at https://your.kingcounty.gov/elections/2015/nov-general/results/results.pdf. WebFetch's summarizing layer could not read the binary PDF, so the saved file was text-extracted locally with pdftotext -layout. All seven Seattle council district races recovered verbatim with vote totals: D1 Lisa Herbold 12,459 / Shannon Braddock 12,420; D2 Bruce Harrell; D3 Kshama Sawant; D4 Rob Johnson; D5 Debora Juarez; D6 Mike O'Brien; D7 Sally Bagshaw. Cycle fully sourced at high confidence."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 8,
+   "searches": 8,
+   "detail": "Ran explicit vacancy/appointment/resignation searches rather than trusting the clean election record. Found FIVE mid-term changes invisible in election results: (1) Rob Johnson (D4) resigned 2019-04-04; Abel Pacheco Jr. appointed 2019-04-22, served to 2019-11-26. (2) Teresa Mosqueda (Pos 8) resigned 2024-01-02 for the King County Council; Tanya Woo appointed 2024-01-23, unseated at the 2024-11-05 special by Alexis Mercedes Rinck. (3) Tammy Morales (D2) resigned 2025-01-06; Mark Solomon appointed 2025-01-27, served to 2025-11-25. (4) Eddie Lin won the 2025-11-04 D2 special and took office on certification 2025-11-25 for the remainder of the term through 2027. (5) Cathy Moore (D5) resigned effective 2025-07-07; Debora Juarez appointed 2025-07-28 and serves until the 2026 general is certified. Also checked 2020-2023 and 2026 for further vacancies and found none — the 2019-elected nine served to term end, Kshama Sawant survived the December 2021 D3 recall, and M. Lorena González kept Position 9 through 2021 while running for mayor (Washington has no resign-to-run rule)."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Seat count checked: 9 council + 1 mayor = 10 seats, matching the official meet-the-council roster. Continuity checked: the only person who appears, vanishes and reappears is Debora Juarez (D5 elected 2015 and 2019, term-ended 2023-12-31, then APPOINTED back to the same seat 2025-07-28) — a genuine two-tenure case, sourced, not a missed appointment. Surname collisions checked: Mark Solomon appears twice in the record in different roles (2019 D2 candidate who lost to Morales, 2025 D2 appointee) and is the same person, per The Urbanist. Bob Kettle appears as 'Bob Kettle' on the ballot and 'Robert Kettle' on the city roster — same person, both variants recorded. One search-layer error was caught and discarded: a snippet described Mosqueda's vacated seat as 'citywide Position 9'; the state portal shows Mosqueda held Position 8 in both 2017 and 2021, and Position 9 was held by Sara Nelson at that time."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Wrote /Users/nmweber/Desktop/councilcounter/raw/53.json and machine-verified it: 80 seat-years (10 seats x 2019-2026) all covered by at least one tenure row, 0 uncovered seat-years, 0 rows lacking a source_url, 0 low-confidence rows, 2 medium-confidence rows, 36 tenure rows, 3 gap rows (all date-precision or future-election items rather than missing people)."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 18,
+   "searches": 8,
+   "detail": "council president backfill"
+  }
+ ],
+ "totals": {
+  "tool_calls": 31,
+  "searches": 9
+ }
+}

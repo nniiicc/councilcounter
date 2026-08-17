@@ -1,0 +1,781 @@
+{
+ "city_id": 18,
+ "city": "Dearborn Heights city",
+ "state": "Michigan",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 7,
+  "seat_scheme": "at-large",
+  "term_length": 4,
+  "stagger_pattern": "7 at-large council seats in two staggered groups. Group A = 4 seats elected in 2013/2017/2021/2025 (terms Jan 1 of even year following through Dec 31 four years later). Group B = 3 seats elected in 2015/2019/2023 (and 2027). Mayor elected citywide to a 4-year term in the same cycle as Group A (2017/2021/2025). August primary in odd years narrows the field; November general elects. Vacancies are filled by City Council appointment for the remainder of the term, and any unexpired remainder extending past the next odd-year election appears on that ballot as a separate 'Partial Term' race.",
+  "mayor_selection": "elected",
+  "election_month": "November odd years (August odd-year primary)",
+  "profile_source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/"
+ },
+ "cycles": [
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://arabamericannews.com/2021/11/05/dearborn-heights-constan-wencel-and-baydoun-return-to-council-ahmad-and-bryer-newcomers/"
+  },
+  {
+   "election_date": "2023-11-07",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://arabamericannews.com/2023/11/10/dearborn-heights-voters-pick-baydoun-malinowski-maxwell-and-saab-for-city-council-approve-westwood-schools-bond-proposal/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://arabamericannews.com/2025/10/10/dearborn-heights-election-four-local-races-to-shape-the-citys-political-future/"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Daniel Paletko",
+   "name_variants": [
+    "Dan Paletko",
+    "Daniel S. Paletko"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-01-01",
+   "end_date": "2020-12-29",
+   "entry_mode": "elected",
+   "exit_mode": "died",
+   "source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2017-11-07",
+   "notes": "Re-elected Nov 7 2017 with 4,467 votes (55.83%) over Councilwoman Lisa Hicks-Clayton (3,504, 42.10%); mayor since 2004. Died of COVID-19 on Dec 29, 2020 - death and date corroborated at https://arabamericannews.com/2021/01/08/dearborn-heights-mayor-daniel-paletko-dies-of-covid-leaves-behind-legacy-of-public-service/ and restated in https://arabamericannews.com/2021/01/26/two-council-members-mayor-and-council-chair-pro-tem-appointed-in-dearborn-heights/"
+  },
+  {
+   "person": "Denise Malinowski-Maxwell",
+   "name_variants": [
+    "Denise Malinowski Maxwell",
+    "Denise Malinowski-Maxwell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-12-29",
+   "end_date": "2021-01-26",
+   "entry_mode": "succeeded",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/11/03/bill-bazzi-becomes-first-muslim-and-arab-american-to-be-elected-mayor-beats-council-chair/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Verbatim: 'Following Paletko's death, Malinowski-Maxwell became interim mayor as part of the city charter rules. In January, Bazzi was appointed mayor in a 4-3 vote.' She was Council Chair at the time and RETAINED her council seat throughout the interim period - she cast a council vote at the Jan 26 2021 appointment meeting (see her separate council tenure row)."
+  },
+  {
+   "person": "Bill Bazzi",
+   "name_variants": [
+    "Mohammed Bazzi",
+    "William Bazzi"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2021-01-26",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/01/26/two-council-members-mayor-and-council-chair-pro-tem-appointed-in-dearborn-heights/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Appointed by City Council 4-3 on Jan 26 2021 and 'sworn in as mayor immediately following the vote'. Verbatim: 'Muscat, Bazzi, Wencel and Councilman Dave Abdallah voted for Bazzi, while Councilman Bob Constan, Baydoun and Malinowski-Maxwell voted for Muscat.' Bazzi then won the Nov 2 2021 PARTIAL TERM (73%) for the remainder of Paletko's term through Dec 31 2021, so this appointed tenure was ratified at the ballot box."
+  },
+  {
+   "person": "Bill Bazzi",
+   "name_variants": [
+    "Mohammed Bazzi",
+    "William Bazzi"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2025-10-08",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://arabamericannews.com/2021/11/03/bill-bazzi-becomes-first-muslim-and-arab-american-to-be-elected-mayor-beats-council-chair/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02",
+   "notes": "Won BOTH races on the Nov 2 2021 ballot: partial term (73%) and full four-year term (72%), defeating Council Chairwoman Denise Malinowski-Maxwell. Resigned October 2025 on U.S. Senate confirmation as U.S. ambassador to Tunisia; resignation reported Oct 8 2025 at https://arabamericannews.com/2025/10/08/bill-bazzi-resigns-as-mayor/ ('Last night, I was confirmed by the U.S. Senate to serve as the U.S. ambassador to Tunisia... It is with a heavy heart that I now resign from the position of mayor'). Exact effective date of resignation not stated in source; 2025-10-08 is the announcement date."
+  },
+  {
+   "person": "Mo Baydoun",
+   "name_variants": [
+    "Mohammed Baydoun",
+    "Mo Baydoun"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2025-10-08",
+   "end_date": "2025-12-31",
+   "entry_mode": "succeeded",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2025/11/07/mo-baydoun-sweeps-dearborn-heights-mayoral-race-pledges-new-era-of-growth-and-progress/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Acting/interim mayor. Verbatim: 'Baydoun had assumed the role of interim mayor last month, as stipulated by the city charter, which transfers mayoral powers to the City Council president in the event of a resignation or vacancy.' CONTRADICTION NOT FULLY RESOLVED: the Jan 23 2026 AAN piece instead says he 'had been appointed by the City Council in October to complete the term of his resigned predecessor Bill Bazzi' (https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/). Charter succession as Council President is the better-supported reading (two 2025 articles). He retained his council seat while acting mayor - see his council tenure row."
+  },
+  {
+   "person": "Mo Baydoun",
+   "name_variants": [
+    "Mohammed Baydoun"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2025/11/07/mo-baydoun-sweeps-dearborn-heights-mayoral-race-pledges-new-era-of-growth-and-progress/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04",
+   "notes": "Won Nov 4 2025 with 5,973 votes (68%+) to Denise Malinowski-Maxwell's 2,781. Publicly inaugurated Jan 17 2026 (https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/); term start recorded as 2026-01-01 per the city's Jan 1 term convention."
+  },
+  {
+   "person": "Denise Malinowski-Maxwell",
+   "name_variants": [
+    "Denise Malinowski Maxwell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2017-11-07",
+   "notes": "Top vote-getter Nov 7 2017 with 4,163 votes (14.86%). Served as Council Chair; was interim mayor Dec 2020-Jan 26 2021 WITHOUT vacating this council seat. Ran for mayor in 2021 rather than for re-election to council; term expired Dec 31 2021."
+  },
+  {
+   "person": "Bill Bazzi",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-01-26",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2017-11-07",
+   "notes": "Elected Nov 7 2017 with 3,940 votes (14.07%), second highest. Was Council chair pro-tem. Vacated this council seat on being appointed mayor Jan 26 2021 (exit is a vacation of office on assuming the mayoralty, recorded as 'resigned')."
+  },
+  {
+   "person": "Tom Wencel",
+   "name_variants": [
+    "Tom Wensel"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2017-11-07",
+   "notes": "Elected Nov 7 2017 with 3,881 votes (13.86%). 'Tom Wensel' spelling appears once in the Nov 2023 AAN piece - a typo variant, same person."
+  },
+  {
+   "person": "Bob Constan",
+   "name_variants": [
+    "Robert Constan",
+    "Robert L. Constan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2017/11/10/dearborn-heights-mayor-dan-paletko-wins-re-election-bazzi-joins-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2017-11-07",
+   "notes": "Incumbent re-elected Nov 7 2017 with 3,873 votes (13.83%). AAN Nov 2021: 'Robert Constan, who served in the Michigan House of Representatives and has been a Councilman since 2013'."
+  },
+  {
+   "person": "Lisa Hicks-Clayton",
+   "name_variants": [
+    "Lisa Hicks Clayton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/",
+   "retrieval_method": "newspaper",
+   "confidence": "low",
+   "election_date": "2015-11-03",
+   "notes": "Held a seat throughout 2019 - established from the Nov 2019 article naming her an INCUMBENT re-elected, and from the Nov 2017 article which calls her 'City Councilwoman' while she ran for mayor. The 2015 election that seated this term was NOT retrieved (Wayne County portal blocked), so the start date is inferred from the 4-year cycle: LOW confidence on start_date, medium on the fact of 2019 incumbency."
+  },
+  {
+   "person": "Ray Muscat",
+   "name_variants": [
+    "Raymond Muscat"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/",
+   "retrieval_method": "newspaper",
+   "confidence": "low",
+   "election_date": "2015-11-03",
+   "notes": "Incumbency in 2019 sourced ('three incumbent City Council candidates were able to retain their seats: Lisa Hicks-Clayton, Ray Muscat and Dave Abdallah'). Start date inferred from cycle - 2015 cycle not retrieved. LOW on start_date."
+  },
+  {
+   "person": "Dave Abdallah",
+   "name_variants": [
+    "Wassim Abdallah",
+    "Dave (Wassim) Abdallah",
+    "Wassim (Dave) Abdallah",
+    "Dave Abdullah"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/",
+   "retrieval_method": "newspaper",
+   "confidence": "low",
+   "election_date": "2015-11-03",
+   "notes": "Incumbency in 2019 sourced. He told AAN in Nov 2019 it was his 'second term', implying first elected in 2015; start date inferred from cycle, LOW confidence. Legal/Arabic first name Wassim; AAN uses both 'Dave (Wassim) Abdallah' and (once) 'Abdullah'."
+  },
+  {
+   "person": "Lisa Hicks-Clayton",
+   "name_variants": [
+    "Lisa Hicks Clayton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2019-11-05",
+   "notes": "Re-elected Nov 5 2019 as top vote-getter with 3,688 votes (25%), entering her third term. MID-TERM DEPARTURE: elected City Treasurer in November 2020 and left the council. Verbatim from the Jan 26 2021 AAN report: 'After former Councilwoman Lisa Hicks-Clayton was elected treasurer in November, her seat on the City Council had been unfilled since Dec. 8'. End date recorded as 2020-12-08, the first date the source establishes the seat as vacant; the exact resignation date is not stated."
+  },
+  {
+   "person": "Ray Muscat",
+   "name_variants": [
+    "Raymond Muscat"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-08-21",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2019-11-05",
+   "notes": "Re-elected Nov 5 2019 with 2,967 votes (20%). MID-TERM DEPARTURE: as Council Vice Chair he announced his resignation citing 'health reasons' days after placing third in the Aug 8 2023 primary; verbatim: 'After Muscat officially resigns on Monday, August 21...' - https://arabamericannews.com/2023/08/18/dearborn-heights-sudden-resignation-of-councilman-ray-muscat-raises-questions-for-the-general-election-and-beyond/ . His name remained on the Nov 2023 ballot and he placed fourth (1,661 votes) despite asking voters not to vote for him."
+  },
+  {
+   "person": "Dave Abdallah",
+   "name_variants": [
+    "Wassim Abdallah",
+    "Dave (Wassim) Abdallah"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2019/11/07/election-2019-incumbents-abdallah-hicks-clayton-and-muscat-re-elected-in-dearborn-heights-crestwood-millage-fails-to-pass/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2019-11-05",
+   "notes": "Re-elected Nov 5 2019 with 2,857 votes (19%). Council chair pro-tem from Jan 26 2021, later Council Chair; did not seek re-election in 2023 - 'the decision earlier of Council Chair Wassim (Dave) Abdallah not to seek re-election' (AAN Aug 18 2023) and 'current Chair Dave (Wassim) Abdallah, who didn't seek re-election' (AAN Nov 10 2023)."
+  },
+  {
+   "person": "Mo Baydoun",
+   "name_variants": [
+    "Mohammed Baydoun"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2021-01-26",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/01/26/two-council-members-mayor-and-council-chair-pro-tem-appointed-in-dearborn-heights/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Appointed Jan 26 2021 to the seat vacated by Lisa Hicks-Clayton. Verbatim: 'For four consecutive votes, the Council was tied on voting for either Mo Baydoun or Zouher Abdel-Hak. During the Jan. 26 City Council meeting, Councilman Ray Muscat and Councilman Tom Wencel changed their votes from Abdel-Hak to Baydoun, appointing Baydoun to the vacant Council seat.' Seat had been vacant since Dec 8 2020; the council deadlocked repeatedly (AAN Dec 8 2020, Dec 22 2020, Jan 13 2021)."
+  },
+  {
+   "person": "Zouher Abdel-Hak",
+   "name_variants": [
+    "Zuhair Abdel-Hak",
+    "Zouher Abdelhak"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2021-01-26",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/01/26/two-council-members-mayor-and-council-chair-pro-tem-appointed-in-dearborn-heights/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Appointed Jan 26 2021, same meeting, to the council seat Bill Bazzi vacated on becoming mayor. Verbatim: 'Following the vote, the Council appointed Abdel-Hak to fill Bazzi's vacant Council seat with a 5-1 vote, with Constan voting for former Councilman Ned Apigian.' The unexpired remainder (through Dec 31 2021) also appeared on the Nov 2 2021 ballot as a partial-term race with NO printed name; Abdel-Hak and Joseph Louis Czapiewski Jr ran as write-ins and the city did not count write-ins on election night. Outcome of that write-in race not recovered - see gaps. Either way Abdel-Hak's appointed term ran to Dec 31 2021."
+  },
+  {
+   "person": "Bob Constan",
+   "name_variants": [
+    "Robert Constan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/11/05/dearborn-heights-constan-wencel-and-baydoun-return-to-council-ahmad-and-bryer-newcomers/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02",
+   "notes": "Top vote-getter Nov 2 2021 with 4,860 votes. Did NOT seek re-election in 2025 - verbatim from the AAN Oct 10 2025 preview: 'The candidates include three incumbents seeking re-election - Hassan Ahmad (Council vice chair), Nancy Bryer and Tom Wencel - as well as two challengers: Margaret King and Rachel Lapointe. They are vying to fill the seat vacated by Bob Constan, who chose not to seek re-election.' (https://arabamericannews.com/2025/10/10/dearborn-heights-election-four-local-races-to-shape-the-citys-political-future/). Term therefore ended Dec 31 2025 at term_end, not by defeat."
+  },
+  {
+   "person": "Tom Wencel",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/11/05/dearborn-heights-constan-wencel-and-baydoun-return-to-council-ahmad-and-bryer-newcomers/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02",
+   "notes": "Re-elected Nov 2 2021 with 4,715 votes."
+  },
+  {
+   "person": "Nancy Bryer",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/11/05/dearborn-heights-constan-wencel-and-baydoun-return-to-council-ahmad-and-bryer-newcomers/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02",
+   "notes": "Newcomer elected Nov 2 2021 with 4,546 votes."
+  },
+  {
+   "person": "Hassan Ahmad",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/11/05/dearborn-heights-constan-wencel-and-baydoun-return-to-council-ahmad-and-bryer-newcomers/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02",
+   "notes": "Newcomer elected Nov 2 2021 with 4,082 votes."
+  },
+  {
+   "person": "Mo Baydoun",
+   "name_variants": [
+    "Mohammed Baydoun"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2021/11/05/dearborn-heights-constan-wencel-and-baydoun-return-to-council-ahmad-and-bryer-newcomers/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2021-11-02",
+   "notes": "Won the PARTIAL TERM race on the Nov 2 2021 ballot with 70% over former Councilman Ned Apigian, finishing Lisa Hicks-Clayton's term. Verbatim: 'Baydoun won with 70 percent of the votes. His term will end on Dec. 31, 2023.'"
+  },
+  {
+   "person": "Zouher Abdel-Hak",
+   "name_variants": [
+    "Zuhair Abdel-Hak"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2023-09-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2023/11/10/dearborn-heights-voters-pick-baydoun-malinowski-maxwell-and-saab-for-city-council-approve-westwood-schools-bond-proposal/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "SECOND, SEPARATE appointment for this person. Verbatim: 'In September Zouher Abdel-Hak was appointed to the Council to replace Ray Muscat, who resigned in August.' Exact appointment date within September 2023 not stated in source; start recorded as 2023-09-01 - day-level date is LOW confidence, the month and fact are medium."
+  },
+  {
+   "person": "Mo Baydoun",
+   "name_variants": [
+    "Mohammed Baydoun"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://arabamericannews.com/2023/11/10/dearborn-heights-voters-pick-baydoun-malinowski-maxwell-and-saab-for-city-council-approve-westwood-schools-bond-proposal/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2023-11-07",
+   "notes": "Top vote-getter Nov 7 2023 with 4,085 votes (30.2%); four-year term to Dec 31 2027. Became Council President/Chair. Retained this seat while serving as acting mayor from Oct 2025, then vacated it on taking office as elected mayor Jan 1 2026 - leaving an unexpired council term running to Dec 31 2027 that was filled by appointment (see Bob Constan 2026 row)."
+  },
+  {
+   "person": "Denise Malinowski-Maxwell",
+   "name_variants": [
+    "Denise Malinowski Maxwell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2023/11/10/dearborn-heights-voters-pick-baydoun-malinowski-maxwell-and-saab-for-city-council-approve-westwood-schools-bond-proposal/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2023-11-07",
+   "notes": "Second, separate tenure - she was off the council for calendar 2022-2023 after her 2017 term expired and her 2021 mayoral loss. Elected Nov 7 2023 with 3,659 votes (27%), term to Dec 31 2027. Lost the 2025 mayoral race but keeps this council seat; AAN Nov 2025: 'Malinowski-Maxwell will continue to serve on the Council.' Still listed on the city roster as of Aug 2026 (https://www.dearbornheightsmi.gov/231/City-Council)."
+  },
+  {
+   "person": "Hassan Saab",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2023/11/10/dearborn-heights-voters-pick-baydoun-malinowski-maxwell-and-saab-for-city-council-approve-westwood-schools-bond-proposal/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2023-11-07",
+   "notes": "Elected Nov 7 2023 with 1,742 votes (12.9%), third place; term to Dec 31 2027. Listed as Council Chair Pro Tem on the city roster as of Aug 2026 (https://www.dearbornheightsmi.gov/231/City-Council)."
+  },
+  {
+   "person": "Hassan Ahmad",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2025/11/07/mo-baydoun-sweeps-dearborn-heights-mayoral-race-pledges-new-era-of-growth-and-progress/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04",
+   "notes": "Verbatim: 'City Council Chair Hassan Ahmad topped a competitive field of five candidates vying for four Council seats.' Sworn in as City Council President at the Jan 17 2026 inauguration (https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/). Vote totals for the 2025 council race not published in the sources retrieved."
+  },
+  {
+   "person": "Tom Wencel",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04",
+   "notes": "Named in the Jan 17 2026 inauguration programme among 'officials re-elected for additional terms': 'City Council members Tom Wencel and Nancy Bryer'. Confirmed on the city roster Aug 2026."
+  },
+  {
+   "person": "Nancy Bryer",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04",
+   "notes": "Named among officials 're-elected for additional terms' at the Jan 17 2026 swearing-in. Had announced her re-election bid in June 2025 (https://arabamericannews.com/2025/06/20/councilwoman-nancy-bryer-seeks-re-election-this-fall/). Confirmed on the city roster Aug 2026."
+  },
+  {
+   "person": "Margaret King",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2025-11-04",
+   "notes": "Verbatim from the Jan 17 2026 inauguration listing: 'Newly elected Councilwoman Margaret King'. One of two challengers in the Nov 4 2025 four-seat race (the other, Rachel Lapointe, lost) per https://arabamericannews.com/2025/10/10/dearborn-heights-election-four-local-races-to-shape-the-citys-political-future/ . Confirmed on the city roster Aug 2026. NOTE: she was ELECTED, not appointed - an earlier working hypothesis that she filled Baydoun's vacancy was wrong."
+  },
+  {
+   "person": "Bob Constan",
+   "name_variants": [
+    "Robert Constan"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.dearbornheightsmi.gov/231/City-Council",
+   "retrieval_method": "other",
+   "confidence": "low",
+   "election_date": null,
+   "notes": "SEE gaps entry. INFERRED BY ELIMINATION - confidence LOW. Constan is listed on the official city council roster as of Aug 17 2026 (https://www.dearbornheightsmi.gov/231/City-Council), yet he was not a candidate in Nov 2025 (he 'chose not to seek re-election'; the five candidates were Ahmad, Bryer, Wencel, King and Rachel Lapointe, and the four winners were Ahmad, Wencel, Bryer and King) and he was not among those sworn in at the Jan 17 2026 inauguration. The only council seat available in 2026 is the unexpired 2024-2027 term Mo Baydoun vacated on becoming mayor, so Constan must hold it by council appointment in early 2026. The appointing vote and its date were NOT located."
+  },
+  {
+   "person": "Denise Malinowski-Maxwell",
+   "name_variants": [
+    "Denise Malinowski Maxwell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council Chair",
+   "role": "vice_mayor",
+   "start_date": "2019-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "unknown",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2019/10/12/dearborn-heights-city-council-candidates-discuss-the-issues-prepare-for-nov-5-general-elections-showdown/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Presiding officer of the Council. AAN uses 'Council Chair/Chairwoman' and 'Council President' interchangeably for the same office; 'Council Chair' adopted as the stable label. HELD THROUGHOUT 2019-2021, sourced at four separate points: (a) Oct 12 2019 - verbatim 'In May, an attempted lawsuit by City Council President Denise Malinowski Maxwell was denied in Wayne County Circuit Court'; (b) Sept 26 2020 - verbatim 'Dearborn Heights Council Chairwoman Denise Malinowski-Maxwell and Mayor Paletko in a City Council meeting' and 'an ordinance brought forward by Council Chairwoman Denise Malinowski-Maxwell' (https://arabamericannews.com/2020/09/26/dearborn-heights-mayors-veto-on-council-chairwomans-letter-stands/); (c) Jan 26 2021 - verbatim 'The Council interviewed four candidates for the position on Jan. 25, Councilman Bill Bazzi, Council Chairwoman Denise Malinowski-Maxwell...' (https://arabamericannews.com/2021/01/26/two-council-members-mayor-and-council-chair-pro-tem-appointed-in-dearborn-heights/); (d) Nov 3 2021 headline 'Bill Bazzi becomes first Muslim and Arab American to be elected mayor, beats council chair'. SHE KEPT THE CHAIR THROUGHOUT her interim mayoralty (Dec 29 2020 - Jan 26 2021): the Jan 26 2021 report still calls her Council Chairwoman while she was interim mayor, so no one else took over the presidency during that stretch. Bill Bazzi was Council chair PRO-TEM until Jan 26 2021, then Dave Abdallah. Exit: her council term ended Dec 31 2021 (she ran for mayor rather than re-election) and the Council elected Abdallah chair on Jan 11 2022. START DATE 2019-01-01 is the panel-window boundary, not a sourced organizational date - she is sourced as chair from May 2019 onward; the meeting at which she was first elected chair was not retrieved."
+  },
+  {
+   "person": "Dave Abdallah",
+   "name_variants": [
+    "Wassim Abdallah",
+    "Dave (Wassim) Abdallah"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council Chair",
+   "role": "vice_mayor",
+   "start_date": "2022-01-11",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://arabamericannews.com/2022/01/17/dearborn-heights-city-council-selects-new-council-chair-pro-tem/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null,
+   "notes": "Verbatim: 'The Dearborn Heights City Council selected its new Council chairperson and Council chairperson pro tem during its Jan. 11 City Council meeting. In a unanimous vote, Councilman Dave Abdallah was appointed the new chairman. Mo Baydoun nominated Councilman Ray Muscat to be Council chair pro tem and the Council agreed on that, too. Abdallah had been acting as Council chair pro tem since last January, when Bill Bazzi was appointed mayor.' Dated council-record account of the selection vote. Still chair in Aug 2023 ('Council Chair Wassim (Dave) Abdallah', AAN Aug 18 2023) and in Nov 2023 ('current Chair Dave (Wassim) Abdallah, who didn't seek re-election', AAN Nov 10 2023). Exit at term_end: his council term expired Dec 31 2023. NOTE a ten-day vacancy in the chair Jan 1-10 2022 between Malinowski-Maxwell's term end and this Jan 11 vote."
+  },
+  {
+   "person": "Mo Baydoun",
+   "name_variants": [
+    "Mohammed Baydoun"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Council Chair",
+   "role": "vice_mayor",
+   "start_date": "2024-01-01",
+   "end_date": "2025-10-08",
+   "entry_mode": "unknown",
+   "exit_mode": "resigned",
+   "source_url": "https://arabamericannews.com/2024/02/16/legal-battle-in-dearborn-heights-heats-up-between-city-council-police-and-mayor/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Verbatim (Feb 16 2024): 'Everybody's lawyered up,' Council Chairman Mo Baydoun said during the meeting on Tuesday.' Corroborated repeatedly: 'Council Chairman Mo Baydoun' (AAN Jul 19 2024, https://arabamericannews.com/2024/07/19/council-chairman-former-police-chief-respond-to-recent-news-article-claiming-racial-discrimination-in-dearborn-heights/); 'Dearborn Heights City Council President Mo Baydoun' (AAN Feb 21 2025); 'Dearborn Heights Council Chairman Mo Baydoun' (AAN Mar 15 2025); 'Council Chairman Mo Baydoun has assumed the role of acting mayor' (AAN Oct 8 2025). EXIT: vacated the chair on becoming acting mayor after Bazzi's Oct 8 2025 resignation; Hassan Ahmad took over. START DATE CONFLICT: the Feb 21 2025 AAN profile says 'In September 2023, he was elected City Council president, succeeding Ray Muscat, who had resigned.' That cannot be right for the CHAIR - Dave Abdallah is directly sourced as chair in Aug 2023 AND Nov 2023, and Muscat was Council VICE chair / chair pro tem (elected to that post Jan 11 2022) when he resigned Aug 21 2023. The September 2023 election almost certainly made Baydoun chair PRO TEM, not chair, and the 2025 profile conflated the two. Start therefore recorded as 2024-01-01, the start of the new council term after Abdallah's departure; the organizational meeting that elected Baydoun chair was NOT retrieved, so the day-level start is inferred (first direct evidence of him as chair is Feb 13 2024) - entry_mode left 'unknown' for that reason."
+  },
+  {
+   "person": "Hassan Ahmad",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Council Chair",
+   "role": "vice_mayor",
+   "start_date": "2025-10-08",
+   "end_date": null,
+   "entry_mode": "succeeded",
+   "exit_mode": "ongoing",
+   "source_url": "https://arabamericannews.com/2025/11/07/mo-baydoun-sweeps-dearborn-heights-mayoral-race-pledges-new-era-of-growth-and-progress/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null,
+   "notes": "Verbatim: 'Hassan Ahmad, who assumed the role of Council chair following Baydoun's transition to mayor, led the field with 5,154 votes' and 'City Council Chair Hassan Ahmad topped a competitive field of five candidates.' He was still 'City Council Vice President'/'Council vice chair' as of Feb 2025 and Oct 10 2025 (https://arabamericannews.com/2025/10/10/dearborn-heights-election-four-local-races-to-shape-the-citys-political-future/), so the handover falls between Oct 8 and Nov 7 2025; start recorded as 2025-10-08, the date Baydoun vacated - DAY-LEVEL DATE INFERRED, month solid. Continued into the new term: sworn in as 'City Council President Hassan Ahmad' at the Jan 17 2026 inauguration (https://arabamericannews.com/2026/01/23/dearborn-heights-mayor-mo-baydoun-sworn-in-vows-new-era-of-services-safety-and-lasting-flood-solutions/), and 'City Council Chairman Hassan Ahmad' as of Aug 6 2026, which also states 'Ahmad has served as a City Councilman since being elected in 2020 and was appointed Council chairman in 2025' (https://arabamericannews.com/2026/08/06/hassan-ahmad-appointed-to-wayne-county-commission/ - note the paper's '2020' is itself wrong; he was elected Nov 2 2021). PENDING DEPARTURE: that Aug 6 2026 article reports Ahmad appointed to the Wayne County Commission, with Mayor Baydoun saying 'we will be losing him on the City Council'; no effective date for his council/chair departure is given and he remained on the city roster as of Aug 17 2026, so this tenure is left ongoing."
+  }
+ ],
+ "gaps": [
+  {
+   "year": 2015,
+   "seat_label": "At-Large",
+   "reason": "robots_blocked",
+   "attempted": "Wayne County Clerk portal (www.waynecountymi.gov) is the registry-designated source and returned HTTP 403 to every request - hub page, /2016-2020-Elections subpath, /files/assets/... PDF asset path, and even /robots.txt - via both WebFetch and curl with browser UA/Referer. waynecounty.com redirects into the same blocked host. michigan.totalvote.com/Wayne serves only the current (Aug 2026) election. mielections.us timed out (no TCP response). Arab American News archive has no Nov 2015 Dearborn Heights results article.",
+   "notes": "[seat originally labelled: At-Large (3 Group B seats)] Only affects the START DATES of the Hicks-Clayton / Muscat / Abdallah tenures, not their 2019 incumbency, which is directly sourced. Those three start dates are flagged low confidence. No 2019-2026 seat-year is unaccounted for as a result."
+  },
+  {
+   "year": 2021,
+   "seat_label": "At-Large",
+   "reason": "no_archive",
+   "attempted": "AAN Nov 5 2021 reports this partial-term race had NO printed candidate, with Zouher Abdel-Hak and Joseph Louis Czapiewski Jr running as write-ins, and that the city does not count write-ins on election night - results go to the Wayne County Board of Canvassers. The canvass is on the blocked Wayne County host (403). No follow-up AAN article naming the winner was found in searches of the AAN archive.",
+   "notes": "[seat originally labelled: At-Large (partial term for Bill Bazzi's vacated seat, Nov 3 - Dec 31 2021)] Practically immaterial: Abdel-Hak already held the seat by appointment through Dec 31 2021, so the seat-year is covered either way. Unresolved only as to whether the last ~8 weeks of 2021 were served under appointment or under a write-in election."
+  },
+  {
+   "year": 2026,
+   "seat_label": "At-Large",
+   "reason": "other",
+   "attempted": "Bob Constan appears on the official city roster (dearbornheightsmi.gov/231/City-Council, fetched Aug 17 2026) but no source naming the appointing vote or its date was found. AAN archive searched for 'Constan appointed Council Dearborn Heights' - no 2026 article. City meeting archive is CivicClerk (dearbornheightsmi.portal.civicclerk.com), JS-only, not attempted within budget.",
+   "notes": "[seat originally labelled: At-Large (Mo Baydoun's vacated 2024-2027 seat)] The seat-year IS covered (Constan is sourced as a sitting member in 2026); what is missing is the entry_mode/date evidence. Recorded at LOW confidence and flagged as inference by elimination."
+  },
+  {
+   "year": 2025,
+   "seat_label": "Mayor / At-Large",
+   "reason": "other",
+   "attempted": "AAN reports Bazzi's resignation announcement on Oct 8 2025 and Baydoun assuming acting mayor 'last month' as of Nov 7 2025, but neither article gives the effective date of the resignation or of Baydoun's assumption of the acting role.",
+   "notes": "[seat originally labelled: Mayor / At-Large - exact effective dates] Dates recorded as 2025-10-08 for both the exit and the succession; day-level precision is uncertain, month is solid."
+  }
+ ],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "blocked",
+   "tool_calls": 6,
+   "searches": 1,
+   "detail": "MICHIGAN REGISTRY PATH IS DEAD AS OF 2026-08-17. www.waynecountymi.gov returns HTTP 403 for EVERYTHING - the Election-Results-Candidates hub, the /{startYear}-{endYear}-Elections subpaths, the /files/assets/mainsite/... PDF asset directory, the site root, and /robots.txt - to WebFetch and to curl with a full browser UA, Accept and Referer. This is a blanket WAF block, not robots. waynecounty.com 302s into utility.waynecountymi.gov (same block). Registry entry should be downgraded from 'confidence HIGH, validated end-to-end' until re-tested."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 1,
+   "detail": "Established odd-year Aug primary / Nov general; 7 at-large council seats split 4 (2017/2021/2025, same cycle as mayor) and 3 (2019/2023). Confirmed by the 2013 AAN headline 'Dearborn Heights voters to choose Mayor, four council members', the 2023 Patch primary piece ('Eight candidates are running for three Dearborn Heights City Council seats'), and the 2025 AAN preview ('Five additional candidates will compete in a tight race for four open seats on the seven-member City Council'). The August primary is conditional, not automatic: in 2025 there was NO council primary because only five candidates filed for four seats - 'Under Michigan election law, primaries are omitted when the number of candidates does not exceed double the number of openings.'"
+  },
+  {
+   "step": "escalation",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 14,
+   "searches": 3,
+   "detail": "Rung 4 (local newspaper) carried the entire city. arabamericannews.com is fully fetchable by curl INCLUDING its ?s= site search, which returns dated permalinks - this made cycle-by-cycle retrieval nearly free of WebSearch quota. Every cycle 2017/2019/2021/2023/2025 plus all six mid-term events sourced from AAN. patch.com also fetchable (used for the 2023 primary). ballotpedia.org WAS fetchable by curl (200, 130KB) but its Dearborn Heights page carries no municipal roster."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "SIX mid-term changes found and dated, of which FOUR are council seats, not the mayoralty. Mayor: Paletko died 2020-12-29; Malinowski-Maxwell interim by charter (retaining her council seat) to 2021-01-26; Bazzi appointed 2021-01-26 by 4-3 vote; Bazzi resigned Oct 2025; Baydoun acting by charter as Council President. Council: Hicks-Clayton left ~Dec 8 2020 on election as Treasurer, seat deadlocked for seven weeks, Baydoun appointed 2021-01-26; Bazzi's council seat vacated 2021-01-26, Abdel-Hak appointed same night 5-1; Muscat resigned effective 2023-08-21, Abdel-Hak appointed again in Sept 2023; Baydoun's council seat vacated Jan 2026 on becoming mayor, Constan the apparent appointee."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "Seat count reconciles at 7 for every year: 2019 = Malinowski-Maxwell/Bazzi/Wencel/Constan + Hicks-Clayton/Muscat/Abdallah; 2026 = Ahmad/Wencel/Bryer/King (2025 cycle) + Malinowski-Maxwell/Saab (2023 cycle) + Constan (appointed to Baydoun's seat), matching the live city roster exactly. Malinowski-Maxwell's disappear/reappear (off council 2022-2023) is a genuine gap in service, not a missed appointment - she lost the 2021 mayoral race and re-won a council seat in 2023; recorded as two separate tenures. Abdel-Hak likewise has two genuinely separate appointed tenures (2021 and 2023). All quoted roster text spot-checked against locally saved HTML rather than against summarizer output."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Written to raw/18.json."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 10,
+   "searches": 0,
+   "detail": "council chair/president backfill. Presiding-officer seat added as role vice_mayor under the single stable seat_label 'Council Chair' (AAN uses 'Council Chair/Chairman/Chairwoman' and 'Council President' for the same office; 'Chair' is the dominant and the city's own roster usage - Hassan Saab is listed 'Council Chair Pro Tem'). All eight years 2019-2026 sourced, four continuous spans, ZERO WebSearch calls: Malinowski-Maxwell 2019-2021, Abdallah Jan 11 2022-Dec 31 2023, Baydoun 2024-Oct 8 2025, Ahmad Oct 8 2025-present. Method reused from the earlier run: curl with browser UA against arabamericannews.com permalinks and its ?s= site search; waynecountymi.gov not re-attempted (still 403). CONTRADICTION RESOLVED: the Oct 8 2025 AAN report states verbatim 'In accordance with the Dearborn Heights City Charter, the City Council chairman becomes mayor pro tem in the event of a mayoral vacancy. As a result, Baydoun will serve in the role of acting mayor.' That is a THIRD source for charter succession (with the Nov 7 2025 piece), against the single Jan 23 2026 line saying he was 'appointed by the City Council in October'. Charter succession as Council Chair is established; the Jan 2026 wording is an error. NEW CONTRADICTION OPENED and left unresolved in the Baydoun chair row: AAN Feb 21 2025 says Baydoun was 'elected City Council president' in September 2023 succeeding Muscat, which is incompatible with Abdallah being directly sourced as chair in Aug AND Nov 2023; read as chair PRO TEM."
+  }
+ ],
+ "totals": {
+  "tool_calls": 48,
+  "searches": 5
+ }
+}

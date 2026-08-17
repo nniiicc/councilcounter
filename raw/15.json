@@ -1,0 +1,690 @@
+{
+ "city_id": 15,
+ "city": "College Place city",
+ "state": "Washington",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 8,
+  "seat_scheme": "position-numbered",
+  "term_length": 4,
+  "stagger_pattern": "8 elected offices: directly elected Mayor plus Council Positions 1-7, all at-large numbered, 4-year staggered. Cycle A (2017, 2021, 2025) seats Mayor + Positions 1, 2, 3. Cycle B (2019, 2023) seats Positions 4, 5, 6, 7. Off-cycle appearances of a Position on the ballot (e.g. P5 in 2017, P7 in 2021, P1 in 2023) are unexpired-term elections following a vacancy.",
+  "mayor_selection": "elected",
+  "election_month": "November odd years",
+  "profile_source_url": "https://www.cpwa.us/government/city_council.php"
+ },
+ "cycles": [
+  {
+   "election_date": "2015-11-03",
+   "seats_up": 6,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20151103/WallaWalla/"
+  },
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20171107/WallaWalla/"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20191105/WallaWalla/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20211102/WallaWalla/"
+  },
+  {
+   "election_date": "2023-11-07",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20231107/WallaWalla/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20251104/WallaWalla/"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Harvey R. Crowder",
+   "name_variants": [
+    "Harvey Crowder"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-01-01",
+   "end_date": "2019-08-07",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://results.vote.wa.gov/results/20171107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Norma L. Hernandez",
+   "name_variants": [
+    "Norma Hernandez",
+    "Norma L. Hern\u00e1ndez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2019-08-20",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.union-bulletin.com/news/local_governments/college_place/college-place-names-new-mayor/article_6b903b54-c9bf-11e9-ab27-a7cc8a1d8317.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Norma L. Hernandez",
+   "name_variants": [
+    "Norma Hernandez",
+    "Norma L. Hern\u00e1ndez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Norma L. Hernandez",
+   "name_variants": [
+    "Norma Hernandez",
+    "Norma L Hern\u00e1ndez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Jerry Lee Bobbitt",
+   "name_variants": [
+    "Jerry Bobbitt",
+    "JERRY BOBBITT"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://results.vote.wa.gov/results/20171107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Paul Jessup",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2022-01-25",
+   "end_date": "2023-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.union-bulletin.com/news/local_governments/college-place-high-school-teacher-paul-jessup-appointed-to-city-council/article_06b08594-7ef9-11ec-afe2-6b9c7b009f01.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Paul Jessup",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2025-08-26",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://results.vote.wa.gov/results/20231107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "David Lopez",
+   "name_variants": [
+    "E. David Lopez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2025-08-26",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://elkhornmediagroup.com/david-lopez-to-fill-college-place-city-council-vacancy/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Jordan Green",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Michael Cleveland",
+   "name_variants": [
+    "MICHAEL CLEVELAND"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Michael Cleveland",
+   "name_variants": [
+    "MICHAEL CLEVELAND"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Michael Cleveland",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Marge Nyhagen",
+   "name_variants": [
+    "MARGE NYHAGEN"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Tito J. Espinoza",
+   "name_variants": [
+    "TJ Espinoza",
+    "Tito Espinoza"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Nadine Stecklein",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Loren Peterson",
+   "name_variants": [
+    "LOREN PETERSON"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20151103/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Loren Peterson",
+   "name_variants": [
+    "LOREN PETERSON"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Loren Peterson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2026-04-13",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.union-bulletin.com/news/local/governments/two-members-of-college-place-city-council-resign-replacements-sought/article_61bc184b-6036-45e8-95e8-a31e6f781984.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "David Lopez",
+   "name_variants": [
+    "E. David Lopez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2026-05-20",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.cpwa.us/government/city_council.php",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Melodie Selby Williams",
+   "name_variants": [
+    "Melodie Selby",
+    "MELODIE SELBY",
+    "Melodie (Selby) Williams",
+    "Melodie Williams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2017-11-28",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Melodie Selby Williams",
+   "name_variants": [
+    "Melodie Selby",
+    "MELODIE SELBY"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Melodie Selby Williams",
+   "name_variants": [
+    "Melodie (Selby) Williams",
+    "Melodie Williams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": "2026-04-20",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.union-bulletin.com/news/local/governments/two-members-of-college-place-city-council-resign-replacements-sought/article_61bc184b-6036-45e8-95e8-a31e6f781984.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Dana Evans",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2026-05-20",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.cpwa.us/government/city_council.php",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Heather M. Schermann",
+   "name_variants": [
+    "Heather Schermann",
+    "HEATHER SCHERMANN",
+    "Heather M Schermann"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 6",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20151103/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Heather M. Schermann",
+   "name_variants": [
+    "Heather Schermann",
+    "HEATHER SCHERMANN"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 6",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Heather M. Schermann",
+   "name_variants": [
+    "Heather M Schermann"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 6",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Larry Dickerson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-02-28",
+   "entry_mode": "elected",
+   "exit_mode": "died",
+   "source_url": "https://www.union-bulletin.com/news/local_governments/businesswoman-chosen-for-vacant-college-place-council-seat/article_1e8a665e-50b1-11e9-9bbc-8fa081f8b391.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Norma L. Hernandez",
+   "name_variants": [
+    "Norma Hernandez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2019-03-19",
+   "end_date": "2019-08-20",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://www.union-bulletin.com/news/local_governments/businesswoman-chosen-for-vacant-college-place-council-seat/article_1e8a665e-50b1-11e9-9bbc-8fa081f8b391.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Bryon Trop",
+   "name_variants": [
+    "BRYON TROP"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2019-09-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://cms6.revize.com/revize/collegeplace/document_center/Public%20Works/Streets/CDBG%20Sidewalk/CHECK%20PLOTS%20121820.pdf",
+   "retrieval_method": "other",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Monica Boyle",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Monica Boyle",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/WallaWalla/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  }
+ ],
+ "gaps": [
+  {
+   "year": 2019,
+   "seat_label": "Position 7",
+   "reason": "other",
+   "attempted": "Searched for the appointment that filled Position 7 after Norma Hernandez vacated it to become mayor (Aug 2019). Four WebSearch passes (incl. \"Bryon Trop\" by name), plus constructed fetches of the College Place October 2019 and November 2019 newsletter PDFs on cms6.revize.com (both HTTP 404) and the FY2021-2026 capital facility plan on BoardDocs (HTTP 403, robots-blocked as expected). No dated record of the appointment was recoverable.",
+   "notes": "Occupant IS identified: Bryon Trop, confirmed VERBATIM as \"BRYON TROP - Council Member #7\" on a City of College Place CDBG sidewalk plan sheet dated 12/18/20. His start_date of 2019-09-01 is a PLACEHOLDER inferred from the Aug 2019 vacancy, not a sourced date - the true date lies somewhere in Aug-Dec 2019. Seat-years 2020 and 2021 for Position 7 are solid; the Sept-Dec 2019 sliver of Position 7 is the only genuinely unsourced stretch."
+  },
+  {
+   "year": 2019,
+   "seat_label": "Position 7",
+   "reason": "missing_cycle",
+   "attempted": "Checked the 2019-11-05 Walla Walla County results page for a Position 7 race; only Positions 4, 5 and 6 appear.",
+   "notes": "Dickerson's Position 7 term expired 12/31/2019, so the full 2020-2023 term should have been on the Nov 2019 ballot but no such race exists. Corroborated independently: the seat was held by an APPOINTEE (Trop) in Dec 2020, and Monica Boyle's Nov 2021 win was for a term ending 12/31/2023 - i.e. an unexpired remainder. Conclusion: no candidate filed in 2019 and the seat ran on appointment through 2021. Not a retrieval failure."
+  },
+  {
+   "year": 2022,
+   "seat_label": "Position 1",
+   "reason": "vacant",
+   "attempted": "Traced via Union-Bulletin coverage of Paul Jessup's appointment (Jan 2022).",
+   "notes": "SEAT VACANT 2022-01-01 to 2022-01-24, so no tenure row exists for that stretch. John C. Haid won Position 1 at the 2021-11-02 general but was disqualified before taking office because he no longer lived inside city limits (RCW residency requirement); he is therefore recorded in NO tenure row. Haid ran again for Position 1 in 2025 and lost to Jordan Green. Do not merge the 2021 Haid win into a tenure."
+  },
+  {
+   "year": 2019,
+   "seat_label": "Position 7",
+   "reason": "other",
+   "attempted": "Union-Bulletin article on Hernandez's appointment retrieved via search snippet; direct fetch of the 'College Place names new mayor' article returned HTTP 429 (rate-limited).",
+   "notes": "Larry Dickerson's exact date of death is sourced only as 'February 2019'; end_date 2019-02-28 is a month-end placeholder. Hernandez's Position 7 appointment is sourced as 'March 2019' (council meeting, seven applicants interviewed); start_date 2019-03-19 is a within-month placeholder. Month-level confidence is high; day-level is not."
+  },
+  {
+   "year": 2019,
+   "seat_label": "Mayor",
+   "reason": "other",
+   "attempted": "Direct fetch of the Union-Bulletin 'College Place names new mayor' article returned HTTP 429 twice; content taken from search snippets.",
+   "notes": "Harvey Crowder resigned 2019-08-07 (sourced, he moved out of the area). Hernandez's mayoral appointment is sourced as August 2019; start_date 2019-08-20 is a within-month placeholder. The Mayor seat-year 2019 is fully covered by two rows."
+  }
+ ],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "Used the supplied WA registry pattern https://results.vote.wa.gov/results/{YYYYMMDD}/WallaWalla/ without searching for it. No-spaces county segment confirmed working on all six dates."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "Fetched all six generals 2015-2025 by constructed URL. Derived the 8-office structure (Mayor + Positions 1-7) and the 4/4 stagger: Cycle A = Mayor+P1+P2+P3 (2017/2021/2025), Cycle B = P4+P5+P6+P7 (2019/2023). Off-cycle races (P5 in 2017, P7 in 2021, P1 in 2023, Mayor+P1 in 2015) correctly read as unexpired-term elections, which is what exposed the vacancy chain."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 13,
+   "searches": 9,
+   "detail": "High yield - this city is vacancy-heavy. Found: Dickerson died Feb 2019; Hernandez appointed to P7 Mar 2019; Crowder resigned as mayor 2019-08-07; Hernandez appointed mayor Aug 2019; Trop appointed to P7 (fall 2019); Haid disqualified after winning P1 in 2021; Jessup appointed to P1 Jan 2022; Jessup resigned 2025 (moved to Indiana); Lopez appointed to P1 Aug 2025; Peterson resigned P4 2026-04-13 and Williams resigned P5 2026-04-20; Lopez and Evans appointed to P4/P5 2026-05-20. Eleven mid-term changes invisible in the election record."
+  },
+  {
+   "step": "escalation",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "Rung 4 (local newspaper) was again the highest-yield rung: Union-Bulletin and Elkhorn Media Group carried every vacancy. Union-Bulletin rate-limits aggressively (two HTTP 429s on direct fetch); its content was recoverable from search snippets. Elkhorn fetched cleanly."
+  },
+  {
+   "step": "escalation",
+   "rung": 7,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Rung 7 (city engineering/plan document) resolved the one name the newspapers never printed. A CDBG sidewalk plan sheet dated 12/18/20 on the city's revize CDN carries a full title-block roster. WebFetch could not parse the 9.1MB binary PDF but saved it locally; pdftotext then yielded the roster verbatim. BoardDocs (Rung 6) returned HTTP 403 as the brief predicted."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Seat count 8 confirmed against the live city council page (Mayor + Positions 1-7), which also gave term-end dates and the current 2026 roster. VERBATIM CHECK passed: the Dec 2020 plan-sheet roster was read from extracted PDF text, not from a summarizer - all seven council names plus mayor matched the independently derived election reconstruction exactly, including Trop in P7. Continuity check caught the Haid disqualification (a winner who never served) and the Selby-to-Williams name change. Homonym check: 'Melissa Thiessen (Williams)', a 2015 P1 candidate, is NOT the same person as Melodie Selby Williams and was not merged."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Checkpoint written after the cycle calendar; final file rewritten after validation."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "not_found",
+   "tool_calls": 22,
+   "searches": 13,
+   "detail": "mayor pro tem backfill"
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "not_found",
+   "tool_calls": 22,
+   "searches": 13,
+   "detail": "Presiding-officer backfill: NO SUCH SEAT ESTABLISHED. The live council page lists Mayor + Positions 1-7 with no pro-tem annotation; the local title itself (Mayor Pro Tem / Deputy Mayor / Council President) could not be sourced. Blocked by BoardDocs 403 and Union-Bulletin 429; budget PDFs extracted locally contain no elected-officials page. Residual path: the January organizational-meeting minutes, reachable only around BoardDocs. CAUTION: the search summarizer twice asserted unprompted that 'Marge Nyhagen served as Mayor Pro Tem' - unsourced, and traced to College Park MD/GA documents, not College Place WA. Her council tenure also ended 2021-12-31. Do not record it. || 13 WebSearch passes plus 4 WebFetch attempts, none of which produced a verbatim, dated record naming a College Place presiding-officer designee. Tried: (1) generic 'College Place Washington city council mayor pro tem' and 'mayor pro tempore appointed 2022'; (2) the live city council page https://www.cpwa.us/government/city_council.php, fetched and read in full - it lists Mayor Hernandez plus Posit"
+  }
+ ],
+ "totals": {
+  "tool_calls": 57,
+  "searches": 26
+ }
+}

@@ -1,0 +1,706 @@
+{
+ "city_id": 42,
+ "city": "Oak Harbor city",
+ "state": "Washington",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 7,
+  "seat_scheme": "position-numbered",
+  "term_length": 4,
+  "stagger_pattern": "Two staggered classes of at-large numbered Positions. Mayor + Positions 1, 2, 3 are elected in 2015/2019/2023 (terms begin Jan 1 of the following even year). Positions 4, 5, 6, 7 are elected in 2017/2021/2025. Council seat count is 7 plus a separately, directly elected mayor.",
+  "mayor_selection": "elected",
+  "election_month": "November odd years",
+  "profile_source_url": "https://results.vote.wa.gov/results/20191105/Island/"
+ },
+ "cycles": [
+  {
+   "election_date": "2015-11-03",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20151103/Island/"
+  },
+  {
+   "election_date": "2017-11-07",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20171107/Island/"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Island/"
+  },
+  {
+   "election_date": "2021-11-02",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20211102/Island/"
+  },
+  {
+   "election_date": "2023-11-07",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Island/"
+  },
+  {
+   "election_date": "2025-11-04",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Island/"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Bob Severns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20151103/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Bob Severns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Ronnie Wright",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Tara Hizon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20151103/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Tara Hizon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Tara Hizon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 1",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Beth Munns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20151103/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Beth Munns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2023-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20191105/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Chris Wiegenstein",
+   "name_variants": [
+    "Christopher Wiegenstein"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 2",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Rick Almberg",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2016-01-01",
+   "end_date": "2019-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20151103/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2015-11-03"
+  },
+  {
+   "person": "Jeffrey Mack",
+   "name_variants": [
+    "Jeff Mack"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2020-01-01",
+   "end_date": "2021-12-30",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.whidbeynewstimes.com/2022/02/25/eric-marshall-appointed-to-oak-harbor-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2019-11-05"
+  },
+  {
+   "person": "Eric Marshall",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2022-02-23",
+   "end_date": "2023-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.whidbeynewstimes.com/2022/02/25/eric-marshall-appointed-to-oak-harbor-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Eric Marshall",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 3",
+   "role": "council_member",
+   "start_date": "2024-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Erica Wasinger",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Dan Evans",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2023-04-05",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.whidbeynewstimes.com/news/dan-evans-resigns-from-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Chris Wiegenstein",
+   "name_variants": [
+    "Christopher Wiegenstein"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2023-05-24",
+   "end_date": "2023-11-28",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.whidbeynewstimes.com/news/wiegenstein-appointed-to-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Barbara Armes",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2023-11-28",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20231107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2023-11-07"
+  },
+  {
+   "person": "Barbara Armes",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 4",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Joel Servatius",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://results.vote.wa.gov/results/20171107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Shane Hoffmire",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2024-11-30",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.whidbeynewstimes.com/2024/11/19/hoffmire-leaving-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "James P. Marrow",
+   "name_variants": [
+    "James Marrow"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2024-12-17",
+   "end_date": "2025-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.whidbeynewstimes.com/2024/12/13/council-picks-4-finalists-for-seat/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "James P. Marrow",
+   "name_variants": [
+    "James Marrow"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 5",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Jim Woessner",
+   "name_variants": [
+    "James (Jim) Woessner",
+    "James Woessner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 6",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20171107/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Jim Woessner",
+   "name_variants": [
+    "James (Jim) Woessner",
+    "James Woessner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 6",
+   "role": "council_member",
+   "start_date": "2022-01-01",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Sandi Peterson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 6",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Bill Larsen",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2018-01-01",
+   "end_date": "2020-05-15",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.whidbeynewstimes.com/news/larsen-resigns-from-oak-harbor-city-council/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2017-11-07"
+  },
+  {
+   "person": "Millie Goebel",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2020-08-05",
+   "end_date": "2021-11-23",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.southwhidbeyrecord.com/news/vacancy-on-oak-harbor-council-filled/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Bryan Stucky",
+   "name_variants": [
+    "Brian Stucky"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2021-11-23",
+   "end_date": "2025-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://results.vote.wa.gov/results/20211102/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2021-11-02"
+  },
+  {
+   "person": "Bryan Stucky",
+   "name_variants": [
+    "Brian Stucky"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Position 7",
+   "role": "council_member",
+   "start_date": "2026-01-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://results.vote.wa.gov/results/20251104/Island/",
+   "retrieval_method": "state_portal",
+   "confidence": "high",
+   "election_date": "2025-11-04"
+  },
+  {
+   "person": "Beth Munns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2018-01-02",
+   "end_date": "2020-12-31",
+   "entry_mode": "elected",
+   "exit_mode": "unknown",
+   "source_url": "https://www.whidbeynewstimes.com/news/munns-to-serve-as-mayor-pro-tem/",
+   "retrieval_method": "newspaper",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Beth Munns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2021-01-01",
+   "end_date": "2021-12-31",
+   "entry_mode": "unknown",
+   "exit_mode": "unknown",
+   "source_url": "https://www.oakharbor.gov/AgendaCenter/ViewFile/Minutes/_01192021-53",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Beth Munns",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2022-01-01",
+   "end_date": "2022-08-03",
+   "entry_mode": "unknown",
+   "exit_mode": "term_end",
+   "source_url": "https://www.oakharbor.gov/AgendaCenter/ViewFile/Minutes/_08032022-241",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Tara Hizon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2022-08-03",
+   "end_date": "2024-01-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.oakharbor.gov/AgendaCenter/ViewFile/Minutes/_08032022-241",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Tara Hizon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2024-01-02",
+   "end_date": "2026-01-05",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.oakharbor.gov/AgendaCenter/ViewFile/Minutes/_01022024-286",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Tara Hizon",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tem",
+   "role": "vice_mayor",
+   "start_date": "2026-01-06",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.oakharbor.gov/AgendaCenter/ViewFile/Minutes/_01062026-569",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  }
+ ],
+ "gaps": [
+  {
+   "year": 2020,
+   "seat_label": "Position 7",
+   "reason": "vacant",
+   "attempted": "Not a sourcing failure. Bill Larsen resigned 2020-05-15 and Millie Goebel was appointed in early August 2020; the seat was legally VACANT in the interval. Sourced from Whidbey News-Times resignation article and South Whidbey Record appointment article.",
+   "notes": "Genuine vacancy 2020-05-15 to approx 2020-08-05, not missing data. Goebel's exact swearing-in date is not stated in the article; the appointment interview is described as occurring 'Wednesday' in a piece published 2020-08-07, implying 2020-08-05. Start date carries +/- a few days uncertainty."
+  },
+  {
+   "year": 2021,
+   "seat_label": "Position 3",
+   "reason": "vacant",
+   "attempted": "Not a sourcing failure. Jeffrey (Jeff) Mack resigned effective 2021-12-30; Eric Marshall was sworn in 2022-02-23. Seat legally VACANT in between, confirmed by Whidbey News-Times.",
+   "notes": "Genuine vacancy 2021-12-30 to 2022-02-23 (approx 8 weeks), not missing data."
+  },
+  {
+   "year": 2023,
+   "seat_label": "Position 4",
+   "reason": "vacant",
+   "attempted": "Not a sourcing failure. Dan Evans resigned 2023-04-05; Chris Wiegenstein appointed 2023-05-24. Seat legally VACANT in between, confirmed by Whidbey News-Times.",
+   "notes": "Genuine vacancy 2023-04-05 to 2023-05-24, not missing data."
+  },
+  {
+   "year": 2024,
+   "seat_label": "Position 5",
+   "reason": "vacant",
+   "attempted": "Not a sourcing failure. Shane Hoffmire's last day was 2024-11-30; James Marrow appointed at the 2024-12-17 council meeting. Seat legally VACANT in between.",
+   "notes": "Genuine vacancy 2024-12-01 to 2024-12-17. Marrow's appointment date is taken from the pre-announced 2024-12-17 interview/appointment schedule reported 2024-12-13 plus a later report confirming he 'was appointed to city council in December of that year'; the confirming article naming the final vote was not directly retrieved."
+  },
+  {
+   "year": 2023,
+   "seat_label": "Position 4",
+   "reason": "homonym_unresolved",
+   "attempted": "Retrieved https://www.whidbeynewstimes.com/news/wiegenstein-appointed-to-city-council/ . The page summary internally contradicts itself, stating Wiegenstein was appointed to 'Position 2, replacing Dan Evans who resigned April 5' while also saying Position 2 'is currently Beth Munns' seat.' Evans held Position 4; Munns held Position 2 until 2023-12-31 and that seat was never vacant in 2023.",
+   "notes": "SEAT-LABEL AMBIGUITY, resolved by logic not by a direct quote. The appointment necessarily filled the ONLY vacant seat, Position 4 (Evans's). Wiegenstein separately FILED FOR AND WON Position 2 in Nov 2023, which is the likely source of the article's confusion. Wiegenstein's Position 4 appointment row is marked medium confidence for this reason. His Position 2 elected tenure from 2024-01-01 is independently high-confidence from the state portal."
+  },
+  {
+   "year": 2020,
+   "seat_label": "Mayor Pro Tem",
+   "reason": "other",
+   "attempted": "Could not retrieve a dated 2019 or 2020 record naming Oak Harbor's Mayor Pro Tem. The city's CivicEngage AgendaCenter minutes archive was queried directly via its Search endpoint (https://www.oakharbor.gov/AgendaCenter/Search/?CIDs=2&startDate=01/01/2020&endDate=03/01/2020) and returns ZERO records for 2020; the online minutes archive begins in January 2021 (earliest ViewFile id _01192021-53). Searched Whidbey News-Times and general web for 'Mayor Pro Tem Munns 2019/2020'. Search results surfaced a City page titled 'Oak Harbor City Council Unanimously Elects Councilmember Munns as Mayor Pro-Tempore Again!' at https://www.oakharbor.org/citycouncil/page/oak-harbor-city-council-unanimously-elects-councilmember-munns-mayor-pro-tempore but that URL now returns HTTP 404 and has no Wayback Machine capture (CDX query returned an empty result set), so its date and text could NOT be verified verbatim and it is not used as a source.",
+   "notes": "NOT a vacancy. Beth Munns is bracket-sourced as Mayor Pro Tem on both sides of 2019-2020: the Whidbey News-Times of 2018-01-05 reports the Council chose her 5-2 at the 2018-01-02 meeting, and the official Regular Meeting Minutes of 2021-01-19 list 'Mayor Pro Tem Munns' at roll call. No record of any intervening change was found. Oak Harbor's cadence, stated verbatim in the 2024-01-02 and 2026-01-06 minutes, is that the Council selects a Mayor Pro Tempore at the first regular meeting of EVEN-numbered years, so a January 2020 re-selection very likely occurred and is probably what the 404'd City page documented. The 2018-01-02 to 2020-12-31 tenure row is therefore marked LOW confidence: the name rests on continuity between two dated records, not on a dated record from 2019 or 2020 itself."
+  }
+ ],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Used the supplied Washington registry pattern https://results.vote.wa.gov/results/{YYYYMMDD}/Island/ . No searching required to locate cycles."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Fetched 2017 and 2019 first to determine the stagger. 2019 carried Mayor + Positions 1/2/3; 2017 carried Positions 4/5/6/7. Confirmed 7 council seats plus a directly elected mayor, 4-year staggered numbered at-large positions."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "Fetched 2015, 2021, 2023, 2025 Island County pages. All six cycles 2015-2025 sourced from the state portal; zero escalation needed on the election record. Noted immediately that Position 4 appeared on BOTH the 2023 and 2025 ballots, flagging a mid-term vacancy before any search was run."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 14,
+   "searches": 13,
+   "detail": "Found and dated all FOUR mid-term appointments. (1) Millie Goebel appointed to Position 7 Aug 2020 after Bill Larsen resigned 2020-05-15 on moving out of city limits. (2) Eric Marshall appointed to Position 3 2022-02-23 after Jeffrey Mack resigned 2021-12-30, on a 4-2 vote over Ronnie Wright. (3) Chris Wiegenstein appointed to Position 4 2023-05-24 after Dan Evans resigned 2023-04-05. (4) James Marrow appointed to Position 5 2024-12-17 after Shane Hoffmire resigned effective 2024-11-30. Also verified two clean exits that could have looked like vacancies: Beth Munns completed her term to 2023-12-31 after 16 years, and Jim Woessner completed his term to 2025-12-31 having declined to run again."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Seat-count sanity: 7 council positions + mayor holds in every year. Independent cross-check: fetched https://oakharbor.gov/466/City-Council and the live 2026 roster (Wright mayor; Hizon P1, Wiegenstein P2, Marshall P3, Armes P4, Marrow P5, Peterson P6, Stucky P7) matches the roster reconstructed purely from election results plus appointments, confirming every seat label independently. VERBATIM CHECK caught TWO fabrications by the page-summarizing layer: one search summary asserted 'Alison Perera was appointed to the Position 4 seat' and that 'Perera was ahead of David Ford with 61%' when the official county result was Armes 1,982 vs Chaszar 1,790 - neither Perera nor Ford appear anywhere in Oak Harbor's record; a second summary reported Position 4 vote totals of 1,736/1,563 against the official 1,982/1,790. Both were discarded and the underlying claims re-sourced."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Wrote a placeholder immediately after the cycle calendar, then the full file. All 64 seat-years (8 seats x 8 years, 2019-2026) are covered by a tenure row or an explicitly-reasoned vacancy row."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 21,
+   "searches": 8,
+   "detail": "mayor pro tem backfill. TITLE ESTABLISHED FROM SOURCE: the office is 'Mayor Pro Tempore', abbreviated 'Mayor Pro Tem' in the city's own roll calls; not deputy mayor and not council president. Used seat_label 'Mayor Pro Tem' for all rows. CADENCE ESTABLISHED FROM SOURCE, not assumed: the 2026-01-06 minutes state verbatim that 'traditionally, the City Council selects a Mayor Pro Tempore at the first regular Council meeting of even-numbered years' - BIENNIAL, not annual - and the 2024-01-02 minutes say the same. The 2022-08-03 minutes record the office being reviewed off-cadence under RCW 35A.12.065 ('Periodic Review of the Mayor Pro Tempore by the City Council'). HOLDERS: Beth Munns from 2018-01-02 (Whidbey News-Times, 5-2 vote) until 2022-08-03; Tara Hizon from 2022-08-03 to present, re-selected unanimously 2024-01-02 and 2026-01-06. OFF-CADENCE TRANSITION VERIFIED, NOT INTERPOLATED: at the 2022-08-03 regular meeting Munns was still Mayor Pro Tem at roll call; Council then took up the review item, a first motion nominating Hizon drew 3 in favor / 2 opposed / 2 abstaining and Mayor Severns ruled it failed, and on a second motion nominating both Hizon and Woessner the vote was Hizon 4 (Hizon, Hoffmire, Stucky, Munns) to Woessner 2 (Evans, Woessner), whereupon Severns announced Hizon elected. Confirmed downstream: the 2022-08-16 minutes show 'Mayor Pro Tem Tara Hizon' calling the meeting to order and 'Councilmember Beth Munns' with no title. DATE DISCREPANCY NOTED: the city's own later minutes (2024-01-02 and 2026-01-06) both say Hizon 'has served as Mayor Pro Tempore since August 5, 2022', but the contemporaneous primary record of the vote is the Regular Meeting of August 3, 2022; 2022-08-03 is used here. NO EFFECT FROM THE FOUR MID-TERM COUNCIL APPOINTMENTS: Goebel (2020), Marshall (2022), Wiegenstein (2023) and Marrow (2024) never held this office, and none of the four vacancies coincided with a change in it - checked against roll calls in the 2021-01-19, 2022-01-04, 2022-08-03, 2022-08-16, 2024-01-02 and 2026-01-06 minutes. NOTE the 2022-01-04 minutes show NO 'Selection of Mayor Pro Tempore' agenda item despite 2022 being an even year - Munns simply carried over - which is why the August 2022 action happened off-cadence. VERBATIM CHECK: every oakharbor.gov minutes PDF was downloaded with curl and read with 'pdftotext -layout' rather than trusted to the page summarizer. Two summarizer errors were caught and discarded this way: one asserted the Munns-to-Hizon vote was '3-0, with four abstentions' (the record says 3 in favor, 2 opposed, 2 abstaining), and one asserted the 2022 change happened at a 'Wednesday' meeting on an unstated date. The AgendaCenter Search endpoint IS reachable by curl even though year-filtered AgendaCenter browse URLs are robots-blocked; it was used to enumerate minutes ids. GAP: 2019 and 2020 have no directly dated record - see gaps."
+  }
+ ],
+ "totals": {
+  "tool_calls": 55,
+  "searches": 21
+ }
+}
