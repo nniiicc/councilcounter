@@ -1,0 +1,572 @@
+{
+ "city_id": 63,
+ "city": "Westmoreland town",
+ "state": "Tennessee",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 6,
+  "seat_scheme": "at-large",
+  "term_length": 4,
+  "stagger_pattern": "Board of Mayor and Aldermen: a mayor plus five aldermen, all elected at-large to 4-year terms, staggered so that an election falls every two years (Charter Sec. 3: 'the regular November general election held every two (2) years thereafter for the purpose of electing a mayor and aldermen when the terms of such offices are expiring'). Class of 3 aldermen: 2016, 2020, 2024. Class of mayor + 2 aldermen: 2018, 2022, 2026. Winners are installed on December 1 following the election, 'unless the same shall fall on Sunday, and then on the first day thereafter' (Charter Sec. 4) - so Dec 1 2016 (Thu), Dec 1 2018 (Sat), Dec 1 2020 (Tue), Dec 1 2022 (Thu), and Dec 2 2024 (because Dec 1 2024 was a Sunday). Charter Sec. 12: an alderman vacancy is filled by council appointment 'until the next regular election', and any remainder beyond that election goes to the voters as an unexpired term. Charter Sec. 13: the aldermen choose a vice mayor from their membership at the first meeting after each biennial election; on a vacancy in the mayoralty the vice mayor becomes mayor and his own alderman seat thereupon becomes vacant.",
+  "mayor_selection": "elected",
+  "election_month": "November (even years)",
+  "profile_source_url": "https://westmorelandtn.gov/wp-content/uploads/2021/09/2021-Charter-MTAS-Copy.pdf"
+ },
+ "cycles": [
+  {
+   "election_date": "2016-11-08",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5a9f08b74302a80644ebf47d7f5794daa70d1091.pdf"
+  },
+  {
+   "election_date": "2018-11-06",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://www.votesumnertn.org/uploads/files/final-results-nov-2018.pdf"
+  },
+  {
+   "election_date": "2020-11-03",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://www.votesumnertn.org/uploads/files/f615fb019af4a7fc4e19e8e1002c994fb3cf839a.pdf"
+  },
+  {
+   "election_date": "2022-11-08",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf"
+  },
+  {
+   "election_date": "2024-11-05",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://www.votesumnertn.org/uploads/files/218d986b1f581650db0054e6163b872908face32.pdf"
+  },
+  {
+   "election_date": "2026-11-03",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://mtas.tennessee.edu/directories/cities/westmoreland"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Jerry D. Kirkman",
+   "name_variants": [
+    "Jerry D. Kirkman",
+    "Jerry Kirkman",
+    "Mayor Kirkman"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-12-01",
+   "end_date": "2021-10-04",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.votesumnertn.org/uploads/files/final-results-nov-2018.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "James Brian Smalling",
+   "name_variants": [
+    "James Brian Smalling",
+    "Brian Smalling",
+    "James Smalling"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2021-10-04",
+   "end_date": "2022-12-01",
+   "entry_mode": "succeeded",
+   "exit_mode": "defeated",
+   "source_url": "https://ttc.tml1.org/2022/11/09/elections-held-more-200-municipalities-statewide",
+   "retrieval_method": "trade_press",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "David Leath",
+   "name_variants": [
+    "David Leath",
+    "David A Leath"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-12-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "David Leath",
+   "name_variants": [
+    "David Leath",
+    "David A Leath"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large A",
+   "role": "alderman",
+   "start_date": "2016-12-01",
+   "end_date": "2020-12-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5a9f08b74302a80644ebf47d7f5794daa70d1091.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2016-11-08"
+  },
+  {
+   "person": "David Leath",
+   "name_variants": [
+    "David Leath",
+    "David A Leath"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large A",
+   "role": "alderman",
+   "start_date": "2020-12-01",
+   "end_date": "2022-12-01",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.votesumnertn.org/uploads/files/f615fb019af4a7fc4e19e8e1002c994fb3cf839a.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Obern E. Staples",
+   "name_variants": [
+    "Obern E. Staples",
+    "Obern Staples"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large A",
+   "role": "alderman",
+   "start_date": "2023-01-19",
+   "end_date": "2024-12-02",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/11c288ba4ff808fa9d9f31b3648c1e1ec6b41052.pdf",
+   "retrieval_method": "municipal_league",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Obern E. Staples",
+   "name_variants": [
+    "Obern E. Staples",
+    "Obern Staples"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large A",
+   "role": "alderman",
+   "start_date": "2024-12-02",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.votesumnertn.org/uploads/files/218d986b1f581650db0054e6163b872908face32.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Tony W. Bentle",
+   "name_variants": [
+    "Tony W. Bentle",
+    "Tony Bentle"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large B",
+   "role": "alderman",
+   "start_date": "2016-12-01",
+   "end_date": "2020-12-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5a9f08b74302a80644ebf47d7f5794daa70d1091.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2016-11-08"
+  },
+  {
+   "person": "James Brian Smalling",
+   "name_variants": [
+    "James Brian Smalling",
+    "Brian Smalling"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large B",
+   "role": "alderman",
+   "start_date": "2020-12-01",
+   "end_date": "2021-10-04",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.votesumnertn.org/uploads/files/f615fb019af4a7fc4e19e8e1002c994fb3cf839a.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Cameron Calvert",
+   "name_variants": [
+    "Cameron Calvert"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large B",
+   "role": "alderman",
+   "start_date": "2021-10-04",
+   "end_date": "2022-12-01",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/11c288ba4ff808fa9d9f31b3648c1e1ec6b41052.pdf",
+   "retrieval_method": "municipal_league",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Cameron Calvert",
+   "name_variants": [
+    "Cameron Calvert"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large B",
+   "role": "alderman",
+   "start_date": "2022-12-01",
+   "end_date": "2024-12-02",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Cameron Calvert",
+   "name_variants": [
+    "Cameron Calvert"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large B",
+   "role": "alderman",
+   "start_date": "2024-12-02",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.votesumnertn.org/uploads/files/218d986b1f581650db0054e6163b872908face32.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Fredia Carter",
+   "name_variants": [
+    "Fredia Carter"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large C",
+   "role": "alderman",
+   "start_date": "2016-12-01",
+   "end_date": "2020-12-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5a9f08b74302a80644ebf47d7f5794daa70d1091.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2016-11-08"
+  },
+  {
+   "person": "Felicia Ann Head",
+   "name_variants": [
+    "Felicia Ann Head",
+    "Feticia Ann Head (OCR artifact)"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large C",
+   "role": "alderman",
+   "start_date": "2020-12-01",
+   "end_date": "2021-11-16",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.votesumnertn.org/uploads/files/f615fb019af4a7fc4e19e8e1002c994fb3cf839a.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "medium",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Alex Jones",
+   "name_variants": [
+    "Alex Jones",
+    "Alexander Jones"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large C",
+   "role": "alderman",
+   "start_date": "2021-11-16",
+   "end_date": "2022-12-01",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://westmorelandtn.gov/city-council-vacancy-2/",
+   "retrieval_method": "public_notice",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Alex Jones",
+   "name_variants": [
+    "Alex Jones",
+    "Alexander Jones"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large C",
+   "role": "alderman",
+   "start_date": "2022-12-01",
+   "end_date": "2024-12-02",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Alex Jones",
+   "name_variants": [
+    "Alex Jones",
+    "Alexander Jones"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large C",
+   "role": "alderman",
+   "start_date": "2024-12-02",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.votesumnertn.org/uploads/files/218d986b1f581650db0054e6163b872908face32.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Douglas Brown",
+   "name_variants": [
+    "Douglas Brown",
+    "Doug Brown"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large D",
+   "role": "alderman",
+   "start_date": "2018-12-01",
+   "end_date": "2022-12-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/final-results-nov-2018.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Douglas Brown",
+   "name_variants": [
+    "Douglas Brown",
+    "Doug Brown"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large D",
+   "role": "alderman",
+   "start_date": "2022-12-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Chandra Wilkerson",
+   "name_variants": [
+    "Chandra Wilkerson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large E",
+   "role": "alderman",
+   "start_date": "2018-12-01",
+   "end_date": "2022-12-01",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/final-results-nov-2018.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Adam Borders",
+   "name_variants": [
+    "Adam Borders"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Alderman At-Large E",
+   "role": "alderman",
+   "start_date": "2022-12-01",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.votesumnertn.org/uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Fredia Carter",
+   "name_variants": [
+    "Fredia Carter",
+    "Vice-Mayor Carter"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2018-12-06",
+   "end_date": "2020-12-01",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://westmorelandtn.gov/wp-content/uploads/2019/11/Oct_17_to_Dec_18_Minutes.pdf",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "James Brian Smalling",
+   "name_variants": [
+    "James Brian Smalling",
+    "Brian Smalling"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2020-12-01",
+   "end_date": "2021-10-04",
+   "entry_mode": "appointed",
+   "exit_mode": "elevated",
+   "source_url": "https://westmorelandtn.gov/wp-content/uploads/2021/09/2021-Charter-MTAS-Copy.pdf",
+   "retrieval_method": "other",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Douglas Brown",
+   "name_variants": [
+    "Douglas Brown",
+    "Doug Brown"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2022-12-01",
+   "end_date": "2024-12-02",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.votesumnertn.org/uploads/files/11c288ba4ff808fa9d9f31b3648c1e1ec6b41052.pdf",
+   "retrieval_method": "municipal_league",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Douglas Brown",
+   "name_variants": [
+    "Douglas Brown",
+    "Doug Brown"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2024-12-02",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://westmorelandtn.gov/city-government/",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "Read agent-brief.md and the state-registry Tennessee + cross-state sections. Registry facts re-tested here: (1) 'Westmoreland Nov/even' is CORRECT - confirmed verbatim from the city's own 1951 Private Act charter, Sec. 3. (2) 'Sumner was the ONE Tennessee county election commission that failed to fetch' is WRONG as of 2026-08-17 - the commission does not live on the county domain at all. sumnertn.org/departments/election-commission 404s, but the real host is www.votesumnertn.org, which returns HTTP 200 to plain curl with a browser UA and serves a complete municipal results archive back to 2007. This was the single most productive source in the run. (3) mtas.tennessee.edu/directories/cities/westmoreland fetched cleanly and gave the current roster plus 'Next Election 11-03-2026' - and unlike the Memphis case noted in the registry, that date is consistent with the charter cycle."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "Charter Sec. 3 fixes elections at the November general every two years, electing 'a mayor and aldermen when the terms of such offices are expiring', all to four-year terms. Sec. 4 fixes installation at December 1 following, moved to the next day only if Dec 1 is a Sunday - which happened exactly once in this window (Dec 1 2024 was a Sunday, so the 2024 class was installed 2024-12-02). Working backwards from the observed ballots: a class of THREE aldermen in 2016/2020/2024 and a class of MAYOR + TWO aldermen in 2018/2022/2026. Body size constant at 6 (mayor + 5 aldermen) across the whole panel, confirmed independently by the city's own text ('composed of a mayor and five aldermen'), by MTAS, and by the Sumner County officials roster. Because the panel opens in 2019, the 2016 cycle had to be retrieved as well - its winners held seats through 2020-12-01. The 2026 cycle (2026-11-03) had NOT yet been held at the time of research (2026-08-17), so every 2026 seat-year is held by the sitting incumbent."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 14,
+   "searches": 2,
+   "detail": "PRIMARY ROUTE ACTUALLY USED: Rung 1/2 - the Sumner County Election Commission (www.votesumnertn.org), not the Tennessee Town & City route the brief predicted. TTC was tried first and did work in part, but it is incomplete for this town: the 2022 and 2024 statewide roundups (ttc.tml1.org/2022/11/09/... and /2024/11/08/...) carry full verbatim Westmoreland paragraphs, and the 2020 roundup is inside the PDF issue nov_23_2020.pdf - but that PDF's Westmoreland block lists only FIVE of the SEVEN candidates who actually ran, omitting James Brian Smalling, who WON. Relying on TTC alone would have seated the wrong three aldermen for 2020-2024 and made the 2022 unexpired-term races unexplainable. TTC also has no Nov 2018 issue at all: the /tennessee-town-city-issues index (353 PDFs, 2006 onward, NOT paginated - ?page=N returns identical content) jumps from ttc_may_14_2018.pdf to ttc_jan_14_2019.pdf, so August-December 2018 is simply absent from the archive. Guessed filenames (november-2018.pdf, nov-2018.pdf, etc.) all 404. The county commission closed every cycle instead: /november-general-and-city-elections/ links one summary PDF per general election back to 2007. Verified URLs used: 2016 = /uploads/files/5a9f08b74302a80644ebf47d7f5794daa70d1091.pdf, 2018 = /uploads/files/final-results-nov-2018.pdf, 2020 = /uploads/files/f615fb019af4a7fc4e19e8e1002c994fb3cf839a.pdf, 2022 = /uploads/files/5fcceae60b7fb38fae504b2191ac84b39e2271e6.pdf, 2024 = /uploads/files/218d986b1f581650db0054e6163b872908face32.pdf. ALL FIVE ARE IMAGE-ONLY SCANS - pdftotext returned 4-10 bytes each. Recovered with pdftoppm -r 300 -png followed by tesseract; the tabular canvass layout came out cleanly readable and every name and vote total below was read off the OCR text directly, not from any summary. The 2016 file is a bonus: besides the machine canvass it contains the commission's typed 'HISTORY OF ELECTIONS FOR THE CITY OF WESTMORELAND' page, which independently confirms 'ALDERMAN (FOUR YEAR TERM, VOTE FOR THREE)' and stars the three winners - a second, cleaner source for that cycle. Verbatim results: 2016-11-08 (vote for 3) *Tony W. Bentle 475, *David Leath 426, *Fredia Carter 363, Sawicki 295, Cline 290, Moss 160. 2018-11-06 Mayor: Jerry D. Kirkman 454 (62.88%) def. Fredia Carter 267 (36.98%); Alderman At-Lg (vote for 2): Chandra Wilkerson 350, Douglas Brown 312, James Brian Smalling 297, Patricia Hawkes 128, Jami Lynn Duff 99, Gregg Carr 66. 2020-11-03 Alderman (vote for 3): David Leath 414, James Brian Smalling 384, Felicia Ann Head 341, Alexander Jones 296, Edwin Robertson 294, Ricky R. Cline 276, Jenn Napier 73. 2022-11-08 Mayor: David Leath 309, James Brian Smalling 128, Billy 'Marty' Cothron Jr. 107; 'Alderman - Westmoreland' (vote for 2): Adam Borders 390, Doug Brown 390; 'Alderman - Westmoreland Unexp' (vote for 2): Alex Jones 384, Cameron Calvert 379. 2024-11-05 Alderman (vote for 3): Cameron Calvert 590, Alex Jones 541, Obern E. Staples 412. The 2022/2024 county figures match the TTC article text name-for-name and vote-for-vote, which cross-validates the OCR."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 5,
+   "outcome": "success",
+   "tool_calls": 9,
+   "searches": 4,
+   "detail": "MANDATORY mid-term check run, and it was decisive - the election record alone is internally contradictory without it. THE STRUCTURAL TELL: the 2022 ballot carried a separate race literally labelled 'Alderman - Westmoreland Unexp', vote for 2, won by two people TTC calls 'incumbents' (Jones and Calvert) who had never appeared on any prior ballot as winners. Unexpired terms can only exist for the 2020-2024 class, and Leath demonstrably still held his own 2020-class seat (TTC calls him 'Alderman David Leath' when he ran for mayor in Nov 2022) - so the two vacated 2020-class seats must be Smalling's and Head's. Charter Sec. 13 then explains Smalling's: 'whenever a vacancy occurs in the office of mayor the vice mayor shall become mayor... Upon assuming the duties as mayor, the vice mayor's office as alderman shall thereupon become vacant.' Smalling was elected ALDERMAN in Nov 2020 yet is the sitting MAYOR by Nov 2022, and Kirkman (elected mayor Nov 2018 to a term running to Dec 2022) is gone - so Kirkman vacated mid-term and Smalling, as vice mayor, succeeded him, vacating his own alderman seat. DATING came from the city's WordPress REST API (westmorelandtn.gov/wp-json/wp/v2/posts), which exposes three dated 'City Council Vacancy' notices that the rendered pages do not surface: 2021-10-04, 2021-11-16, and 2022-11-17. The first two are the Smalling and Head vacancies (both quote Charter Sec. 12 verbatim); I could not determine which notice belongs to which seat, so the two 2021 dates are assigned in filing order and both tenures carry the uncertainty. Either way both changes fall in calendar 2021, so no seat-year attribution changes. The third notice (2022-11-17) is Leath's alderman seat, vacated when he was installed as mayor on 2022-12-01: 'Any citizen wishing to fill the vacant position until the November 2024 election should submit a letter of interest to City Hall. Candidates will be interviewed at the January 5, 2023 Work Study. Vote will take place at the January 19, 2023 Council Meeting.' Both dates check out as Thursdays. The appointee is Obern E. Staples, per the Sumner County officials roster (Rev 6/18/24) listing him as 'Alderman (2020-2024) (appointed until 2024)' - the 2020-2024 class being exactly Leath's - and per TTC calling him an incumbent in Nov 2024. FIVE mid-term changes total: Kirkman out / Smalling up (2021), Smalling's alderman seat to Calvert (2021), Head out / Jones appointed (2021), Leath's alderman seat vacant 2022-12-01 and filled by Staples 2023-01-19. Attempts that FAILED to pin Kirkman's exact departure date: WebSearch for an obituary or resignation story (a Facebook post headed 'Westmoreland Mayor Jerry Kirkman announced his...' surfaced but Facebook returns no og:description to curl); mainstreetmediatn.com and sumnercountysource.com both fetch fine by curl with ?s= site search but neither covers Westmoreland - their Sumner titles are Gallatin, Hendersonville and Portland, and relevance ranking returned nothing on point; the city posts no council minutes after Dec 2018."
+  },
+  {
+   "step": "escalation",
+   "rung": 6,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 1,
+   "detail": "Rung 6 (minutes roll call) settled the panel's opening year and the presiding-officer question. The brief warned that the town's own archive covers only Nov 2016 - Dec 2018 and is therefore 'precisely backwards' for this panel. That turned out to be exactly wrong in the one way that mattered: the last document in it, Oct_17_to_Dec_18_Minutes.pdf, records a SPECIAL CALL MEETING on Thursday, December 6, 2018 'for the purpose of appointing a Vice Mayor', four days after the 2018 class was installed. Its roll call is the complete January 2019 body: 'Mayor Kirkman-present, Councilmembers Tony Bentle-present, Doug Brown-present, Fredia Carter-present, Chandra Wilkerson-present, and David Leath-present', and it closes 'Fredia Carter appointed Vice Mayor.' Dec 6 2018 was indeed a Thursday. That single document independently corroborates the 2016 and 2018 canvasses and dates the vice mayoralty. Rung 3 equivalent also hit: a Sumner County Election Commission officials roster, 'WESTMORELAND CITY OFFICIALS' (Rev 6/18/24), which is a filing-period incumbent list of exactly the kind the brief flags as the best small-town source - it carries a Remarks column giving appointment status. Verbatim: 'David A Leath Alderman/Mayor (2022-2026)', 'Douglas Brown Alderman/Vice-Mayor (2022-2026)', 'Adam Borders Alderman (2022-2026)', 'Cameron Calvert Alderman (2020-2024) (appointed until 2024)', 'Obern Staples Alderman (2020-2024) (appointed until 2024)', 'Alexander Jones Alderman (2020-2024) (elected unexpired 2yr term 2022-2024)'. Note one internal inconsistency in that document, left unresolved: it marks Calvert as merely 'appointed' when the Nov 2022 canvass shows he won an unexpired-term seat outright alongside Jones. The canvass is the stronger source and is what the tenure rows follow; the roster remark is read as a stale note from his original 2021 appointment. Rungs NOT needed and not spent: state portal (sos.tn.gov / elections.tn.gov are 403 on every path per the registry), ACFR/audit (a WebSearch for a Westmoreland audit returned only the Comptroller's generic landing pages - Tennessee municipal audits are done by private CPA firms and are not published in a per-city index, so the cross-state 'audit reports' finding does not reach a town this size)."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Day-of-week checks all pass: every election date used is a Tuesday (2016-11-08, 2018-11-06, 2020-11-03, 2022-11-08, 2024-11-05); the Dec 6 2018 vice-mayor meeting was a Thursday as the minutes state; Dec 1 2024 was a Sunday, which is why the 2024 class installs 2024-12-02 under Charter Sec. 4 rather than 2024-12-01. Seat-count sanity: 6 elective offices in every year, matching 'a mayor and five aldermen'; the 2016+2020+2024 class of 3 plus the 2018+2022+2026 class of 2 sums to 5 aldermen with no year in which more or fewer seats appear. Continuity check: Alex Jones appears on three consecutive ballots (2020 lost, 2022 won unexpired, 2024 won full) - this is NOT a missed appointment but a genuine sequence, and it is the reason the TTC-only reading fails, since TTC's truncated 2020 list made Jones look like a 2020 winner. Homonym check: no surname collisions in this body; note the 2024 TTC roundup contains a Johnson City candidate surnamed 'Westmoreland', which is a query trap, not this town. SEAT LABELS ARE A CONSTRUCT: Westmoreland aldermen are elected at-large with no wards, posts or position numbers, so seats A-E are an analyst's labelling, assigned to preserve term-class continuity (A/B/C = the 2016-2020-2024 class, D/E = the 2018-2022-2026 class). Within the 2021 pair of vacancies the assignment of Calvert to seat B and Jones to seat C is arbitrary - the two appointments are securely established but which appointee replaced Smalling and which replaced Head is not, and no legal seat identity exists to get wrong. CAVEATS that are NOT gaps (per the brief, filed here rather than as gap rows): (1) Kirkman's exit and Smalling's accession are dated 2021-10-04 from the first vacancy notice, but the true date could be up to six weeks later if that notice was Head's seat rather than Smalling's - both possibilities lie in calendar 2021 and no seat-year changes either way. (2) Seat A was lawfully VACANT from 2022-12-01 to the 2023-01-19 appointment vote, roughly seven weeks; the 2023 seat-year is otherwise held by Staples, so no vacancy gap row is filed. (3) The Vice Mayor holder between Smalling's accession in late 2021 and the 2022-12-01 reorganization could not be established - the city publishes no minutes after 2018 - so roughly eleven months of that office is unattributed; the 2022 seat-year is nonetheless covered by Doug Brown's row from 2022-12-01, so no gap row is filed against it either. (4) Brown's vice mayoralty is confirmed by document only as of 6/18/24 and currently; its 2022-12-01 start is inferred from Charter Sec. 13's biennial selection rule and is therefore carried at low confidence."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "56 seat-years covered (6 offices plus the Vice Mayor seat, 2019-2026), 0 in gaps, 0 known-vacant seat-years. 25 tenure rows (15 high, 6 medium, 4 low). 2026 is a live year: the 2026-11-03 election had not been held at the time of research, so all 2026 rows are the sitting incumbents and the three seats expiring 2026-12-01 (Mayor, Alderman D, Alderman E) are recorded as ongoing rather than term-ended."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": null,
+   "searches": null,
+   "detail": "exit_mode='elevated': vacated this seat by taking another office (charter succession to the mayoralty), not by voluntary departure. The office moved INTO carries entry_mode='succeeded'. Recorded as 'resigned' on first ingest before the enum carried 'elevated'; corrected 2026-08-17."
+  }
+ ],
+ "totals": {
+  "tool_calls": 48,
+  "searches": 8
+ }
+}

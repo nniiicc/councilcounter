@@ -1,0 +1,326 @@
+{
+  "city_id": 16,
+  "city": "Cookeville city",
+  "state": "Tennessee",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "NOT staggered. All five at-large council seats are elected concurrently every four years (2018, 2022, 2026) on the August ballot, as a single 'VOTE FOR 5' contest. Verified against the Putnam County Election Commission summary reports: Cookeville council races appear on the 2018-08-02, 2022-08-04 and 2026-08-06 ballots and are ABSENT from the 2020-08-06 and 2024-08-01 ballots (which carry Algood, Baxter and Monterey municipal races but no Cookeville contest). 2019-2021, 2023-2025 are therefore holdover years with no Cookeville city election at all - a structural fact, not a gap.",
+    "mayor_selection": "council-selected",
+    "election_month": "August of even years, quadrennial (2018, 2022, 2026)",
+    "profile_source_url": "https://putnamcountytn.gov/electionresults/2022-08/"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-08-02",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://putnamcountytn.gov/electionresults/2018-08/"
+    },
+    {
+      "election_date": "2022-08-04",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://putnamcountytn.gov/electionresults/2022-08/"
+    },
+    {
+      "election_date": "2026-08-06",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://putnamcountytn.gov/electionresults/2026-08/"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Ricky Shelton",
+      "name_variants": ["Ricky Shelton", "Mayor Shelton"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://putnamcountytn.gov/electionresults/2018-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Ricky Shelton",
+      "name_variants": ["Ricky Shelton", "Mayor Shelton"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cookeville-tn.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01012020-383",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Laurin Wheaton",
+      "name_variants": ["Laurin Wheaton", "Vice-Mayor Wheaton", "Mayor Wheaton"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://putnamcountytn.gov/electionresults/2018-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Laurin Wheaton",
+      "name_variants": ["Laurin Wheaton", "Vice-Mayor Wheaton"],
+      "first_name_sourced": 1,
+      "seat_label": "Vice-Mayor",
+      "role": "vice_mayor",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cookeville-tn.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01012020-383",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Mark Miller",
+      "name_variants": ["Mark Miller", "Councilman Miller"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://putnamcountytn.gov/electionresults/2018-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Eric Walker",
+      "name_variants": ["Eric Walker", "Councilman Walker"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://putnamcountytn.gov/electionresults/2018-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Charles T. Womack",
+      "name_variants": ["Charles T. Womack", "Charles Womack", "Councilman Womack"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-09-06",
+      "end_date": "2022-09-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://putnamcountytn.gov/electionresults/2018-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-02"
+    },
+    {
+      "person": "Laurin Wheaton",
+      "name_variants": ["Laurin Wheaton", "Mayor Wheaton"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://putnamcountytn.gov/electionresults/2022-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    },
+    {
+      "person": "Laurin Wheaton",
+      "name_variants": ["Laurin Wheaton", "Mayor Wheaton"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cookeville-tn.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01012020-388",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    },
+    {
+      "person": "Luke Eldridge",
+      "name_variants": ["Luke Eldridge", "Vice-Mayor Eldridge"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://putnamcountytn.gov/electionresults/2022-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    },
+    {
+      "person": "Luke Eldridge",
+      "name_variants": ["Luke Eldridge", "Vice-Mayor Eldridge"],
+      "first_name_sourced": 1,
+      "seat_label": "Vice-Mayor",
+      "role": "vice_mayor",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cookeville-tn.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01012020-388",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    },
+    {
+      "person": "Eric Walker",
+      "name_variants": ["Eric Walker", "Councilman Walker"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://putnamcountytn.gov/electionresults/2022-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    },
+    {
+      "person": "Ali C. Bagci",
+      "name_variants": ["Ali C. Bagci", "Ali Bagci", "Councilman Bagci"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://putnamcountytn.gov/electionresults/2022-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    },
+    {
+      "person": "Chad Gilbert",
+      "name_variants": ["Chad Gilbert", "Councilman Gilbert"],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2022-09-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://putnamcountytn.gov/electionresults/2022-08/",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-04"
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Registry entries confirmed: (a) TN state hosts irrelevant here - never touched sos.tn.gov/elections.tn.gov; (b) Putnam County Election Commission fetches cleanly by curl, and the working pattern is https://putnamcountytn.gov/electionresults/{YYYY}-{MM}/ (the year-month index path was discovered from a single href on the county home page; the /electionresults/ root itself 403s). Server-rendered HTML summary reports, all municipal contests included. (c) mtas.tennessee.edu/directories/cities/cookeville fetched fine and gave the current roster plus 'Next Election 08-06-2026', confirming the August/even calendar - but as the registry warns it carries no term dates."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry said 'Cookeville Aug/even', implying 2018/2020/2022/2024/2026. That is only half right and the correction matters: Cookeville is QUADRENNIAL. The Putnam County summary reports for 2018-08-02, 2022-08-04 and 2026-08-06 each carry a single 'City Council City of Cookeville / Councilman-City Of Cookeville' contest marked VOTE FOR 5; the 2020-08-06 and 2024-08-01 reports carry Algood, Baxter and Monterey municipal races but NO Cookeville contest. All five at-large seats therefore turn over together every four years and 2019-2021, 2023-2025 are holdover years."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "2018 (VOTE FOR 5): Shelton 3805, Wheaton 2904, Miller 2740, Walker 2691, Womack 2612 elected; Henry 2538 and Crabtree 1620 lost. 2022 (VOTE FOR 5): Wheaton 2433, Eldridge 1811, Walker 1747, Bagci 1642, Gilbert 1587 elected; incumbent Mark Miller 1397 finished 6th and was defeated, and Shelton and Womack did not appear on the ballot. 2026 (VOTE FOR 5): Gilbert 3269, Eldridge 3173, Cigi England 2770, Bagci 2654, Kelly McCorkle Parkison 2508 elected; Wheaton and Walker were not candidates. NOTE the '(I)' prefix on every 2026 name is a party/independent label, not an incumbency marker - it appears on candidates who have never held office."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 0,
+      "detail": "AgendaCenter technique confirmed on cookeville-tn.gov and worth recording precisely. /AgendaCenter/ViewFile/ArchivedMinutes/_MMDDYYYY-{N} serves PDFs to plain curl and the date segment IS cosmetic - every document below was pulled with the literal segment _01012020. But the integer space is NOT chronological here: it interleaves City Council, Planning Commission, BZA and Historic Zoning documents from 2006 to 2026 in upload order, is sparse (roughly half of ids 1-700 return 404), and ids 1-13 and 626-637 return the AgendaCenter HTML page rather than a PDF. A full sweep of ids 1-700 with local pdftotext extraction produced ~30 dated City Council roll calls. Current-year meetings use a different type segment and a different id space: /AgendaCenter/ViewFile/Minutes/_07162026-799."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "About a third of the archived council minutes are image-only Canon scans that pdftotext returns empty. OCR path used: pdftoppm -r 200 -f 1 -l 1 -png, then tesseract <png> - --psm 4 -c preserve_interword_spaces=1. IMPORTANT LOCAL QUIRK: some of these scans are fed upside-down and need `sips -r 180` before OCR, while others are correctly oriented and are DESTROYED by that rotation (output comes back mirrored - 'ssaulsng ON' for 'No Business'). Try both orientations and keep the readable one. This recovered the two decisive documents: id 383 = August 18, 2022 (old council) and id 388 = September 1, 2022 (new council), which date the handover exactly."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "MANDATORY check run and the answer is genuinely negative: ZERO mid-term changes 2019-2026. Roll calls were read at 2020-04-02, 2020-05-21, 2020-06-18, 2020-10-01, 2021-01-21, 2021-06-03, 2021-06-10, 2021-06-17, 2021-06-25, 2021-07-01, 2021-08-05, 2022-02 (id 369), 2022-08-18 - all Shelton/Wheaton/Miller/Walker/Womack with Shelton mayor and Wheaton vice-mayor; and 2022-09-01, 2023-05-18, 2023-06-01, 2023-07-20, 2023-10-05, 2023-11-16, 2023-12-07, 2024-02-01, 2024-03-21, 2024-04-04, 2024-06-06, 2025-04-17, 2025-05-15, 2025-06-05, 2025-06-19, 2025-07-17, 2025-09-18, 2025-10-02, 2025-12-18, 2026-01-15, 2026-05-07, 2026-05-21, 2026-07-16 - all Wheaton(mayor)/Eldridge(vice-mayor)/Bagci/Gilbert/Walker. No appointment, resignation, death or vacancy appears anywhere in the window, and the structural tell (an off-cycle race or a seat on two consecutive ballots) is absent because there were no intervening ballots at all."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "Mayor determination handled as the city block demanded: Cookeville is council-manager, the mayor and vice-mayor are internal offices never on the ballot, and the election record alone would have made Shelton (top vote-getter 2018) and Wheaton (top vote-getter 2022) look like elected mayors by coincidence. They are in fact the council's choices - sourced from the roll-call titles in minutes on both sides of the 2022-09-01 organizational meeting. Day-of-week checks: 2018-08-02, 2022-08-04, 2026-08-06 are all Thursdays (TN August election day); 2022-08-18, 2022-09-01 and 2026-07-16 are Thursdays, matching the council's 1st/3rd-Thursday schedule. Two OCR/scan date traps caught and discarded: cached header dates '2028-07-01' (id 292) and '2024-07-31' (id 299) are misreads of 2021 documents whose bodies read June 25, 2021 and August 5, 2021 - the roll calls in both are roster A, which is internally consistent."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "not_found",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CAVEATS, filed here rather than as gaps. (1) No City Council roll call dated in calendar 2019 survives in the archive - the surviving 2019 documents are Board of Zoning Appeals (id 126, 2019-09-12) and planning items. The 2019 seat-years are nevertheless sourced by the 2018 county canvass (a fixed four-year term with no intervening election) and bracketed by roll calls before and after; council seats are recorded high, and the Mayor/Vice-Mayor rows for that stretch are recorded medium because an internal office could in principle have changed without an election. (2) Term-start boundary 2018-09-06 is INFERRED from the observed 2022 pattern (new council seated at the first regular meeting in September, verified 2022-08-18 old / 2022-09-01 new); it falls outside the panel window and affects no seat-year. (3) The 2026 winners England and McCorkle Parkison get NO tenure rows: winning is not holding. The August 6, 2026 council meeting - held on election day - still shows the outgoing council, minutes for 2026-08-06 and 2026-08-13 are not yet posted (404), and no source yet shows the new members seated. On the 2022 precedent the seating meeting would be 2026-09-03, which is after this run. For the same reason Wheaton's and Walker's rows are left ongoing even though neither stood for re-election."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "Every seat-year 2019-2026 covered: 5 at-large council seat-years per year (40), plus Mayor (8) and Vice-Mayor (8) = 56 cells, zero gaps, zero known-vacant. Seat labels are undifferentiated 'At-Large' by design: all five seats are filled in one at-large VOTE FOR 5 contest with no positions, wards or numbering, so there is no seat identity to assign and inventing one would be fabrication."
+    }
+  ],
+  "totals": {
+    "tool_calls": 49,
+    "searches": 0
+  }
+}

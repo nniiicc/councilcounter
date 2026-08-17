@@ -100,7 +100,20 @@ Where a true ACFR exists it is the best roster source available, for two reasons
 rather than episodic**, giving a verbatim official snapshot for *every* panel year from one linked
 series; and it **names the presiding officer**, which election results structurally cannot.
 Diffing consecutive years' officials pages also dates council-size changes and
-mid-term replacements directly. Look under the city's finance department; ACFRs are often hosted
+mid-term replacements directly.
+
+**But the officials page is not infallible — three failure modes, all observed:**
+1. **Stale carry-over.** One FY2025 report still printed the *previous* year's council chair. A
+   contemporaneous council agenda named the real one. When an ACFR contradicts a dated primary
+   record, the primary record wins.
+2. **It is a snapshot, not a span.** Every page is as-of fiscal-year-end (commonly June 30), so a
+   member who left in the autumn still appears in that year's report — one FY2021 report showed a
+   mayor who had been gone for months. Never read it as a full-year roster.
+3. **Extraction quirks.** Filenames are inconsistent within a single series (`FYnn-Annual-Report`,
+   `FY23-ACFR`, `FY24-ACFR-Updated-version`, `Revised-FY25-COM-ACFR`) across several upload
+   directories, so **scrape the finance page for real hrefs rather than constructing them**; some
+   bare domains serve a small HTML challenge for PDFs where the `www.` host serves the file; and
+   some pages extract **with all spaces stripped**, which silently welds names together. Look under the city's finance department; ACFRs are often hosted
 **off-domain** (state repositories, EMMA/MSRB bond disclosure, the audit firm), so a robots block
 on the city domain need not reach them.
 
@@ -304,8 +317,29 @@ at-large council race); Portsmouth medium-confidence directly elected; Waynesbor
 ### Tennessee — MEDIUM-HIGH (prior notes partly wrong)
 
 **Correction: "county election commissions are frequently robots-blocked" is not supported.**
-Sullivan, Shelby and Putnam all fetched cleanly; only Sumner failed. The blocking is at the
+Shelby (`electionsshelbytn.gov`) and Putnam fetched cleanly. Two further corrections from live runs:
+**Sumner did not "fail" — it is on a different host entirely.** `sumnertn.org/departments/election-commission`
+404s; the real host is **`www.votesumnertn.org`**, HTTP 200 to plain curl with a browser UA, with a
+complete municipal archive back to 2007 at `/november-general-and-city-elections/` (one summary PDF
+per general). It was the single most productive source in that city's run. **All five of its summary
+PDFs are image-only scans** — use the OCR path. Conversely **Sullivan does NOT serve results**:
+`sullivancountytn.gov/departments/election-commission` and `/election-results` both 404 and
+`sullivanelections.com` redirects to a login wall. And Putnam's useful form is
+`putnamcountytn.gov/electionresults/{YYYY}-{MM}/` — the `/electionresults/` root itself 403s. The blocking is at the
 **state** level — `sos.tn.gov` and `elections.tn.gov` return **403 on every path**.
+
+**⚠ TENNESSEE TOWN & CITY IS INCOMPLETE, AND ITS OMISSIONS ARE SILENT (verified 2026-08-17).**
+For Westmoreland, the `nov_23_2020.pdf` roundup lists **5 of the 7 candidates who actually ran and
+omits the one who WON** (James Brian Smalling). Trusting it seats the wrong three aldermen for
+2020-2024 and makes the 2022 unexpired-term races inexplicable. It also has **no Nov 2018 issue at
+all** — the index jumps from `ttc_may_14_2018.pdf` to `ttc_jan_14_2019.pdf` (353 PDFs total; `?page=N`
+returns identical content, so it is *not* paginated and there is nothing further to find).
+
+**Treat TTC as a lead to corroborate, never as a canvass.** Its roundups look authoritative and
+complete, which is precisely what makes a missing winner invisible. Always reconcile against a
+county source before recording. Note this town is roughly the size of the one this rung was
+previously credited with "solving outright" — that earlier success may itself have been silently
+wrong.
 
 **Tennessee Town & City is systematic, not incidental — and it is not a per-city lookup.** TTC
 publishes a statewide roundup after *each* election date, titled e.g. "Municipal elections held in
@@ -335,8 +369,35 @@ mayor, vice mayor and all 40 council seats — seven consecutive reports FY2019-
 entire 42-seat reconstruction, and it prints `Vacant` where a seat was unfilled. Metro council is **still 40 members** — the 2023 law reducing it to
 20 was blocked by injunction.
 
-Calendars vary by charter: Bristol Nov/even · Cookeville Aug/even · Memphis Oct/4-yr (2019, 2023,
-2027) · Nashville Aug/odd · Westmoreland Nov/even. **Never assume a statewide TN date.**
+**⚠ Cookeville "Aug/even" is wrong — it is QUADRENNIAL (corrected 2026-08-17).** All five
+at-large seats are elected together in one `VOTE FOR 5` contest in **2018, 2022 and 2026 only**.
+The Putnam County summaries for 2020-08-06 and 2024-08-01 carry Algood, Baxter and Monterey races
+but **no Cookeville contest at all**, so 2019-2021 and 2023-2025 are holdover years, not gaps.
+Mayor and vice-mayor are internal offices taken from roll-call titles — the election record alone
+would have made the top vote-getter look like an elected mayor in both cycles, by coincidence.
+`www.cookeville-tn.gov` robots.txt does **not** time out: it returns 200 and only name-blocks
+Baiduspider/Yandex; the CivicPlus site search `/Search/Results?searchPhrase=` works to plain curl.
+
+Calendars vary by charter: Cookeville Aug/**quadrennial** · Memphis Oct/4-yr (2019, 2023, 2027) · Nashville
+Aug/odd · Westmoreland Nov/even. **Never assume a statewide TN date.**
+
+**⚠ Bristol TN "Nov/even" is only half right (corrected 2026-08-17).** Bristol elected in **MAY of
+ODD years through 2019-05-21** (terms beginning July 1, oath at the first July meeting), then moved
+to **November of even years** (2022-11-08, 2024-11-05) with the oath at the first January meeting.
+**The move EXTENDED two sitting terms** — three district seats ran to 2023-01-10 and two at-large
+seats to 2025-01-07. Consequently **2020, 2021, 2023 and 2025 had no municipal election at all**:
+structural holdover years, not gaps. Bristol is council-manager with **mayor and vice mayor selected
+by the council from among its members**, and its seat scheme is mixed — three residency-district
+seats (East, South, West) plus two at-large.
+
+**`bristoltn.gov` is NOT robots-blocked to curl** despite the census note — the AgendaCenter dated
+search plus `/AgendaCenter/ViewFile/Minutes/_MMDDYYYY-NNN` yielded the whole 2018-2026 archive.
+**Sullivan County's election commission does NOT serve results**, contrary to the note above:
+`sullivancountytn.gov/departments/election-commission` and `/election-results` both 404, and
+`sullivanelections.com` redirects to a login wall. Route via *Tennessee Town & City*, which carried
+full Bristol results with vote totals in its Nov 2022 special-election and Nov 2024 issues.
+`heraldcourier.com` fetches by curl — article bodies are rot13-obfuscated for non-subscribers, but
+**results tables and the JSON dataLayer publication dates are plain text**.
 
 ### Texas — MEDIUM (prior notes partly wrong)
 
@@ -541,8 +602,18 @@ zero for Amherst. The Secretary's own "where do I find election results" page po
 is misleading for municipal researchers. DLS and the State Auditor name no officials either.
 
 Only source: **city/town clerk archives**.
-- Brockton: `brockton.gov/city-departments/elections-commission/` → `brockton.gov/wp-content/uploads/{year}/{month}/*.pdf` (fetchable; `brockton.ma.us` 302s here)
-- Greenfield: `greenfield-ma.gov/elections_and_voting/election_results.php`
+- Brockton: `brockton.gov/city-departments/elections-commission/` → `brockton.gov/wp-content/uploads/{year}/{month}/*.pdf` (`brockton.ma.us` 302s here). **"Fetchable" means WebFetch, NOT curl** — curl gets a blanket nginx 403 on all of `wp-json` and on many upload paths, while WebFetch succeeds on all of them. **The unlock is the WP media REST endpoint** via WebFetch: `wp-json/wp/v2/media?search=<term>&per_page=100&_fields=date,source_url,title` returns the whole elections tree back to **2003**, including files **not linked from the elections page at all** (`Nov-2019-Unofficial-Results.pdf` was findable no other way). Three of five in-panel cycles are **image-only scans** (CCITT Fax / JBIG2) — use the OCR path in the ladder; one needs 90° rotation for vertically printed labels
+- Greenfield: **the URL recorded here was wrong (corrected 2026-08-17).**
+  `.../elections_and_voting/election_results.php` returns 200 but is a **stub with no result
+  links**. The live archive is `.../elections_and_voting/elections_results.php` — note the plural
+  **"elections"** — and even that only reaches back to **March 2024**; no 2019/2021/2023 local
+  results are hosted anywhere on the city domain. The working route is the *Greenfield Recorder*:
+  **`recorder.com` is WordPress and fully open to curl** with a browser UA, bodies complete and
+  unpaywalled, `/wp-json/wp/v2/posts?search=&after=&before=&per_page=` reaching back to at least
+  2017. That alone reconstructed four cycles and nine mid-term changes. (Note the contrast with
+  Amherst's WordPress outlet, where `search=` was near-useless and slug lookup was reliable — test
+  both.) The Revize CMS repository sits at `cms5.revize.com/revize/greenfield/Document_Center/…`.
+  Superseded stub: `greenfield-ma.gov/elections_and_voting/election_results.php`
 - Amherst: **the "entirely robots-blocked" note was WRONG (corrected 2026-08-17).** `robots.txt`
   does carry `Disallow: /`, but the host serves everything to plain curl with a browser UA:
   `Archive.aspx?AMID=206` returns ~250 dated Town Council minutes links **in a single fetch**
@@ -559,8 +630,19 @@ created by a charter adopted March 2018, first elected Nov 2018. Amherst has **n
 Council President is chosen by the councilors.
 
 **2-year terms** in Amherst and Brockton mean 4 cycles (2019, 2021, 2023, 2025). Greenfield's
-mayor is 4-year (2019, 2023); its council's cadence is ambiguous in the city's own wording —
-verify per cycle.
+mayor is 4-year (2019, 2023).
+
+**Greenfield's council cadence is RESOLVED (2026-08-17) — the "ambiguity" was only bad phrasing.**
+All 13 seats carry **4-year terms with half the council elected every 2 years** in November of odd
+years; "four-year terms… elected biannually" means *biannually* describes the election and *four
+years* the term. Precinct and at-large seats share one cadence:
+- **Cohort A** — 2 at-large + Precincts 1-4 (6 seats): 2015 / 2019 / 2023
+- **Cohort B** — 2 at-large + Precincts 5-9 (7 seats): 2017 / 2021 / 2025
+
+Established three non-inferential ways: the council members page carries a **"Term expires 12/31"**
+column splitting exactly along those cohorts (2027 vs 2029); the certified Nov 2025 results print
+**zero ballots cast in Precincts 1-4**; and the 2023 ballot-position list contains Precincts 1-4
+and no 5-9.
 
 Clerk archives bundle **every** election including even-year state/federal — filter by contest
 name, not by year parity.

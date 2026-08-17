@@ -79,11 +79,29 @@ Practical notes:
   tabular roster and results layouts come out readable rather than scrambled. Verified recovering
   a town clerk's image-only **certified election results** — every name and vote total verbatim.
   Treat OCR'd text as **`medium`** confidence unless it is crisp and cross-checkable against
-  another source, and read the output yourself rather than trusting a summary of it. This is not confined to old
+  another source, and read the output yourself rather than trusting a summary of it.
+  **Orientation is a real trap:** some scans are fed upside-down and need `sips -r 180` first, while
+  others are correctly oriented and are *destroyed* by the same rotation — the giveaway is mirrored
+  output (`ssaulsng ON` for `No Business`). Try both orientations and keep the readable one. Where
+  labels are printed vertically, rotate 90°. If `tesseract` still scrambles a page, rendering to PNG
+  and reading the image directly also works.
+  This path has now recovered five otherwise-lost cycles, including a county's **entire** run of
+  summary PDFs, so attempt it before writing anything off. This is not confined to old
   minutes; one city's **official 2025 election results PDF** was a scan. **Workaround that
   worked:** find a secondary source that *cites* the scanned document and carries its numbers as
   text — in that case Wikipedia's raw wikitext, which quotes the official results and links the
   PDF. That is `medium` confidence, not `high`, but it beats recording the cycle as lost.
+
+### Rung 6b — The NEXT organizational meeting, not just the one after the election
+Where an internal office (presiding officer, mayor pro tem) is selected at an annual
+organizational meeting, that meeting's minutes typically name **both the incoming and the
+outgoing** holder in the gavel-exchange passage — **one document sources two years**.
+
+**And when the January minutes come up empty, go forward a year, not sideways.** In one city the
+election happened at a separate *Inauguration Ceremony* whose minutes are a distinct document, so
+two Januaries carried no election at all — those years were recoverable only from the **following**
+January's retrospective passage ("presented outgoing President X with a plaque"). An agent that
+fetches only the January after each election will come up empty on exactly the years it most wants.
 
 ### Rung 7 — Everything else
 Budget documents, adopted ordinances with signature blocks, comprehensive plans, audit reports,

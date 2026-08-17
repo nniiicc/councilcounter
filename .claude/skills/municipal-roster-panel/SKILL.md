@@ -16,19 +16,27 @@ description: >
 # Municipal Roster Panel
 
 > **This is a corrected fork**, forked 2026-08-17 from the bundled `anthropic-skills` plugin
-> skill and amended against a live 8-city run (Washington ×7 + Michigan). It **supersedes** the
-> plugin version, which is unchanged and still carries a dead Michigan source.
+> skill and amended continuously against a live run — **21 cities across WA, MI, AL, GA, TN and MA**
+> as of this revision. It **supersedes** the plugin version, which is unchanged and still carries a
+> dead Michigan source and several wrong URLs.
 >
 > It lives in the councilcounter repo at `.claude/skills/municipal-roster-panel/`, so it is
 > versioned alongside the data it was derived from. `~/.claude/skills/municipal-roster-panel`
 > is a **symlink** to it — one file set, discoverable both project-locally and globally. Edit
 > either path; they are the same files. If the repo moves, re-point that symlink.
 >
-> Corrections merged into this fork: Michigan's primary source is dead; King County's 2015
-> dataset is incomplete; county filing-period incumbent lists are a new source class; PDF text
-> must be extracted locally; curl and WebFetch fail on different hosts; `gaps` semantics and the
-> `vacant` status; presiding-officer tracking. Entries carry verification dates — **re-verify
-> before trusting any of them**, since this fork will itself go stale.
+> Merged into this fork so far: Michigan's primary source is dead and four other "verified" URLs
+> were wrong; unopposed candidates vanish from results in some states and not others; the ACFR
+> "List of Principal Officials" is a near-universal roster source *with three failure modes*; county
+> filing-period incumbent lists are a new source class; a working **OCR path** now exists; PDF text
+> must be extracted locally; curl and WebFetch fail on **different, non-overlapping** hosts; a
+> robots `Disallow: /` is not proof of refusal; the CivicPlus AgendaCenter id sweep; `gaps`
+> semantics and the `vacant` status; presiding-officer tracking; and several validation techniques
+> (day-of-week checks, stated-count completeness, absence-of-special-elections).
+>
+> **Five registry entries have been corrected after failing on contact.** Entries carry
+> verification dates — **re-verify before trusting any of them**, since this fork will itself go
+> stale.
 >
 > Upstream improvements to the plugin skill will not flow here automatically.
 
@@ -126,6 +134,13 @@ For each city, run explicit searches for `<city> <state> council appoints <year>
 `<city> council member resigns`, and `<city> council vacancy`. Record every mid-term change with
 its effective date.
 
+**A stated COUNT closes an enumeration.** When a source says how many of something there were —
+"the fifth councillor out of the 13 to be appointed" — it converts your list from "everything I
+happened to find" into a checkable set. One city's nine mid-term changes were confirmed complete
+exactly this way. Actively look for such assertions in meeting coverage and anniversary pieces;
+they are the cheapest completeness proof available, and they are what lets you stop searching with
+justification rather than from exhaustion.
+
 **Absence of special elections can PROVE no turnover — a rare positive negative.** Where a
 charter requires a vacancy to be filled by special election, enumerate every election the county
 or city ran across the window: if no municipal special election appears, no district seat turned
@@ -170,6 +185,11 @@ Before writing any record:
   in one case supplying first names for a document that contained only surnames. The invented
   names happened to be correct, which makes the failure invisible by inspection. Spot-check quoted
   roster text against the source.
+- **Roll-call arithmetic can rule a vacancy in or out without naming anyone.** "Called to order
+  with ten members present, Councillor X absent" establishes **eleven seated members** — which
+  proves a contested seat was filled even when no source names the appointee. Use it before filing
+  `reason: "vacant"`: an unfilled seat and an unidentified holder are different findings, and the
+  attendance line distinguishes them for free.
 - **Check the day of the week against any claimed date.** This caught four separate errors in one
   session — a fabricated "January 5, 2018" that was a Friday, a summarizer's "January 7, 2025" that
   was a Tuesday, a republished archive article whose "Dec. 4 runoff" placed it in 2007 rather than
@@ -178,6 +198,15 @@ Before writing any record:
 - **Beware undated republished archive content.** One local paper reposts old articles without
   dates; a search snippet presented a 2007 council race as 2019, which would have seated the wrong
   person for four years.
+- **A document's URL path can lie about its vintage.** One city **overwrites its "ELECTED CITY
+  OFFICIALS" PDF in place**, so `uploads/2020/01/ELECTED-CITY-OFFICIALS-1.pdf` actually carried the
+  **2024-25** roster and `uploads/2024/06/…` carried the **2026** one. Dating a roster from its
+  upload path would have seated the wrong council by several years. Always date a document from
+  content printed *inside* it, never from its URL.
+- **`pdftotext -layout` can reverse the reading order of rotated text.** On born-digital results
+  PDFs with vertically printed candidate labels it inverted two wards' winners. Where a table has
+  rotated headers, match columns to the TOTALS row by x-coordinate using `pdftotext -bbox` rather
+  than trusting the linear text order.
 - **Redistricting breaks seat identity, silently.** When a city redraws its map mid-panel,
   `District N` before and after are **different seats**. One councillor was elected in District 3
   in 2021 and District 4 in 2023 **without moving house**, and three incumbents were thrown into
@@ -227,7 +256,11 @@ results PDF. Several corpus cities recorded as "robots-blocked" are reachable th
 Granicus viewer recorded as blocked was not:
 `{tenant}.granicus.com/MetaViewer.php?view_id=6&clip_id={id}&meta_id={id}` returns a real PDF.
 
-**curl and WebFetch do not fail on the same hosts.** When one is blocked, try the other with a
+**curl and WebFetch do not fail on the same hosts — and the asymmetry runs BOTH ways.** One
+Massachusetts city served everything to curl though its robots.txt said otherwise; the other, in the
+same batch, gave curl a blanket nginx **403 on all of `wp-json`** and on many `/wp-content/uploads/`
+paths **while WebFetch fetched every one of them**, with no discernible pattern between which upload
+folders 403'd and which did not. **Try both tools per file**, not merely per host. When one is blocked, try the other with a
 full browser user agent. Several recoveries came from nothing but the difference. A fetchable
 *site search* on a local outlet is often worth more than a search engine: one city with a dead
 official source was fully reconstructed at a cost of zero WebSearches that way.
@@ -254,8 +287,15 @@ and move on; never conclude the record does not exist.
   bare collection responds**: `$orderby`, `$filter` and `$select` all 404 even on the working
   host, so it cannot be narrowed by date and you must page the whole collection.
 - **CivicPlus / CivicEngage AgendaCenter — the highest-yield unlock found so far.** Archived
-  minutes are served to **plain curl** at `/AgendaCenter/ViewFile/ArchivedMinutes/_MMDDYYYY-NNN`,
-  and **the date segment is cosmetic — only the trailing integer selects the document.** So you do
+  minutes are served to **plain curl** at `/AgendaCenter/ViewFile/{KIND}/_MMDDYYYY-NNN`, and
+  **the date segment is cosmetic — only the trailing integer selects the document.** `{KIND}` varies
+  by deployment: `ArchivedMinutes` works on some, **`Minutes` on others where `ArchivedMinutes`
+  404s** — try both before concluding the site is closed. Where the deployment supports it, the
+  **dated search is better than sweeping**:
+  `/AgendaCenter/Search/?term=&CIDs=<id>&startDate=<d>&endDate=<d>` returned plain HTML for *any*
+  year on one city and handed over a complete 2018-2026 minutes archive at **zero search cost**
+  (that city cost 1 WebSearch in total). On another deployment the same endpoint returned only the
+  current rolling year — so test its reach before relying on it, and fall back to the id sweep. So you do
   not need an index: sweep the integer range (~120-780 covered a decade on one city), fetch each
   PDF, and extract its printed date plus its "Present from City Council:" roll-call line locally.
   One city built its entire 8-year reconstruction from ~70 dated roll calls this way at **zero

@@ -1,0 +1,582 @@
+{
+ "city_id": 8,
+ "city": "Bristol",
+ "state": "Tennessee",
+ "profile": {
+  "gov_form": "council-manager",
+  "seat_count": 5,
+  "seat_scheme": "mixed",
+  "term_length": 4,
+  "stagger_pattern": "Two groups. Group A = 3 residency-district seats (East, South, West) elected together (May 2017 -> Nov 8 2022 -> Nov 2026). Group B = 2 at-large seats elected together (May 21 2019 -> Nov 5 2024 -> Nov 2028). Elections moved from May of odd years to November of even years during the panel window, which extended the sitting terms: the Group A term due to expire June 30 2021 ran to Jan 10 2023, and the Group B term due to expire June 30 2023 ran to Jan 7 2025. Newly elected members take the oath at the first regular Council meeting in January following the election.",
+  "mayor_selection": "council-selected",
+  "election_month": "May (odd years) through 2019; November (even years) from 2022",
+  "profile_source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_02222022-1265"
+ },
+ "cycles": [
+  {
+   "election_date": "2019-05-21",
+   "seats_up": 2,
+   "status": "sourced",
+   "source_url": "https://ttc.tml1.org/sites/default/files/uploads/ttc-issues/ttc_may_27_2019.pdf"
+  },
+  {
+   "election_date": "2022-11-08",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://ttc.tml1.org/sites/default/files/uploads/ttc-issues/november-2022-special-election-edition_5.pdf"
+  },
+  {
+   "election_date": "2024-11-05",
+   "seats_up": 2,
+   "status": "sourced",
+   "source_url": "https://ttc.tml1.org/sites/default/files/uploads/ttc-issues/november-2024_0.pdf"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Chad Keen",
+   "name_variants": [
+    "Chad Keen",
+    "Councilman Chad Keen"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "East District",
+   "role": "council_member",
+   "start_date": "2017-07-01",
+   "end_date": "2022-02-01",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_03082022-1268",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Mark Hutton",
+   "name_variants": [
+    "Mark Hutton",
+    "Mark A. Hutton",
+    "Dr. Mark Hutton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "East District",
+   "role": "council_member",
+   "start_date": "2022-03-08",
+   "end_date": "2023-01-10",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_03082022-1268",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Mark Hutton",
+   "name_variants": [
+    "Mark Hutton",
+    "Mark A. Hutton",
+    "Dr. Mark Hutton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "East District",
+   "role": "council_member",
+   "start_date": "2023-01-10",
+   "end_date": "2025-09-02",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://ttc.tml1.org/sites/default/files/uploads/ttc-issues/november-2022-special-election-edition_5.pdf",
+   "retrieval_method": "trade_press",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Matthew Slagle",
+   "name_variants": [
+    "Matthew Slagle",
+    "Matt Slagle",
+    "Councilman Matt Slagle"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "East District",
+   "role": "council_member",
+   "start_date": "2025-10-07",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_10072025-1721",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Margaret Feierabend",
+   "name_variants": [
+    "Margaret Feierabend",
+    "Councilwoman Margaret Feierabend"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "South District",
+   "role": "council_member",
+   "start_date": "2017-07-01",
+   "end_date": "2023-01-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07102018-796",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Margaret Feierabend",
+   "name_variants": [
+    "Margaret Feierabend",
+    "Councilwoman Margaret Feierabend"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "South District",
+   "role": "council_member",
+   "start_date": "2023-01-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://ttc.tml1.org/sites/default/files/uploads/ttc-issues/november-2022-special-election-edition_5.pdf",
+   "retrieval_method": "trade_press",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Lea Powers",
+   "name_variants": [
+    "Lea Powers",
+    "Councilwoman Lea Powers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "West District",
+   "role": "council_member",
+   "start_date": "2017-07-01",
+   "end_date": "2023-01-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07102018-796",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Lea Powers",
+   "name_variants": [
+    "Lea Powers",
+    "Councilwoman Lea Powers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "West District",
+   "role": "council_member",
+   "start_date": "2023-01-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://ttc.tml1.org/sites/default/files/uploads/ttc-issues/november-2022-special-election-edition_5.pdf",
+   "retrieval_method": "trade_press",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Jack Young",
+   "name_variants": [
+    "Jack Young",
+    "Councilman Jack Young",
+    "Mayor Jack Young"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat A",
+   "role": "council_member",
+   "start_date": "2015-07-01",
+   "end_date": "2019-06-30",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01082019-852",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Vince Turner",
+   "name_variants": [
+    "Vince Turner",
+    "Councilman Vince Turner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat A",
+   "role": "council_member",
+   "start_date": "2019-07-09",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07092019-918",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2019-05-21"
+  },
+  {
+   "person": "Vince Turner",
+   "name_variants": [
+    "Vince Turner",
+    "Councilman Vince Turner",
+    "Mayor Vince Turner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat A",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01072025-1610",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Michelle Denise",
+   "name_variants": [
+    "Michelle Denise",
+    "Councilwoman Michelle Denise",
+    "Vice Mayor Michelle Denise"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat B",
+   "role": "council_member",
+   "start_date": "2015-07-01",
+   "end_date": "2019-06-30",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01082019-852",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Mahlon Luttrell",
+   "name_variants": [
+    "Mahlon Luttrell",
+    "Councilman Mahlon Luttrell",
+    "Mayor Mahlon Luttrell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat B",
+   "role": "council_member",
+   "start_date": "2019-07-09",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07092019-918",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2019-05-21"
+  },
+  {
+   "person": "Rae Akard",
+   "name_variants": [
+    "Rae Akard",
+    "Councilwoman Rae Akard"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat B",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01072025-1610",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Margaret Feierabend",
+   "name_variants": [
+    "Margaret Feierabend",
+    "Mayor Margaret Feierabend"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-07-10",
+   "end_date": "2020-07-07",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07102018-796",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Mahlon Luttrell",
+   "name_variants": [
+    "Mahlon Luttrell",
+    "Mayor Mahlon Luttrell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-07-07",
+   "end_date": "2023-01-10",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07072020-1033",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Vince Turner",
+   "name_variants": [
+    "Vince Turner",
+    "Mayor Vince Turner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2023-01-10",
+   "end_date": "2025-01-07",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01102023-1374",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Mark Hutton",
+   "name_variants": [
+    "Mark Hutton",
+    "Mayor Mark Hutton",
+    "Dr. Mark Hutton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2025-01-07",
+   "end_date": "2025-09-02",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01072025-1610",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Vince Turner",
+   "name_variants": [
+    "Vince Turner",
+    "Mayor Vince Turner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2025-09-02",
+   "end_date": null,
+   "entry_mode": "succeeded",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_09092025-1704",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Michelle Denise",
+   "name_variants": [
+    "Michelle Denise",
+    "Vice Mayor Michelle Denise"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2018-07-10",
+   "end_date": "2019-06-30",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01082019-852",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Mahlon Luttrell",
+   "name_variants": [
+    "Mahlon Luttrell",
+    "Vice Mayor Mahlon Luttrell"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2019-07-09",
+   "end_date": "2020-07-07",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07092019-918",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Vince Turner",
+   "name_variants": [
+    "Vince Turner",
+    "Vice Mayor Vince Turner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2020-07-07",
+   "end_date": "2023-01-10",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_07072020-1033",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Mark Hutton",
+   "name_variants": [
+    "Mark Hutton",
+    "Vice Mayor Mark Hutton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2023-01-10",
+   "end_date": "2025-01-07",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01102023-1374",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Vince Turner",
+   "name_variants": [
+    "Vince Turner",
+    "Vice Mayor Vince Turner"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2025-01-07",
+   "end_date": "2025-09-09",
+   "entry_mode": "appointed",
+   "exit_mode": "elevated",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_01072025-1610",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Lea Powers",
+   "name_variants": [
+    "Lea Powers",
+    "Vice Mayor Lea Powers"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2025-09-09",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_09092025-1704",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Read agent-brief.md and the Tennessee + cross-state sections of state-registry.md."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "REGISTRY CORRECTION: bristoltn.gov AgendaCenter is NOT effectively blocked. The CivicEngage search endpoint https://www.bristoltn.gov/AgendaCenter/Search/?term=&CIDs=12&startDate=MM/DD/YYYY&endDate=MM/DD/YYYY returns plain HTML to curl with a browser UA for ANY year, and every /AgendaCenter/ViewFile/Minutes/_MMDDYYYY-NNN link it lists returns a real PDF. This yielded the complete City Council minutes archive 2018-2026 (~250 documents) at zero search cost. The /ArchivedMinutes/ path named in the brief 404s here; the live /Minutes/ path is the one that works. Integer sweeping also works (ids ~730 for Jan 2018 to ~1826 for Aug 2026) but is unnecessary once the dated search is used."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 1,
+   "detail": "REGISTRY CORRECTION: the registry's 'Bristol Nov/even' is only half right for this window. Bristol TN held its municipal election in MAY of odd years through 2019 (May 21 2019, confirmed by Tennessee Town & City of May 27 2019: 'Bristol held a municipal election on May 21' and by the Bristol Herald Courier of May 22 2019), with terms beginning July 1 and the oath administered at the first Council meeting in July. It then moved to NOVEMBER of even years (Nov 8 2022, Nov 5 2024), with the oath at the first regular meeting in January following. The move EXTENDED two sitting terms: the three district seats due to expire 2021-06-30 ran to 2023-01-10, and the two at-large seats due to expire 2023-06-30 ran to 2025-01-07. Consequence: there was NO Bristol TN municipal election in 2020, 2021, 2023 or 2025 - those are structural holdover years, not gaps. The next cycle is scheduled for November 2026 (3 district seats); as of the research date 2026-08-17 it has not been held, so the 2026 roster is unchanged all year. Day-of-week check passed on every date used (2019-05-21, 2022-11-08, 2024-11-05, 2022-03-08, 2023-01-10, 2025-01-07, 2025-10-07 are all Tuesdays)."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "Four mid-term changes found, all dated from minutes. (1) Chad Keen (East District) left in early Feb 2022 - last confirmed on the roll call of the 2022-02-01 regular meeting; the 2022-02-14 called work session agenda item is 'Discussion of Process for Filling a Vacancy on City Council'. Exact resignation date not printed in any retrieved document, so his end_date 2022-02-01 is the last sourced sitting date and the row is medium confidence. (2) Mark Hutton appointed to the East District seat by Council vote at a called meeting on 2022-02-22 and sworn in at the 2022-03-08 meeting; the East District seat was vacant roughly 2022-02-02 to 2022-03-07 (partial-year vacancy inside an otherwise fully sourced seat-year, so recorded here rather than as a gap). (3) Mark Hutton resigned as Mayor and council member effective 2025-09-02; Vice Mayor Vince Turner succeeded to the mayoralty and Lea Powers was elected Vice Mayor at the 2025-09-09 meeting. East District seat vacant 2025-09-02 to 2025-10-06 (again partial-year, recorded here). (4) Matthew Slagle, a resident of the East Councilmanic District, was appointed at a called meeting following the 2025-09-30 work session and took the oath at the 2025-10-07 regular meeting."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 1,
+   "detail": "BRISTOL VA CONTAMINATION CHECK - PASSED. Every source used is Tennessee-specific by construction: (a) bristoltn.gov AgendaCenter minutes are headed 'MINUTES OF THE CITY OF BRISTOL, TENNESSEE'; (b) Tennessee Town & City is the Tennessee Municipal League's publication and contains only Tennessee municipalities; (c) the two Bristol Herald Courier articles used are headlined 'Bristol Tennessee City Council' and 'Bristol Tennessee council seats'. No Bristol VA official appears in this file. Note the Bristol TN minutes DO reference Bristol VA repeatedly (a Bristol VA recreation superintendent gave an invocation on 2020-11-10, a Bristol VA school board member led the pledge, and 'the issue with the City of Bristol, Virginia' is discussed in 2022) - none of those people were treated as Bristol TN officials. Bristol TN's mayor-selection method was established independently from the Bristol TN charter as quoted in its own minutes and is NOT the Bristol VA top-vote-getter arrangement: 'the City Charter requires City Council to select one of its members to serve as Mayor and Vice Mayor each year'. Selection was held at the first meeting in July through 2021, was not held in July 2022, and moved to the first meeting of the calendar year from 2023-01-10 onward (confirmed verbatim in the 2026-01-06 minutes: 'the City Charter requires Council to select members to serve as Mayor and Vice Mayor each year at the first meeting of each year'). Seat-count sanity: 5 members throughout 2019-2026, never changed."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "SEAT LABELS - caveat, not a gap. Bristol TN elects all five members city-wide, but three seats carry a residency district (East, South, West), named verbatim in Tennessee Town & City's Nov 2022 roundup: Hutton 'to retain the east district seat', Feierabend 'for the south district seat', Powers 're-elected to the west district seat'. The city's own minutes independently confirm the East Councilmanic District residency requirement for both the 2022 Hutton appointment and the 2025 Slagle appointment. The remaining two seats (the May 2019 / Nov 2024 group) are described by the Bristol Herald Courier as 'two open at-large seats' and are never given a district name in any source retrieved, so they are labelled At-Large Seat A and At-Large Seat B. The A/B assignment between the two 2019 winners (Turner, Luttrell) and the two 2019 leavers (Young, Denise) is ARBITRARY - no source states which predecessor's seat each successor took. Turner->A and Luttrell/Akard->B is a labelling convention, not a sourced fact; the persons, dates and years are all sourced."
+  },
+  {
+   "step": "escalation",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 1,
+   "detail": "Bristol Herald Courier (heraldcourier.com) 403s nothing - it fetches cleanly by curl with a browser UA, and although the article body is rot13-obfuscated for non-subscribers, the results tables and the JSON dataLayer (asset_pub_iso8601, asset_headline) are in plain text. Used for the 2019-05-21 vote totals (Turner 920, Luttrell 843, Vance 607, Willinger 373, Chapman 269, McDonald 31) and the publication date proving the election was the Tuesday before 2019-05-22. Sullivan County Election Commission was NOT usable: sullivancountytn.gov/departments/election-commission and /election-results both 404, and sullivanelections.com redirects to a login wall. The registry's 'Sullivan County fetches cleanly' claim did not hold for a results archive."
+  },
+  {
+   "step": "escalation",
+   "rung": 6,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "OCR rescue. The 2024-01-09 minutes (_01092024-1500) are an image-only scan - pdftotext returned 8 bytes. pdftoppm -r 300 -png followed by tesseract --psm 4 -c preserve_interword_spaces=1 recovered the page verbatim and confirmed the only Mayor/Vice Mayor selection otherwise unaccounted for in the window: on 2024-01-09 Vince Turner was reinstated as Mayor and Mark Hutton as Vice Mayor, each 'to serve a second term', by unanimous roll call. The same page states the charter rule in its post-2023 form: 'select members to serve as Mayor and Vice Mayor each year at the first meeting in January'. OCR output was crisp and cross-checks exactly against the 2023-01-10, 2024-07-09 and 2024-12-03 roll calls, so these rows are recorded high rather than medium."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "All 5 council seats plus Mayor and Vice Mayor covered for every year 2019-2026 with no gaps. 40 council seat-years (5 seats x 8 years) plus 8 mayor seat-years plus 8 vice-mayor seat-years, all sourced."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": null,
+   "searches": null,
+   "detail": "exit_mode='elevated': vacated this seat by taking another office (charter succession to the mayoralty), not by voluntary departure. The office moved INTO carries entry_mode='succeeded'. Recorded as 'resigned' on first ingest before the enum carried 'elevated'; corrected 2026-08-17."
+  }
+ ],
+ "totals": {
+  "tool_calls": 28,
+  "searches": 1
+ }
+}

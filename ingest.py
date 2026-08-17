@@ -37,6 +37,24 @@ PROFILE_FIELDS = (
 )
 
 
+# Checked before insert so a bad value names its row, rather than surfacing as an
+# opaque SQLite CHECK failure that rolls back the whole city. `succeeded` remains a
+# trap: it is a valid entry_mode, and two agents independently reached for it as an
+# exit_mode for someone elevated to another office. That case now has its own value,
+# `elevated` — `succeeded` still belongs only on the row for the office moved INTO.
+ENUMS = {
+    "role": {"mayor", "vice_mayor", "council_member", "alderman", "commissioner",
+             "selectman"},
+    "entry_mode": {"elected", "appointed", "succeeded", "unknown"},
+    "exit_mode": {"term_end", "resigned", "recalled", "died", "defeated", "ongoing",
+                  "elevated", "unknown"},
+    "confidence": {"high", "medium", "low"},
+    "retrieval_method": {"state_portal", "county_canvass", "trade_press", "audit_report",
+                         "newspaper", "public_notice", "minutes_rollcall",
+                         "municipal_league", "other"},
+}
+
+
 class ValidationError(Exception):
     """A record violates a provenance or referential rule and must not be loaded."""
 
@@ -72,6 +90,13 @@ def validate(payload: dict[str, Any]) -> list[str]:
             problems.append(f"tenures[{i}]: no person name")
         if not tenure.get("start_date"):
             problems.append(f"tenures[{i}] ({tenure.get('person')!r}): no start_date")
+        for field, allowed in ENUMS.items():
+            value = tenure.get(field)
+            if value is not None and value not in allowed:
+                problems.append(
+                    f"tenures[{i}] ({tenure.get('person')!r}): {field}={value!r} "
+                    f"is not one of {sorted(allowed)}"
+                )
     for i, gap in enumerate(payload.get("gaps", [])):
         if not gap.get("attempted"):
             problems.append(f"gaps[{i}] (year {gap.get('year')}): no attempted trail")

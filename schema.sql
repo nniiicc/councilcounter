@@ -53,7 +53,13 @@ CREATE TABLE tenures (
   end_date         TEXT,              -- NULL = ongoing
   entry_mode       TEXT CHECK (entry_mode IN ('elected','appointed','succeeded','unknown')),
   exit_mode        TEXT CHECK (exit_mode IN
-                     ('term_end','resigned','recalled','died','defeated','ongoing','unknown')),
+                     ('term_end','resigned','recalled','died','defeated','ongoing',
+                      'elevated','unknown')),
+  -- 'elevated' = vacated this seat by taking another office (vice mayor succeeding to
+  -- the mayoralty, council president becoming acting mayor). Distinct from 'resigned':
+  -- the person did not leave office, they moved up, and the vacancy is a mechanical
+  -- consequence rather than a choice to depart. The corresponding row for the office
+  -- they moved INTO carries entry_mode='succeeded'.
   source_url       TEXT    NOT NULL,  -- PROVENANCE, ENFORCED. No URL, no row.
   retrieval_method TEXT    NOT NULL CHECK (retrieval_method IN
                      ('state_portal','county_canvass','trade_press','audit_report',

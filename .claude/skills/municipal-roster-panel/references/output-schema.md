@@ -54,10 +54,17 @@ The substantive output. One row per person per seat per continuous span.
 | `role` | `mayor`, `vice_mayor`, `council_member`, `alderman` |
 | `start_date`, `end_date` | `end_date` null if ongoing |
 | `entry_mode` | `elected`, `appointed`, `succeeded`, `unknown` |
-| `exit_mode` | `term_end`, `resigned`, `recalled`, `died`, `defeated`, `ongoing` |
+| `exit_mode` | `term_end`, `resigned`, `recalled`, `died`, `defeated`, `ongoing`, `elevated`, `unknown` |
 | `source_url` | **Required.** No URL, no row. |
 | `retrieval_method` | `state_portal`, `county_canvass`, `trade_press`, `audit_report`, `newspaper`, `public_notice`, `minutes_rollcall`, `other` |
 | `confidence` | See below |
+
+**`elevated` vs `resigned`, and the `succeeded` trap.** Use **`elevated`** when someone vacates a
+seat by *taking another office* — a vice mayor succeeding to the mayoralty, a council president
+becoming acting mayor. They did not leave office; they moved up, and the vacancy is a mechanical
+consequence rather than a choice to depart. The row for the office they moved **into** carries
+`entry_mode: "succeeded"`. **`succeeded` is never an exit_mode** — two independent agents got this
+wrong before `elevated` existed, which is why it is called out here.
 
 ### `persons`
 | Field | Notes |

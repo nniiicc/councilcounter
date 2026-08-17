@@ -64,8 +64,11 @@ municipal PDF as corrupted or empty; the file is there. Run `pdftotext -layout` 
 Local extraction also yields genuinely verbatim text, which removes the summarizer from the
 trust path entirely. **Never accept "unreadable binary" as absence.**
 
-**curl succeeds where WebFetch fails, and vice versa.** They do not fail on the same hosts.
-When one is blocked, try the other with a full browser user agent before concluding the host
+**curl and WebFetch do not fail on the same hosts — and the asymmetry runs BOTH ways.** One
+Massachusetts city served everything to curl though its robots.txt said otherwise; the other, in the
+same batch, gave curl a blanket nginx **403 on all of `wp-json`** and on many `/wp-content/uploads/`
+paths **while WebFetch fetched every one of them**, with no discernible pattern between which upload
+folders 403'd and which did not. **Try both tools per file**, not merely per host. When one is blocked, try the other with a full browser user agent before concluding the host
 is closed. A fetchable *site search* on a local outlet (`?s=<query>`) is often worth more
 than a search engine — one city ran on 5 searches that way with its official source dead.
 
@@ -124,6 +127,12 @@ blocked and move on; do not conclude the record does not exist.
   is **not constant** across a panel — cities add, drop and redistrict seats mid-window.
 - **Continuity.** A person appearing, vanishing and reappearing usually signals a missed
   appointment, not two separate tenures. Occasionally it is genuine — prove which.
+- **`succeeded` is an entry_mode, NOT an exit_mode.** When someone vacates a seat by being
+  elevated to another office (a vice mayor succeeding to the mayoralty, a council president becoming
+  acting mayor), use **`exit_mode: "elevated"`** on the seat they left, and
+  **`entry_mode: "succeeded"`** on the office they moved into. Do not use `resigned` — they did not
+  leave office, they moved up. Two independent agents reached for `succeeded` as an exit_mode; the
+  ingester now rejects that by name.
 - **Winning is not holding.** A ballot winner gets a tenure row **only if a source shows them
   seated** — sworn in, on a roll call, or on a roster. Batch 1 found a winner disqualified
   before taking office who would otherwise have been credited four years.
