@@ -1,0 +1,533 @@
+{
+  "city_id": 13,
+  "city": "Castle Hills",
+  "state": "TX",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 6,
+    "seat_scheme": "position-numbered",
+    "term_length": 2,
+    "stagger_pattern": "Two-year terms, Texas uniform election date (first Saturday in May), EVERY year. ODD years elect Mayor + Alderman Place 2 + Alderman Place 3 (2019-05-04, 2021-05-01, 2023-05-06, 2025-05-03). EVEN years elect Aldermen Places 1, 4 and 5 (2020-05-02, 2022-05-07, 2024-05-04, 2026-05-02). Four cycles per side = EIGHT cycles in the 2019-2026 panel, plus one special election (2019-11-05) for the unexpired Place 1 and Place 3 terms. Mayor Pro Tem is an internal office, filled by council vote at the first meeting after each May election.",
+    "mayor_selection": "elected",
+    "election_month": "May",
+    "profile_source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1903"
+  },
+  "cycles": [
+    {
+      "election_date": "2019-05-04",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1018"
+    },
+    {
+      "election_date": "2019-11-05",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://sanantonioreport.org/izbrand-may-win-castle-hills-council-seats-sara-incumbent-stays/"
+    },
+    {
+      "election_date": "2020-05-02",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1177"
+    },
+    {
+      "election_date": "2021-05-01",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1310"
+    },
+    {
+      "election_date": "2022-05-07",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1429"
+    },
+    {
+      "election_date": "2023-05-06",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1594"
+    },
+    {
+      "election_date": "2024-05-04",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1713"
+    },
+    {
+      "election_date": "2025-05-03",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1826"
+    },
+    {
+      "election_date": "2026-05-02",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1942"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Tim Howell",
+      "name_variants": [
+        "Tim Howell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-05-21",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1018",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "JR Trevino",
+      "name_variants": [
+        "JR Trevino",
+        "JR Trevi\u00f1o",
+        "J.R. Trevino"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-05-21",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1018",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2019-05-04"
+    },
+    {
+      "person": "Clyde R. McCormick",
+      "name_variants": [
+        "Clyde R. \"Skip\" McCormick",
+        "Clyde \u201cSkip\u201d McCormick",
+        "Skip McCormick"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 1",
+      "role": "alderman",
+      "start_date": "2019-01-01",
+      "end_date": "2019-11-12",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1072",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Joe Izbrand",
+      "name_variants": [
+        "Joe Izbrand"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 1",
+      "role": "alderman",
+      "start_date": "2019-11-12",
+      "end_date": "2023-07-11",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://sanantonioreport.org/izbrand-may-win-castle-hills-council-seats-sara-incumbent-stays/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Jason Smith",
+      "name_variants": [
+        "Jason Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 1",
+      "role": "alderman",
+      "start_date": "2023-07-11",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1602",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Maretta Scott",
+      "name_variants": [
+        "Maretta Scott"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "alderman",
+      "start_date": "2019-01-01",
+      "end_date": "2019-05-21",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1018",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Mark Sanderson",
+      "name_variants": [
+        "Mark Sanderson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "alderman",
+      "start_date": "2019-05-21",
+      "end_date": "2020-04-01",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1177",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2019-05-04"
+    },
+    {
+      "person": "Frank Paul",
+      "name_variants": [
+        "Frank Paul"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "alderman",
+      "start_date": "2020-04-30",
+      "end_date": "2023-05-15",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1163",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Denise Haley",
+      "name_variants": [
+        "Denise Haley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "alderman",
+      "start_date": "2023-05-15",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1594",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-05-06"
+    },
+    {
+      "person": "Amy McLin",
+      "name_variants": [
+        "Amy McLin",
+        "Amy McLin, CMO"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 3",
+      "role": "alderman",
+      "start_date": "2019-01-01",
+      "end_date": "2019-11-12",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1072",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Sylvia Gonzalez",
+      "name_variants": [
+        "Sylvia Gonzalez",
+        "Sylvia Gonzales"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 3",
+      "role": "alderman",
+      "start_date": "2019-05-21",
+      "end_date": "2019-08-13",
+      "entry_mode": "elected",
+      "exit_mode": "unknown",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1018",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2019-05-04"
+    },
+    {
+      "person": "Kurt May",
+      "name_variants": [
+        "Kurt May"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 3",
+      "role": "alderman",
+      "start_date": "2019-11-12",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://sanantonioreport.org/izbrand-may-win-castle-hills-council-seats-sara-incumbent-stays/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Lesley Wenger",
+      "name_variants": [
+        "Lesley Wenger"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "alderman",
+      "start_date": "2019-01-01",
+      "end_date": "2020-05-08",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1163",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jack Joyce",
+      "name_variants": [
+        "Jack Joyce"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "alderman",
+      "start_date": "2020-05-08",
+      "end_date": "2026-05-12",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1177",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-05-02"
+    },
+    {
+      "person": "Frank Paul",
+      "name_variants": [
+        "Frank Paul"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "alderman",
+      "start_date": "2026-05-12",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1942",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-05-02"
+    },
+    {
+      "person": "Douglas A. Gregory",
+      "name_variants": [
+        "Douglas A. Gregory",
+        "Douglas Gregory",
+        "Doug Gregory"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 5",
+      "role": "alderman",
+      "start_date": "2019-01-01",
+      "end_date": "2022-05-18",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1429",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Beth Daines",
+      "name_variants": [
+        "Beth Daines"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Place 5",
+      "role": "alderman",
+      "start_date": "2022-05-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1429",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-05-07"
+    },
+    {
+      "person": "Lesley Wenger",
+      "name_variants": [
+        "Lesley Wenger"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-11-12",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1072",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Joe Izbrand",
+      "name_variants": [
+        "Joe Izbrand"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-11-12",
+      "end_date": "2023-07-11",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1314",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Jack Joyce",
+      "name_variants": [
+        "Jack Joyce"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2023-07-11",
+      "end_date": "2025-05-13",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1602",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Beth Daines",
+      "name_variants": [
+        "Beth Daines"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2025-05-13",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofcastlehills.com/ArchiveCenter/ViewFile/Item/1826",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Read agent-brief.md and the TX state-registry section. Registry facts CONFIRMED: TML directory (city 1387) is current-roster-only and was not used; Bexar County routes through Clarity (robots-blocked) and was never touched. Registry fact CORRECTED: the census note that cityofcastlehills.com robots.txt 'repeatedly times out' is WRONG as of 2026-08-17 - it returns HTTP 200 (816 bytes) to plain curl with a browser UA. It name-blocks only Baiduspider/Yandex and disallows /Search, /Map.aspx, /RSS.aspx, /admin. It does NOT disallow /Archive.aspx, /ArchiveCenter/ViewFile/ or /AgendaCenter, all of which served every document requested. The CivicPlus site-search /Search/Results?searchPhrase= IS robots-disallowed here, so it was deliberately not used."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "Calendar established WITHOUT a search, from the city's own minutes. Castle Hills is a Texas general-law city electing ALDERMEN by numbered Place on the uniform May date with TWO-YEAR terms, staggered so that ODD years elect Mayor + Place 2 + Place 3 and EVEN years elect Places 1, 4 and 5. Proof chain: Jan 13 2026 minutes (Item calling the general election) state 'the terms of office for three aldermen - Place 1, Place 4 and Place 5 - will expire in 2026'; the May 12 2026 canvassing ordinance 2026-05-12 reads 'to elect Aldermen for places 1, 4, and 5 for two-year terms'; the Jan 14 2025 minutes call an election 'to elect Mayor and two Alderman' and the May 13 2025 minutes administer oaths to JR Trevino (Mayor), Denise Haley (Place 2) and Kurt May (Place 3). That is EIGHT regular cycles in the panel (2019-2026, one every May), not two - the open structural question in the city block is settled. Mayor is DIRECTLY ELECTED on the odd-year ballot. Mayor Pro Tem is an internal office filled by council motion at the first meeting after each May election, tracked here as seat_label 'Mayor Pro Tem'."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "THE UNLOCK: the CivicPlus ARCHIVE CENTER, not the AgendaCenter. https://www.cityofcastlehills.com/2209/Agendas-Minutes 302s to /Archive.aspx, whose category dropdown exposes AMID ids: 81=City Council Agendas (125 items), 82=City Council Minutes (77), 94=Annual Audits (7), 80=Castle Hills Reporter newsletter (27), 93=Public Notices. Each list yields <a href=Archive.aspx?ADID=nnnn> and the file itself is at /ArchiveCenter/ViewFile/Item/{ADID} - plain curl, HTTP 200, real PDFs every time. No integer sweep was needed. The AgendaCenter exists but is thin (2018 and 2024 only). SECOND UNLOCK: the 'City Council Packet' items under AMID 81 are 1-11 MB compound PDFs that CONTAIN the previous meetings' approved minutes - this is how meetings absent from the minutes archive (Apr 1 2020, Apr 30 2020, Jun 26 2023, Jul 11 2023) were recovered. Packets 1163, 1177, 1602 carried four otherwise-unarchived meetings between them."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "ACFR/audit route WORKS but must not be trusted alone. All seven annual financial reports (FY2019-FY2025, ADIDs 1216/1361/1444/1741/1779/1842/1910) carry a 'CITY OFFICIALS' or 'LIST OF CITY PRINCIPAL OFFICIALS' page naming mayor, every Place and the Mayor Pro Tem, and all extract cleanly under pdftotext -layout. TWO failure modes observed live, both in the brief: (1) RUNS AHEAD - the FY2020 report (year ended 2020-12-31) prints an officials page IDENTICAL to FY2021's and its organizational chart is labelled 'FY 2022'; (2) RUNS BEHIND/STALE CARRY-OVER - FY2023, FY2024 and FY2025 print the identical council, and FY2022 (year ended 2022-12-31) already shows Jason Smith at Place 1 and Denise Haley at Place 2, who did not take those seats until JULY 2023 and MAY 2023 respectively. Had the series been used as the spine it would have mis-dated two mid-term changes by up to a year. Every tenure boundary here comes from dated minutes instead; the audits were used only as a cross-check. Fiscal-year change noted: FY2019-FY2023 end Dec 31, FY2024 is a nine-month stub ending 2024-09-30, FY2025 ends 2025-09-30."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 0,
+      "detail": "MOST Castle Hills minutes are image-only RICOH MP C4504ex scans (CCITT G4) and pdftotext returns literally zero bytes - the brief's 'unreadable binary is not absence' rule applied to about 70 percent of the corpus. Recovered with pdftoppm -r 200 -png then tesseract. NOTE the pdftoppm output-naming trap that cost two wasted calls: it writes {prefix}-1.png for short documents and {prefix}-001.png only once the page count forces three digits, so a hard-coded -001 glob silently matches nothing and looks exactly like an OCR failure. Glob the prefix instead. All roster evidence used here was read from locally extracted or locally OCR'd text; nothing was taken from a WebFetch summary."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "SEVEN mid-term changes found, all dated to a primary record. (1) 2019 Place 3 - Sylvia Gonzalez was elected 2019-05-04 and sat as Place 3 at the 2019-05-21 meeting, but by 2019-08-13 the minutes list 'Amy McLin, CMO Place 3 (Holdover)': the council took up an item 'declare that Place 3 is not vacant or, in the alternative, appoint Sylvia Gonzales to Place 3 and repeat the Oath of Office', McCormick objected that the oath was not taken within 30 days of the election as state law requires, city attorney Schnall cited Tex. Loc. Gov't Code 22.005/22.007 and Tex. Const. art. XVI sec. 17, and the motion to declare the seat never vacated FAILED 2-3. Place 1 was in the same posture, McCormick himself sitting as '(Holdover)'. The same meeting ordered a SPECIAL ELECTION on 2019-11-05 to fill vacancies in Place 1 and Place 3. This is the Gonzalez v. Trevino case - she was the councilwoman arrested over the petition to remove City Manager Ryan Rapelye. (2) Both seats filled at that special election: Joe Izbrand took Place 1 and Kurt May took Place 3, each with over 80 percent. (3) Mark Sanderson announced his resignation from Place 2 at the 2020-04-01 meeting, under questioning about his residency. (4) Frank Paul was APPOINTED to the Place 2 vacancy on 2020-04-30 (Gregory moved, May seconded, 3-0-1, Wenger abstaining) from four applications. (5) Joe Izbrand's resignation from Place 1 was accepted 2023-06-26, effective immediately but with Schnall ruling he could continue until a successor was appointed; his last meeting was 2023-07-11. (6) Jason Smith was APPOINTED to Place 1 on 2023-07-11 after an application window that closed July 6. (7) Jack Joyce succeeded Izbrand as Mayor Pro Tem at that same 2023-07-11 meeting. A recall was NOT the mechanism for any of these - the city block's warning that 'a recall that never reached an election is not a roster change' held: no recall election occurred in the panel window."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "2020 CYCLE - the 'unopposed' trap fired, and Texas has the same rule Alabama and Georgia do. The 2020-04-01 minutes (recovered from the July 14 2020 packet, ADID 1177) record verbatim that the only contested race on the May 2 2020 ballot was Place 5 (Frank Paul vs Douglas Gregory), that Paul filed a certificate of withdrawal, that City Manager Rapelye certified no write-in candidates, and that Ordinance 2020-04-01 'would cancel the May 2 election and declare the unopposed candidates elected', with 'the three unopposed candidates ... eligible to take the oath of office on or after May 8'. Passed 5-0. So there was NO May 2020 balloting in Castle Hills at all: Izbrand (Place 1), Jack Joyce (Place 4) and Douglas Gregory (Place 5) were declared elected. This also disposes of the COVID question - Castle Hills did not use Abbott's proclamation postponing May 2 2020 to Nov 3 2020, because it had no election left to postpone. Lesley Wenger's last meeting was 2020-04-30; Joyce's term is dated from the 2020-05-08 oath eligibility date."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 2,
+      "detail": "Only THREE WebSearches were spent in the whole run, all on facts the city's own archive could not supply. Search 1 sourced the 2019-11-05 special election result via sanantonioreport.org ('Izbrand, May Win Castle Hills Council Seats'). Search 2 (Izbrand resignation) returned nothing useful and was superseded by the packet route. Search 3 confirmed the 2020 filing picture and surfaced that Joyce was the lone Place 4 applicant, and that in 2022 Joyce beat Kim Wynn 665-390 while the other incumbent (Gregory) lost. Locality discipline: every source was checked to be Castle Hills, Bexar County - no San Antonio council, no Castle Hills KS, no Lewisville TX 'Castle Hills' development entered the record."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "Day-of-week check passed on every asserted date: 2019-05-04, 2020-05-02, 2021-05-01, 2022-05-07, 2023-05-06, 2024-05-04, 2025-05-03 and 2026-05-02 are all SATURDAYS (Texas uniform date, first Saturday in May); 2019-11-05 is a Tuesday (uniform November date); the council's regular meetings are second Tuesdays and every minutes date used is a Tuesday except the 2023-05-15 canvass special (Monday) and 2020-04-30 (Thursday), both explicitly special meetings. Seat-count sanity: SIX elective offices throughout - Mayor plus Aldermen Places 1-5 - constant across 2019-2026, corroborated by every minutes letterhead, every roll call and all seven audit officials pages. The city block's structural note is confirmed by form of government rather than contradicted: the mayor is a distinct directly-elected office, not one of the five Places, which is exactly why he does not vote except to break ties. NAME CARE: 'Frank Paul' appears TWICE and is one person in two different seats - appointed to Place 2 in 2020, elected to it in 2021, left it in 2023, then elected to PLACE 4 in 2026; he also withdrew from the Place 5 race in 2020. He is not to be merged with 'Paul Frank', which is how the July 2023 minutes transposed him. 'Kurt May' collides with the month 'May' throughout the corpus - every hit was read in context."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "not_found",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "Two soft boundaries could not be hardened and are flagged in the rows themselves. (a) The 2019-11-05 special election canvass and oath meeting is NOT in the archive - there are no council minutes or agendas between 2019-09-30 and 2020-04-30, and no Castle Hills Reporter issue for that window. Izbrand's and May's start dates are therefore given as 2019-11-12, the second Tuesday and the only regular meeting inside the statutory 3-to-11-day canvass window after Nov 5; the fact of their taking office is high-confidence, the exact day is inferred. The same window makes the end dates of McCormick and McLin, and the Wenger-to-Izbrand Mayor Pro Tem handover, inferred - Izbrand is documented as Mayor Pro Tem in minutes prepared 2020-01-29. (b) Maretta Scott's SEAT is inferred: the 2019-05-21 agenda recognizes 'Former Mayor Tim Howell, Former Alderman Amy McLin and Former Alderman Maretta Scott' without places; McLin is independently pinned to Place 3, Sanderson newly took Place 2, so Scott is assigned Place 2 by elimination and marked LOW confidence. No seat-year is left uncovered by either."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "48 of 48 seat-years sourced across 6 elective seats plus the Mayor Pro Tem office (7 seat_labels x 8 years = 56 rows in the panel view). ZERO gaps and zero known-vacant seat-years: the only lawful vacancy in the window, Place 2 between Sanderson's 2020-04-01 resignation and Paul's 2020-04-30 appointment, is 29 days inside a single year that Paul otherwise covers, so it is a run_log note and not a gap row. All nine cycles sourced."
+    }
+  ],
+  "totals": {
+    "tool_calls": 46,
+    "searches": 3
+  }
+}

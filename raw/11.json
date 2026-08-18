@@ -1,0 +1,629 @@
+{
+ "city_id": 11,
+ "city": "California City",
+ "state": "CA",
+ "profile": {
+  "gov_form": "mayor-council",
+  "seat_count": 5,
+  "seat_scheme": "at-large",
+  "term_length": 4,
+  "stagger_pattern": "4 council seats on 4-year staggered at-large terms, 2 per even-year November cycle (Seats 1-2 expire 2020/2024/2028; Seats 3-4 expire 2022/2026). The directly elected mayor serves a TWO-year term and is on every cycle. A CVRA transition to district-based elections was adopted through Feb-Apr 2025 and does not affect any seat seated on or before 2026-07-14.",
+  "mayor_selection": "elected",
+  "election_month": "November",
+  "profile_source_url": "https://www.californiacity-ca.gov/CC/index.php/elections-appointments"
+ },
+ "cycles": [
+  {
+   "election_date": "2018-11-06",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://www.avpress.com/news/election-results/article_b01d42d6-e4b8-11e8-b807-f36ecefbadf9.html"
+  },
+  {
+   "election_date": "2020-11-03",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=94"
+  },
+  {
+   "election_date": "2022-11-08",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=288"
+  },
+  {
+   "election_date": "2024-11-05",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=472"
+  },
+  {
+   "election_date": "2026-06-02",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://www.desertnews.com/news/article_36656a9b-b815-47a6-8f25-79437630a6a9.html"
+  },
+  {
+   "election_date": "2026-11-03",
+   "seats_up": 3,
+   "status": "flagged",
+   "source_url": null
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Charles McGuire",
+   "name_variants": [
+    "Chuck McGuire",
+    "Chuck Mcguire",
+    "Charles McGuire"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-12-11",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.avpress.com/news/election-results/article_b01d42d6-e4b8-11e8-b807-f36ecefbadf9.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Jeanie O'Laughlin",
+   "name_variants": [
+    "Jeanie O’Laughlin"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-12-08",
+   "end_date": "2022-12-13",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=94",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Kelly Kulikoff",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-12-13",
+   "end_date": "2024-12-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=288",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Marquette Hawkins",
+   "name_variants": [
+    "Marquette E. Hawkins",
+    "Marq Hawkins"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2024-12-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=472",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Eugene Stump",
+   "name_variants": [
+    "Gene Stump",
+    "Eugene Stump"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-27",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://www.desertnews.com/news/article_acec6e92-3300-11ea-b140-1b29a15ec2c1.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Donald Parris",
+   "name_variants": [
+    "Donald L. Parris",
+    "Don Parris"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2020-01-01",
+   "end_date": "2020-12-08",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=26",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Nicholas Lessenevitch",
+   "name_variants": [
+    "Nick Lessenevitch",
+    "Nicholas Lessenevitch"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2020-12-08",
+   "end_date": "2022-12-13",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=288",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Ronald Smith",
+   "name_variants": [
+    "Ron Smith",
+    "Ronald V. Smith, Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2022-12-13",
+   "end_date": "2024-12-10",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=348",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Michael Kulikoff",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2024-12-10",
+   "end_date": "2025-05-01",
+   "entry_mode": "appointed",
+   "exit_mode": "unknown",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=497",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Jesse Hightower",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2025-05-01",
+   "end_date": "2025-07-08",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://www.desertnews.com/news/article_7176b62d-58b7-4b69-9fa5-ec5441055628.html",
+   "retrieval_method": "newspaper",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Jim Creighton",
+   "name_variants": [
+    "James “Jim” Creighton",
+    "James Creighton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2025-10-14",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.californiacitynews.org/2025/10/california-city-councilmember-michael-hurles-resigns.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Eugene Stump",
+   "name_variants": [
+    "Gene Stump"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-12-27",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.desertnews.com/news/article_acec6e92-3300-11ea-b140-1b29a15ec2c1.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2016-11-08"
+  },
+  {
+   "person": "Bill Smith",
+   "name_variants": [
+    "Bill Smith",
+    "W. Smith",
+    "Smith W."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2020-01-14",
+   "end_date": "2020-12-08",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.desertnews.com/news/article_e3554780-d669-11ea-9b0c-138ccdc14a48.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Jim Creighton",
+   "name_variants": [
+    "James “Jim” Creighton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2020-12-08",
+   "end_date": "2024-12-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=94",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Jesse Hightower",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2024-12-10",
+   "end_date": "2025-07-08",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=472",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Jim Creighton",
+   "name_variants": [
+    "James “Jim” Creighton"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2025-09-09",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=553",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Donald Parris",
+   "name_variants": [
+    "Donald L. Parris"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=26",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2016-11-08"
+  },
+  {
+   "person": "Karen Macedonio",
+   "name_variants": [
+    "Karen L. Macedonio"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2020-12-08",
+   "end_date": "2024-01-15",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=94",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "LaShelle Cooper",
+   "name_variants": [
+    "Lashelle Cooper"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2024-03-12",
+   "end_date": "2024-12-10",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.desertnews.com/news/article_22f980c6-e61b-11ee-a991-fb658912e89f.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Michael Hurles",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2024-12-10",
+   "end_date": "2025-10-10",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=472",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Shawn Bradley",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2026-07-14",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.desertnews.com/news/article_36656a9b-b815-47a6-8f25-79437630a6a9.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2026-06-02"
+  },
+  {
+   "person": "Nicholas Lessenevitch",
+   "name_variants": [
+    "Nick Lessenevitch"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 3",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2022-12-13",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.avpress.com/news/election-results/article_b01d42d6-e4b8-11e8-b807-f36ecefbadf9.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Ronald Smith",
+   "name_variants": [
+    "Ron Smith",
+    "Ronald V. Smith, Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 3",
+   "role": "council_member",
+   "start_date": "2022-12-13",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=288",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Tami Marie Johnson",
+   "name_variants": [
+    "Tami Johnson",
+    "Tami Marie Johnson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2019-01-01",
+   "end_date": "2019-06-25",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.desertnews.com/news/article_6d999960-a974-11e9-ba0e-d3512803f68c.html",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Ronald Smith",
+   "name_variants": [
+    "Ron Smith",
+    "Ronald V. Smith, Jr."
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2019-07-20",
+   "end_date": "2020-12-08",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.desertnews.com/news/article_e3554780-d669-11ea-9b0c-138ccdc14a48.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Kelly Kulikoff",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2020-12-08",
+   "end_date": "2022-12-13",
+   "entry_mode": "elected",
+   "exit_mode": "elevated",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=94",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Michael Kulikoff",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2022-12-13",
+   "end_date": "2025-07-08",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=288",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Della Clark",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2025-09-09",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://californiacity.granicus.com/AgendaViewer.php?view_id=1&clip_id=553",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": null
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": 1,
+   "outcome": "blocked",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "REGISTRY ENTRY DEAD: the California entry's Kern route, kernvote.com/elections/past-elections/california-city, returns Akamai 'Access Denied' (HTTP 403) to plain curl with a browser UA, to https/http, with and without www, AND to WebFetch. www.kerncounty.com is 403 as well. No Kern County results were obtained from the county at all; the whole city was reconstructed from the city's own Granicus archive plus the Mojave Desert News."
+  },
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 1,
+   "detail": "Structure from the city's own Elections/Appointments page: 'four Councilmembers and a directly elected Mayor... at large... The Mayor is elected to a two-year term and the City Council are elected to four-year overlapping terms.' The registry is right that the mayor is directly elected but does NOT record the two-year mayoral term, which doubles the mayoral cycle count (2018/2020/2022/2024/2026). Also found /CC/index.php/district-elections: the city ran a CVRA transition to district-based elections through Feb-Apr 2025; districts do not affect any seat seated on or before 2026-07-14, so all labels here remain at-large."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "Even-year Novembers (SB 415). Mayor every cycle (2-yr). Council 4 at-large seats, 4-yr staggered, 2 per cycle. 2019, 2021, 2023, 2025 are structurally holdover years with no regular cycle. One off-cycle special: 2026-06-02 consolidated with the statewide primary, one council seat."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 6,
+   "outcome": "success",
+   "tool_calls": 10,
+   "searches": 0,
+   "detail": "UNLOCK: californiacity.granicus.com/viewpublisher.php?view_id=1 returns the FULL 2020-2026 archive (432 rows) to plain curl with a browser UA despite the census recording the viewpublisher as robots-blocked. AgendaViewer.php?view_id=1&clip_id=N then returns the agenda packet as a raw PDF (WebFetch-style parsing shows binary; pdftotext -layout reads it). Every packet's cover page carries the full council roster with the Mayor Pro Tem marked, and the roll call repeats it - a per-meeting roster spine at zero search cost. MetaViewer.php was never needed. Election-declaring resolutions inside the Dec packets give verbatim winner/term-class text: clip 94 'Jeanie O'Laughlin was elected Mayor; Karen Macedonio and James \"Jim\" Creighton were elected to Full Term City Council; Kelly Kulikoff was elected to Short Term City Council'; clip 288 'Kelly Kulikoff was elected Mayor; Ronald Smith and Michael Kulikoff were elected to Full Term City Council'. Archive earliest clip is 26 (2020-02-25); nothing for 2018-2019."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 1,
+   "detail": "2018 cycle came from the Antelope Valley Press results table (avpress.com), fetched verbatim: 'California City Mayor (two-year term)' Chuck Mcguire 590 (27.49%); 'California City Councilmember (top two candidates)' Nicholas Lessenevitch 1335, Tami Marie Johnson 799, Warren Batiste 644. Ballotpedia fetches 200 by curl but has NO California City municipal coverage in any of its Kern County 2018/2020/2022/2024 pages - only Bakersfield. Treat Ballotpedia as useless for this city."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 8,
+   "searches": 2,
+   "detail": "NINE mid-term changes, all dated. desertnews.com (Mojave Desert News) is fully fetchable to curl with a browser UA, is NOT obfuscated, and its /search/?q=&d1=&d2= endpoint works - it carried the entire mid-term record. (1) Tami Marie Johnson submitted her resignation 2019-06-25 (medical); council interviewed six applicants at a 9am Saturday special meeting 2019-07-20 - day-of-week check: 2019-07-20 was a Saturday, consistent - and Ron Smith was appointed to the seat. (2) Mayor Pro Tem Eugene Stump resigned effective 2019-12-27 (moved his residency to Nevada). (3) Bill Smith appointed January 2020 to Stump's remaining term. (4) Karen Macedonio resigned effective 2024-01-15 amid a quo warranto action over simultaneously holding an East Kern Healthcare District seat. (5) LaShelle Cooper appointed to Macedonio's seat 2024-03-12. (6) Michael Kulikoff resigned during the 2025-07-08 meeting, having been removed as Mayor Pro Tem earlier in 2025 after a federal indictment. (7) Jesse Hightower resigned over the same 2025-07-08 meeting (walked out during the check-register item; the mayor issued the statement announcing it - one outlet dates it 2025-07-10, so the exact effective date is soft). (8) Jim Creighton and Della Clark appointed 2025-09-09 to the two vacancies, the alternative on the agenda having been a special election consolidated with the 2026-06-02 primary. (9) Michael Hurles resigned Friday 2025-10-10 while facing a censure resolution - day-of-week check: 2025-10-10 was a Friday, consistent - and Creighton was made Mayor Pro Tem. Shawn Bradley then WON the 2026-06-02 special election (he was not appointed) and was sworn in 2026-07-14 for the remainder of the term, to 2028."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "Roster bracketing by agenda cover pages: 2020-02-25 (McGuire/Parris/R.Smith/Lessenevitch/W.Smith), 2022-12-13 pre-oath roll (Creighton, Kulikoff, Macedonio, MPT Lessenevitch, Mayor O'Laughlin), 2023-06-13, 2023-09-12, 2023-11-14 (Macedonio still seated), 2024-02-13 (Macedonio gone, 3 council), 2024-06-25 (Cooper seated), 2024-12-09/10, 2025-03-11 (MPT M. Kulikoff), 2025-07-22 (only Hurles+Smith+Mayor - two vacancies), 2025-09-09, 2025-10-14 (Clark and Creighton seated), 2026-01-13 (Hurles gone, MPT Creighton), 2026-04-14 (seat still vacant), 2026-08-11 (Bradley seated). Seat count is 4 council + directly elected mayor throughout; no council-size change."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "SEAT-LINEAGE RECONSTRUCTION. The 2020 ballot carried FOUR offices, not three, which is the structural tell that cracked 2019 open: mayor + two full terms + one short term. A 2020-08 Mojave Desert News filing-period story states it verbatim - 'a short-term, two-year seat currently held by Smith, who was appointed to serve in the spot after Tami Johnson resigned in June 2019' and 'Councilman Bill Smith, who was appointed in January to serve out the remaining term after then-Mayor Pro Tem Gene Stump resigned in December 2019'. That fixes Seat 4 (Johnson 2018-2022 class) and Seat 1 (Stump 2016-2020 class) and confirms the 2019 council was McGuire (mayor), Stump, Parris, Lessenevitch, Johnson->R. Smith. CAVEAT, deliberately not filed as gaps: seats are at-large and unnumbered, so which of Creighton/Macedonio succeeded which of Stump/Parris in 2020, which of R. Smith/M. Kulikoff succeeded which of Lessenevitch/K. Kulikoff in 2022, and which of Creighton/Clark filled which 2025 vacancy are all arbitrary within their term class. Labels are assigned to keep each term class internally consistent; person-years are unaffected."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "HOMONYM AND ELEVATION CARE. Three distinct Smiths: Ronald Smith (Ron Smith / Ronald V. Smith, Jr.; appointed 2019 to Seat 4, defeated 2020, re-elected 2022 to Seat 3 - a genuine re-appearance, not a missed appointment), Bill Smith (W. Smith, Jan-Dec 2020 only), and no relation between them recorded. Two distinct Kulikoffs: Kelly Kulikoff (Seat 4 2020-2022, then Mayor 2022-2024) and Michael Kulikoff (Seat 4 2022-2025). Kelly Kulikoff's council exit is coded exit_mode 'elevated' - but note his short-term seat EXPIRED at the 2022 election in the same act, so no vacancy resulted; the Dec 2022 roll call shows a full four-member council immediately after the oath. Jim Creighton also appears twice (Seat 1 2020-2024, then re-appointed to Seat 1 2025) - two genuinely separate tenures, nine months apart."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "SOFT BOUNDARIES, recorded here rather than as gaps because the seat-years are sourced. (a) Mayor Pro Tempore is designated under CCMC 2.1.104(b) by seniority whenever a mayor is seated; the Dec 2020 packet prints the rule but not the outcome, so Lessenevitch's MPT start of 2020-12-08 is inferred from the rule and confirmed only at its 2022-12-13 endpoint - medium. (b) The M. Kulikoff -> Hightower MPT handover is bracketed 2025-03-11 (Kulikoff still MPT) to 2025-07-08 and dated 2025-05-01 as a placeholder - low. (c) The Mayor Pro Tempore office was VACANT 2025-07-08 to 2025-10-14 and Seat 2 was VACANT 2025-10-10 to 2026-07-14 and 2024-01-15 to 2024-03-12, and Seat 4 2025-07-08 to 2025-09-09 and 2019-06-25 to 2019-07-20; every one of those years is otherwise covered by a sourced holder, so none is filed as a gap. (d) McGuire's mayoral start is dated 2018-12-11 by convention (the December meeting after the 2018-11-06 election); only the 2019-01-01 panel boundary matters."
+  },
+  {
+   "step": "escalation",
+   "rung": 7,
+   "outcome": "not_found",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "ACFR route not needed and not pursued past the finance page - californiacity-ca.gov/CC/index.php/departments-1/finance offers only 'Audited Financial Statements', which per the brief's distinction is the audit-only form with no principal-officials page. The Granicus cover pages made an annual officials spine unnecessary."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "48 of 48 seat-years sourced (6 seats x 8 years: Mayor, Mayor Pro Tempore, and At-Large Seats 1-4). Zero gaps. The 2026-11-03 general is listed as a flagged cycle only because it had not yet been held on the research date, 2026-08-17; it is not a retrieval failure."
+  }
+ ],
+ "totals": {
+  "tool_calls": 34,
+  "searches": 4
+ }
+}

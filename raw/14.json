@@ -1,0 +1,567 @@
+{
+ "city_id": 14,
+ "city": "Chino Valley town",
+ "state": "Arizona",
+ "profile": {
+  "gov_form": "council-manager",
+  "seat_count": 7,
+  "seat_scheme": "at-large",
+  "term_length": 4,
+  "stagger_pattern": "Mayor is directly elected at large to a 2-YEAR term and is on the ballot at EVERY even-year cycle. Six councilmembers serve 4-year terms in two classes of three: Class A (labelled At-Large Seats 1-3) elected 2018/2022/2026; Class B (At-Large Seats 4-6) elected 2016/2020/2024. The current stagger was set by the 2016 cycle, which elected six councilmembers at once - three to 4-year terms (Class B) and three to 2-year terms (Class A). Terms begin at the December seating meeting following the election (documented: 2022-12-13, 2024-12-10, announced 2026-12-08). Mid-term vacancies may put an extra 2-year seat on the ballot (2018) or be filled by council appointment (2021, 2026).",
+  "mayor_selection": "elected",
+  "election_month": "Primary in August (moved permanently to the 2nd-to-last Tuesday in July from 2024/2026); November general held only as a runoff. Under A.R.S. 9-821.01(D) a candidate taking a majority in the primary is elected outright, so most Chino Valley seats never appear on a November ballot.",
+  "profile_source_url": "https://www.chinovalleyaz.gov/469/Chino-Valley-Elections-Overview"
+ },
+ "cycles": [
+  {
+   "election_date": "2016-08-30",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/341"
+  },
+  {
+   "election_date": "2018-08-28",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/438"
+  },
+  {
+   "election_date": "2020-08-04",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/534"
+  },
+  {
+   "election_date": "2020-11-03",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/548"
+  },
+  {
+   "election_date": "2022-08-02",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/607"
+  },
+  {
+   "election_date": "2024-07-30",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/685"
+  },
+  {
+   "election_date": "2026-07-21",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/777"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Darryl Croft",
+   "name_variants": [
+    "Darryl L. Croft"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-12-11",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/438",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-08-28"
+  },
+  {
+   "person": "Jack Miller",
+   "name_variants": [
+    "Jack W. Miller"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2020-12-08",
+   "end_date": "2022-12-13",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/534",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-08-04"
+  },
+  {
+   "person": "Jack Miller",
+   "name_variants": [
+    "Jack W. Miller"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2022-12-13",
+   "end_date": "2024-12-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/607",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-08-02"
+  },
+  {
+   "person": "Tom Armstrong",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2024-12-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/685",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-07-30"
+  },
+  {
+   "person": "Jack Miller",
+   "name_variants": [
+    "Jack W. Miller"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2018-12-11",
+   "end_date": "2020-12-08",
+   "entry_mode": "appointed",
+   "exit_mode": "elevated",
+   "source_url": "https://www.chinovalleyaz.gov/DocumentCenter/View/5990/Comprehensive-Annual-Financial-Report-ending-June-30-2019",
+   "retrieval_method": "audit_report",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Corey Mendoza",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2020-12-08",
+   "end_date": "2021-06-22",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://www.chinovalleyaz.gov/DocumentCenter/View/7825/Comprehensive-Annual-Financial-Report-ending-June-30-2020",
+   "retrieval_method": "audit_report",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Annie Perkins",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2021-06-22",
+   "end_date": "2022-12-13",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/DocumentCenter/View/7845/Comprehensive-Annual-Financial-Report-ending-June-30-2021",
+   "retrieval_method": "audit_report",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Eric Granillo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2022-12-13",
+   "end_date": "2023-12-31",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/DocumentCenter/View/9544/Annual-Comprehensive-Financial-Report-ending-June-30-2023",
+   "retrieval_method": "audit_report",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Tom Armstrong",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2024-01-01",
+   "end_date": "2024-12-10",
+   "entry_mode": "appointed",
+   "exit_mode": "elevated",
+   "source_url": "https://www.chinovalleyaz.gov/DocumentCenter/View/10330/Annual-Comprehensive-Financial-Report-ending-June-30-2024",
+   "retrieval_method": "audit_report",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Eric Granillo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2024-12-10",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/DocumentCenter/View/12932/Annual-Comprehensive-Financial-Report-ending-June-30-2025",
+   "retrieval_method": "audit_report",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Cloyce Kelly",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2018-12-11",
+   "end_date": "2022-12-13",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/438",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-08-28"
+  },
+  {
+   "person": "Sherri Phillips",
+   "name_variants": [
+    "Sherri L. Clingman"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 1",
+   "role": "council_member",
+   "start_date": "2022-12-13",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/607",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-08-02"
+  },
+  {
+   "person": "Corey Mendoza",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2018-12-11",
+   "end_date": "2021-06-22",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/438",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-08-28"
+  },
+  {
+   "person": "John McCafferty",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2021-08-24",
+   "end_date": "2022-12-13",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.dcourier.com/news/chino-valley-review/mccafferty-appointed-to-fill-vacant-chino-valley-town-council-seat/article_c569d1a7-f425-533a-888e-375a4b1fb33a.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "John McCafferty",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 2",
+   "role": "council_member",
+   "start_date": "2022-12-13",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/607",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-08-02"
+  },
+  {
+   "person": "Lon Turner",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 3",
+   "role": "council_member",
+   "start_date": "2018-12-11",
+   "end_date": "2022-12-13",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/438",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-08-28"
+  },
+  {
+   "person": "Robert Schacherer",
+   "name_variants": [
+    "Bob Schacherer"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 3",
+   "role": "council_member",
+   "start_date": "2022-12-13",
+   "end_date": "2026-04-28",
+   "entry_mode": "elected",
+   "exit_mode": "unknown",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/607",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-08-02"
+  },
+  {
+   "person": "John Stankewicz",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 3",
+   "role": "council_member",
+   "start_date": "2026-04-28",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://theprescotttimes.com/news/chino-valley-town-council-agenda-highlights-new-council-appointment-rezoning-proposal-and-public-safety-grant/article_f41bfaa3-4882-474e-be96-0ba5def6cd14.html",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Jack Miller",
+   "name_variants": [
+    "Jack W. Miller"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2016-12-13",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "elevated",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/341",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2016-08-30"
+  },
+  {
+   "person": "Eric Granillo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2020-12-08",
+   "end_date": "2024-12-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/548",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Eric Granillo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 4",
+   "role": "council_member",
+   "start_date": "2024-12-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/685",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-07-30"
+  },
+  {
+   "person": "Annie Lane",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 5",
+   "role": "council_member",
+   "start_date": "2016-12-13",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/341",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2016-08-30"
+  },
+  {
+   "person": "Annie Perkins",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 5",
+   "role": "council_member",
+   "start_date": "2020-12-08",
+   "end_date": "2024-12-10",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/534",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-08-04"
+  },
+  {
+   "person": "Larry Holt",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 5",
+   "role": "council_member",
+   "start_date": "2024-12-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/685",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-07-30"
+  },
+  {
+   "person": "Mike Best",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 6",
+   "role": "council_member",
+   "start_date": "2018-12-11",
+   "end_date": "2020-12-08",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/438",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2018-08-28"
+  },
+  {
+   "person": "Tom Armstrong",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 6",
+   "role": "council_member",
+   "start_date": "2020-12-08",
+   "end_date": "2024-12-10",
+   "entry_mode": "elected",
+   "exit_mode": "elevated",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/534",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-08-04"
+  },
+  {
+   "person": "Robert Switzer",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "At-Large Seat 6",
+   "role": "council_member",
+   "start_date": "2024-12-10",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.chinovalleyaz.gov/ArchiveCenter/ViewFile/Item/685",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-07-30"
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "blocked",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "Registry entry for Yavapai County ('Unresolved - DNS failure and robots timeout') RE-TESTED and RESOLVED AS BLOCKED. www.yavapaiaz.gov and yavapaiaz.gov return Akamai 'Access Denied' HTTP 403 to curl with a full browser UA on EVERY path including /robots.txt. yavapai.us / recorder.yavapaiaz.gov do not resolve. The county's real elections host is a DIFFERENT domain, www.yavapaivotes.gov (named in Chino Valley's own election pages and printed on the county's certification letterhead inside the canvass PDFs) - it also 403s on / and /robots.txt. Not a robots policy, a WAF wall. No Yavapai County source was usable; every cycle was recovered from the TOWN's own records instead. Registry also confirmed correct that {city}.suiteonemedia.com is Show-Low-specific (not retried) and that chinoaz.net 302s to chinovalleyaz.gov."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "STRUCTURE SETTLED IN ONE FETCH from https://www.chinovalleyaz.gov/469/Chino-Valley-Elections-Overview, verbatim: 'The Chino Valley Town Council is comprised of the Mayor and six Councilmembers. The Mayor and Councilmembers are elected from the town at large, the Mayor to a 2-year term and the Councilmembers to 4-year terms.' and 'Council terms are staggered, with the Mayor and three Councilmembers elected at one election and the Mayor and the other three Councilmembers elected two years later.' MAYOR IS DIRECTLY ELECTED (confirmed independently by standalone Mayor ballot contests in the 2016, 2018, 2020, 2022, 2024 and 2026 canvass resolutions) - the Sahuarita council-selected pattern does NOT apply here. Council-manager form confirmed verbatim in the FY2025 ACFR. The municipal code was NOT needed: the town's own elections page settled composition, term length, stagger, mayor-selection and the runoff rule. It also confirms the A.R.S. 9-821.01(D) procedure verbatim ('If no candidate for an office receives a majority of the votes cast for that office in the Primary Election, a runoff election will be held at the General Election') - the August/July primary elects outright, and in 2018, 2022, 2024 and 2026 EVERY municipal seat was decided in the primary with no November municipal ballot at all. Only 2020 produced a November runoff (one council seat)."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 14,
+   "searches": 0,
+   "detail": "THE UNLOCK: the town's CivicPlus Archive Center holds every canvass resolution. Archive.aspx?AMID={n} lists a category (swept ids 1-81; 36-81 are live: Resolutions and Ordinances by year 2010-2026, ACFRs, Annual Financial Reports, Proclamations), and Archive.aspx?ADID={id} / ArchiveCenter/ViewFile/Item/{id} returns the PDF straight to plain curl. Canvasses located: 2016-08-30 = Res 16-1090 (ADID 341), 2018-08-28 = Res 18-1131 (ADID 438), 2020-08-04 = Res 2020-1172 (ADID 534), 2020-11-03 general = Res 2020-1175 (ADID 548), 2022-08-02 = Res 2022-1219 (ADID 607), 2024-07-30 = Res 2024-1268 (ADID 685), 2026-07-21 = Res 2026-1323 (ADID 777). Each resolution incorporates the Yavapai County Election Director's certification as Exhibit A, so these ARE the county canvass, routed around the county's 403. Res 16-1090 and Res 2022-1219 are image-only PDFs and were read with pdftoppm + tesseract; the rest extracted cleanly with pdftotext -layout. Note the Archive Center's link labels carry only the resolution NUMBER, never a subject, so the year lists had to be swept by fetching first pages."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "2016-08-30 was a re-staggering cycle: 'a Mayor and six (6) Councilmembers' were elected at once - three to 4-year terms (Susan Cuka, Annie Lane, Jack Miller = Class B) and three to 2-year terms (Mike Best, Corey Mendoza, Lon Turner = Class A). That single document explains the whole current stagger and was necessary to cover 2019-2020. 2018-08-28 elected Mayor Darryl Croft, three 4-year councilmembers (Cloyce Kelly, Corey Mendoza, Lon Turner) AND a fourth, 2-YEAR councilmember (Mike Best) - the structural tell of an unexpired term, which led to the Cuka resignation."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 8,
+   "searches": 0,
+   "detail": "dcourier.com (Prescott Daily Courier / Chino Valley Review) is fully fetchable by plain curl with a browser UA and its site search /search/?q= returns dated article permalinks with full first-paragraph bodies - zero WebSearch cost. Mid-term changes found and dated: (1) Susan Cuka resigned by letter to Mayor Croft dated March 30, 2018 - verbatim 'Chino Valley Council Member Susan Cuka submitted a letter of resignation to Mayor Darryl Croft March 30 announcing her resignation effective immediately... her term was to expire December 2020' - this is the vacancy that produced the 2-year seat on the Aug 2018 ballot (won by Mike Best). Date is March 30, 2018; the vacancy itself predates the panel window. (2) Corey Mendoza resigned; his final meeting was Tuesday, June 22, 2021 (dcourier, /news/chino-valley-town-council-member-mendoza-resigns/). (3) John McCafferty appointed and sworn to that seat on Tuesday, Aug. 24, 2021 (dcourier). Seat 2 was therefore lawfully VACANT 2021-06-22 to 2021-08-24; this is a caveat on a seat-year that is otherwise fully sourced (Mendoza Jan-Jun 2021, McCafferty Aug-Dec 2021), so per the brief it is logged here and NOT filed as a gap. (4) Dec 13, 2022 seating meeting documented by dcourier ('New, old members of Chino Valley Town Council seated Dec. 13'), naming Mayor Jack Miller and Council members Sherri Phillips, Robert Schacherer and John McCafferty sworn in by Town Clerk Erin Deskins, with Lon Turner outgoing. (5) Dec 10, 2024 seating documented by dcourier, with Jack Miller and Annie Perkins outgoing and 'Tom Armstrong who is making the transition from vice mayor to mayor'."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 1,
+   "detail": "2026 vacancy: John Stankewicz was appointed to the Town Council and sworn in at the Tuesday, April 28, 2026 regular meeting. Verbatim from the published agenda (theprescotttimes.com, 'Chino Valley Town Council Agenda Highlights'): 'Administer the Oath of Office to John Stankewicz for an appointment to fill the vacancy on the Town Council with the appointment expiring December 2026.' The seat is At-Large Seat 3 by elimination - McCafferty and Phillips (the other two 2022 winners) are still seated, and Bob Schacherer still appears on the FY2025 ACFR principal-officials page but is gone from the current roster. THE EXACT DATE AND MODE OF SCHACHERER'S DEPARTURE COULD NOT BE SOURCED: dcourier's Chino Valley coverage thins out after 2022 and returns nothing for 'Schacherer' beyond his 2022 candidacy; theprescotttimes site search returns nothing; kyca.info's wp-json endpoint returns non-JSON. His tenure is recorded with end_date 2026-04-28 (an upper bound, the date his successor took the oath) and exit_mode 'unknown'. This is a caveat on a sourced seat-year, not a gap. Stankewicz then won a full 4-year term at the 2026-07-21 primary."
+  },
+  {
+   "step": "escalation",
+   "rung": 7,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "THE ACFR SERIES IS THE SPINE OF THIS CITY. Chino Valley publishes a true ACFR every year FY2013-FY2025, linked from https://www.chinovalleyaz.gov/198/Financial-Reports as DocumentCenter/View/{id}, all curl-fetchable and clean under pdftotext -layout, each carrying a 'List of Principal Officials' page that names the Mayor, the VICE MAYOR BY NAME, and all five remaining councilmembers. That page is the only source found for the vice-mayoralty, which is an internal council selection that appears in no election record. IDs: FY2019=5990, FY2020=7825, FY2021=7845, FY2022=8616, FY2023=9544, FY2024=10330, FY2025=12932. IMPORTANT EXTRACTION CAVEAT, observed here in an unusual direction: these officials pages are NOT fiscal-year-end snapshots - they are as-of-PUBLICATION rosters, and they run AHEAD of the fiscal year. The FY2020 report (FYE 2020-06-30, when Darryl Croft was still mayor) prints 'Jack Miller, Mayor' with Armstrong, Granillo and Perkins already seated - i.e. the council of Dec 2020 to June 2021. Every year in the series behaves this way. Read against the canvasses rather than by fiscal year. Vice-mayor sequence recovered: Jack Miller (FY2019 report), Corey Mendoza (FY2020), Annie Perkins (FY2021 and FY2022), Eric Granillo (FY2023), Tom Armstrong (FY2024), Eric Granillo (FY2025 and current). The Granillo->Armstrong->Granillo handovers inside 2024 have no dated source; those two rows carry approximate boundaries and 'low' confidence."
+  },
+  {
+   "step": "escalation",
+   "rung": 6,
+   "outcome": "blocked",
+   "tool_calls": 5,
+   "searches": 0,
+   "detail": "Minutes roll call was NOT needed but was probed. The registry's CivicClerk tip is confirmed and extended: https://chinovalleyaz.api.civicclerk.com/v1/Events works, and paging the bare collection with $skiptoken returns an event archive reaching back to 2001-08-04 (450 events over 30 pages, still not exhausted) - far deeper than the 2024 start the portal implies. BUT the metadata is all you get: /v1/Events(id)/publishedFiles, ?$expand=publishedFiles, /v1/EventFiles, /v1/Files, /v1/AgendaItems and /v1/Meetings all return HTTP 404 or empty, so agendas and minutes TEXT are not reachable through the API - only event names, dates and agenda titles. The town's CivicPlus /AgendaCenter still resolves but is EMPTY (the dated search returns no items for 2019); everything migrated to CivicClerk. Municode carries the town code at library.municode.com/az/chino_valley (HTTP 200) but was not needed - the elections overview page settled the structure first, more cheaply."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Day-of-week checks all pass: Aug 30 2016, Aug 28 2018, Aug 4 2020, Aug 2 2022 and Jul 30 2024 are all Tuesdays; Jul 21 2026 is a Tuesday; Dec 13 2022, Dec 10 2024, Jun 22 2021, Aug 24 2021 and Apr 28 2026 are all Tuesdays, matching the council's Tuesday meeting cadence. Seat count constant at 7 (Mayor + 6) across the whole window, cross-checked against seven independent ACFR principal-officials pages each listing exactly seven names. SOFT DATES, flagged rather than hidden: the December seating dates for the 2016, 2018 and 2020 classes are not directly sourced; 2016-12-13, 2018-12-11 and 2020-12-08 are the second Tuesdays of those Decembers, matching the documented 2022-12-13 and 2024-12-10 seatings. They do not affect any panel year. UNRESOLVED IDENTITY QUESTION, deliberately NOT merged: 'Annie Lane' (elected 2016, on the FY2019 principal-officials page) and 'Annie Perkins' (elected 2020, FY2020 onward) occupy the same seat lineage in consecutive terms and are plausibly the same person under a married name, but no source states it, so they are recorded as two people per the never-merge rule. FUTURE CYCLE: the 2026-07-21 primary elected Mayor Tom Armstrong and councilmembers Dwight Savage, John Stankewicz and Cole Swearingen outright; the town states swearing-in occurs at the December 8, 2026 regular meeting, so no tenure rows were created for terms that have not begun."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "All 8 tracked seat labels (Mayor, Vice Mayor, At-Large Seats 1-6) are covered for every year 2019-2026 with a sourced tenure row. Zero gaps filed. 27 tenure rows, 2 of them low-confidence (the two 2024 vice-mayor rows)."
+  }
+ ],
+ "totals": {
+  "tool_calls": 51,
+  "searches": 1
+ }
+}

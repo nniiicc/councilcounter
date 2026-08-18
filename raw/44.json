@@ -1,0 +1,530 @@
+{
+  "city_id": 44,
+  "city": "Odessa",
+  "state": "TX",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 7,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "Two groups on 4-year staggered terms, elected in November of even years. Group A (Mayor, At-Large, District 1, District 2): 2016, 2020, 2024, 2028. Group B (District 3, District 4, District 5): 2018, 2022, 2026. At-Large was a new seat first filled 2018-11-06 for a 2-year unexpired term, which placed it in Group A.",
+    "mayor_selection": "elected",
+    "election_month": "November",
+    "profile_source_url": "https://www.odessa-tx.gov/670/City-Council"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1930/Final-Official-Results-PDF"
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1948/Final-Official-Results-PDF"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1970/Final-Official-Results-PDF"
+    },
+    {
+      "election_date": "2020-12-15",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1968/Final-Official-Results-PDF"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.odessa-tx.gov/DocumentCenter/View/5869/Order-of-Cancellation-11-8-2022"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1092/OFFICIAL-CUMULATIVE-RESULTS-PDF"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "David R. Turner",
+      "name_variants": [
+        "David Turner",
+        "DAVID R. TURNER"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-22",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.odessa-tx.gov/Archive.aspx?ADID=593",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Javier Joven",
+      "name_variants": [
+        "JAVIER JOVEN"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-01-05",
+      "end_date": "2024-11-19",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1968/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-12-15"
+    },
+    {
+      "person": "Cal Hendrick",
+      "name_variants": [
+        "CAL HENDRICK"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-11-19",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1092/OFFICIAL-CUMULATIVE-RESULTS-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Peggy Dean",
+      "name_variants": [
+        "PEGGY DEAN"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-22",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1948/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Denise Swanner",
+      "name_variants": [
+        "DENISE SWANNER"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2021-01-05",
+      "end_date": "2024-11-19",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1968/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-12-15"
+    },
+    {
+      "person": "Craig Stoker",
+      "name_variants": [
+        "CRAIG STOKER"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2024-11-19",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1092/OFFICIAL-CUMULATIVE-RESULTS-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Malcolm Hamilton",
+      "name_variants": [
+        "MALCOLM HAMILTON"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-03-24",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.odessa-tx.gov/AgendaCenter/ViewFile/Minutes/_03242020-69",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Michael K. Shelton Sr.",
+      "name_variants": [
+        "Michael Shelton",
+        "MICHAEL SHELTON",
+        "Rev. Michael Shelton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2020-04-27",
+      "end_date": "2020-12-22",
+      "entry_mode": "appointed",
+      "exit_mode": "defeated",
+      "source_url": "https://www.odessa-tx.gov/AgendaCenter/ViewFile/Minutes/_04272020-103",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mark Matta",
+      "name_variants": [
+        "MARK MATTA"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2021-01-05",
+      "end_date": "2024-11-19",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1968/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-12-15"
+    },
+    {
+      "person": "Eddie Mitchell",
+      "name_variants": [
+        "EDDIE MITCHELL"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2024-11-19",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1092/OFFICIAL-CUMULATIVE-RESULTS-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Dewey Bryant",
+      "name_variants": [
+        "DEWEY BRYANT"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-11-17",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.odessa-tx.gov/Archive.aspx?ADID=593",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Steven P. Thompson",
+      "name_variants": [
+        "Stephen P. Thompson",
+        "Steven Thompson",
+        "STEVEN P. THOMPSON"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2020-12-22",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1970/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Detra White",
+      "name_variants": [
+        "DETRA WHITE"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-11-08",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1948/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Gilbert Vasquez",
+      "name_variants": [
+        "GILBERT VASQUEZ"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2022-11-08",
+      "end_date": "2026-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.odessa-tx.gov/DocumentCenter/View/5869/Order-of-Cancellation-11-8-2022",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Tom Sprawls",
+      "name_variants": [
+        "TOM SPRAWLS"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-11-08",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1948/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Greg Connell",
+      "name_variants": [
+        "GREG CONNELL"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2022-11-08",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.odessa-tx.gov/DocumentCenter/View/5869/Order-of-Cancellation-11-8-2022",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Mari Willis",
+      "name_variants": [
+        "Mari Spivey Willis",
+        "MARI WILLIS"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-11-08",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ectorcountytx.gov/DocumentCenter/View/1948/Final-Official-Results-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Chris Hanie",
+      "name_variants": [
+        "Chris M. Hanie",
+        "CHRIS HANIE"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2022-11-08",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.odessa-tx.gov/DocumentCenter/View/5869/Order-of-Cancellation-11-8-2022",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Dewey Bryant",
+      "name_variants": [
+        "DEWEY BRYANT"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2020-11-12",
+      "end_date": "2020-11-17",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.odessa-tx.gov/AgendaCenter/ViewFile/Minutes/_11122020-160",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2019,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    },
+    {
+      "year": 2021,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    },
+    {
+      "year": 2022,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    },
+    {
+      "year": 2023,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    },
+    {
+      "year": 2024,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    },
+    {
+      "year": 2025,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    },
+    {
+      "year": 2026,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "budget_cap",
+      "attempted": "AgendaCenter full-text search (/AgendaCenter/Search/?term=mayor+pro+tem&CIDs=7) returned no document list; Odessa council minutes name members by district only and do not flag the presiding officer in the roll call. One snapshot was recovered from Odessa Development Corporation minutes of 2020-11-12, where the Mayor Pro Tem sits ex-officio. Identifying the holder for other years needs a sweep of the post-election reorganization minutes, which the 60-call cap did not allow.",
+      "notes": "Seat exists and is sourced for 2020 only; a WebSearch snippet claimed Swanner and Matta held it under Mayor Joven but no primary source was retrieved, so it is not recorded."
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry Texas entry PARTLY WRONG for Odessa. It warns 'do not assume May without checking' - correct: Odessa is NOT on the May uniform date. It holds general elections in NOVEMBER of even-numbered years, first Tuesday after the first Monday. Registry's Ector County DocumentCenter pattern VERIFIED and is the best source. Registry's TML-directory caveat confirmed (not used). Clarity not involved."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "STRUCTURE SETTLED FROM CITY SOURCE, not inferred. https://www.odessa-tx.gov/670/City-Council: 'The Odessa City Council is comprised: 5 City Council members elected by districts, 1 At-Large member and the Mayor. Council members serve staggered 4-year terms.' Published term-expiry dates (Mayor/At-Large/D1/D2 expire 2028-11-07; D3/D4/D5 expire 2026-11-03) fix the stagger. https://www.odessa-tx.gov/667/Elections: 'City Council elections are held every even-numbered year. Election Day is the first Tuesday after the first Monday in November.' TERM LENGTH IS 4 YEARS, NOT 2 - so this panel has two full cycles per group, not four. Group A = Mayor, At-Large, District 1, District 2 (2016, 2020, 2024, 2028). Group B = District 3, District 4, District 5 (2018, 2022, 2026). Majority-vote city: a December runoff follows when no candidate clears 50% (confirmed 2020-12-15)."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "COUNCIL SIZE CHANGED INSIDE THE PANEL'S RUN-UP. ACFR FY2017 and FY2018 'City Officials' pages list only Mayor + Districts 1-5 (6 seats); the At-Large seat first appears in the FY2019 ACFR. The Ector County election is titled 'City of Odessa General/Special' for 2018-11-06 and the At-Large race there was a SPECIAL (unexpired) term running only to 2020, which is what re-aligned At-Large onto Group A. Seat count is a constant 7 for every panel year 2019-2026, but was 6 before 2018-11-06."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 0,
+      "detail": "Ector County publishes a complete historical election index at /271/Elections with per-election 'Final Official Results' PDFs. Retrieved 2016-11-08 (id 1930), 2018-11-06 (1948), 2020-11-03 city (1970), 2020-12-15 runoff (1968), 2024-11-05 (1092). All are scans; 1948/1968/1970/1092 carry an OCR text layer that pdftotext -layout reads, 1930 has NONE and was OCR'd locally with tesseract at 200dpi. OCR mangles digits badly (percentages especially) but names are legible; every name recorded here was cross-checked against a second source (ACFR officials page or minutes roll call) rather than trusted from OCR alone."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "2022-11-08 CITY ELECTION WAS CANCELLED - not missing. The Ector County 2022 general canvass contains no city races at all. Cause: all three District seats drew a single candidate, so the city issued an Order of Cancellation under Tex. Elec. Code sec. 2.053(a) declaring Gilbert Vasquez (D3), Greg Connell (D4) and Chris M. Hanie (D5) elected. Verbatim from the order: 'The following candidates have been certified as unopposed and are hereby elected.' This is the registry's 'unopposed is not missing' finding recurring in Texas. Confirmed independently by ACFR FY2023, which records all three as Date Elected 2022, Term Expires 2026."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 10,
+      "searches": 1,
+      "detail": "ACFR SERIES IS THE BACKBONE FOR 2019-2023 AND IT IS A TRUE ACFR. https://www.odessa-tx.gov/Archive.aspx?AMID=48 holds FY2008-FY2023 with an Introductory Section containing 'City Officials'. FY2018 onward is explicitly headed '(as of September 30, YYYY)' and FY2022/FY2023 add Date Elected and Term Expires columns. CONVENTION CHECK PASSED: the series is a true fiscal-year-end snapshot, neither stale nor running ahead - FY2020 (as of 2020-09-30) still names David R. Turner as mayor and Michael Shelton in District 1, both of which match dated minutes for that date. WARNING on the archive: Archive.aspx ADIDs are NOT in year order (ADID 600 = FY2009, 593 = FY2019, 899 = FY2020, 1013 = FY2021, 1230 = FY2022, 1241 = FY2023); they must be probed, not constructed. Series stops at FY2023 - there is no FY2024 or FY2025 ACFR, so 2024-2026 rests on the canvass plus minutes."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 2,
+      "detail": "TWO mid-term changes found and dated. (1) DISTRICT 1, 2020: Malcolm Hamilton (elected 2016) resigned; minutes of 2020-03-24 still show him present, minutes of 2020-04-27 open with 'Vacant, District One' and carry the motion 'to appoint Rev. Michael Shelton to fill the vacancy of Council member District One'. Shelton then LOST the seat he had been appointed to, in the 2020-12-15 runoff, to Mark Matta. NOTE: a WebSearch summary asserted Hamilton resigned 'effective March 24, 2019' - that is WRONG BY A YEAR and was caught only because minutes of 2020-02-25 and 2020-03-24 both show him seated. (2) DISTRICT 3, 2026: Gilbert Vasquez resigned effective 2026-06-30 after deaths in his family; council voted on 2026-07-14 not to appoint, leaving the seat vacant until the 2026-11-03 election because a special election was quoted at ~$300,000. The seat is vacant as of the research date 2026-08-17 - this is recorded as Vasquez's exit rather than a gap row, because District 3 2026 is already sourced for January-June."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "not_found",
+      "tool_calls": 4,
+      "searches": 1,
+      "detail": "PRESIDING OFFICER LARGELY UNRESOLVED. Odessa has a Mayor Pro Tem but the office is invisible in the council minutes roll call, which lists members by district only. The single sourced observation is Odessa Development Corporation minutes of 2020-11-12: 'Mayor Pro Tem Dewey Bryant, ex-officio' - the Mayor Pro Tem sits ex-officio on the ODC board, which is the cheapest route to this office and is the lead a follow-up run should take (sweep ODC minutes rather than council minutes). All other Mayor Pro Tem years are filed as gaps."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Every roster name was taken from locally extracted PDF text (pdftotext -layout or tesseract), never from a page summary. Day-of-week check: 2020-12-15, 2020-11-03, 2018-11-06, 2016-11-08, 2024-11-05 are all Tuesdays; 2022-11-08 (cancelled) is a Tuesday; 2020-04-27 (Shelton appointment, reported by CBS7 as a Monday emergency meeting) is a Monday. Name variants reconciled: ACFR FY2022/FY2023 print 'Stephen P. Thompson' where the canvass, the minutes and the city site all print 'Steven P. Thompson' - same person, one seat, no break. The 2018 canvass OCR renders Detra White as 'Deka White' and Mari Willis as 'i,4ari Spivey Wllis'; these are scanner artifacts, not name variants, and were resolved against the ACFR. NOT MERGED ON SURNAME: Dewey Bryant (District 2) and mayoral candidate Dewey Bryant are the same man - he ran for mayor in 2020 while holding District 2 and lost the runoff; his council term ended at the same time regardless."
+    },
+    {
+      "step": "escalation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 1,
+      "detail": "CENSUS VERDICT OVERTURNED. The input census recorded odessa-tx.gov robots.txt as unreachable on ~8 attempts and listed Odessa among eight cities with no working archive. On first try, plain curl with a browser UA got HTTP 200 on https://www.odessa-tx.gov/robots.txt (816 bytes) and on the site root (166 KB). No extended header set was needed. The robots.txt disallows /Search, /admin, /map and RSS only - AgendaCenter, DocumentCenter and Archive.aspx are all permitted, and all three served every file requested. The city also publishes two historical roster pages, /1282/Mayors and /1283/City-Council-Members, which are useful for corroboration but carry no seat labels and omit appointees (Michael Shelton and Gilbert Vasquez are both absent from the council list). One genuine oddity: https://www.odessa-tx.gov/sitemap.xml returns an Akamai 'Access Denied' page addressed to www.tucsonaz.gov, and AgendaCenter Minutes id 1 returns a City of Richmond Hill, Georgia document - the CivicPlus integer id space is shared across tenants, so sweeping ids blind can return another city's file. Always confirm the city name inside the extracted text."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Boundary dates that are soft, recorded here rather than as gaps because the seat-years are sourced: (a) District 2 handover - Dewey Bryant present 2020-11-17, Steven P. Thompson present 2020-12-22; exact seating date lies between. (b) Mayor / District 1 / At-Large handover after the 2020-12-15 runoff - the old council (Turner, Shelton, Dean) still sat at the canvass meeting of 2020-12-22 with the winners attending as 'elect'; the new council (Joven, Matta, Swanner) is seated by 2021-01-05. (c) The 2022 group took office in November 2022 with no canvass meeting to date it, the election having been cancelled; 2022-11-08 is used as the boundary. (d) The 2024 group is dated to 2024-11-19, the meeting at which the canvass ordinance passed and Certificates of Election were presented. (e) Turner, Bryant, Dean, Hamilton, White, Sprawls and Willis all held office before 2019-01-01; their start dates are truncated to the panel window, not asserted as term starts. The 2026-11-03 election is inside the panel window but had not yet occurred on the research date (2026-08-17), so it is deliberately omitted from cycles rather than recorded as unrecoverable."
+    }
+  ],
+  "totals": {
+    "tool_calls": 57,
+    "searches": 5
+  }
+}

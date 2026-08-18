@@ -1,0 +1,738 @@
+{
+ "city_id": 20,
+ "city": "El Paso",
+ "state": "TX",
+ "profile": {
+  "gov_form": "council-manager",
+  "seat_count": 9,
+  "seat_scheme": "ward",
+  "term_length": 4,
+  "stagger_pattern": "Two cohorts. Cohort A = Districts 1, 5, 6, 8 elected 2018, 2022, 2026. Cohort B = Mayor + Districts 2, 3, 4, 7 elected 2020, 2024. Majority-vote charter: each November general is followed by a December runoff for any office under 50%. Terms begin at the first regular council meeting of January (2019-01-08, 2021-01-05, 2023-01-03, 2025-01-07). Two-term limit.",
+  "mayor_selection": "elected",
+  "election_month": "November (even years), December runoff",
+  "profile_source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/627a4c40-4bf6-4e69-a5c1-b1286d9c217e.pdf"
+ },
+ "cycles": [
+  {
+   "election_date": "2018-11-06",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-02-19/minutes.html"
+  },
+  {
+   "election_date": "2018-12-15",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-02-19/minutes.html"
+  },
+  {
+   "election_date": "2019-11-05",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2019)"
+  },
+  {
+   "election_date": "2019-12-14",
+   "seats_up": 2,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2019)"
+  },
+  {
+   "election_date": "2020-01-25",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2019)"
+  },
+  {
+   "election_date": "2020-11-03",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://en.wikipedia.org/wiki/2020_El_Paso_elections"
+  },
+  {
+   "election_date": "2020-12-12",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://en.wikipedia.org/wiki/2020_El_Paso_elections"
+  },
+  {
+   "election_date": "2022-11-08",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2022)"
+  },
+  {
+   "election_date": "2022-12-17",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2022)"
+  },
+  {
+   "election_date": "2023-12-09",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2023-2024)"
+  },
+  {
+   "election_date": "2024-01-20",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2023-2024)"
+  },
+  {
+   "election_date": "2024-11-05",
+   "seats_up": 7,
+   "status": "sourced",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/627a4c40-4bf6-4e69-a5c1-b1286d9c217e.pdf"
+  },
+  {
+   "election_date": "2024-12-14",
+   "seats_up": 6,
+   "status": "sourced",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf"
+  },
+  {
+   "election_date": "2026-11-03",
+   "seats_up": 4,
+   "status": "flagged",
+   "source_url": null
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Dee Margo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2017-06-27",
+   "end_date": "2021-01-05",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/06-27-17/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": "2017-06-10"
+  },
+  {
+   "person": "Oscar Leeser",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2021-01-05",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/f5591a30-30ce-4dcc-bc88-0cd3d9dcf8c6.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-12-12"
+  },
+  {
+   "person": "Renard U. Johnson",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2025-01-07",
+   "end_date": "2029-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-12-14"
+  },
+  {
+   "person": "Peter Svarzbein",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2019-01-08",
+   "end_date": "2023-01-02",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-08-19/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2018-12-15"
+  },
+  {
+   "person": "Brian Kennedy",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2023-01-03",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://webapi.legistar.com/v1/elpasotexas/matters?$filter=substringof('Mayor%20Pro%20Tem',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": "2022-12-17"
+  },
+  {
+   "person": "Alejandra Chávez",
+   "name_variants": [
+    "Alejandra \"Ale\" Chávez",
+    "Alejandra Chavez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": "2027-01-04",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-12-14"
+  },
+  {
+   "person": "Alexsandra Annello",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2017-06-27",
+   "end_date": "2021-01-05",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/06-27-17/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": "2017-06-10"
+  },
+  {
+   "person": "Alexsandra Annello",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2021-01-05",
+   "end_date": "2024-01-29",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://webapi.legistar.com/v1/elpasotexas/officerecords?$filter=OfficeRecordBodyId%20eq%20138",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2020-12-12"
+  },
+  {
+   "person": "Josh Acevedo",
+   "name_variants": [
+    "Joshua Acevedo"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2024-01-30",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2023-2024)",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": "2024-01-20"
+  },
+  {
+   "person": "Josh Acevedo",
+   "name_variants": [
+    "Joshua Acevedo"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": "2029-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/627a4c40-4bf6-4e69-a5c1-b1286d9c217e.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Cassandra Hernandez",
+   "name_variants": [
+    "Cassandra Hernandez-Brown"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2017-06-27",
+   "end_date": "2021-01-05",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/06-27-17/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": "2017-06-10"
+  },
+  {
+   "person": "Cassandra Hernandez",
+   "name_variants": [
+    "Cassandra Hernandez-Brown"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2021-01-05",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://en.wikipedia.org/wiki/2020_El_Paso_elections",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Deanna Maldonado-Rocha",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": "2029-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-12-14"
+  },
+  {
+   "person": "Sam Morgan",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2017-06-27",
+   "end_date": "2021-01-05",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/06-27-17/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": "2017-06-10"
+  },
+  {
+   "person": "Joe Molinar",
+   "name_variants": [
+    "Joe \"Chief\" Molinar"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2021-01-05",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://en.wikipedia.org/wiki/2020_El_Paso_elections",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2020-12-12"
+  },
+  {
+   "person": "Cynthia Boyar Trejo",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": "2029-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-12-14"
+  },
+  {
+   "person": "Michiel Noe",
+   "name_variants": [
+    "Michiel R. Noe",
+    "Michael Noe"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2017-06-27",
+   "end_date": "2019-01-08",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-02-19/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2015-05-09"
+  },
+  {
+   "person": "Isabel Salcido",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2019-01-08",
+   "end_date": "2023-01-02",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-08-19/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Isabel Salcido",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2023-01-03",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://ballotpedia.org/City_elections_in_El_Paso,_Texas_(2022)",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Ivan Niño",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": "2027-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-12-14"
+  },
+  {
+   "person": "Claudia Ordaz",
+   "name_variants": [
+    "Claudia Ordaz Perez",
+    "Claudia Ordaz-Perez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2019-01-08",
+   "end_date": "2020-02-17",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/12-17-19/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Claudia Lizette Rodriguez",
+   "name_variants": [
+    "Claudia Rodriguez",
+    "Claudia L. Rodriguez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2020-02-17",
+   "end_date": "2023-01-03",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/02-18-20/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2020-01-25"
+  },
+  {
+   "person": "Art Fierro",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2023-01-03",
+   "end_date": "2027-01-04",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://webapi.legistar.com/v1/elpasotexas/officerecords?$filter=OfficeRecordBodyId%20eq%20138",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2022-12-17"
+  },
+  {
+   "person": "Henry Rivera",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2017-06-27",
+   "end_date": "2021-01-05",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/06-27-17/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "medium",
+   "election_date": "2017-06-10"
+  },
+  {
+   "person": "Henry Rivera",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2021-01-05",
+   "end_date": "2025-01-07",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://en.wikipedia.org/wiki/2020_El_Paso_elections",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Lily Limón",
+   "name_variants": [
+    "Lily Limon"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2025-01-07",
+   "end_date": "2029-01-06",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://elpasotexas.legistar1.com/elpasotexas/attachments/aed904ba-8c3d-4707-95d8-f8a602592513.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-12-14"
+  },
+  {
+   "person": "Cissy Lizarraga",
+   "name_variants": [
+    "Cecilia Lizarraga",
+    "Cissy Lizarraga"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 8",
+   "role": "council_member",
+   "start_date": "2019-01-08",
+   "end_date": "2023-01-02",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-08-19/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": "2018-11-06"
+  },
+  {
+   "person": "Chris Canales",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "District 8",
+   "role": "council_member",
+   "start_date": "2023-01-03",
+   "end_date": "2027-01-04",
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://webapi.legistar.com/v1/elpasotexas/officerecords?$filter=OfficeRecordBodyId%20eq%20138",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2022-12-17"
+  },
+  {
+   "person": "Claudia Ordaz",
+   "name_variants": [
+    "Claudia Ordaz Perez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2019-01-08",
+   "end_date": "2020-02-17",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/01-08-19/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Peter Svarzbein",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2020-02-18",
+   "end_date": "2023-01-03",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/02-18-20/minutes.html",
+   "retrieval_method": "minutes_rollcall",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Alexsandra Annello",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2023-01-03",
+   "end_date": "2024-01-29",
+   "entry_mode": "appointed",
+   "exit_mode": "resigned",
+   "source_url": "https://webapi.legistar.com/v1/elpasotexas/matters?$filter=substringof('Mayor%20Pro%20Tem',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "low",
+   "election_date": null
+  },
+  {
+   "person": "Brian Kennedy",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2024-01-30",
+   "end_date": "2025-01-07",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/elpasotexas/matters?$filter=substringof('Mayor%20Pro%20Tem',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Alejandra Chávez",
+   "name_variants": [],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor Pro Tempore",
+   "role": "vice_mayor",
+   "start_date": "2025-01-07",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.ktsm.com/local/el-paso-news/el-paso-city-council-begins-year-with-new-faces/",
+   "retrieval_method": "newspaper",
+   "confidence": "medium",
+   "election_date": null
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "Texas registry re-verified. epcountyvotes.com/election-archives indexes every El Paso County election 1998-2026 but EVERY link points at results.enr.clarityelections.com - robots-blocked, so the county rung is confirmed dead for this city. results.texas-election.com not retried. El Paso confirmed as the November-even-year exception to the May uniform date."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 5,
+   "searches": 0,
+   "detail": "Cohorts derived from ballot composition, not assumed. Cohort A = Districts 1,5,6,8 (2018, 2022, 2026). Cohort B = Mayor + Districts 2,3,4,7 (2020, 2024). Majority-vote charter, so each general is followed by a December runoff that is a separate dated cycle. The pre-2018 class was elected in May/June of ODD years and their terms were EXTENDED into the November calendar - the 2017 class ran to 2021-01-05, which is why 2019 has no regular cycle. The 2026 general (2026-11-03) has not yet been held as of 2026-08-17; all four Cohort A seats are up."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "LEGISTAR WEB API unlock confirmed for client 'elpasotexas'. /bodies -> City Council BodyId 138 (9 members). /officerecords?$filter=OfficeRecordBodyId eq 138 returns 16 dated membership rows. /matters?$filter=substringof('canvass',MatterTitle) -> 11 canvass resolutions, and /matters/{id}/attachments gives direct PDF links on elpasotexas.legistar1.com. pdftotext -layout on those yields the certified returns verbatim. Confirmed API caveats: officerecords is INCOMPLETE (no Margo, Leeser, Ordaz, Cassandra Hernandez, Morgan, Molinar, Kennedy, Lizarraga has no district field at all) and start dates are wrong at the 2019 boundary (it prints 2019-01-01 where the minutes prove 2019-01-08)."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "blocked",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "The 2022 canvass PDFs (attachments 4d01fdf1... general and 02ac53f9... runoff) are IMAGE-ONLY scans: pdftotext -layout returns 3 bytes. Not OCR'd inside the cap; 2022 winners taken from Ballotpedia and Legistar instead. The 2020 runoff canvass attachment is the pre-signature draft with candidate names present and every vote line left BLANK."
+  },
+  {
+   "step": "escalation",
+   "rung": 6,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 1,
+   "detail": "THE REAL UNLOCK, and it is new to this project: El Paso's PRE-LEGISTAR MUNICIPAL CLERK ARCHIVE at https://www2.elpasotexas.gov/municipal-clerk/agenda/{MM-DD-YY}/minutes.html - full council minutes as plain HTML, fetched by plain curl, one folder per meeting date, verified working from 06-27-17 through 2020. It carries BOTH a member header WITH district labels AND a live roll call, which is exactly the pair needed to date handovers. It 404s from 2023 on (Legistar took over). The date segment is the real meeting date, unlike CivicPlus. Found via a search snippet, not by guessing - the elpasotexas.gov city-clerk election pages all 404."
+  },
+  {
+   "step": "midterm_check",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 5,
+   "searches": 2,
+   "detail": "El Paso's dominant mid-term mechanism is the Texas resign-to-run rule (Const. art. XVI sec. 65), which fired FIVE times inside the panel: Cassandra Hernandez (D3, Aug 2019, ran for mayor), Claudia Ordaz (D6, Oct 2019, ran for Texas House 76), Alexsandra Annello (D2, 2023), Brian Kennedy (D1, 2024, ran for mayor) and Isabel Salcido (D5, 2024, ran for mayor). NONE of the five produced a vacant seat-year - see validation. Two of the five kept the seat: Hernandez won her own seat back at the 2019-12-14 special runoff, and Acevedo replaced Annello. One further handover is NOT resign-to-run: Michiel Noe (D5) left at term end on 2019-01-08."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 1,
+   "detail": "DISTRICT 6 / DECEMBER 2019 CONTRADICTION RESOLVED FROM THE PRIMARY DOCUMENT - and NEITHER offered hypothesis was right. The 12-17-19 minutes are not a stale header and the resignation date is not wrong. What was wrong is the inference that resignation equals vacancy. Verbatim from https://www2.elpasotexas.gov/municipal-clerk/agenda/12-17-19/minutes.html: 'Late arrivals: Claudia Ordaz Perez at 9:59 a.m.' - a LIVE attendance record, not a header; and 'Motion made by Mayor Pro Tempore Ordaz Perez, seconded by Representative Rivera' - she was chairing business that day. Mechanism: art. XVI sec. 65 makes the announcement an automatic resignation, but art. XVI sec. 17 keeps the incumbent in office 'until their successors shall be duly qualified'. The D6 special general was 2019-12-14 and went to a RUNOFF on 2020-01-25, so no successor could qualify until February. Ordaz appears in the roll call again on 2020-01-07 and 2020-02-04; the 02-18-20 minutes are the first with 'Claudia L. Rodriguez, District 6' in the header and 'Claudia Rodriguez' answering roll. Legistar independently dates Rodriguez's office record from 2020-02-17."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "Three independent controls on the same holdover doctrine, so it is the city's settled practice and not a one-off. (1) DISTRICT 3, identical facts, same ballot: Cassandra Hernandez's resign-to-run took effect Aug 2019 and the certified results style her 'Incumbent Cassandra Hernandez' winning the 2019-12-14 special runoff for the seat she had resigned. (2) DISTRICT 2: Legistar ends Annello 2024-01-29 and successor Acevedo is seated 2024-01-30 - months after her 2023 resign-to-run. (3) DISTRICTS 1 and 5 in 2024: the Nov 2024 canvass calls both seats 'vacancies', yet Brian Kennedy is styled 'Mayor Pro Tempore Brian Kennedy' on Legistar items dated 2024-09-05, 2024-10-01, 2024-10-16, 2024-12-02 and 2024-12-09 - he sat until 2025-01-07. So 2024 D1 and D5 are NOT vacant seat-years and no gap was filed."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "TERM BOUNDARY CORRECTED AGAINST LEGISTAR. Legistar dates the 2018-elected class from 2019-01-01. The minutes disprove it: the 2019-01-02 SPECIAL meeting (which canvassed the 2018 runoff returns) still seats 'Representative Michael Noe' in District 5, while the 2019-01-08 regular meeting is the first at which Isabel Salcido answers roll. The 2018 class was therefore seated 2019-01-08, and Michiel Noe held District 5 for the first seven days of 2019 - a second tenure row for that cell rather than a duplicate. Day-of-week check: 2019-01-08 and 2020-02-18 are both Tuesdays, El Paso's council day. CAUTION for anyone reusing this archive: two of these minutes carry WRONG internal dates - the January 7 2020 minutes say 'called to order at 9:18 a.m. on January 7, 2019' and the February 4 2020 minutes say 'on January 21, 2019'. The folder date and the title block are right; the body line is not."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 1,
+   "detail": "MAYOR PRO TEMPORE (presiding officer) reconstructed. Sourced from the minutes verbatim: 2019-01-08 item 1.1 'to ELECT Claudia Ordaz Perez as Mayor Pro Tempore and Sam Morgan as Alternate Mayor Pro Tempore'; 2020-02-18 item 1.1, after a first motion for Henry Rivera FAILED 2-5, 'to ELECT Peter Svarzbein as Mayor Pro Tempore' (Rodriguez abstaining on both - she was 15 hours into the job). Svarzbein re-elected 2021-01-05 (Legistar 21-28) and still MPT in Aug 2022 (Legistar 22-1089 honours 'District 1 City Representative and Mayor Pro Tempore Peter Svarzbein'). Kennedy is MPT across 2024 and Alejandra Chávez from 2025-01-07. The ALTERNATE Mayor Pro Tempore is a real second internal office (Sam Morgan 2019, Art Fierro 2025) and is NOT tracked here - it would need its own seat_label."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "not_found",
+   "tool_calls": 3,
+   "searches": 1,
+   "detail": "ONE LOW-CONFIDENCE ROW: Mayor Pro Tempore for 2023. Legistar records an MPT election ADOPTED 2023-01-03 (matter 23-29) and another APPROVED 2024-01-30 (matter 24-124) but never names either person; /histories and /eventitems carry no minutes note, EventMinutesFile is null for all 160 council events, and the www2 clerk archive 404s after 2020. Attributed to Alexsandra Annello by elimination: the off-cycle MPT election on 2024-01-30 falls the day after Annello's departure on 2024-01-29, and she is the only member who left between the two dates. Flagged 'low' rather than filed as a gap; verify before relying on it."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "raw/20.json written. 10 seat-labels x 8 years = 80 seat-years, all covered by a tenure row; zero gaps and zero known-vacant seat-years."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "exit_mode corrected on two rows: Brian Kennedy (District 1) and Isabel Salcido (District 5) were both elected in 2022 to terms running to January 2027, so their departure on 2025-01-07 is 'resigned' (resign-to-run for mayor, then held over to the successor's seating), not 'term_end'. Their successors Chávez and Niño hold UNEXPIRED terms ending 2027, which is why Legistar gives those two 2027 end dates while the rest of the 2024 class ends 2029."
+  }
+ ],
+ "totals": {
+  "tool_calls": 46,
+  "searches": 4
+ }
+}

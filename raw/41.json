@@ -1,0 +1,491 @@
+{
+  "city_id": 41,
+  "city": "Norfolk",
+  "state": "Virginia",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 8,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "Two classes. Class A (Mayor at-large, Superward 6, Superward 7) elected 2016-05-03, 2020-05-19, 2024-11-05. Class B (Wards 1-5) elected 2018-05-01, 2022-11-08, next 2026-11-03. City moved from May to November elections after 2020; terms were extended, not shortened, so May-elected terms ended 2022-12-31 / 2024-12-31 and November-elected terms run Jan 1 - Dec 31.",
+    "mayor_selection": "elected",
+    "election_month": "May through 2020, November from 2022",
+    "profile_source_url": "https://www.norfolk.gov/DocumentCenter/View/108552/2025-Annual-Comprehensive-Financial-Report-PDF"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-05-03",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55711/May-3-2016-General-Election"
+    },
+    {
+      "election_date": "2016-08-23",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55713/August-23-2016-Special-Election"
+    },
+    {
+      "election_date": "2018-05-01",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55666/May-1-2018-General-Election"
+    },
+    {
+      "election_date": "2020-05-19",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/60954/May-19-2020-General-Election"
+    },
+    {
+      "election_date": "2021-11-02",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/68858/November-2-2021-General--Special-Elections"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/NORFOLK_CITY/Index.html"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/98792"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Kenneth Cooper Alexander",
+      "name_variants": [
+        "Kenneth Cooper Alexander, Ph.D.",
+        "Kenny Alexander",
+        "Alexander"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2016-07-01",
+      "end_date": "2020-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55711/May-3-2016-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-05-03"
+    },
+    {
+      "person": "Kenneth Cooper Alexander",
+      "name_variants": [
+        "Kenneth Cooper Alexander, Ph.D.",
+        "Kenny Alexander"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-07-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/60954/May-19-2020-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-05-19"
+    },
+    {
+      "person": "Kenneth Cooper Alexander",
+      "name_variants": [
+        "Kenneth Cooper Alexander, Ph.D.",
+        "Kenny Alexander"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/98792",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Martin A. Thomas, Jr.",
+      "name_variants": [
+        "Martin A. Thomas Jr.",
+        "Thomas, Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1",
+      "role": "council_member",
+      "start_date": "2018-07-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55666/May-1-2018-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Martin A. Thomas, Jr.",
+      "name_variants": [
+        "Martin A. Thomas Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/NORFOLK_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Martin A. Thomas, Jr.",
+      "name_variants": [
+        "Martin A. Thomas Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2018-07-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.norfolk.gov/542/Vice-Mayor-Martin-A-Thomas-Jr",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Courtney R. Doyle",
+      "name_variants": [
+        "Courtney Doyle"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2",
+      "role": "council_member",
+      "start_date": "2018-07-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55666/May-1-2018-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Courtney R. Doyle",
+      "name_variants": [
+        "Courtney Doyle"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/NORFOLK_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Mamie B. Johnson",
+      "name_variants": [
+        "Mamie Johnson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3",
+      "role": "council_member",
+      "start_date": "2018-07-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55666/May-1-2018-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Mamie B. Johnson",
+      "name_variants": [
+        "Mamie Johnson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/NORFOLK_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Paul R. Riddick",
+      "name_variants": [
+        "Paul Riddick"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4",
+      "role": "council_member",
+      "start_date": "2018-07-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55666/May-1-2018-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "John E. \"JP\" Paige",
+      "name_variants": [
+        "John E. “JP” Paige",
+        "John E. \"J.P.\" Paige",
+        "JP Paige"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/NORFOLK_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Thomas R. Smigiel, Jr.",
+      "name_variants": [
+        "Tommy R. Smigiel, Jr.",
+        "Thomas \"Tommy\" R. Smigiel Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5",
+      "role": "council_member",
+      "start_date": "2018-07-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55666/May-1-2018-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Thomas R. Smigiel, Jr.",
+      "name_variants": [
+        "Tommy R. Smigiel, Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 5",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/NORFOLK_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Andria P. McClellan",
+      "name_variants": [
+        "Andria McClellan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 6",
+      "role": "council_member",
+      "start_date": "2016-07-01",
+      "end_date": "2020-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55711/May-3-2016-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-05-03"
+    },
+    {
+      "person": "Andria P. McClellan",
+      "name_variants": [
+        "Andria McClellan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 6",
+      "role": "council_member",
+      "start_date": "2020-07-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/60954/May-19-2020-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-05-19"
+    },
+    {
+      "person": "Jeremy D. McGee",
+      "name_variants": [
+        "Jeremy McGee"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 6",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/98792",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Angelia M. Williams Graves",
+      "name_variants": [
+        "Angelia Williams Graves",
+        "Angelia M. Williams Graves",
+        "Graves"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 7",
+      "role": "council_member",
+      "start_date": "2016-07-01",
+      "end_date": "2020-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/55711/May-3-2016-General-Election",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-05-03"
+    },
+    {
+      "person": "Angelia M. Williams Graves",
+      "name_variants": [
+        "Angelia Williams Graves"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 7",
+      "role": "council_member",
+      "start_date": "2020-07-01",
+      "end_date": "2021-01-12",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.wtkr.com/news/norfolk-city-council-appoints-danica-royster-to-represent-superward-7",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2020-05-19"
+    },
+    {
+      "person": "Danica J. Royster",
+      "name_variants": [
+        "Danica Royster"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 7",
+      "role": "council_member",
+      "start_date": "2021-01-13",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.wtkr.com/news/norfolk-city-council-appoints-danica-royster-to-represent-superward-7",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Carlos J. Clanton",
+      "name_variants": [
+        "Carlos Clanton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Superward 7",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.norfolk.gov/DocumentCenter/View/98792",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "blocked",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "Registry confirmed correct on all three Virginia warnings. results.elections.virginia.gov served ONLY '2022 November General' (NORFOLK_CITY top-level, HTTP 200, full Ward 1-5 council detail); every other year 404s. VPAP: /electionresults/20241105/local/norfolk-va/ returned HTTP 200 but rendered EMPTY (JS-only shell, no contest content) - the registry's '3 of 6 detail pages empty on a 200' warning is understated for Norfolk; 20201103 returned HTTP 500 and 20181106 returned 404. VPAP was abandoned as unusable. Registry's 'directly elected mayor in Norfolk' and 'independent city is top-level' both verified correct."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "Council-manager, 8 members: Mayor at-large + 5 wards + 2 superwards; council elects Vice Mayor from among its members (FY2025 ACFR transmittal, p16 verbatim). Two staggered classes. Norfolk voted in MAY of even years through 2020 (May 3 2016 mayor/superwards; May 1 2018 wards; May 19 2020 mayor/superwards - the COVID-postponed May 5 date) then moved to NOVEMBER: terms were EXTENDED not shortened, so May-2018 ward terms ran 2018-07-01 to 2022-12-31 and May-2020 mayor/superward terms ran 2020-07-01 to 2024-12-31. Post-move terms run Jan 1 - Dec 31 (Paige/Doyle/Johnson/Smigiel/Thomas 2023-01-01 to 2026-12-31; Alexander/McGee/Clanton 2025-01-01 to 2028-12-31), confirmed on each member's own bio page. CRITICAL: there was NO Norfolk council contest on 2018-11-06 or 2020-11-03 - looking for one there wastes budget."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 2,
+      "detail": "BEST SOURCE FOR NORFOLK, not in the registry: the city's own Office of Elections publishes a COMPLETE official canvass archive back to 2008 at https://www.norfolk.gov/4713/Election-Results, one PDF per election date, served to plain curl. This entirely routes around Virginia's broken state portals. Found via CivicPlus site search /Search/Results?searchPhrase=Official%20Election%20Results. All PDFs extract cleanly with pdftotext -layout (wide multi-contest tables; candidate names sit in stacked header rows above the columns and must be aligned by character offset - do NOT trust a summarizer on these)."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "ACFR spine: Norfolk publishes a TRUE ACFR (FY2011-FY2025) with an introductory-section 'Municipal Officials' page listing the Mayor, Vice Mayor and six Members by name. Verbatim-extracted for FY2019-FY2025 with pdftotext -layout. NOTE the page gives titles only, NOT ward numbers - ward assignment had to come from the canvasses and bio pages. Officials pages are on PDF p10 (FY2019-FY2022) and p12 (FY2023-FY2025). Diffing consecutive years dated all three roster changes in the window independently of the election record."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 2,
+      "detail": "ONE mid-term change found, and the ACFR diff is what exposed it: FY2020 (as of 6/30/2020) lists Angelia M. Williams Graves; FY2021 lists Danica J. Royster. Graves had just been RE-ELECTED unopposed to Superward 7 on 2020-05-19, then won the 90th House of Delegates district special on 2021-01-05, vacating the seat. Council appointed Danica J. Royster, sworn in 2021-01-13 (WTKR, corroborated verbatim by New Journal & Guide). The structural tell then confirmed it: an off-cycle 'Member - City Council, Superward 7' contest on the 2021-11-02 ballot = unexpired term. Royster won it (6,811 / 26.00% of 26,195, over Glass 6,355, McRae 5,194, Hawkins 3,411, Inge 1,626, Muhammad 1,035). She is carried as ONE tenure row entered by appointment rather than two, to avoid emitting two panel rows for one cell when the seat never changed hands. No other vacancy 2019-2026: the city's own results archive shows NO further council special election through 2026-08, and the FY2023/24/25 officials pages plus the live council page agree."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "All nine election dates verified as Tuesdays. Seat count 8 holds across all 8 panel years (no redistricting, no size change). Every name is verbatim from a locally extracted PDF or a scraped city page - no summarizer text was trusted for a name. Two scheduled turnovers cross-checked in both directions: Riddick -> Paige (Ward 4) appears in the 2022-11-08 state canvass AND as the FY2022->FY2023 ACFR diff; McClellan -> McGee (SW6) and Royster -> Clanton (SW7) appear in the 2024-11-05 city canvass AND as the FY2024->FY2025 ACFR diff. Neither McClellan nor Royster appears on the 2024 ballot - both declined to seek re-election (New Journal & Guide). Vice Mayor Thomas named in all seven ACFR officials pages 2019-2025 and on the live page in 2026 - continuous."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "72 seat-years (9 seats x 8 years) all sourced. Zero gaps, zero low-confidence rows. Note the 2026-11-03 ward cycle has not yet occurred as of 2026-08-17 and seats terms beginning 2027-01-01, outside the panel; it is deliberately omitted from cycles rather than filed as unrecoverable."
+    }
+  ],
+  "totals": {
+    "tool_calls": 38,
+    "searches": 5
+  }
+}

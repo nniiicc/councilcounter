@@ -1,0 +1,579 @@
+{
+  "city_id": 40,
+  "city": "New Brunswick",
+  "state": "NJ",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 7,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Partisan November elections in EVEN years; 4-year terms beginning January 1. 2019-2022 body = 5 at-large seats: a 3-seat class (elected 2016, 2020, 2024) and a 2-seat class (elected 2018, 2022, 2026); the mayor is elected with the 2-seat class (2018, 2022, 2026). Council grew to 7 seats effective 2023-01-01; the two new at-large seats were first filled at the 2022-11-08 general election. CONFIRMED from the Middlesex County Clarity feed: the 2022 ballot carried TWO separate New Brunswick council contests - 'Members of the City Council New Brunswick' Vote For 3 (Egan, Escobar, Gaskins; full 4-year terms 2023-2026) and 'Member of the City Council New Brunswick' Vote For 1 (Castaneda; initial 2-year term 2023-2024) - so exactly one of the two new seats took a short initial term to establish the stagger. The 2024-11-05 ballot likewise carried 'New Brunswick City Council' Vote For 4 (Castaneda, Sicora Ludwig, Fleming, Anderson; terms 2025-2028) and 'New Brunswick City Council Unexpired' Vote For 1 (Ferguson; remainder of Egan's 2023-2026 term). Steady state: 4 seats up in 2024/2028, 3 seats plus the mayor up in 2022/2026. Council President and Vice President are elected by the council at the January reorganization, normally for 2-year terms (2019-2020, 2021-2022, 2023-2024, 2025-2026), though the 2026 reorganization elected officers 'FOR 2026' alone.",
+    "mayor_selection": "elected",
+    "election_month": "November",
+    "profile_source_url": "https://www.cityofnewbrunswick.org/government/city_council/index.php"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": null
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": null
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofnewbrunswick.org/01-06-21.pdf"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/116148/314186/json/en/summary.json"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/122847/355860/json/en/summary.json"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "James M. Cahill",
+      "name_variants": [
+        "Jim Cahill",
+        "James Cahill"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.newbrunswick.com/pub/news/story/136",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "James M. Cahill",
+      "name_variants": [
+        "Jim Cahill",
+        "James Cahill"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/116148/314186/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Glenn Fleming",
+      "name_variants": [
+        "Glenn J. Fleming"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/document_center/City%20Council/Agendas/2019/01-02-19.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Glenn Fleming",
+      "name_variants": [
+        "Glenn J. Fleming"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/01-06-21.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Glenn Fleming",
+      "name_variants": [
+        "Glenn J. Fleming"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/122847/355860/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "John A. Anderson",
+      "name_variants": [
+        "John Anderson",
+        "John A. Anderson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/document_center/City%20Council/Agendas/2019/01-02-19.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "John A. Anderson",
+      "name_variants": [
+        "John Anderson",
+        "John A. Anderson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/01-06-21.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "John A. Anderson",
+      "name_variants": [
+        "John Anderson",
+        "John A. Anderson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/122847/355860/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Suzanne M. Sicora Ludwig",
+      "name_variants": [
+        "Suzanne Sicora Ludwig",
+        "Suzanne M. Sicora-Ludwig"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/document_center/City%20Council/Agendas/2019/01-02-19.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Suzanne M. Sicora Ludwig",
+      "name_variants": [
+        "Suzanne Sicora Ludwig"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/01-06-21.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Suzanne M. Sicora Ludwig",
+      "name_variants": [
+        "Suzanne Sicora Ludwig"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/122847/355860/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Rebecca Escobar",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/document_center/City%20Council/Agendas/2019/01-02-19.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Rebecca Escobar",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/116148/314186/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Kevin P. Egan",
+      "name_variants": [
+        "Kevin Egan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/document_center/City%20Council/Agendas/2019/01-02-19.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Kevin P. Egan",
+      "name_variants": [
+        "Kevin Egan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": "2024-01-17",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/116148/314186/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Matthew B. Ferguson",
+      "name_variants": [
+        "Matthew Ferguson",
+        "Matt Ferguson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2024-02-07",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/news_detail_T10_R1221.php",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Matthew B. Ferguson",
+      "name_variants": [
+        "Matthew Ferguson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/122847/355860/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Petra N. Gaskins",
+      "name_variants": [
+        "Petra Gaskins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 6",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/116148/314186/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Manuel J. Castaneda",
+      "name_variants": [
+        "Manuel J. Castañeda",
+        "Manuel Castaneda"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 7",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/116148/314186/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Manuel J. Castaneda",
+      "name_variants": [
+        "Manuel J. Castañeda"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 7",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Middlesex/122847/355860/json/en/summary.json",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "John A. Anderson",
+      "name_variants": [
+        "John Anderson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2019-01-02",
+      "end_date": "2021-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/01-02-20.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Suzanne M. Sicora Ludwig",
+      "name_variants": [
+        "Suzanne Sicora Ludwig"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2021-01-06",
+      "end_date": "2023-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/01-05-22.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Rebecca Escobar",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2023-01-04",
+      "end_date": "2025-01-08",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/01-03-24.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "John A. Anderson",
+      "name_variants": [
+        "John Anderson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-01-08",
+      "end_date": "2026-01-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.cityofnewbrunswick.org/news_detail_T10_R1479.php",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Manuel J. Castaneda",
+      "name_variants": [
+        "Manuel J. Castañeda"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2026-01-07",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.cityofnewbrunswick.org/news_detail_T10_R1762.php",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "NJ registry entry partly WRONG for Middlesex. NJ DCA Mayors Directory JSON API works exactly as documented (data.nj.gov/resource/gkt3-i954.json?$q=New%20Brunswick -> James Cahill, Middlesex, term 2023-01-01/2026-12-31). But the county-clerk-canvass route is DEAD for Middlesex: www.middlesexcountynj.gov returns 403 to plain curl, to curl with a full browser header set, AND to WebFetch - including /robots.txt. mcvotenj.com does not resolve. No Camden-style canvass PDF was reachable. Clarity (results.enr.clarityelections.com/NJ/Middlesex/...) remains robots-blocked."
+    },
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CENSUS 'NO WORKING ARCHIVE' VERDICT OVERTURNED. www.cityofnewbrunswick.org returned HTTP 200 to plain curl with a browser UA on the first try. Site is Revize CMS; real pages end in .php (e.g. /government/city_council/index.php); /robots.txt 302s to cms3.revize.com. Soft-404: unknown paths return the site shell with HTTP 200, so match on page body, not status code. There is no WordPress JSON API."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "Mayor-Council (Faulkner Act), partisan November elections in EVEN years, 4-year terms beginning January 1. Mayor Cahill's DCA term 2023-01-01/2026-12-31 fixes the even-year cycle. Council classes reconstructed from the January reorganization agendas: 2021 reorg administers oaths to 'newly re-elected' Fleming, Anderson, Sicora Ludwig (3-seat class, elected 2020); 2025 reorg to Fleming, Anderson, Sicora Ludwig, Castaneda, Ferguson (5 seats on the 2024 ballot = the 3-seat class + Castaneda's initial 2-year new seat + the unexpired Egan seat)."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "REGISTRY CORRECTION CONFIRMED LIVE: Clarity Elections is NOT robots-blocked. https://results.enr.clarityelections.com/robots.txt returns HTTP 404 - no robots.txt exists, so no Disallow exists - and the JSON feed served plain curl with a browser UA on the first request. Working pattern for Middlesex County NJ: /NJ/Middlesex/{id}/current_ver.txt -> version string; /NJ/Middlesex/{id}/{ver}/json/en/summary.json -> full contest/candidate/vote arrays. ID DISCOVERY: /NJ/Middlesex/elections.json returns an empty array [] and every ElectionList/electionlist/ElectionSettings/api variant returns the generic ENR shell, so the past-election index is NOT available for this county. The 2022 id (116148) came from a search-engine result; the 2024 id was found by sweeping /NJ/Middlesex/{id}/current_ver.txt over 122100-123400 (anchored on Essex County's known 2024 id 122756), which returned exactly two live ids - 122847 (2024 general) and 123383 (a 3-contest event). Clarity is the ONLY working county-level route here: www.middlesexcountynj.gov is 403 to curl, to a full browser header set, and to WebFetch, including /robots.txt, so the registry's Camden-style county-clerk canvass PDF pattern does not hold for Middlesex."
+    },
+    {
+      "step": "validation",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Clarity CORRECTED and then CONFIRMED the seat-class reconstruction that had been inferred from reorganization agendas. 2022-11-08 (id 116148): Mayor New Brunswick - Jim CAHILL 2826, Charles 'Charlie' KRATOVIL 1213, Maria C. POWELL 415, Write-in 12. 'Members of the City Council New Brunswick' Vote For 3 - Rebecca H. ESCOBAR 3577, Petra N. GASKINS 3515, Kevin P. EGAN 3478, Write-in 141. 'Member of the City Council New Brunswick' Vote For 1 - Manuel J. CASTANEDA 3622, Write-in 45. 2024-11-05 (id 122847): 'New Brunswick City Council' Vote For 4 - Manuel J. CASTANEDA 6014, John A. ANDERSON 5860, Glenn J. FLEMING 5841, Suzanne M. SICORA LUDWIG 5823, Write-in 188. 'New Brunswick City Council Unexpired' Vote For 1 - Matthew B. FERGUSON 6152, Write-in 55. This settles which new seat took the 2-year initial term (Castaneda, At-Large Seat 7) and confirms Ferguson holds the remainder of Egan's 2023-2026 term (At-Large Seat 5), not a fresh 4-year term. It also yields the full name form 'Glenn J. Fleming'. The 2016 and 2018 cycles remain flagged: no Clarity id was found for them and the county host is dead, but every seat they seated is independently sourced from the January 2019 and 2020 agendas, so blast radius on the deliverable is zero."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "PRIMARY UNLOCK, zero search cost. The council agenda archive at /government/city_council/meeting_agendas___minutes.php lists 186 agenda PDFs, 2019-02-20 through 2026. Links are RELATIVE and resolve against <base href> to the site root, i.e. https://www.cityofnewbrunswick.org/{MM-DD-YY}.pdf (302 -> cms3.revize.com/revize/brunswicknj/{file}.pdf, 200, real PDF). Pre-2020 files instead live at /document_center/City%20Council/Agendas/{YEAR}/{MM-DD-YY}.pdf - that is where the 2019-01-02 reorganization agenda was found. Note the filename convention CHANGES in 2025 from MM-DD-YY to MM.DD.YY. Downloaded all 186 and ran pdftotext -layout locally; no summarizer in the trust path. EVERY January reorganization agenda carries resolution 'COUNCIL DESIGNATION OF LIAISONS TO VARIOUS AUTHORITIES, BOARDS AND COMMISSIONS FOR {YEAR}' which names council members individually and prints their titles (Council President / Council Vice-President). That single resolution series is a complete annual roster spine for 2019-2026."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Annual rosters, verbatim from the liaison resolutions. 2019 (R-011903, 5 members): Fleming, Escobar, Anderson, Egan, Sicora Ludwig. 2020 (R-012003): same, with 'Council President John Anderson' and 'Council Vice-President Suzanne M. Sicora Ludwig'. 2021 (R-012103): same 5. 2022 (R-012203): same 5, with 'Council President Suzanne M. Sicora Ludwig' and 'Council Vice-President Rebecca Escobar'. 2023 (R-012303, now 7 members): Fleming, Escobar, Gaskins, Egan, Anderson, Castaneda, Sicora Ludwig. 2024 (R-012403): same 7, with 'Council President Rebecca Escobar' and 'Council Vice-President Kevin P. Egan'. 2025 (R-012503) and 2026 (R-012605) name 6 of 7 (Gaskins, Ferguson, Castaneda x2, Fleming, Anderson, Sicora Ludwig); Escobar is the seventh, holding no liaison assignment, confirmed by the current council page."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 2,
+      "detail": "THE 5->7 EXPANSION, mechanism and dates. Ordinance O-032008, 'AN ORDINANCE TO PROVIDE FOR THE SUBMISSION TO THE VOTERS OF THE CITY OF NEW BRUNSWICK THE QUESTION OF A CHANGE IN THE CITY'S CHARTER TO PROVIDE FOR A MUNICIPAL COUNCIL TO CONSIST OF SEVEN (7) MEMBERS, DEEMED TO HAVE BEEN GIVEN FIRST READING BY THE CITY CLERK'S CERTIFICATION PURSUANT TO N.J.S.A. 40:69A-190' - i.e. a citizen petition under the Faulkner Act initiative provision, not a council-initiated ordinance. First reading deemed given 2020-03-18; second reading 2020-04-01 (a special session at 6:30 PM was noticed in the 2020-03-18 agenda specifically for it). The charter question went to the voters at the 2020-11-03 general election and passed (referendum result itself NOT sourced to a primary document - Middlesex County is 403 and newbrunswicktoday.com is Cloudflare-403 to both curl and WebFetch - but the outcome is proved by the seating). The two new at-large seats were FIRST FILLED at the 2022-11-08 general election and took office 2023-01-01; Petra Gaskins and Manuel Castaneda were sworn in at the 2023-01-02 inauguration and, per the city's account, 'formally take their place on the Council at Wednesday night's meeting' (the 2023-01-04 reorganization). VERBATIM: 'Two new City Council members, Petra Gaskins and Manuel Castaneda, were also sworn in as the City Council's ranks grow from five to seven members.' Same source confirms Egan and Escobar were re-elected in 2022 and that Cahill was sworn in for his NINTH term. Weekday check: 2023-01-02 was a Monday, 2023-01-04 a Wednesday - both consistent."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 1,
+      "detail": "MANDATORY CHECK RUN. Grepped all 186 agendas for VACANC/RESIGN/UNEXPIRED/OATH OF OFFICE; the only council-level hits were the 2021 and 2025 reorganization oath lists (all other 'unexpired term' hits are Planning/Zoning/authority board appointments). ONE council mid-term change 2019-2026: Kevin P. Egan resigned to take a seat in the New Jersey General Assembly (District 17). He was still Council Vice-President at the 2024-01-03 reorganization; the council appointed Matthew Ferguson to the unexpired term on 2024-01-17 by a 6-0 vote, from three nominees put forward by the New Brunswick Democratic Organization (Ferguson, Cheryl Smith, Thomas Valenti) per N.J.S.A. 40A:16-11; Ferguson was sworn in at the start of the 2024-02-07 meeting. Egan's exact resignation date was not sourced - end_date is recorded as 2024-01-17, the date the vacancy was filled, and the boundary is soft by at most ~2 weeks. Corroborated independently: agenda 2024-03-20 resolution R-032453 re-designates liaisons naming 'Council Vice-President John Anderson' (Egan's old Parking Authority liaison) and 'Council Member Matthew B. Ferguson'."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "PRESIDING OFFICER, second mid-term change. Anderson replaced Egan as Council VICE-President during 2024 (documented by agenda 2024-03-20 R-032453; exact date of that election not sourced). Vice-Presidents by term, recorded here rather than as a second panel seat per the brief's one-presiding-officer rule: 2019-2020 Suzanne M. Sicora Ludwig; 2021-2022 Rebecca Escobar; 2023-2024 Kevin P. Egan, then John A. Anderson from early 2024; 2025 Manuel J. Castaneda; 2026 Petra N. Gaskins. The 2026 reorganization broke the 2-year pattern: it elected officers 'FOR 2026' only, so Anderson's presidency ran one year (2025) rather than 2025-2026."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "Seat labels are ANALYTIC. All seats are at-large and the city numbers none of them; 'At-Large Seat 1-7' are assigned here by term class so the 5->7 growth is unambiguous. Seats 1-3 = the 2016/2020/2024 class (Fleming, Anderson, Sicora Ludwig); Seats 4-5 = the 2018/2022/2026 class (Escobar; Egan->Ferguson); Seats 6-7 = the two seats CREATED 2023-01-01. Seats 6 and 7 do not exist for 2019-2022 and correctly produce no rows and no gaps in those years. Which new seat drew the 2-year initial term is inferred: Castaneda appears on the 2024-11-05 ballot and Gaskins does not, so Seat 7 (Castaneda) took the initial 2023-2024 term and Seat 6 (Gaskins) the initial 2023-2026 term. Weekday checks passed on every claimed date: 2019-01-02 Wed, 2020-01-02 Thu, 2021-01-06 Wed, 2022-01-05 Wed, 2023-01-02 Mon / 2023-01-04 Wed, 2024-01-03 Wed, 2025-01-08 Wed, 2026-01-07 Wed. Ballotpedia's New Brunswick pages are fetchable by curl but carry NO council roster; its only council-expansion article is a 2009 item about a failed 5->9 ward referendum - a decoy, not this event."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "64 seat-years 2019-2026 (5 council seats x 4 years + 7 council seats x 4 years + 8 mayor + 8 council president), all sourced. Zero gaps. Two cycles left flagged: 2016-11-08 and 2018-11-06, results not retrievable because Middlesex County's clerk host is 403 to everything - but every seat they seated is independently sourced from the January 2019/2020 agendas, so blast radius on the deliverable is zero."
+    }
+  ],
+  "totals": {
+    "tool_calls": 57,
+    "searches": 9
+  }
+}

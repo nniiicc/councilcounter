@@ -1,0 +1,868 @@
+{
+  "city_id": 24,
+  "city": "Gloucester Township",
+  "state": "NJ",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 7,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Two classes of at-large seats on 4-year terms, partisan November elections in ODD years only. Class A = 4 seats, elected 2015 / 2019 / 2023 (terms 2016-2019, 2020-2023, 2024-2027). Class B = 3 seats, elected 2017 / 2021 / 2025 (terms 2018-2021, 2022-2025, 2026-2029). The directly-elected mayor runs with the Class B cycle. 2020, 2022, 2024 and 2026 are holdover years with no regular municipal election - structural, not a gap; the only even-year municipal contest in the window was a 2024 unexpired-term council race under the Municipal Vacancy Law.",
+    "mayor_selection": "elected",
+    "election_month": "November (odd years)",
+    "profile_source_url": "https://glotwp.com/wp-content/uploads/2025/02/Council-Reorganization-Meeting-Minutes-010225.pdf"
+  },
+  "cycles": [
+    {
+      "election_date": "2015-11-03",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/sites/default/files/files/2015%20General%20Canvasser.pdf"
+    },
+    {
+      "election_date": "2017-11-07",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/wp-content/uploads/2017/11/2017-General-Canvasser.pdf"
+    },
+    {
+      "election_date": "2019-11-05",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2019/results/2019-General-Election-Canvasser.pdf"
+    },
+    {
+      "election_date": "2021-11-02",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2021/2021-General-Election-Canvasser.pdf"
+    },
+    {
+      "election_date": "2023-11-07",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2023/2023_General_Election_Canvasser.pdf"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2024/2024_General_Election_Canvasser.pdf"
+    },
+    {
+      "election_date": "2025-11-04",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2025/2025_General_Election_Canvasser.pdf"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "David R. Mayer",
+      "name_variants": [
+        "David Mayer",
+        "David R. Mayer",
+        "Mayor Mayer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/uploads/2017/11/2017-General-Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "David R. Mayer",
+      "name_variants": [
+        "David Mayer",
+        "David R. Mayer",
+        "Mayor Mayer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2022/02/CouncilMeetingMinutes_010322_Reorganization.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "David R. Mayer",
+      "name_variants": [
+        "David Mayer",
+        "David R. Mayer",
+        "Mayor Mayer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://glotwp.com/wp-content/uploads/2026/02/010326-Council-Reorganization-Meeting-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2019/09/081219_Council-Meeting-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2020-01-03",
+      "end_date": "2020-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2020/02/010320_Council_Reorganization_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2021-01-04",
+      "end_date": "2021-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2021/03/CouncilReorganization-Minutes_010421.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2022-01-03",
+      "end_date": "2022-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2022/02/CouncilMeetingMinutes_010322_Reorganization.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2023-01-03",
+      "end_date": "2023-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2023/02/CouncilMeetingMinutes_010323_Reorganization.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2024-01-03",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2024/02/Council-Meeting-Minutes-Reorganization_010324.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-01-02",
+      "end_date": "2025-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2025/02/Council-Reorganization-Meeting-Minutes-010225.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2026-01-03",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://glotwp.com/wp-content/uploads/2026/02/010326-Council-Reorganization-Meeting-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2016-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/sites/default/files/files/2015%20General%20Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2015-11-03"
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2019/results/2019-General-Election-Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Orlando Mercado",
+      "name_variants": [
+        "Orlando Mercado",
+        "Mr. Mercado"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2023/2023_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Michael D. Mignone",
+      "name_variants": [
+        "Michael D. Mignone",
+        "Michael Mignone",
+        "Mr. Mignone",
+        "Michael Mingone"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2016-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/sites/default/files/files/2015%20General%20Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2015-11-03"
+    },
+    {
+      "person": "Michael D. Mignone",
+      "name_variants": [
+        "Michael D. Mignone",
+        "Michael Mignone",
+        "Mr. Mignone",
+        "Michael Mingone"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2019/results/2019-General-Election-Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Michael D. Mignone",
+      "name_variants": [
+        "Michael D. Mignone",
+        "Michael Mignone",
+        "Mr. Mignone",
+        "Michael Mingone"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2023/2023_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Tracey L. Trotto",
+      "name_variants": [
+        "Tracey L. Trotto",
+        "Tracey Trotto",
+        "Mrs. Trotto"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2016-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/sites/default/files/files/2015%20General%20Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2015-11-03"
+    },
+    {
+      "person": "Tracey L. Trotto",
+      "name_variants": [
+        "Tracey L. Trotto",
+        "Tracey Trotto",
+        "Mrs. Trotto"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2022-10-12",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://glotwp.com/wp-content/uploads/2022/11/CouncilMeetingMinutes_102422.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Helen Albright Troxell",
+      "name_variants": [
+        "Helen Albright Troxell",
+        "Helen Albright Troxel",
+        "Mrs. Albright Troxell",
+        "Mrs. Albright - Troxell",
+        "Mrs. Albright"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2022-10-24",
+      "end_date": "2023-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2022/11/CouncilMeetingMinutes_102422.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "James Joseph Nash, III",
+      "name_variants": [
+        "James Joseph Nash, III",
+        "James Nash",
+        "Mr. Nash"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2024-01-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2023/2023_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Andrea L. Stubbs",
+      "name_variants": [
+        "Andrea L. Stubbs",
+        "Andrea Stubbs",
+        "Mrs. Stubbs"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2016-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/sites/default/files/files/2015%20General%20Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2015-11-03"
+    },
+    {
+      "person": "Andrea L. Stubbs",
+      "name_variants": [
+        "Andrea L. Stubbs",
+        "Andrea Stubbs",
+        "Mrs. Stubbs"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2023-05-08",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://glotwp.com/wp-content/uploads/2023/06/CouncilMeetingMinutes_052223.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Tara Lynn Walters",
+      "name_variants": [
+        "Tara Lynn Walters",
+        "Tara Walters",
+        "Mrs. Walters"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2023-05-22",
+      "end_date": "2023-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2023/06/CouncilMeetingMinutes_052223.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Tara Lynn Walters",
+      "name_variants": [
+        "Tara Lynn Walters",
+        "Tara Walters",
+        "Mrs. Walters"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2024-01-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2023/2023_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Michelle L. Winters",
+      "name_variants": [
+        "Michelle L. Winters",
+        "Michelle Winters",
+        "Mrs. Winters"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/uploads/2017/11/2017-General-Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Michelle L. Winters",
+      "name_variants": [
+        "Michelle L. Winters",
+        "Michelle Winters",
+        "Mrs. Winters"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://glotwp.com/wp-content/uploads/2025/08/Council-Meeting-Minutes-071425.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Ciri Castro, Jr.",
+      "name_variants": [
+        "Ciri Castro, Jr.",
+        "Ciri Castro",
+        "Mr. Castro"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2025-07-14",
+      "end_date": "2025-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2025/08/Council-Meeting-Minutes-071425.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Ciri Castro, Jr.",
+      "name_variants": [
+        "Ciri Castro, Jr.",
+        "Ciri Castro",
+        "Mr. Castro"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2026-01-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2025/2025_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Dan Hutchison",
+      "name_variants": [
+        "Dan Hutchison",
+        "Daniel Hutchison",
+        "Mr. Hutchison"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 6",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/uploads/2017/11/2017-General-Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Dan Hutchison",
+      "name_variants": [
+        "Dan Hutchison",
+        "Daniel Hutchison",
+        "Mr. Hutchison"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 6",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2024-01-08",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://glotwp.com/wp-content/uploads/2024/02/Council-Meeting-Minutes_010824.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Helen Albright Troxell",
+      "name_variants": [
+        "Helen Albright Troxell",
+        "Helen Albright Troxel",
+        "Mrs. Albright Troxell",
+        "Mrs. Albright - Troxell",
+        "Mrs. Albright"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 6",
+      "role": "council_member",
+      "start_date": "2024-01-08",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://glotwp.com/wp-content/uploads/2024/02/Council-Meeting-Minutes_010824.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Helen Albright Troxell",
+      "name_variants": [
+        "Helen Albright Troxell",
+        "Helen Albright Troxel",
+        "Mrs. Albright Troxell",
+        "Mrs. Albright - Troxell",
+        "Mrs. Albright"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 6",
+      "role": "council_member",
+      "start_date": "2025-01-02",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2024/2024_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Helen Albright Troxell",
+      "name_variants": [
+        "Helen Albright Troxell",
+        "Helen Albright Troxel",
+        "Mrs. Albright Troxell",
+        "Mrs. Albright - Troxell",
+        "Mrs. Albright"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 6",
+      "role": "council_member",
+      "start_date": "2026-01-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2025/2025_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Scott D. Owens",
+      "name_variants": [
+        "Scott D. Owens",
+        "Scott Owens",
+        "Mr. Owens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 7",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2020-09-18",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://patch.com/new-jersey/gloucestertownship/brittany-woods-activist-appointed-gloucester-township-council",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Carolyn D. Grace",
+      "name_variants": [
+        "Carolyn D. Grace",
+        "Carolyn Grace",
+        "Ms. Grace",
+        "Mrs. Grace-Love",
+        "Mrs. Grace - Love"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 7",
+      "role": "council_member",
+      "start_date": "2020-10-10",
+      "end_date": "2021-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://patch.com/new-jersey/gloucestertownship/brittany-woods-activist-appointed-gloucester-township-council",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Carolyn D. Grace",
+      "name_variants": [
+        "Carolyn D. Grace",
+        "Carolyn Grace",
+        "Ms. Grace",
+        "Mrs. Grace-Love",
+        "Mrs. Grace - Love"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 7",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2021/2021-General-Election-Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Carolyn D. Grace",
+      "name_variants": [
+        "Carolyn D. Grace",
+        "Carolyn Grace",
+        "Ms. Grace",
+        "Mrs. Grace-Love",
+        "Mrs. Grace - Love"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 7",
+      "role": "council_member",
+      "start_date": "2026-01-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.camdencounty.com/wp-content/elections/general2025/2025_General_Election_Canvasser.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry NJ entry read. CONFIRMED: Gloucester Township is in CAMDEN County (NJ DCA Mayors JSON https://data.nj.gov/resource/gkt3-i954.json?$q=Gloucester%20Township returns county 'Camden', mayor 'David Mayer') - not Gloucester County, and distinct from Franklin Township (Gloucester County) in the same corpus. CONFIRMED: odd-year November partisan elections only; no Gloucester Twp municipal contest appears in the 2020, 2022 or 2026 canvasses. CONFIRMED: Mayor-Council Plan B (Faulkner Act) - the phrase 'the Mayor-Council Plan B form of government under the provisions of the' appears verbatim in the reorganization resolutions of 2020, 2021 and 2025."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "7 at-large council seats in two staggered classes: Class A (4 seats) elected 2015/2019/2023; Class B (3 seats) elected 2017/2021/2025. Mayor elected separately with the Class B cycle (2017/2021/2025). 4-year terms beginning Jan 1. Contest labels in the canvass are 'Members of Council Gloucester Township - Vote For 4' (2023) / 'Vote For 3' (2025) and 'Mayor Gloucester Township - Vote For 1'. Seat labels 'At-Large Seat 1-7' are analytic: the body is wholly at-large, so within-class assignment of a successor to a predecessor's slot follows appointment lineage (each appointee's resolution names whose unexpired term they fill), which fixes it for every mid-term change; the two never-vacated Class A seats (Mercado, Mignone) are arbitrary but stable."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "REGISTRY ENTRY PARTLY WRONG. The published pattern https://www.camdencounty.com/wp-content/elections/general{YEAR}/{YEAR}_General_Election_Canvasser.pdf returns 200 ONLY for 2023, 2024 and 2025. It 404s for 2015, 2017, 2019 and 2021 - filenames and directory depth are not constant across the series. Directory listing under /wp-content/elections/ returns 403."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "ROUTE AROUND: https://www.camdencounty.com/service/voting-and-elections/election-results/ is a complete, curl-fetchable href index of every Camden County canvass 2000-2026. Scrape it rather than constructing URLs. Real 2019/2021 paths use HYPHENS not underscores and 2019 sits one directory deeper: .../general2019/results/2019-General-Election-Canvasser.pdf and .../general2021/2021-General-Election-Canvasser.pdf. 2017 lives at /wp-content/uploads/2017/11/2017-General-Canvasser.pdf, 2015 at /sites/default/files/files/2015%20General%20Canvasser.pdf. All fetched with plain curl + browser UA and extracted with pdftotext -layout. The camdencounty.com WordPress media API (wp-json/wp/v2/media?search=canvass) also works and surfaced the 2015 and 2017 files, but NOT 2019/2021 - the results page is the better index."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "Verbatim winners. 2015 (4 seats): Mercado 4,701 / Trotto 4,641 / Mignone 4,613 / Stubbs 4,495, all DEM, over Kline/Habina/Heinbaugh/O'Donnell (REP). 2017 (mayor + 3): Mayer 9,570 def. Radisch 5,884; Winters 9,257 / Hutchison 8,708 / Owens 8,574 (DEM). 2019 (4): Mignone 6,900 / Stubbs 6,862 / Trotto 6,695 / Mercado 6,486 (DEM). 2021 (mayor + 3): Mayer 9,641 def. Damico 7,549 and Sweet 2,792; Winters 9,640 / Grace 9,494 / Hutchison 9,467 (DEM). 2023 (4): Walters 8,693 / Nash 8,509 / Mignone 8,570 / Mercado 8,455. 2024 unexpired term (1): Albright Troxell (D) 18,111 def. Pfeffer (R) 13,526. 2025 (mayor + 3): Mayer 14,848 def. Gibbons 9,291; Grace 14,856 / Albright Troxell 14,574 / Castro 14,513."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "glotwp.com is WordPress and its media REST API is open: wp-json/wp/v2/media?search=minutes&per_page=100&page=N paged out 231 council minutes PDFs. Downloaded and pdftotext'd every one from 2019-06 to 2026-06 and diffed the roll-call block meeting by meeting, which yields a continuous membership series rather than an inferred one. FIVE mid-term changes found, all dated from primary minutes: (1) Scott D. Owens resigned effective 2020-09-18, announced at the 2020-09-28 meeting; Carolyn D. Grace appointed at a special meeting 2020-10-10 (Saturday), first roll call 2020-11-09. (2) Tracey L. Trotto resigned between 2020-09-26 and 2022-10-12 roll calls; Helen Albright Troxell appointed by R-22:10-311 'CONFIRMING THE APPOINTMENT OF A COUNCIL MEMBER TO FILL THE UNEXPIRED TERM OF TRACEY TROTTO PURSUANT TO N.J.S.A. 40A:16-11', adopted 2022-10-24. (3) Andrea L. Stubbs resigned between the 2023-04-24 and 2023-05-08 roll calls; Tara Walters appointed 2023-05-22 to fill 'THE UNEXPIRED TERM OF ANDREA STUBBS', term stated verbatim as 'May 22, 2023 - December 31, 2023'. (4) 'WHEREAS, on January 8, 2024, Councilman Dan Hutchison resigned from his position' (elected to the NJ General Assembly); Helen Albright Troxell appointed and sworn the same evening, 2024-01-08. (5) Mayor Mercado 'announced Mrs. Winters resigned from Council effective June 30th' at the 2025-07-14 meeting; Ciri Castro, Jr. nominated 6-0 and sworn in that night, 2025-07-14. Every vacancy was filled inside the same calendar year, so no seat-year is uncovered."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "NEAR-HOMONYM TRAP, resolved: 'Mrs. Trotto' (Tracey L. Trotto) and 'Mrs. Albright Troxell' (Helen Albright Troxell) are two different people, and Albright Troxell is literally Trotto's replacement in the same seat - a surname-collapse here would have erased a resignation. They are never on a roll call together. Council resolution R-22:10-311 spells her 'Helen Albright Troxel' (one L); the ballot, the 2024 canvass and every roll call use 'Troxell'. Carolyn D. Grace appears as 'Mrs. Grace - Love' on roll calls from 2025-01 to 2025-07 and reverts to 'Mrs. Grace' in 2026; ballot name both times is 'Carolyn D. Grace'. The 2026 reorganization minutes misspell Mignone as 'Michael Mingone'. Day-of-week checks pass: 2020-10-10 Saturday (article says 'special meeting Saturday morning'), 2020-09-18 Friday, 2022-10-24 Monday, 2023-05-22 Monday, 2024-01-08 Monday, 2025-07-14 Monday. Roll-call parsing caveat: 'Assemblyman Dan Hutchison' and 'Mayor Mayer' appear in the staff/guest column of post-2024 minutes and must not be read as council membership."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Presiding officers. Orlando Mercado was Council President in every year 2019-2026 (2019 from 'Mayor Mayer and Council President Mercado' in the 2019-08-12 minutes; 2020-2026 from each January reorganization). Council VICE President (recorded here in run_log only, since the panel carries one presiding-officer seat): Tracey Trotto 2019 through 2022-10; Michael Mignone elected Vice President on 2022-10-24 immediately after Trotto's seat was filled, and re-elected at every reorganization 2023, 2024, 2025 and 2026. No mid-window change in council size: 7 seats throughout."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "72 seat-years (9 stable labels x 8 years) all sourced; zero gaps; zero unrecoverable cycles."
+    }
+  ],
+  "totals": {
+    "tool_calls": 39,
+    "searches": 1
+  }
+}

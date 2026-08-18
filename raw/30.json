@@ -1,0 +1,527 @@
+{
+  "city_id": 30,
+  "city": "Howell Township",
+  "state": "NJ",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Two classes, both at-large, elected in November of EVEN years. Class 1 = Mayor + 1 councilmember-at-large (2016, 2020, 2024). Class 2 = 3 councilmembers-at-large (2018, 2022, 2026). Terms begin January 1 following the election; oaths are administered at the January reorganization meeting. Odd years (2019, 2021, 2023, 2025) have NO municipal election at all - structural holdover years, not gaps.",
+    "mayor_selection": "elected",
+    "election_month": "November (even years only)",
+    "profile_source_url": "https://results.enr.clarityelections.com/NJ/Monmouth/122857/356046/json/en/summary.json"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Monmouth/64727/184376/json/sum.json"
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Monmouth/100184/236548/json/en/summary.json"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Monmouth/107171/272151/json/en/summary.json"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Monmouth/116246/317168/json/en/summary.json"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://results.enr.clarityelections.com/NJ/Monmouth/122857/356046/json/en/summary.json"
+    },
+    {
+      "election_date": "2026-11-03",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": null
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Theresa Berger",
+      "name_variants": [
+        "Theresa Berger",
+        "Mayor Berger"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2017-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012019-1050",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Theresa Berger",
+      "name_variants": [
+        "Theresa Berger",
+        "Mayor Berger"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01052021-1359",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "John Leggio",
+      "name_variants": [
+        "John Leggio",
+        "Mayor Leggio"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012025-1927",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Evelyn Malsbury O'Donnell",
+      "name_variants": [
+        "Evelyn O'Donnell",
+        "Evelyn Malsbury O'Donnell",
+        "Evelyn Malsbury ODonnell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2017-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012019-1050",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Evelyn Malsbury O'Donnell",
+      "name_variants": [
+        "Evelyn O'Donnell",
+        "Evelyn Malsbury O'Donnell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01052021-1359",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Evelyn Malsbury O'Donnell",
+      "name_variants": [
+        "Evelyn O'Donnell",
+        "Evelyn Malsbury O'Donnell",
+        "Evelyn Malsbury ODonnell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012025-1927",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "John Bonevich",
+      "name_variants": [
+        "John Bonevich",
+        "John \"Bon\" Bonevich"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012019-1050",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Susan Fischer",
+      "name_variants": [
+        "Susan Fischer",
+        "Councilwoman Fischer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Agenda/_01022023-1602",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Pamela Richmond",
+      "name_variants": [
+        "Pamela Richmond",
+        "Councilwoman Richmond"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012019-1050",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Ian Nadel",
+      "name_variants": [
+        "Ian Nadel",
+        "Councilman Nadel"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Agenda/_01022023-1602",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Thomas Russo",
+      "name_variants": [
+        "Thomas Russo",
+        "Councilman Russo",
+        "Deputy Mayor Thomas Russo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2021-11-06",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_11302021-1484",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Suzanne Brennan",
+      "name_variants": [
+        "Suzanne Brennan",
+        "Suzanne M. Brennan",
+        "Councilwoman Brennan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2021-12-06",
+      "end_date": "2022-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01042022-1492",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Fred Gasior",
+      "name_variants": [
+        "Fred Gasior",
+        "Councilman Gasior"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": "2025-07-29",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_07292025-1992",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Michael Wrubel",
+      "name_variants": [
+        "Michael Wrubel",
+        "Mike Wrubel",
+        "Councilman Wrubel"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2025-08-12",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_08122025-1995",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Evelyn Malsbury O'Donnell",
+      "name_variants": [
+        "Evelyn O'Donnell",
+        "Evelyn Malsbury O'Donnell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-01-06",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012019-1050",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Evelyn Malsbury O'Donnell",
+      "name_variants": [
+        "Evelyn O'Donnell",
+        "Evelyn Malsbury O'Donnell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2020-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01072020-1221",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Thomas Russo",
+      "name_variants": [
+        "Thomas Russo",
+        "Deputy Mayor Russo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2021-01-05",
+      "end_date": "2021-11-06",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01052021-1359",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Pamela Richmond",
+      "name_variants": [
+        "Pamela Richmond",
+        "Deputy Mayor Richmond"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2022-01-04",
+      "end_date": "2022-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01042022-1492",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Evelyn Malsbury O'Donnell",
+      "name_variants": [
+        "Evelyn O'Donnell",
+        "Evelyn Malsbury O'Donnell"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2023-01-02",
+      "end_date": "2024-01-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Agenda/_01022023-1602",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Ian Nadel",
+      "name_variants": [
+        "Ian Nadel",
+        "Deputy Mayor Ian Nadel"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2024-01-02",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01022024-1772",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Fred Gasior",
+      "name_variants": [
+        "Fred Gasior",
+        "Deputy Mayor Gasior"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2025-01-01",
+      "end_date": "2025-07-29",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_01012025-1927",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Susan Fischer",
+      "name_variants": [
+        "Susan Fischer",
+        "Deputy Mayor Susan Fischer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Deputy Mayor",
+      "role": "vice_mayor",
+      "start_date": "2025-08-12",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.twp.howell.nj.us/AgendaCenter/ViewFile/Minutes/_08122025-1995",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry claim 1 CONFIRMED: Howell is council-manager but the mayor is DIRECTLY ELECTED. Two independent proofs: (a) the Monmouth County Clerk's 2024 municipal candidate list carries a standalone ballot contest 'MAYOR-Full Term-Vote for One' for HOWELL TOWNSHIP; (b) the 2025-01-01 reorganization minutes read 'Oath of Office for our Newly Elected Mayor John Leggio'. The internally filled office is the DEPUTY MAYOR, nominated and confirmed by council roll call at each January reorganization. Registry claim 2 CONFIRMED: November of even years only; 2019, 2021, 2023 and 2025 are structural holdover years. Registry claim 3 CORRECTED: 'twp.howell.nj.us robots-blocked' is WRONG - robots.txt returns HTTP 200 and only name-blocks Baiduspider/Yandex plus admin paths. NOTE robots DOES disallow /Search and /Search.aspx, so the CivicPlus site-search route was deliberately not used; /AgendaCenter/Search/ is a different path and is permitted. NJ DCA Mayors Directory JSON (data.nj.gov/resource/gkt3-i954.json?$q=Howell) worked and returned John Leggio, Monmouth County - but its term_start/term_end (2025-01-01 to 2026-12-31) is WRONG for Howell: Leggio was elected 2024-11-05 to a four-year term running through 2028."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "Five at-large seats: Mayor plus four councilmembers-at-large, no wards, constant at 5 across 2019-2026. Two classes: Mayor + 1 seat (2016, 2020, 2024) and 3 seats (2018, 2022, 2026). Derived from oath sequences in the January reorganization minutes (3 oaths on 2019-01-01 and 2023-01-02; mayor + 1 on 2021-01-05 and 2025-01-01) and confirmed against the Monmouth County Clerk municipal candidate lists, which label the contests 'COUNCILMEMBERS-AT-LARGE - Full Term - Vote for Three' (2022) and 'MAYOR-Full Term-Vote for One' + 'Full Term - Vote for One' (2024). The 2026-11-03 cycle is scheduled but had not occurred as of the research date (2026-08-17); no 2019-2026 seat-year depends on it, since terms from it begin 2027-01-01."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "blocked",
+      "tool_calls": 8,
+      "searches": 1,
+      "detail": "SUPERSEDED - see the next run_log entry. NO CANVASS WAS OBTAINABLE FOR ANY CYCLE. The Monmouth County Clerk's own results index (monmouthcountyvotes.gov/elections/past-election-results/, reached via monmouthcountyvotes.com which 301s to the .gov host) links EVERY election from 2000 to 2026 to results.enr.clarityelections.com/NJ/Monmouth/{id}/ - which is robots-blocked in NJ per the registry and was therefore not fetched. The site's WordPress REST API is authentication-walled ('DRA: Only authenticated users can access the REST API', HTTP 401), so the wp-json media sweep does not work here. What the county DOES serve to plain curl are pre-election municipal CANDIDATE lists: /wp-content/uploads/{YYYY}/09/{YYYY-MM-DD}-General-Election-Candidates-Municipal5.pdf - verified for 2022 and 2024 (note the trailing '5' in the filename is required; the un-suffixed name 404s). The 2018 and 2020 equivalents 404 under every path tried. These lists give the office, the seat count and every candidate with party, but no vote totals. Cycle sourcing therefore rests on the January reorganization minutes, which are dated primary municipal records naming each person sworn in, plus the county candidate lists. Registry note: 'New Jersey state election PDFs contain zero municipal races' was taken as given and no budget was spent there. [Correction: Clarity is NOT robots-blocked; there is no robots.txt on that host at all. Every cycle was subsequently recovered from it. The county wp-json REST API being 401-walled and the candidate-list PDF pattern below both remain true.]"
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 7,
+      "searches": 0,
+      "detail": "CLARITY IS OPEN - THE REGISTRY ENTRY 'results.enr.clarityelections.com is robots-blocked in every state tested' IS WRONG. The host serves no robots.txt at all (404, 2,616-byte error page identical to any nonsense path), and its JSON API answered plain curl with a browser UA on every request. This supersedes the 'cycle_retrieval / blocked' entry above, which was written before that correction reached me; ALL FIVE cycles 2016-2024 are now sourced from the certified county canvass. Working recipe for Monmouth: the election ids are listed on monmouthcountyvotes.gov/elections/past-election-results/ grouped by year accordion, are non-sequential, and each year's block mixes primaries, school, fire-district and special elections with the general - identify the general by fetching each id and looking for the un-prefixed municipal contest (primaries prefix contests 'REP -' / 'DEM -'). Then: /NJ/Monmouth/{id}/current_ver.txt -> version string, then /NJ/Monmouth/{id}/{ver}/json/en/summary.json. THREE TRAPS. (a) Older elections use a DIFFERENT path - 2016 (id 64727) 404s on json/en/summary.json and serves json/sum.json instead, and that older file is a JSON OBJECT with a flat integer vote array rather than the list-of-contests with nested arrays used from 2018 on. (b) Some summary.json bodies come back GZIP-COMPRESSED WITHOUT a Content-Encoding header (2022, id 116246) - json.load fails on binary and reads like a corrupt file; gzip.decompress fixes it. (c) The {ver} segment is mutable, so a stored URL may need current_ver.txt re-read to resolve. Contest labels: 'Mayor Howell Twp' and 'Councilmembers-At-Large Howell Twp' (hyphenated through 2020, 'Councilmembers At-Large Howell Twp' from 2022; the 2022 PRIMARY misspells it 'Coucilmembers'). CERTIFIED RESULTS: 2016 Mayor Berger (D) 12,209 def. Cardellichio (R) 11,394, Nolan (NON) 707; Council O'Donnell (R) 11,980 def. Montella (D) 11,727. 2018 Council (3 seats) Russo (R) 10,545, Richmond (R) 10,210, Bonevich (D) 10,027 def. Walsh (R) 9,846, Dias (D) 9,877, Dorato (D) 9,837 - note the seats SPLIT 2R/1D. 2020 Mayor Berger (D) 16,615 def. Brennan (R) 14,392; Council O'Donnell (R) 15,415 def. de Garmeaux (D) 15,095. 2022 Council (3 seats) Fischer 9,832, Gasior 9,648, Nadel 9,610 def. Bonevich 7,593, King 7,354, Bishop 7,250. 2024 Mayor Leggio 19,649 def. Hughes 9,350; Council O'Donnell 14,959 def. Scott 9,059, Velez-Gimbel 4,477. NOTE the Asbury Park Press election-night figures (Leggio 18,952 / Hughes 8,849; O'Donnell 14,425 / Scott 8,588 / Velez 4,305) are UNOFFICIAL and differ from the certified canvass - the canvass numbers above are the ones to use. PARTY FACT worth carrying: Theresa Berger held the Howell mayoralty as a DEMOCRAT (2016 and 2020) in an otherwise Republican body, and Suzanne Brennan - later appointed to the council - was the Republican she beat for mayor in 2020."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 0,
+      "detail": "The CivicPlus AgendaCenter dated search is the unlock for this city and cost zero WebSearches: /AgendaCenter/Search/?term=&CIDs=5&startDate=MM%2FDD%2FYYYY&endDate=MM%2FDD%2FYYYY returns real /AgendaCenter/ViewFile/{Minutes|Agenda}/_MMDDYYYY-NNN links for the full 2019-2026 archive (Township Council = CID 5). Every PDF fetched with a browser UA at HTTP 200. All eight January reorganization minutes were retrieved. EXTRACTION TRAP: the 2021, 2022 and 2023 reorganization minutes are IMAGE-ONLY SCANS - pdftotext returns 8-17 bytes - which would read as empty documents. They were recovered with pdftoppm -r 200 + tesseract, and the OCR is clean. The 2023 reorganization minutes could not be OCR'd usefully, so its deputy-mayor designation and the three 2022-elected members come from the corresponding AGENDA PDF (text-native), which prints the nominee name."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 2,
+      "detail": "FOUR mid-term changes found, all dated. (1) 2021-11-06: Deputy Mayor Thomas Russo tendered his resignation from the Township Council - verbatim from the 2021-11-30 minutes, which also record BOTH attempts to fill the seat FAILING on 2-2 roll calls (Suzanne Brennan nominated by Richmond, defeated by Berger+Bonevich; John Leggio nominated by Bonevich, defeated by O'Donnell+Richmond). Corroborated by patch.com. (2) The vacancy therefore passed to the Howell Republican municipal committee under NJ law; Suzanne Brennan was appointed and is present on the roll call of the 2022-01-04 reorganization minutes. Her appointment date of 2021-12-06 comes from a centraljersey.com headline/summary that could NOT be fetched (Cloudflare 403 to both curl and WebFetch), so that specific date is medium confidence; her seating by 2022-01-04 is high confidence. No December 2021 council meeting exists in the AgendaCenter, consistent with a committee appointment rather than a council vote. (3) 2025-07-29: Resolution R-25-223 'ACCEPTING RESIGNATION OF FRED GASIOR FROM TOWNSHIP COUNCIL' adopted. (4) 2025-08-12: Susan Fischer nominated and sworn as Deputy Mayor, and Michael Wrubel nominated by Councilman Nadel and appointed to the council seat from three names supplied by the Republican Committee. The AgendaCenter free-text search (term=resignation) found (3) and (4) directly; it CANNOT find (1) and (2) because the 2021-2022 minutes are scans with no text layer - a real limitation of that index, not evidence of absence. No mid-term change was found in 2019, 2020, 2023 or 2024; the 2019 and 2020 minutes are text-native and searchable, so that negative is meaningful for those two years."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "SEAT LABELS ARE ARBITRARY WITHIN A CLASS. Howell's seats are purely at-large with no numbering, so 'At-Large Seat B/C/D' is a stable label imposed for panel continuity, not a real seat identity; the class is real (all three elected together in 2018, 2022) but the pairing of a 2019-2022 holder to a 2023-2026 holder within that class is a convention. 'At-Large Seat A' IS real in the sense that it is the single council seat that runs on the mayoral cycle. TWO WITHIN-YEAR VACANCIES, both fully covered by the seat-year rows and therefore NOT filed as gaps: Seat D was vacant 2021-11-06 to 2021-12-06, and 2025-07-29 to 2025-08-12; the Deputy Mayor office was vacant 2021-11-06 to 2022-01-04. Day-of-week checked on all 16 load-bearing dates: every reorganization falls on a Tuesday except 2023-01-02 (Monday, New Year's observed) and 2025-01-01 (Wednesday, New Year's Day); every election date is a Tuesday; Russo's resignation was tendered on a Saturday, which is consistent with a letter rather than a meeting. All quoted roster text was extracted locally with pdftotext -layout or tesseract, never via a page summarizer. The 2024 vote totals (Leggio 18,952 / Hughes 8,849; O'Donnell 14,425 / Scott 8,588 / Velez 4,305) came from an Asbury Park Press story via a syndication mirror and are NOT used to seat anyone - the seating comes from the minutes."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "40 panel seat-years (5 seats x 8 years) covered on the council side, plus 8 Deputy Mayor seat-years. Zero gaps. Two seat-years carry two tenure rows each (Seat D in 2021 and 2025), which is correct rather than duplicated."
+    }
+  ],
+  "totals": {
+    "tool_calls": 55,
+    "searches": 3
+  }
+}

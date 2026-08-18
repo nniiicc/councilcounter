@@ -1,0 +1,564 @@
+{
+  "city_id": 51,
+  "city": "Ripon",
+  "state": "California",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "3 seats elected in 2016/2020/2024 (lineages A, B, C); 2 seats in 2018/2022/2026 (lineages D, E). November of even years, consolidated with San Joaquin County under SB 415; members seated at the December regular meeting.",
+    "mayor_selection": "council-selected",
+    "election_month": "November",
+    "profile_source_url": "https://www.cityofripon.org/181/Ripon-City-Council"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofripon.org/187/Election-Documents"
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.livevoterturnout.com/ENR/sanjoaquincaenr/8/en/Index_8.html"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.livevoterturnout.com/ENR/sanjoaquincaenr/14/en/Index_14.html"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.cityofripon.org/DocumentCenter/View/1206/Local-Candidate-List-PDF"
+    },
+    {
+      "election_date": "2026-11-03",
+      "seats_up": 2,
+      "status": "flagged",
+      "source_url": "https://www.cityofripon.org/186/Election-Information"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Jacob Parks",
+      "name_variants": [
+        "Jake Parks",
+        "Jacob Parks"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": "2020-12-08",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Timothy Wheeler",
+      "name_variants": [
+        "Tim Wheeler",
+        "TIM WHEELER",
+        "Timothy Wheeler"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2020-12-08",
+      "end_date": "2021-11-10",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1175",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Gary Barton",
+      "name_variants": [
+        "Gary Barton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2021-12-14",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1219",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Leo Zuber",
+      "name_variants": [
+        "Leo Zuber",
+        "Leo M. Zuber"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Daniel de Graaf",
+      "name_variants": [
+        "Daniel de Graaf",
+        "Daniel De Graaf"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Michael Restuccia",
+      "name_variants": [
+        "Michael Restuccia",
+        "Mike Restuccia"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Dean Uecker",
+      "name_variants": [
+        "Dean Uecker",
+        "Dean David Uecker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat E",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Leo Zuber",
+      "name_variants": [
+        "Leo Zuber"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-12-11",
+      "end_date": "2019-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jacob Parks",
+      "name_variants": [
+        "Jacob Parks"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-12-10",
+      "end_date": "2020-12-08",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1123",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Daniel de Graaf",
+      "name_variants": [
+        "Daniel de Graaf"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-12-08",
+      "end_date": "2021-12-14",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1175",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dean Uecker",
+      "name_variants": [
+        "Dean Uecker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-12-14",
+      "end_date": "2022-12-13",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1219",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Michael Restuccia",
+      "name_variants": [
+        "Michael Restuccia"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-12-13",
+      "end_date": "2023-12-12",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1250",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Leo Zuber",
+      "name_variants": [
+        "Leo Zuber"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-12-12",
+      "end_date": "2024-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1276",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Daniel de Graaf",
+      "name_variants": [
+        "Daniel de Graaf"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-12-10",
+      "end_date": "2025-12-09",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1315",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Gary Barton",
+      "name_variants": [
+        "Gary Barton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-12-09",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1348",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jacob Parks",
+      "name_variants": [
+        "Jacob Parks"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2018-12-11",
+      "end_date": "2019-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1100",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Daniel de Graaf",
+      "name_variants": [
+        "Daniel de Graaf"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2019-12-10",
+      "end_date": "2020-12-08",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1123",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dean Uecker",
+      "name_variants": [
+        "Dean Uecker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2020-12-08",
+      "end_date": "2021-12-14",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1175",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Michael Restuccia",
+      "name_variants": [
+        "Michael Restuccia"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2021-12-14",
+      "end_date": "2022-12-13",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1219",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Leo Zuber",
+      "name_variants": [
+        "Leo Zuber"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2022-12-13",
+      "end_date": "2023-12-12",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1250",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Daniel de Graaf",
+      "name_variants": [
+        "Daniel de Graaf"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2023-12-12",
+      "end_date": "2024-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1276",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Gary Barton",
+      "name_variants": [
+        "Gary Barton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2024-12-10",
+      "end_date": "2025-12-09",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1315",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dean Uecker",
+      "name_variants": [
+        "Dean Uecker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2025-12-09",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://riponcityca.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=1348",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "CENSUS VERDICT OVERTURNED. Census listed Ripon among 8 cities with no working archive (cityofripon.org robots.txt timed out). Plain curl with a browser UA returned HTTP 200 on robots.txt, /, /Archive.aspx and /AgendaCenter on the FIRST try; no full header set was needed. robots.txt disallows only /Search, /admin, /map and similar - nothing used here. Registry entry 'cityofripon.org robots-blocked' is WRONG and should be corrected."
+    },
+    {
+      "step": "registry",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "San Joaquin Democracy Live route VERIFIED LIVE: livevoterturnout.com/ENR/sanjoaquincaenr/{ID}/en/Index_{ID}.html. IDs are small integers, not date-ordered, ~25% 404. Probed 1-19: 1&5=May 7 2019, 3=Jun 5 2018, 7=Mar 3 2020, 8=Nov 3 2020, 13=Jun 7 2022, 14=Nov 8 2022, 16=Mar 5 2024, 18=Nov 5 2024, 19=Nov 4 2025; 2,6,12,17 and everything >=20 are 404. Contest label varies: 'CITY OF RIPON MEMBER, CITY COUNCIL' (2020) vs 'CITY OF RIPON CITY COUNCIL' (2022). Vote tables are embedded in a JS array in the index page - no separate detail page needed."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "General law city, 5 at-large council members, 4-year staggered terms, consolidated November even-year elections (SB 415). Cohorts: 3 seats in 2016/2020/2024, 2 seats in 2018/2022/2026. Confirmed from cityofripon.org/181 and /186."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "ARCHIVE CENTER ANNUAL BUDGET SERIES was the cheapest spine: /ArchiveCenter/ViewFile/Item/{ADID}, ADIDs read straight out of the /Archive.aspx <select> options. Every FY budget cover page carries a 'City Council' block naming Mayor, Vice Mayor and the three council members, adopted June/July, i.e. a mid-year snapshot for every panel year FY2018-19 through FY2026-27. NOTE the 'Financial Statements and Independent Auditors Report' series in the same Archive Center is a BARE AUDIT, not an ACFR - no principal-officials page - so the ACFR route is unavailable for Ripon; the budget series replaces it and is better (it names the presiding officer). FY2024-25 (ADID 121) is a partial 98-page document with no cover roster, but its Council conference line items name Barton, Uecker, de Graaf, Restuccia and Zuber."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "City Council minutes are NOT in the CivicPlus AgendaCenter. A full sweep of /AgendaCenter/ViewFile/Minutes/_{date}-{1..110} returned only Parks & Recreation Commission and Council standing-committee (Two-by-Two, Budget Oversight, Code Enforcement, Golf Course) minutes - no regular Council meeting. Every swept document was confirmed to be a Ripon document (no cross-tenant contamination). Regular Council agendas and minutes live on IQM2/MinuteTraq at riponcityca.iqm2.com. Working pattern: /Citizens/Calendar.aspx?From=1/1/{Y}&To=12/31/{Y} lists Detail_Meeting.aspx?ID={n}; /Citizens/Detail_Meeting.aspx?ID={n} exposes FileOpen.aspx?Type=15&ID={docid} (the plain minutes PDF, ~250-500 KB) and Type=12 (the full packet, 12-23 MB). Types 1 and 14 302-redirect to /Login.aspx. robots.txt sets Crawl-delay 60 with no Disallow; requests were paced."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "MAYOR DETERMINATION - the registry's 'rotating or council-selected' flag is CORRECT and the mechanism is fully documented. RMC 2.04.020 (Ordinance No. 800, 'Mayoral Selection') fixes a rotation: at the December regular meeting the five members are re-seated in numbered chairs, Seat 1 = Mayor and Seat 2 = Vice Mayor, and the City Clerk queries the two designees to accept or decline. All eight December reorganizations 2018-2025 were read verbatim from the minutes. CRITICAL TRAP: the 'Seat 1'...'Seat 5' numbers on cityofripon.org/181 and in the reorganization minutes are the ROTATING CHAIR POSITIONS, not stable seats - every member's seat number changes every December. This panel therefore uses lineage labels 'At-Large Seat A-E' keyed to election cohort, and records Mayor and Vice Mayor as their own seats."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "Cross-validation: two independent snapshots per year (December reorganization minutes + June/July budget cover roster) agree on the mayor, vice mayor and full membership for every year 2019-2026. The mayoral chain also self-checks - each year's Vice Mayor is the following year's Mayor in all eight transitions. Every name comes from locally extracted pdftotext -layout output, not from a page summarizer."
+    },
+    {
+      "step": "validation",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "CALIFORNIA ROSTER (SoS) TESTED - the registry's 'no statewide source' line is too strong, but the Roster is NOT a complete statewide spine and it does NOT cover Ripon for most of the panel. Fetched 2019 (admin.cdn.sos.ca.gov/ca-roster/2019/02j-city-town.pdf) and 2020, 2021, 2022, 2024, 2025, 2026 (.../ca-roster/{YYYY}/cities-towns.pdf); all 200 except 2023, which 403s. RIPON IS ENTIRELY ABSENT from the 2019, 2020, 2021, 2022 and 2024 editions - zero hits on 'Ripon', 'Zuber', 'Restuccia', 'Uecker' or the city phone number - while its alphabetical neighbours CITY OF RIO VISTA and CITY OF RIVERBANK are present in every one of those editions, so this is a genuine omission, not a page-break or extraction artifact. The 2025 edition states the data is 'provided to the Secretary of State's Office by local jurisdictions', which explains it: a city that does not submit is silently missing, and absence carries no information about the city. COVERAGE MUST BE CHECKED PER CITY PER YEAR before this series is relied on. Ripon appears in 2025 and 2026 only, and both editions CORROBORATE this panel exactly - 2025: Mayor Daniel de Graaf, Vice Mayor/Mayor Pro Tempore Gary Barton, Council Restuccia/Uecker/Zuber; 2026: Mayor Gary Barton, Vice Mayor Dean Uecker, Council Restuccia/Zuber/de Graaf. Both match the December reorganization minutes and the budget cover rosters already sourced at high confidence, so no row was changed and no row rests on the Roster. The 2022 stale-carry-over failure mode could not be tested here because Ripon is absent from that edition. TWO NEW TRAPS in this series: (1) the two-column layout INTERLEAVES ADJACENT CITIES - the 2026 Ripon block extracts with 'Legislative Districts: State Senate 31, Assembly 58' and 'Chartered City Population: 324000' sitting on its lines, which are Riverside's (Ripon's population is ~17,146); read only the left column. (2) Self-reported fields are unreliable - the 2026 edition gives Ripon's website as www.cityofripon.com, wrong TLD, the real site is .org."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "not_found",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "GRANICUS ROUTE DOES NOT APPLY TO RIPON. Probed ripon/riponcityca/cityofripon/riponca .granicus.com/ViewPublisher.php - all four return the Granicus 404 NotFound page, i.e. no tenant exists. Ripon's video and minutes platform is IQM2/MinuteTraq at riponcityca.iqm2.com, whose Type=15 minutes PDFs all carry a real text layer and extracted cleanly with pdftotext -layout, so there was nothing for MetaViewer to rescue."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 2,
+      "detail": "ONE mid-term change 2019-2026. Timothy (Tim) Wheeler, elected 2020-11-03 and sworn in 2020-12-08, resigned effective Wednesday 2021-11-10 after moving his family to Montana; the 2021-11-09 regular meeting was his last (he is on that roll call and cast votes, and the council took farewell remarks). The same meeting approved the vacancy notice; applications ran 2021-11-10 to 2021-11-18 and drew nine; 2021-11-23 special meeting set the process; 2021-12-07 special meeting interviewed eight applicants and balloted Gary Barton over George Saljian; Resolution 21-57 appointed Barton and he took the oath 2021-12-14. The 2021-12-14 reorganization lists 'Seat 5 Council Member Vacant'. Day-of-week check: 2021-11-10 was a Wednesday - consistent. Seat A was therefore vacant 2021-11-10 to 2021-12-14; that is a partial-year vacancy inside an otherwise sourced seat-year, so it is recorded here and not as a gap row. No other appointment, resignation, death or recall appears in any December reorganization or June budget roster 2019-2026."
+    },
+    {
+      "step": "escalation",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "UNOPPOSED = NO BALLOT, confirmed twice for California. Ripon's Council seats do not always appear in the county canvass. 2018: Resolution No. 18-77 'Appointments in lieu of Election' - Restuccia and Uecker sworn 2018-12-11. 2022: the county contest 'CITY OF RIPON CITY COUNCIL, VOTE FOR 2' carries only the two four-year seats (Restuccia 3,928; Uecker 3,560; Spade 2,550); the separately advertised 2-year partial unexpired term drew Gary Barton alone and never appeared on the ballot - the 2022-12-13 minutes are headed 'Oath of Office to Newly Elected AND APPOINTED Council Members'. 2024: exactly three candidates (de Graaf, Barton, Zuber) filed for three seats, so Resolution 24-35 appointed all three in lieu of election and NO Ripon council contest exists in county election ID 18. Reading those absences as missing data would have produced five spurious gaps."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 2,
+      "detail": "Manteca Bulletin (mantecabulletin.com) supplied Wheeler's exact resignation effective date, which the official minutes do not state. Search hygiene: every query carried 'California' or 'San Joaquin'; no Ripon, North Yorkshire UK result entered the trail. Resolutions 18-77 (DocumentCenter/View/398) and 24-35 (DocumentCenter/View/1228) fetch as image-only scans with no text layer - their content is corroborated by the dated oath-of-office entries in the December minutes and by the candidate logs, so no gap was recorded."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "56 of 56 seat-years sourced (5 council lineages + Mayor + Vice Mayor, x 8 years). Zero gaps, zero low-confidence rows. Open caveat, NOT a gap: the 2026-11-03 general election has not yet been held (today is 2026-08-17); candidates are Michael Restuccia, Dean Uecker and Frank Madrigal for Seats D and E. New members and the next mayoral rotation seat at the December 2026 regular meeting, so any change affects only the last few weeks of 2026; the 2026 seat-years are recorded as held by the incumbents, who hold them for essentially the whole year."
+    }
+  ],
+  "totals": {
+    "tool_calls": 48,
+    "searches": 2
+  }
+}

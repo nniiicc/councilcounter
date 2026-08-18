@@ -1,0 +1,626 @@
+{
+  "city_id": 64,
+  "city": "Yuba City city",
+  "state": "California",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "Five 4-year seats staggered 3/2 on even-year Novembers (SB 415 consolidation). 3 seats in 2018/2022/2026, 2 seats in 2020/2024. AT-LARGE through the Nov 2020 election; BY-DISTRICT from the Nov 8 2022 election onward (ordinance adopted 2022-02-01). Districts 1-3 are the 2022/2026 group; Districts 4-5 are the 2024 group. District labels are NOT continuous with the at-large era.",
+    "mayor_selection": "council-selected",
+    "election_month": "November (even years)",
+    "profile_source_url": "https://www.yubacity.net/city_council/yuba_city_district.php"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2018/Minutes/12-04-18%20-%20Minutes.pdf"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202021%20Final%20Online%20v2.pdf"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.appeal-democrat.com/news/a-changing-of-the-council-guard-kirchner-takes-over-as-yuba-city-mayor-as-espindola/article_88b3e8d4-76a5-11ed-a743-276d40cb4a95.html"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.appeal-democrat.com/news/cole-leads-yc-council-race-sales-tax-measure-running-behind/article_8e1d7050-9cc9-11ef-984a-9ba49775e762.html"
+    },
+    {
+      "election_date": "2026-11-03",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": "https://www.yubacity.net/city_hall/city_clerk/election_information.php"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Marc Boomgaarden",
+      "name_variants": [
+        "Marc Boomgarden"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-12-04",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2018/Minutes/12-04-18%20-%20Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Grace Espindola",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-12-04",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2018/Minutes/12-04-18%20-%20Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Dave Shaw",
+      "name_variants": [
+        "David Shaw"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2018-12-04",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2018/Minutes/12-04-18%20-%20Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [
+        "Shon Haris",
+        "Short Harris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-01",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20CAFR%202019%20Final%2012-5-19.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Manny Cardoza",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-01",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20CAFR%202019%20Final%2012-5-19.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2020-12-01",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "unknown",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202021%20Final%20Online%20v2.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Wade Kirchner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2020-12-01",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "unknown",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202021%20Final%20Online%20v2.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Dave Shaw",
+      "name_variants": [
+        "David Shaw"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.yubacity.net/city_council/city_council_members.php",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Marc Boomgaarden",
+      "name_variants": [
+        "Marc Boomgarden"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.yubacity.net/city_council/city_council_members.php",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Michael Pasquale",
+      "name_variants": [
+        "Mike Pasquale"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.appeal-democrat.com/news/a-changing-of-the-council-guard-kirchner-takes-over-as-yuba-city-mayor-as-espindola/article_88b3e8d4-76a5-11ed-a743-276d40cb4a95.html",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Wade Kirchner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": "2024-12-03",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202023%20Final%20-%20bookmarked.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Wade Kirchner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.appeal-democrat.com/news/cole-leads-yc-council-race-sales-tax-measure-running-behind/article_8e1d7050-9cc9-11ef-984a-9ba49775e762.html",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": "2024-12-03",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202023%20Final%20-%20bookmarked.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Toni Cole",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.appeal-democrat.com/news/cole-leads-yc-council-race-sales-tax-measure-running-behind/article_8e1d7050-9cc9-11ef-984a-9ba49775e762.html",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-12-04",
+      "end_date": "2019-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2018/Minutes/12-04-18%20-%20Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-12-03",
+      "end_date": "2020-12-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2019/Minutes/12-17-19%20cc%20minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Marc Boomgaarden",
+      "name_variants": [
+        "Marc Boomgarden"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-12-01",
+      "end_date": "2021-12-21",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2020/Minutes/12.15.20%20-%20cc%20minutes%20City%20of%20Yuba%20City%20Minutes%20(Signed).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dave Shaw",
+      "name_variants": [
+        "David Shaw"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-12-21",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2021/Minutes/12-21-21%20-%20cc%20Minutes%20(Signed).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Wade Kirchner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-12-06",
+      "end_date": "2023-12-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202023%20Final%20-%20bookmarked.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-12-05",
+      "end_date": "2024-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2024/cities-towns.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dave Shaw",
+      "name_variants": [
+        "David Shaw"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-12-03",
+      "end_date": "2025-12-16",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2025/cities-towns.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Marc Boomgaarden",
+      "name_variants": [
+        "Marc Boomgarden",
+        "Mark Boomgarden"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-12-16",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.yubacity.net/Document%20Center/City%20Council/City%20Council%20Members/2026%20-%20Council%20Assignments%2001.20.26.pdf",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Manny Cardoza",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2018-12-04",
+      "end_date": "2019-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2019/Agenda/12-03-19%20City%20of%20Yuba%20City%20Agenda.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Marc Boomgaarden",
+      "name_variants": [
+        "Marc Boomgarden"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2019-12-03",
+      "end_date": "2020-12-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2019/Minutes/12-17-19%20cc%20minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dave Shaw",
+      "name_variants": [
+        "David Shaw"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2020-12-01",
+      "end_date": "2021-12-21",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2020/Minutes/12.15.20%20-%20cc%20minutes%20City%20of%20Yuba%20City%20Minutes%20(Signed).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Wade Kirchner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2021-12-21",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Agenda%20%26%20Minutes/Council%20Agenda%20%26%20Minutes/2021/Minutes/12-21-21%20-%20cc%20Minutes%20(Signed).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Shon Harris",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2022-12-06",
+      "end_date": "2023-12-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.yubacity.net/Document%20Center/Departments/Finance/Budget%20%26%20Reports/Budgets%20%26%20CAFRs/2023/City%20of%20Yuba%20City%20ACFR%202023%20Final%20-%20bookmarked.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dave Shaw",
+      "name_variants": [
+        "David Shaw"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2023-12-05",
+      "end_date": "2024-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2024/cities-towns.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Marc Boomgaarden",
+      "name_variants": [
+        "Marc Boomgarden"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2024-12-03",
+      "end_date": "2025-12-16",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2025/cities-towns.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Michael Pasquale",
+      "name_variants": [
+        "Mike Pasquale"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2025-12-16",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.yubacity.net/Document%20Center/City%20Council/City%20Council%20Members/2026%20-%20Council%20Assignments%2001.20.26.pdf",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "CA registry entry CONFIRMED on both counts. (1) Sutter County is not deep-linkable and www.sutter.gov/government/county-departments/clerk-recorder/elections returns 403 to curl with a browser UA - do not sink budget there; the city's own site carried everything needed. (2) Mayor is council-selected, never on a ballot. NEW/CORRECTED for the registry: yubacity.net is Revize (not CivicLive as the census recorded); it has NO robots.txt (404) and serves everything to plain curl. Document Center files are fetched at https://www.yubacity.net/Document%20Center/<path>. CRITICAL QUIRK: files whose href ends in uppercase '.PDF' return 403; the identical URL with lowercase '.pdf' returns 200. Every 2017-2019 minutes file uses '.PDF' in the markup, so a naive fetch reports the entire early archive as blocked. Directory listing of /Document%20Center/ is 403."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Cycles fixed from the districting page and the clerk's election page: even-year Novembers, 3 seats then 2. The 2026 nomination period closed 2026-08-06 with Dave Shaw (D1), Marc Boomgaarden (D2) and Mike Pasquale (D3) filing - which independently proves the 2022/2026 group is Districts 1-3 and therefore that the 2024 group was Districts 4-5."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 0,
+      "detail": "OCR path WORKS and reverses the earlier terminal finding. Every Yuba City council minutes PDF 2018-2021 is an image scan: pdftotext returns 0-4 bytes. 'pdftoppm -r 250 -png f.pdf pre' then 'tesseract pre-1.png - --psm 4 -c preserve_interword_spaces=1' produced clean, verbatim roll calls with titles - no orientation problem, no mirroring, first orientation worked. OCR'd 12-04-18, 01-15-19, 12-17-19, 12-02-19, 12-15-20, 12-07-21 and 12-21-21. The 12-04-18 minutes are the single highest-yield document in the city: they carry the Nov 2018 declaration of results, three oaths of office, the farewells of the three departing members, and the election of the new mayor and vice-mayor, all in one 3-page scan."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "ACFR route CONFIRMED and it is the cheapest source in this city. City of Yuba City publishes a real ACFR with a 'CITY OFFICIALS' page in the introductory section naming Mayor, Vice-Mayor/Mayor Pro-Tem and all three remaining council members, dated 'For the Fiscal Year Ended June 30, <year>'. FY2019, FY2020, FY2021, FY2022 and FY2023 all fetched and extracted with pdftotext -layout (text layer present - unlike the minutes). Series lives under /Document Center/Departments/Finance/Budget & Reports/Budgets & CAFRs/2023/ - note the FOLDER is named 2023 but holds 2019-2023; filenames switch from 'CAFR' to 'ACFR' at FY2021 and are inconsistent, so scrape hrefs from /departments/finance/budgets___cafrs.php rather than constructing them. STALENESS OBSERVED: the FY2023 ACFR narrative still says councilmembers are 'elected at large' a year after the city's first by-district election - the officials page is reliable, the surrounding prose is not. FY2024 and FY2025 are NOT on the site: the budgets page listing is itself stale (its newest folder holds only 2024 budget-workshop slides) and five constructed filename guesses all 404'd. ACFR also spells the name 'Marc Boomgarden' (one 'a'), the news spells it 'Mark Boomgarden'; the city's own pages spell it 'Marc Boomgaarden'."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 2,
+      "detail": "MANDATORY CHECK RUN, AND THIS CITY IS THE EXCEPTION: no mid-term appointment, resignation, death or recall found anywhere in 2019-2026. Every council change falls on a December seating after a November election. Corroborated three ways: (a) explicit searches for Yuba City council resigns / vacancy / appointed to fill returned nothing for any council seat 2019-2026 (the turnover stories that surface are all CITY MANAGER churn - six managers in six months, 2025 - not council); (b) the five ACFR officials pages FY2019-FY2023 and the OCR'd roll calls agree with each other at every overlap; (c) no off-cycle race and no seat on two consecutive ballots, the structural tell for an unexpired term, appears in 2018/2020/2022/2024/2026. Note the elected City Clerk and City Treasurer also appear on the ACFR officials page; they are not council seats and are excluded."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 4,
+      "detail": "The mayoralty for Dec-2022 onward is not in any city document I could reach (2022-2026 minutes are NOT in the Document Center - the widget on council_agenda___minutes.php is pinned to a folder holding 2017-2021 only, and no successor portal is linked from the site), so rungs 4 and 7 carried it. appeal-democrat.com fetched cleanly - no ROT47/ROT13 obfuscation on this outlet - and its Yahoo syndication also worked. Dec 2022 (Kirchner) from appeal-democrat via Yahoo, Dec 2023 (Harris) from appeal-democrat, Dec 2025 (Boomgaarden/Pasquale) from a citizenportal.ai report of the 2025-12-16 ceremony, and the 2026 line independently confirmed by the city's own '2026 Board and Committee Assignments' PDF which prints '(Mayor)' and '(Vice-Mayor)' beside the names."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "DAY-OF-WEEK CHECK CAUGHT ONE SUMMARIZER ERROR: the Yahoo article summary gave the Dec-2022 reorganization as 'Tuesday, December 7, 2022' - Dec 7 2022 was a WEDNESDAY. Its publication date, Thursday Dec 8 2022, does check out. Yuba City council meets the first and third Tuesday, so the meeting was 2022-12-06 and that is the date recorded; the same first-Tuesday reasoning gives 2023-12-05 and 2024-12-03, which are dated only to the month by their sources. All other seating dates are read directly off OCR'd minutes and are exact: 2018-12-04, 2020-12-01, 2021-12-21, 2025-12-16. SEAT-LABEL DISCONTINUITY: the Dec-2022 boundary is recorded as instructed - a person continuing across it gets two rows, an 'At-Large' row ending 2022-12-06 and a 'District N' row starting the same day, with entry/exit 'unknown' where the change was a relabel and not a departure (Harris, Kirchner). The District 4 / District 5 assignment of the two sitting at-large members elected in 2020 is INFERRED, not stated in any document I found - it follows from Kirchner running as the District 4 incumbent in 2024 and Harris's seat being the District 5 seat Toni Cole won - so those two rows carry confidence 'medium'. The Vice Mayor row for Dec 2024-Dec 2025 (Boomgaarden) is confidence 'low': it is rotation inference, the city attorney having stated on 2025-12-16 that the council 'set up a procedure to rotate the office of both the mayor and the vice mayor by district', and the observed order D4-D5-D1-D2-D3 fits every dated year."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "No gaps filed - every seat-year 2019-2026 is carried by a sourced tenure row. Partial-year coverage in 2022 for BOTH the At-Large label (Jan 1 - Dec 6) and the District labels (Dec 6 - Dec 31) is structural, being the districting boundary itself, and is not a hole."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 0,
+      "detail": "REGISTRY CORRECTION - CALIFORNIA HAS A STATEWIDE OFFICIALS SOURCE AND THE ENTRY SAYS IT DOES NOT. The registry states 'No statewide source - sos.ca.gov is state/federal only' and the cross-state table rules California out entirely ('State Controller reports are financial only, never name officials'). BOTH ARE WRONG. The Secretary of State's California Roster, 'Incorporated City and Town Officials' section, names Mayor, Vice Mayor/Mayor Pro Tempore and the full council for every California city, ANNUALLY: https://admin.cdn.sos.ca.gov/ca-roster/2019/02j-city-town.pdf and https://admin.cdn.sos.ca.gov/ca-roster/{YYYY}/cities-towns.pdf for 2020-2022 and 2024-2026. Fetched 200 to plain curl with a browser UA, real text layer, pdftotext -layout extracts cleanly. Lead came from the Albany agent. Verified here on seven editions; 2023 not attempted (reported 403 under every filename). NOTE the layout is two-column and 2025-2026 print the heading as 'City of Yuba City' in mixed case where 2019-2024 use 'CITY OF YUBA CITY' - grep case-insensitively or you will conclude the city is absent. THE 2022 STALENESS CAVEAT DOES NOT HOLD FOR THIS CITY: the 2022 edition gives Mayor Shaw / Vice Mayor Kirchner, which is the Dec-2021 reorganization and is NOT a carry-over of the 2021 edition (Mayor Boomgaarden / Vice Mayor Shaw). It agrees with the FY2022 ACFR. So the staleness is per-city, not a property of the 2022 edition."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "THE CALIFORNIA ROSTER CAUGHT A REAL ERROR IN THIS CITY AND IT WAS A MISSED MID-TERM CHANGE. The 2020 Roster gives 'Mayor: Shon Harris / Vice Mayor: Marc Boomgaarden / Council: Manny Cardoza, Grace Espindola, Dave Shaw', contradicting the FY2020 CAFR officials page, which I had trusted and which gives 'Manny Cardoza, Vice-Mayor'. The Roster is right and the CAFR is wrong: THE FY2020 CAFR OFFICIALS PAGE IS A VERBATIM STALE CARRY-OVER OF FY2019 - the two pages are character-identical - which is precisely the ACFR failure mode the brief warns about, caught here only because a second annual series existed to diff against. Resolved against dated primary records: the 12-03-19 AGENDA carries items '1. Presentations to Outgoing Mayor / 2. Comments from Outgoing Mayor / 3. Election of New Mayor / 4. Election of Vice Mayor' and its header block still lists VICE MAYOR Manny Cardoza, while the 12-17-19 minutes list council reports as '- Councilmember Cardoza ... - Vice Mayor Boomgaarden - Mayor Harris'. The 12-02-19 minutes (the day before) still title him 'Councilmember Boomgaarden'. So the annual reorganization was 2019-12-03 (a Tuesday, consistent with first-and-third-Tuesday meetings): Harris re-elected mayor, Cardoza replaced by Boomgaarden as vice mayor. CORRECTS MY EARLIER 'no mid-term changes' finding - there is one, in the presiding-officer seat, and no election-results source could ever have shown it. The 12-03-19 MINUTES are absent from the archive; the agenda is what carried it."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 5,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "MUCH CHEAPER ROUTE THAN OCR, FOUND TOO LATE TO SAVE THE WORK HERE - RECORD IT FOR THE CORPUS. Yuba City's 2019 AGENDAS HAVE A REAL TEXT LAYER even though every 2019 MINUTES file in the same archive is an image-only scan. pdftotext -layout on an agenda returns clean text in which the first page header block prints the full roster with titles ('MAYOR - Shon Harris / VICE MAYOR - Manny Cardoza / COUNCILMEMBER - Marc Boomgaarden ...') and the roll-call block repeats it. Confirmed on two separate 2019 agendas. Where minutes are scanned, TRY THE AGENDA FOR THE SAME MEETING BEFORE REACHING FOR OCR - it is one pdftotext call instead of a pdftoppm+tesseract pass per page, and the titled header is a better roster source than a surname-only roll call. Granicus lead not applicable: yubacity.net links YouTube for video and no granicus tenant is referenced anywhere on the site."
+    }
+  ],
+  "totals": {
+    "tool_calls": 58,
+    "searches": 8
+  }
+}

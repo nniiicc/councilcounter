@@ -374,3 +374,78 @@ extended to five years and every later term boundary shifts.
 with a browser UA. **`wkrg.com` blocks both** (HUMAN Security challenge) — the Fairhope agent
 correctly declined to record vote totals it could not verify verbatim rather than trusting a
 snippet. `www.fairhopeal.gov` is Akamai-blocked on every HTML path via both methods.
+
+---
+
+# Batch 4 — Virginia
+
+## The census's "no working archive" list is not reliable
+
+Poquoson was one of the **eight cities the census recorded as having no working archive**, with
+`robots.txt` "timing out on repeated attempts". In fact `ci.poquoson.va.us` and its `robots.txt`
+both returned **HTTP 200 to plain curl with a browser UA on the first try**, and robots disallows
+only `/admin`, `/Search`, `/Map`, `/CurrentEvents` and `/RSS.aspx`. The city's ACFR archive was
+sitting on that same domain.
+
+The city reached **100% coverage with zero gaps**. A census entry records what one fetcher saw on
+one occasion — **re-test before accepting a negative**. Seven cities remain on that list, all in
+batches still to run.
+
+## `historical.elections.virginia.gov` is scriptable after all — the best Virginia source
+
+The registry recorded it as non-scriptable because every constructed *locality/contest* path 404s.
+That is true, and it is the wrong shape of URL. The **numeric contest form works**, and behind it
+is a CSV API returning full precinct-level canvass data:
+
+```
+https://historical.elections.virginia.gov/elections/view/{contest_id}/
+https://va2.elstats.civera.com/api/download_contest/{id}_table.csv?split_party=false
+```
+
+**Contest ids are contiguous within an election**, so one seeded id lets you sweep to enumerate the
+rest. This sourced **every cycle** for Poquoson at Rung 1. It should generalize to all Virginia
+localities — and critically to **towns**, whose contests are ids like any other, which sidesteps the
+county-nesting problem that the registry flags as Virginia's biggest structural trap.
+
+The site's own `/search` is a Next.js SPA and useless to a fetcher.
+
+## Virginia localities publish their own canvass archives
+
+Norfolk's Office of Elections hosts one official canvass PDF per election date **back to 2008** at
+`norfolk.gov/4713/Election-Results` — plain curl, clean under `pdftotext -layout`, found via the
+CivicPlus site search `/Search/Results?searchPhrase=election+results`. A second `high`-confidence
+primary route that ignores the state portals. Extraction caveat: candidate names sit in **stacked
+header rows above their columns** and must be aligned by character offset.
+
+## VPAP is dead
+
+| City | Result |
+|---|---|
+| Norfolk | empty JS shell on 200, HTTP 500, HTTP 404 — 0 usable of 3 |
+| Poquoson | **HTTP 202 with 0 bytes** on all 5 dates to curl; **403** to WebFetch — 0 usable of 5 |
+
+The registry called it "the working fallback" with rendering "inconsistent". It is worse than that.
+It did recover Tazewell's 2020 cycle in an earlier pilot, so it is locality-dependent rather than
+uniformly dead — but **an empty response is a failed fetch, not evidence that no election occurred.**
+
+## The May→November shift hit CITIES, not just towns
+
+The registry frames this as SB 1157, a town rule effective 2022. **Norfolk — a city — voted in May
+through 2020**, then moved to November with terms **extended, not cut**: wards elected 2018-05 ran
+to **2022-12-31**, and the 2020 cycle, **postponed to 2020-05-19 by COVID**, ran to **2024-12-31**.
+Norfolk therefore had **no council contest in Nov 2018 or Nov 2020 at all**.
+
+Poquoson, by contrast, has voted even-year November throughout with no May cycle — so this is
+per-locality, not statewide. Establish the calendar before spending escalation budget on a cycle
+that may never have existed.
+
+## A missing `-L` makes a live archive look dead
+
+Poquoson's CivicPlus ACFR series at `Archive.aspx?AMID={n}&Type=&ADID={n}` returns **0 bytes without
+`curl -L`** and the full PDF with it — indistinguishable from an empty archive. Follow redirects
+before concluding a document endpoint is broken.
+
+## Dead ends worth not repeating
+
+**Virginia Electoral Board minutes are procedural only** — they record that "a canvass was conducted"
+and name no candidates. Ballotpedia had a single Poquoson page across the whole window.

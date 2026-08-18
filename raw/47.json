@@ -1,0 +1,781 @@
+{
+ "city_id": 47,
+ "city": "Phoenix",
+ "state": "Arizona",
+ "profile": {
+  "gov_form": "council-manager",
+  "seat_count": 9,
+  "seat_scheme": "ward",
+  "term_length": 4,
+  "stagger_pattern": "Mayor + Districts 1,3,5,7 elected in presidential-year November (2020, 2024, next 2028); Districts 2,4,6,8 in midterm-year November (2022, next 2026). A March runoff follows where no candidate wins a majority. Terms begin the third Monday of April following the election. Before the shift to even years the city elected in odd years (Aug 2015, Aug 2017), so the 2015 and 2017 classes served extended terms.",
+  "mayor_selection": "elected",
+  "election_month": "November (runoff the following March)",
+  "profile_source_url": "https://www.phoenix.gov/administration/departments/cityclerk/programs-services/elections/past-election-results.html"
+ },
+ "cycles": [
+  {
+   "election_date": "2015-08-25",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_official.pdf"
+  },
+  {
+   "election_date": "2017-03-14",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary.pdf"
+  },
+  {
+   "election_date": "2017-08-29",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_aug2017official.pdf"
+  },
+  {
+   "election_date": "2018-11-06",
+   "seats_up": 1,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/final%20phoenix%20summary%20report_11062018.pdf"
+  },
+  {
+   "election_date": "2019-03-12",
+   "seats_up": 3,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary%20results%20031219.pdf"
+  },
+  {
+   "election_date": "2019-05-21",
+   "seats_up": 2,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary060519.pdf"
+  },
+  {
+   "election_date": "2020-11-03",
+   "seats_up": 5,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/phoenix%20election%20summary%20report-votes%20cast.pdf"
+  },
+  {
+   "election_date": "2021-03-09",
+   "seats_up": 2,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/march%209,%202021_citywide%20summary%20results.pdf"
+  },
+  {
+   "election_date": "2022-11-08",
+   "seats_up": 4,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-08-2022-1%20final%20official%20summary%20report-phoenix-dist%202%204%206%208.pdf"
+  },
+  {
+   "election_date": "2023-03-14",
+   "seats_up": 2,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/2023_march%20runoff%20election_official%20results.pdf"
+  },
+  {
+   "election_date": "2024-11-05",
+   "seats_up": 6,
+   "status": "sourced",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-05-2024-1%20final%20official%20summary%20report-phoenix.pdf"
+  }
+ ],
+ "tenures": [
+  {
+   "person": "Thelda Williams",
+   "name_variants": [
+    "Thelda Williams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2018-06-06",
+   "end_date": "2019-03-20",
+   "entry_mode": "succeeded",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/officerecords",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Kate Gallego",
+   "name_variants": [
+    "Kate Gallego"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2019-03-21",
+   "end_date": "2021-04-18",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary%20results%20031219.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2019-03-12"
+  },
+  {
+   "person": "Kate Gallego",
+   "name_variants": [
+    "Kate Gallego"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2021-04-19",
+   "end_date": "2025-04-20",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/phoenix%20election%20summary%20report-votes%20cast.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Kate Gallego",
+   "name_variants": [
+    "Kate Gallego"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Mayor",
+   "role": "mayor",
+   "start_date": "2025-04-21",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-05-2024-1%20final%20official%20summary%20report-phoenix.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Thelda Williams",
+   "name_variants": [
+    "Thelda Williams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2015-08-25",
+   "end_date": "2021-04-18",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_official.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2015-08-25"
+  },
+  {
+   "person": "Ann O'Brien",
+   "name_variants": [
+    "Ann O'Brien",
+    "O'BRIEN, ANN"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2021-04-19",
+   "end_date": "2025-04-20",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/phoenix%20election%20summary%20report-votes%20cast.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Ann O'Brien",
+   "name_variants": [
+    "Ann O'Brien",
+    "O'BRIEN, ANN"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 1",
+   "role": "council_member",
+   "start_date": "2025-04-21",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-05-2024-1%20final%20official%20summary%20report-phoenix.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Jim Waring",
+   "name_variants": [
+    "Jim Waring"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2017-08-29",
+   "end_date": "2023-04-16",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_aug2017official.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2017-08-29"
+  },
+  {
+   "person": "Jim Waring",
+   "name_variants": [
+    "Jim Waring"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 2",
+   "role": "council_member",
+   "start_date": "2023-04-17",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-08-2022-1%20final%20official%20summary%20report-phoenix-dist%202%204%206%208.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Debra Stark",
+   "name_variants": [
+    "Debra Stark"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2017-03-14",
+   "end_date": "2021-04-18",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2017-03-14"
+  },
+  {
+   "person": "Debra Stark",
+   "name_variants": [
+    "Debra Stark"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2021-04-19",
+   "end_date": "2025-04-20",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/march%209,%202021_citywide%20summary%20results.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2021-03-09"
+  },
+  {
+   "person": "Debra Stark",
+   "name_variants": [
+    "Debra Stark"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 3",
+   "role": "council_member",
+   "start_date": "2025-04-21",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-05-2024-1%20final%20official%20summary%20report-phoenix.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Laura Pastor",
+   "name_variants": [
+    "Laura Pastor"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2017-08-29",
+   "end_date": "2023-04-16",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_aug2017official.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2017-08-29"
+  },
+  {
+   "person": "Laura Pastor",
+   "name_variants": [
+    "Laura Pastor"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 4",
+   "role": "council_member",
+   "start_date": "2023-04-17",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-08-2022-1%20final%20official%20summary%20report-phoenix-dist%202%204%206%208.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2022-11-08"
+  },
+  {
+   "person": "Vania Guevara",
+   "name_variants": [
+    "Vania Guevara"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2018-08-01",
+   "end_date": "2019-06-05",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/officerecords",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Betty Guardado",
+   "name_variants": [
+    "Betty Guardado"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2019-06-06",
+   "end_date": "2021-04-18",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary060519.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2019-05-21"
+  },
+  {
+   "person": "Betty Guardado",
+   "name_variants": [
+    "Betty Guardado"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2021-04-19",
+   "end_date": "2025-04-20",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/phoenix%20election%20summary%20report-votes%20cast.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2020-11-03"
+  },
+  {
+   "person": "Betty Guardado",
+   "name_variants": [
+    "Betty Guardado"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 5",
+   "role": "council_member",
+   "start_date": "2025-04-21",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-05-2024-1%20final%20official%20summary%20report-phoenix.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Sal DiCiccio",
+   "name_variants": [
+    "Sal DiCiccio"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2017-08-29",
+   "end_date": "2023-04-16",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_aug2017official.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2017-08-29"
+  },
+  {
+   "person": "Kevin Robinson",
+   "name_variants": [
+    "Kevin Robinson"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 6",
+   "role": "council_member",
+   "start_date": "2023-04-17",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/2023_march%20runoff%20election_official%20results.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2023-03-14"
+  },
+  {
+   "person": "Michael Nowakowski",
+   "name_variants": [
+    "Michael Nowakowski"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2015-08-25",
+   "end_date": "2021-04-18",
+   "entry_mode": "elected",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary_official.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2015-08-25"
+  },
+  {
+   "person": "Yassamin Ansari",
+   "name_variants": [
+    "Yassamin Ansari"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2021-04-19",
+   "end_date": "2024-03-28",
+   "entry_mode": "elected",
+   "exit_mode": "resigned",
+   "source_url": "https://www.azfamily.com/2024/03/18/phoenix-city-councilwoman-yassamin-ansari-steps-down-pursue-gallegos-seat-congress/",
+   "retrieval_method": "newspaper",
+   "confidence": "high",
+   "election_date": "2021-03-09"
+  },
+  {
+   "person": "Carlos Galindo-Elvira",
+   "name_variants": [
+    "Carlos Galindo-Elvira",
+    "GALINDO ELVIRA, CARLOS"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2024-04-09",
+   "end_date": "2025-04-20",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/financesite/documents/acfr/2024PHXACFRFinalOnlineRS.pdf",
+   "retrieval_method": "audit_report",
+   "confidence": "medium",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Anna Hernandez",
+   "name_variants": [
+    "Anna Hernandez"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 7",
+   "role": "council_member",
+   "start_date": "2025-04-21",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/11-05-2024-1%20final%20official%20summary%20report-phoenix.pdf",
+   "retrieval_method": "county_canvass",
+   "confidence": "high",
+   "election_date": "2024-11-05"
+  },
+  {
+   "person": "Felicita M. Mendoza",
+   "name_variants": [
+    "Felicita M. Mendoza",
+    "Felicita Mendoza"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 8",
+   "role": "council_member",
+   "start_date": "2018-08-21",
+   "end_date": "2019-06-05",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/officerecords",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Carlos Garcia",
+   "name_variants": [
+    "Carlos Garcia"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 8",
+   "role": "council_member",
+   "start_date": "2019-06-06",
+   "end_date": "2023-04-16",
+   "entry_mode": "elected",
+   "exit_mode": "defeated",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/citywide%20summary060519.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2019-05-21"
+  },
+  {
+   "person": "Kesha Hodge Washington",
+   "name_variants": [
+    "Kesha Hodge Washington",
+    "HODGE WASHINGTON, KESHA"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "District 8",
+   "role": "council_member",
+   "start_date": "2023-04-17",
+   "end_date": null,
+   "entry_mode": "elected",
+   "exit_mode": "ongoing",
+   "source_url": "https://www.phoenix.gov/content/dam/phoenix/cityclerksite/documents/elections/2023_march%20runoff%20election_official%20results.pdf",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": "2023-03-14"
+  },
+  {
+   "person": "Jim Waring",
+   "name_variants": [
+    "Jim Waring"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2018-06-13",
+   "end_date": "2019-11-06",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/officerecords",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Betty Guardado",
+   "name_variants": [
+    "Betty Guardado"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2019-11-06",
+   "end_date": "2021-01-06",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Thelda Williams",
+   "name_variants": [
+    "Thelda Williams"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2021-01-06",
+   "end_date": "2021-04-18",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Carlos Garcia",
+   "name_variants": [
+    "Carlos Garcia"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2021-04-21",
+   "end_date": "2022-01-05",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "medium",
+   "election_date": null
+  },
+  {
+   "person": "Laura Pastor",
+   "name_variants": [
+    "Laura Pastor"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2022-01-05",
+   "end_date": "2023-01-04",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Yassamin Ansari",
+   "name_variants": [
+    "Yassamin Ansari"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2023-01-04",
+   "end_date": "2024-01-03",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Debra Stark",
+   "name_variants": [
+    "Debra Stark"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2024-01-03",
+   "end_date": "2025-01-15",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Ann O'Brien",
+   "name_variants": [
+    "Ann O'Brien"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2025-01-15",
+   "end_date": "2026-01-07",
+   "entry_mode": "appointed",
+   "exit_mode": "term_end",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  },
+  {
+   "person": "Kesha Hodge Washington",
+   "name_variants": [
+    "Kesha Hodge Washington"
+   ],
+   "first_name_sourced": 1,
+   "seat_label": "Vice Mayor",
+   "role": "vice_mayor",
+   "start_date": "2026-01-07",
+   "end_date": null,
+   "entry_mode": "appointed",
+   "exit_mode": "ongoing",
+   "source_url": "https://webapi.legistar.com/v1/phoenix/matters?$filter=substringof('Vice%20Mayor',MatterTitle)",
+   "retrieval_method": "other",
+   "confidence": "high",
+   "election_date": null
+  }
+ ],
+ "gaps": [],
+ "run_log": [
+  {
+   "step": "registry",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 2,
+   "searches": 0,
+   "detail": "Registry warning confirmed: Phoenix runs its own municipal elections; races are NOT on the Maricopa County portal. City Clerk archive used as spine, and Maricopa County was never fetched, so the ClaudeBot robots name-block was never in the path. Registry note that August primaries may elect outright (A.R.S. 9-821.01(D)) does NOT apply to Phoenix in this window: Phoenix holds a November general with a following-March runoff, and its only August ballots (2018, 2019) carried propositions plus, in Aug 2017, the last odd-year council election."
+  },
+  {
+   "step": "cycle_calendar",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 6,
+   "searches": 0,
+   "detail": "phoenix.gov/elections -> past-election-results.html enumerates every city election with canvass PDFs. Calendar: Districts 1,3,5,7 + Mayor in presidential-year November (2020, 2024); Districts 2,4,6,8 in midterm November (2022, 2026); runoff the following March where no candidate takes a majority. Terms begin the third Monday of April after the election (2021-04-19, 2023-04-17, 2025-04-21 inaugurations, all documented). Pre-2019 the city elected in odd-numbered years (Aug 2015, Mar/Aug 2017); the shift to even years lengthened the 2015 and 2017 classes."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 1,
+   "outcome": "success",
+   "tool_calls": 4,
+   "searches": 0,
+   "detail": "11 canvass PDFs downloaded with curl and extracted locally with pdftotext -layout (WebFetch not used, so no summarizer in the trust path). Every named winner below was read from verbatim extracted canvass text."
+  },
+  {
+   "step": "cycle_retrieval",
+   "rung": 7,
+   "outcome": "success",
+   "tool_calls": 3,
+   "searches": 0,
+   "detail": "ACFR series FY2020-FY2025 (finance/financial-reporting/annual-comprehensive-financial-report.html) carries a City Council page on the title leaf naming mayor, all eight districts AND the vice mayor as of each June 30. Used as an independent annual spine; it corroborates every panel year 2020-2025. FY2019 ACFR has no such page (its introductory section carries only a district-boundary map). Known failure mode observed: the FY2025 report still prints Ed Zuercher as City Manager, years after Jeffrey Barton took the post - the council list itself checks out, but the page is not uniformly current."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 6,
+   "outcome": "success",
+   "tool_calls": 5,
+   "searches": 4,
+   "detail": "Legistar Web API (webapi.legistar.com/v1/phoenix) is fully open and is the single highest-yield source for this city. /officerecords returns 213 dated membership rows with start/end dates per person per body; /matters with an OData substringof() filter returns dated Selection-of-Vice-Mayor and vacancy items. This surfaced two interim councilmembers that the election record cannot contain: Vania Guevara (D5, appointed 2018-08-01) and Felicita M. Mendoza (D8, appointed 2018-08-21), both serving through 2019-06-05 - i.e. Districts 5 and 8 were NOT vacant in the first half of 2019, they were held by appointees. CAUTION on this source: the OfficeRecordTitle field often carries the person's LATEST title across the whole record (Ann O'Brien is labelled 'Vice Mayor' from 2021), so only the City Council Formal Meeting body's split records date title changes reliably; and Carlos Galindo-Elvira is MISSING from /officerecords entirely while Yassamin Ansari's record runs to 2025-04-18 despite her 2024-03-28 resignation. Dates from it were corroborated against ACFR and news before use."
+  },
+  {
+   "step": "midterm_check",
+   "rung": 4,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 4,
+   "detail": "Mid-term changes dated: Greg Stanton resigned the mayoralty 2018 (pre-window) and Vice Mayor Thelda Williams served as interim mayor into 2019, holding District 1 simultaneously, until Kate Gallego was sworn in 2019-03-21 after the 2019-03-12 runoff. Kate Gallego (D8) and Daniel Valenzuela (D5) had resigned to run for mayor, triggering the 2018 interim appointments and the 2019-03-12/2019-05-21 special elections. Yassamin Ansari resigned D7 on 2024-03-28 to run for Congress; Carlos Galindo-Elvira was appointed interim on 2024-04-09 (Legistar matter 24-0836) and then elected 2024-11-05 to the balance of the term, leaving when Anna Hernandez was sworn in 2025-04-21. D7 was vacant 2024-03-29 to 2024-04-08; the seat-year is sourced either side of it, so no gap is filed."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "BALLOT ODDITY, resolved: the Nov 5 2024 canvass carries TWO District 7 races - 'Phoenix Dist 7-Councilmember' (won by Anna Hernandez, 52.89%) and 'Phoenix Dist 7-Councilmember-2yr' (won by Carlos Galindo-Elvira, 52.62%). The second is the special election to fill the remainder of Ansari's term (Legistar matters 24-0912 'Call of Special Election for Purpose of Filling Vacancy for Office of District 7 Council Member' and 24-2583 'Canvass of Votes - November 2024 City Council Election and Special Vacancy Election'); the '-2yr' suffix is a Maricopa County ballot label and does not describe the term actually served, which ran from the 2024-11-20 canvass to 2025-04-20. Both winners are recorded, sequentially, in one seat. VICE MAYOR ANOMALY, unresolved: Legistar shows Betty Guardado as Vice Mayor for 2021-04-21 to 2021-04-22 in two separate bodies, immediately before Carlos Garcia's record begins 2021-04-23, while the Selection of Vice Mayor matter (21-0851) passed 2021-04-21 and the FY2021 ACFR names Garcia. Garcia is recorded from 2021-04-21 at medium confidence; the two-day Guardado record is treated as a data-entry artifact and not emitted. Day-of-week checks pass on the load-bearing dates (2019-03-12 Tue, 2019-05-21 Tue, 2021-04-19 Mon, 2023-04-17 Mon, 2025-04-21 Mon, 2019-11-06 Wed, 2026-01-07 Wed). Seat count is 9 (mayor + 8 districts) in every year; no redistricting-driven size change in the window."
+  },
+  {
+   "step": "validation",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 0,
+   "searches": 0,
+   "detail": "Pre-window start dates (Williams D1 and Nowakowski D7 2015-08-25; Waring D2, Pastor D4, DiCiccio D6 2017-08-29; Stark D3 2017-03-14) are the dates those members were ELECTED, not sourced seating dates - Phoenix then seated members in the following January/March. All fall before 2019-01-01 and therefore affect no panel cell."
+  },
+  {
+   "step": "export",
+   "rung": null,
+   "outcome": "success",
+   "tool_calls": 1,
+   "searches": 0,
+   "detail": "72 seat-years (9 seats x 8 years) all covered by tenures; zero gaps; zero low-confidence rows."
+  }
+ ],
+ "totals": {
+  "tool_calls": 43,
+  "searches": 9
+ }
+}

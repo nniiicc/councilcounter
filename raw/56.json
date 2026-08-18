@@ -1,0 +1,540 @@
+{
+  "city_id": 56,
+  "city": "Show Low",
+  "state": "Arizona",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 7,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Six at-large council seats in two classes of three. Class B (labelled Council Seats 1-3) is elected with the mayor in 2016, 2020, 2024; Class A (Council Seats 4-6) is elected in 2018, 2022, 2026. All terms are four years and begin at the first regular Council meeting in December following the election. Seats are at-large and unnumbered on the ballot ('Council Member Show Low - VOTE FOR 3'); the seat numbers here are a stable internal labelling of the continuity chains, not ballot designations.",
+    "mayor_selection": "elected",
+    "election_month": "August (July from 2026) primary - and the primary is decisive: under A.R.S. 9-821.01(D) a candidate receiving a majority is elected outright at the primary, and Show Low has filled every seat that way in 2016, 2018, 2020, 2022, 2024 and 2026. Navajo County published no City of Show Low report for any November general in the window.",
+    "profile_source_url": "https://showlowaz.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2503,plainText=false)"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-08-30",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1420/City-of-Show-Low-PDF"
+    },
+    {
+      "election_date": "2018-08-28",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1394/City-of-Show-Low-PDF"
+    },
+    {
+      "election_date": "2020-08-04",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1371/City-of-Show-Low-PDF"
+    },
+    {
+      "election_date": "2022-08-02",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1357/City-of-Show-Low-PDF"
+    },
+    {
+      "election_date": "2024-07-30",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/2851/ShowLowUN"
+    },
+    {
+      "election_date": "2026-07-21",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/9864/NavajoOfficialSummeryB"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Daryl Seymore",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2016-12-06",
+      "end_date": "2020-12-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1420/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-08-30"
+    },
+    {
+      "person": "John Leech, Jr.",
+      "name_variants": [
+        "John Leech",
+        "Leech, Jr., John",
+        "John Leech Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-12-01",
+      "end_date": "2024-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://showlowaz.suiteonemedia.com/event/GetMinutesFile/Minutes?mid=120",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-08-04"
+    },
+    {
+      "person": "John Leech, Jr.",
+      "name_variants": [
+        "John Leech",
+        "Leech, Jr., John"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://showlowaz.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=806,plainText=false)",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-07-30"
+    },
+    {
+      "person": "Mike Allsop",
+      "name_variants": [
+        "Michael Allsop"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2018-12-04",
+      "end_date": "2020-12-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://showlowaz.suiteonemedia.com/event/GetMinutesFile/Minutes?mid=18",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Connie Kakavas",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2020-12-01",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://showlowaz.suiteonemedia.com/event/GetMinutesFile/Minutes?mid=120",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Connie Kakavas",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 1 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2016-12-06",
+      "end_date": "2020-12-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1420/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-08-30"
+    },
+    {
+      "person": "Connie Kakavas",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 1 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2020-12-01",
+      "end_date": "2024-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1371/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-08-04"
+    },
+    {
+      "person": "Connie Kakavas",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 1 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/2851/ShowLowUN",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-07-30"
+    },
+    {
+      "person": "Rennie Crittenden",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 2 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2016-12-06",
+      "end_date": "2020-01-21",
+      "entry_mode": "elected",
+      "exit_mode": "died",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1420/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "medium",
+      "election_date": "2016-08-30"
+    },
+    {
+      "person": "John Leech, Jr.",
+      "name_variants": [
+        "John Leech",
+        "Leech, Jr., John"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 2 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2020-03-17",
+      "end_date": "2020-12-01",
+      "entry_mode": "appointed",
+      "exit_mode": "elevated",
+      "source_url": "https://showlowaz.suiteonemedia.com/event/GetMinutesFile/Minutes?mid=86",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jon Adams",
+      "name_variants": [
+        "ADAMS, JON"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 2 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2020-12-01",
+      "end_date": "2024-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1371/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-08-04"
+    },
+    {
+      "person": "Jon Adams",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 2 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/2851/ShowLowUN",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-07-30"
+    },
+    {
+      "person": "Gene Kelley",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 3 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2016-12-06",
+      "end_date": "2020-12-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1420/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-08-30"
+    },
+    {
+      "person": "Dawn Wilson",
+      "name_variants": [
+        "Dawn V. Wilson",
+        "Dawn Wilson-Golden",
+        "WILSON, DAWN V.",
+        "WILSON-GOLDEN, DAWN"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 3 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2020-12-01",
+      "end_date": "2022-04-04",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1371/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-08-04"
+    },
+    {
+      "person": "Bryce Judd",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 3 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2022-05-03",
+      "end_date": "2024-12-03",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://showlowaz.suiteonemedia.com/event/GetMinutesFile/Minutes?mid=193",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Bryce Judd",
+      "name_variants": [
+        "JUDD, BRYCE"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 3 (At-Large, Class B)",
+      "role": "council_member",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/2851/ShowLowUN",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-07-30"
+    },
+    {
+      "person": "Mike Allsop",
+      "name_variants": [
+        "Michael Allsop",
+        "ALLSOP, MIKE"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 4 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2018-12-04",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1394/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-28"
+    },
+    {
+      "person": "Mike Allsop",
+      "name_variants": [
+        "Michael Allsop"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 4 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": "2024-03-27",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1357/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-02"
+    },
+    {
+      "person": "Derik Whipple",
+      "name_variants": [
+        "WHIPPLE, DERIK"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 4 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2024-04-16",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://showlowaz.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=545,plainText=false)",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Brent Hatch",
+      "name_variants": [
+        "HATCH, BRENT"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 5 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2018-12-04",
+      "end_date": "2022-12-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1394/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-28"
+    },
+    {
+      "person": "Brent Hatch",
+      "name_variants": [
+        "HATCH, BRENT"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 5 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": "2026-01-20",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1357/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-02"
+    },
+    {
+      "person": "Gentry Hatch",
+      "name_variants": [
+        "HATCH, GENTRY"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 5 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2026-01-20",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://showlowaz.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2503,plainText=false)",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "John Leech, Jr.",
+      "name_variants": [
+        "LEECH, JR., JOHN",
+        "John Leech"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 6 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2018-12-04",
+      "end_date": "2020-03-10",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1394/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-08-28"
+    },
+    {
+      "person": "Brandt Clark",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 6 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2020-03-17",
+      "end_date": "2022-12-06",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://showlowaz.suiteonemedia.com/event/GetMinutesFile/Minutes?mid=86",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Brandt Clark",
+      "name_variants": [
+        "CLARK, BRANDT"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Seat 6 (At-Large, Class A)",
+      "role": "council_member",
+      "start_date": "2022-12-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.navajocountyaz.gov/DocumentCenter/View/1357/City-of-Show-Low-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-08-02"
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "blocked",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "REGISTRY ERROR: the state registry's 'showlow.suiteonemedia.com' host does not exist - /, /web/home.html, /Web/DocumentViewer.aspx, /Web/Player.aspx, /sirepub/* all return HTTP 404. The real host is showlowaz.suiteonemedia.com, with direct file endpoints /event/GetMinutesFile/Minutes?mid={id} and /event/GetAgendaFile/Agenda?aid={id}. It carries the pre-CivicClerk archive (Dec 2018 - early 2023) and was the single most productive source in this run. REGISTRY ERROR 2: 'Navajo County listing page 429s' is no longer true - https://www.navajocountyaz.gov/506/Election-Results returned HTTP 200 (161KB) to plain curl with a browser UA and lists every municipal canvass PDF back to 2004, so no id enumeration was needed."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "Structure settled from primary sources rather than the city code (codelibrary.amlegal.com 403s; library.municode.com/az/show_low returns a JS shell; www.showlowaz.gov serves a Fastly 'Client Challenge' to curl and truncates under WebFetch). Composition proved empirically: every roll call 2018-2026 lists a mayor plus six council members. Ballot lines prove the stagger - 'Mayor Show Low VOTE FOR 1' plus 'Council Member Show Low VOTE FOR 3' in 2016/2020/2024, and 'Council Member Show Low VOTE FOR 3' alone in 2018/2022/2026. Term length proved verbatim: a member elected 2022-08-02 had a term expiring 'at the first regular City Council meeting in December 2026' (fileId 2503) = 4 years. Terms begin at the first regular Council meeting in December: 2016-12-06, 2018-12-04, 2020-12-01, 2022-12-06, 2024-12-03, next 2026-12-01."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 1,
+      "detail": "All six cycles retrieved as Navajo County jurisdictional canvasses. 2020/2022/2024/2026 extract cleanly with pdftotext -layout; the 2016 (id 1420) and 2018 (id 1394) reports are image-only scans recovered with pdftoppm -r 300 -png then tesseract --psm 4 -c preserve_interword_spaces=1. A.R.S. 9-821.01(D) TRAP CHECKED AND CONFIRMED APPLICABLE: Show Low decides every seat at the August/July primary. Navajo County publishes a 'City of Show Low' report for each primary 2016-2026 and NONE for any November general, and in each cycle the required number of candidates cleared the majority threshold (votes cast for the office / seats / 2 + 1). No November general was needed or held for this city in the panel window; no gap is recorded on that account."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 1,
+      "detail": "Continuous roll-call timeline built from 142 pre-2023 minutes PDFs (suiteonemedia mid sweep 1-300) plus 34 CivicClerk 2024 minutes and quarterly samples 2023-2026, giving a meeting-by-meeting membership series with no unobserved interval longer than about six weeks. Six mid-term changes found and dated: (1) Rennie Crittenden died Jan 2020; (2) John Leech, Jr. resigned Seat 6 effective 5:00 p.m. 2020-03-10 expressly to be appointed to Crittenden's shorter-term seat - a resign-to-run manoeuvre that moved him to a seat expiring within one year before he filed for mayor; (3) Brandt Clark appointed to Seat 6 and Leech to Seat 2, both sworn 2020-03-17; (4) Dawn Wilson resigned 2022-04-04 to run for Justice of the Peace, Bryce Judd appointed 2022-04-19, sworn 2022-05-03; (5) Mike Allsop resigned 2024-03-27 to run for mayor, Derik Whipple appointed 2024-04-16; (6) Brent Hatch resigned 2026-01-20, Gentry Hatch appointed the same evening, sworn 2026-02-03. NOTE the homonym trap the registry warns about is live here: Brent Hatch (councilman 2018-2026) and Gentry Hatch (his successor, and a losing 2026 candidate) are different people; they are never merged."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 2,
+      "detail": "wmicentral.com is fetchable by curl and its TownNews site search /search/?q=&s=start_time&sd=desc works, but its relevance ranking is poor and article bodies need extraction from the id=asset-content block (no JSON-LD, and a naive text strip returns navigation chrome only). It located the 2026 vacancy story; every fact it supplied was then re-sourced to minutes, so no tenure row rests on it. Two WebSearches supplied the leads that cracked the pre-2023 archive hostname and the 2022 Wilson/Judd handover."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Every elected tenure is double-sourced: the county canvass names the winner and an independent December minutes roll call shows them seated. Majority thresholds recomputed by hand for all six cycles and agree with the seatings observed in minutes in every case. Day-of-week checks pass: 2018-12-04, 2020-12-01, 2022-12-06, 2024-12-03, 2026-01-20 and 2026-02-03 are all Tuesdays, the city's regular meeting day; 2020-03-10 and 2020-03-17 are Tuesdays. Seat-class assignment within a class is a stable labelling convention, not a claim - Show Low's six seats are at-large and unnumbered, so members are pinned to a class (B = 2016/2020/2024, A = 2018/2022/2026) and to a continuity chain, which is evidentiary; the digit after 'Council Seat' is arbitrary but stable across all years."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "FIVE LAWFUL VACANCIES, all sub-year and all on seat-years that are otherwise fully sourced, so they are recorded here as caveats rather than as gap rows (a gap row would emit a contradictory second panel cell). Council Seat 2 (At-Large, Class B) 2020: Seat vacant on the death of Councilman Rennie Crittenden. He was present 2019-12-03 (minutes mid=64), recorded ABSENT 2020-01-07 (mid=65), and the 2020-01-21 roll lists only six members with 'COUNCIL MEMBERS ABSENT: None' (mid=73); his Celebration of Life was reported for 2020-02-01 (mid=73). Council voted 2020-02-04 to solicit letters of interest and appoint on 2020-03-17 (mid=76); John Leech, Jr. was sworn into the seat 2020-03-17 (mid=86). Exact date of death not stated in any fetched record. | Council Seat 6 (At-Large, Class A) 2020: Seat vacant 2020-03-10 17:00 to 2020-03-17. Minutes of the 2020-03-10 special meeting (mid=85) record acceptance of John Leech, Jr.'s resignation from 'the Council seat that expires December 2022', effective 5:00 p.m. March 10, 2020; Brandt Clark was sworn into it 2020-03-17 (mid=86). | Council Seat 3 (At-Large, Class B) 2022: Seat vacant 2022-04-04 to 2022-05-03. Resignation of Councilwoman Dawn Wilson effective 2022-04-04 accepted at the 2022-04-05 regular meeting (mid=190); Bryce Judd appointed at the 2022-04-19 regular meeting (mid=191) and sworn in at the 2022-05-03 regular meeting (mid=193). | Council Seat 4 (At-Large, Class A) 2024: Seat vacant 2024-03-27 to 2024-04-16. Minutes of 2024-04-16 (CivicClerk fileId 545) state Councilman Mike Allsop 'resigned his Council seat effective March 27, 2024, due to running for the Mayor's seat', resignation accepted 2024-03-19; Derik Whipple appointed 2024-04-16 and seated by 2024-04-18 (fileId 546). | Council Seat 5 (At-Large, Class A) 2026: Seat vacant on 2026-01-20 only. Minutes of 2026-01-20 (CivicClerk fileId 2503): 'Councilman Brent Hatch, whose term would expire at the first regular City Council meeting in December 2026, resigned his Council seat effective January 20, 2026.' Gentry Hatch was appointed at the same 2026-01-20 regular meeting and sworn in 2026-02-03 (fileId 2423)."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "7 offices x 8 years = 56 council/mayor seat-years plus 8 vice-mayor seat-years, all covered. No unrecoverable cycle, no budget-cap gap."
+    }
+  ],
+  "totals": {
+    "tool_calls": 40,
+    "searches": 5
+  },
+  "gaps": []
+}

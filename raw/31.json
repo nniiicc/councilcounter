@@ -1,0 +1,773 @@
+{
+  "city_id": 31,
+  "city": "Jersey City city",
+  "state": "New Jersey",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 9,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "No stagger. Mayor and all 9 council seats (6 ward + 3 at-large) are elected concurrently every 4 years: Nov 2017, Nov 2021, Nov 2025. Terms run Jan 1 of the year after the election through Dec 31 four years later. Nonpartisan November general; any office where no candidate wins a majority goes to a December runoff (first Tuesday in December).",
+    "mayor_selection": "elected",
+    "election_month": "November (nonpartisan), with December runoff",
+    "profile_source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2025/12/2025-General-Election-Oficial-Summary-Results-with-Voting-Methods-Details.pdf"
+  },
+  "cycles": [
+    {
+      "election_date": "2017-11-07",
+      "seats_up": 10,
+      "status": "sourced",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf"
+    },
+    {
+      "election_date": "2017-12-05",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://hudsoncountyview.com/fulop-keeps-6-3-council-majority-solomon-takes-ward-e-in-jersey-city-runoffs/"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/02/District-Canvass-Report-General-Election-2020.pdf"
+    },
+    {
+      "election_date": "2021-11-02",
+      "seats_up": 10,
+      "status": "sourced",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf"
+    },
+    {
+      "election_date": "2021-12-07",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-Jersey-City-Ward-C-Runoff-District-Canvass-Report.pdf"
+    },
+    {
+      "election_date": "2025-11-04",
+      "seats_up": 10,
+      "status": "sourced",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2025/12/2025-General-Election-Oficial-Summary-Results-with-Voting-Methods-Details.pdf"
+    },
+    {
+      "election_date": "2025-12-02",
+      "seats_up": 7,
+      "status": "sourced",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Steven M. Fulop",
+      "name_variants": [
+        "Steven Fulop",
+        "Steven M. Fulop"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "James Solomon",
+      "name_variants": [
+        "James Solomon"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Denise Ridley",
+      "name_variants": [
+        "Denise Ridley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward A",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/City%20Clerk/Public%20Notices/Audits/19%20COJC%20AUDIT%20(released%2012152020).pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2017-12-05"
+    },
+    {
+      "person": "Denise Ridley",
+      "name_variants": [
+        "Denise Ridley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward A",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Denise Ridley",
+      "name_variants": [
+        "Denise Ridley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward A",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Mira Prinz-Arey",
+      "name_variants": [
+        "Mira Prinz-Arey"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward B",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/City%20Clerk/Public%20Notices/Audits/19%20COJC%20AUDIT%20(released%2012152020).pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2017-12-05"
+    },
+    {
+      "person": "Mira Prinz-Arey",
+      "name_variants": [
+        "Mira Prinz-Arey"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward B",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Joel Brooks",
+      "name_variants": [
+        "Joel Brooks",
+        "Joel A. Brooks"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward B",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Richard Boggiano",
+      "name_variants": [
+        "Richard Boggiano",
+        "Rich Boggiano"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward C",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/City%20Clerk/Public%20Notices/Audits/19%20COJC%20AUDIT%20(released%2012152020).pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2017-12-05"
+    },
+    {
+      "person": "Richard Boggiano",
+      "name_variants": [
+        "Richard Boggiano",
+        "Rich Boggiano"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward C",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-Jersey-City-Ward-C-Runoff-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-12-07"
+    },
+    {
+      "person": "Tom Zuppa",
+      "name_variants": [
+        "Tom Zuppa",
+        "Thomas Zuppa Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward C",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Michael Yun",
+      "name_variants": [
+        "Michael Yun"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward D",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2020-04-06",
+      "entry_mode": "elected",
+      "exit_mode": "died",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Yousef J. Saleh",
+      "name_variants": [
+        "Yousef J. Saleh",
+        "Yousef Saleh"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward D",
+      "role": "council_member",
+      "start_date": "2020-04-30",
+      "end_date": "2020-11-03",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/City%20Clerk/Public%20Notices/Audits/19%20COJC%20AUDIT%20(released%2012152020).pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Yousef J. Saleh",
+      "name_variants": [
+        "Yousef J. Saleh",
+        "Yousef Saleh"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward D",
+      "role": "council_member",
+      "start_date": "2020-11-04",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/02/District-Canvass-Report-General-Election-2020.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Yousef J. Saleh",
+      "name_variants": [
+        "Yousef J. Saleh",
+        "Yousef Saleh"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward D",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Jake Ephros",
+      "name_variants": [
+        "Jake Ephros"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward D",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "James Solomon",
+      "name_variants": [
+        "James Solomon"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward E",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/City%20Clerk/Public%20Notices/Audits/19%20COJC%20AUDIT%20(released%2012152020).pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2017-12-05"
+    },
+    {
+      "person": "James Solomon",
+      "name_variants": [
+        "James Solomon"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward E",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "elevated",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Eleana Little",
+      "name_variants": [
+        "Eleana Little",
+        "Elena Little"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward E",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2025/12/2025-General-Election-Oficial-Summary-Results-with-Voting-Methods-Details.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Jermaine Robinson",
+      "name_variants": [
+        "Jermaine Robinson",
+        "Jermaine D. Robinson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward F",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Frank E. Gilmore",
+      "name_variants": [
+        "Frank E. Gilmore",
+        "Frank Gilmore",
+        "Frank \"Educational\" Gilmore"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward F",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Frank E. Gilmore",
+      "name_variants": [
+        "Frank E. Gilmore",
+        "Frank Gilmore"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward F",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2025/12/2025-General-Election-Oficial-Summary-Results-with-Voting-Methods-Details.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Joyce E. Watterman",
+      "name_variants": [
+        "Joyce E. Watterman",
+        "Joyce Watterman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 1",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Joyce E. Watterman",
+      "name_variants": [
+        "Joyce E. Watterman",
+        "Joyce Watterman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 1",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Michael Griffin",
+      "name_variants": [
+        "Michael Griffin",
+        "Michael O. Griffin"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 1",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Daniel Rivera",
+      "name_variants": [
+        "Daniel Rivera"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 2",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Daniel Rivera",
+      "name_variants": [
+        "Daniel Rivera"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 2",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Mamta Singh",
+      "name_variants": [
+        "Mamta Singh"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 2",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Rolando R. Lavarro, Jr.",
+      "name_variants": [
+        "Rolando R. Lavarro, Jr.",
+        "Rolando R. Lavarro Jr.",
+        "Rolando Lavarro"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 3",
+      "role": "council_member",
+      "start_date": "2018-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "http://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/hudson-nj.connect.clarityelections.com/Election_Archive/2017/General/OFFICIAL-District-Canvass-General-Election-Results-2017.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2017-11-07"
+    },
+    {
+      "person": "Amy DeGise",
+      "name_variants": [
+        "Amy DeGise"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 3",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2021/12/2021-General-Election-District-Canvass-Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Rolando R. Lavarro, Jr.",
+      "name_variants": [
+        "Rolando R. Lavarro, Jr.",
+        "Rolando Lavarro"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 3",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.hudsoncountyclerk.org/wp-content/uploads/2026/01/2025-General-Election-Runoff-Official-Summary-Results-by-Contest.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-12-02"
+    },
+    {
+      "person": "Rolando R. Lavarro, Jr.",
+      "name_variants": [
+        "Rolando R. Lavarro, Jr.",
+        "Rolando Lavarro"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/City%20Hall/City%20Clerk/Public%20Notices/Audits/19%20COJC%20AUDIT%20(released%2012152020).pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Joyce E. Watterman",
+      "name_variants": [
+        "Joyce E. Watterman",
+        "Joyce Watterman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2020-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.jerseycitynj.gov/UserFiles/Servers/Server_6189660/File/CY2020%20Annual%20Audit.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Joyce E. Watterman",
+      "name_variants": [
+        "Joyce E. Watterman",
+        "Joyce Watterman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2022-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hudsoncountyview.com/jersey-city-council-sticks-with-watterman-as-council-president-to-the-dismay-of-rivera/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Denise Ridley",
+      "name_variants": [
+        "Denise Ridley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2026-01-15",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hudsoncountyview.com/jersey-city-council-names-ridley-pres-gilmore-pro-tempore-oks-temp-budget/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry warning that 'Hudson's master list excludes Jersey City' is TRUE of the county-office master lists but MISLEADING as a route: hudsoncountyclerk.org/elections-archives/ is a single page carrying the complete Hudson election archive with Jersey City-specific canvass and candidate PDFs for every cycle. NJ DCA Mayors Directory JSON API (data.nj.gov/resource/gkt3-i954.json?$q=Jersey%20City) still works and returned mayor James Solomon, Hudson County — but its term_end field is stale/wrong (2026-12-31; the term actually runs to 2029-12-31). Hudson clerk wp-json REST API is CLOSED ('DRA: Only authenticated users can access the REST API', HTTP 401) — the WordPress media-endpoint technique does not work on this host; scrape /elections-archives/ instead. Clarity's ASSET host assets01.aws.connect.clarityelections.com serves PDFs to plain curl even though results.enr.clarityelections.com is robots-blocked."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Faulkner Act Mayor-Council. Mayor + 9 council (Wards A-F, 3 at-large) all elected concurrently every 4 years, nonpartisan November, terms Jan 1 - Dec 31. Cycles overlapping 2019-2026: Nov 7 2017 (+ Dec 5 2017 runoff) seating 2018-2021; Nov 3 2020 special for the Ward D unexpired term; Nov 2 2021 (+ Dec 7 2021 runoff) seating 2022-2025; Nov 4 2025 (+ Dec 2 2025 runoff) seating 2026-2029. Runoff threshold verified arithmetically from the canvasses: single-seat races need >50% of votes cast; the at-large race needs >50% of (total at-large votes / 3) — 2021 top three cleared it and no at-large runoff was held, 2025 nobody cleared it and the top six went to a runoff."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 2,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 0,
+      "detail": "All four general/runoff canvasses pulled from Hudson County Clerk and extracted locally with pdftotext -layout. CRITICAL EXTRACTION TRAP: the Hudson district-canvass PDFs print candidate names as ROTATED column headers, and pdftotext emits those names in an order that does NOT match the numeric column order (verified wrong in 4 of 8 contests). Column order is BALLOT-POSITION order. Resolved by fetching 2021-Jersey-City-General-Election-Candidates.pdf, which lists every candidate's ballot position (1A/3A, 1B/2B/3B..., 1C/3C/5C) and marks incumbents with a dagger; mapping ballot position ascending onto the numeric columns reproduces every known 2021 outcome exactly. NEVER read a name off the rotated header block of these PDFs. The 2025 cycle avoided the problem entirely because the clerk also publishes 'Summary Results by Contest' PDFs with names and totals on the same line — prefer those where they exist. The 2017 certified-candidates PDF is an image scan with no text layer (pdftotext returns nothing), so 2017 column mapping was resolved from majority arithmetic plus the incumbency daggers in the 2021 list."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 2,
+      "detail": "The county publishes NO results document for the Dec 5 2017 runoff — only an inline HTML table of runoff candidates, wards, slogans and ballot positions on /elections-archives/ (Wards A, B, C, E; confirming Wards D and F were decided outright on Nov 7). Runoff winners sourced to Hudson County View (2017-12-06): Ridley 1,639-808 over Joe Conte in Ward A, Prinz-Arey 1,555-986 over incumbent Chris Gadsden in Ward B, Boggiano over John Hanussak in Ward C, Solomon over Rebecca Symes by 249 votes in Ward E. The Dec 7 2021 Ward C runoff DOES have an official canvass, but it too has rotated headers with only two unlabelled columns (1,347 / 1,897); resolved to Boggiano = 1,897 by Hudson County View's preliminary tally (Boggiano 1,733, Bing 1,273) and by Boggiano appearing as the Ward C incumbent again in 2025."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 3,
+      "detail": "ONE membership change in the whole 2019-2026 window, and it is the classic case the check exists for. Ward D Councilman Michael Yun DIED of COVID-19 complications on 2020-04-06. The seat sat vacant ~3.5 weeks, then the council appointed Yousef J. Saleh at a SPECIAL meeting on 2020-04-30 (Hudson County View timestamped 2020-04-30 16:27 EDT, 'this afternoon', and notes the council skipped the regularly scheduled May 6 hearing to do it) by a 6-2 vote, Lavarro and Solomon dissenting, Council President Watterman presiding. Ballotpedia's writeup is dated May 5 and would have mis-dated the appointment by five days. Saleh then WON A SPECIAL ELECTION on 2020-11-03 for the unexpired term (6,399 of 11,589 votes, 55.2%, five-way race) — an extra cycle that does not appear in any four-year calendar. No other resignation, death, recall or appointment found 2019-2026: the Jan 2 2024 reorganization roll call names all nine members elected in Nov 2021 (Watterman, Rivera, DeGise, Ridley, Prinz-Arey, Boggiano, Saleh, Solomon, Gilmore), and Amy DeGise served her full term despite the 2022 hit-and-run controversy."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 2,
+      "detail": "Presiding officer: Jersey City's council elects a Council President (and a President Pro Tempore) from among its members; the mayor is separately elected and does not preside. Joyce Watterman succeeded Rolando Lavarro as Council President at the January 2019 reorganization and was retained at the Jan 2 2024 reorganization (Hudson County View 2024-01-03: Rivera nominated Ridley, that motion failed 4-0-5, Saleh then nominated Watterman; Ridley took President Pro Tempore after Rivera declined it). Denise Ridley became Council President 9-0 at the reorganization of the new council, with Frank Gilmore as President Pro Tempore, reported by Jersey City Times on 2026-01-15 and by Hudson County View on 2026-01-16 as 'yesterday' — both point to 2026-01-15, a Thursday; recorded as such but the exact meeting date is the one soft date in this file. Pro tempore holders are recorded here in run_log rather than as a second panel seat."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 1,
+      "detail": "Every election date verified to fall on a Tuesday (2017-11-07, 2017-12-05, 2020-11-03, 2021-11-02, 2021-12-07, 2025-11-04, 2025-12-02). Yun's death 2020-04-06 is a Monday and the Saleh appointment 2020-04-30 a Thursday (a special meeting, consistent with the reporting). Seat count is a constant 9 across the whole window — Jersey City redistricted its ward BOUNDARIES for the 2025 cycle (clerk publishes '2022 Municipal Election Ward Series Maps' and a 'Jersey City Ward Redistricting' section) but neither the number of wards nor the number of at-large seats changed. Wikipedia's Jersey City Council article was used ONLY to derive the at-large succession pairing and was found to contain at least two wrong 'took office' years (DeGise 2018, Saleh 2022), so nothing was taken from it as a primary fact."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "SEAT-LABEL CAVEAT: Jersey City's three at-large seats are NOT statutorily numbered or individuated — the whole city votes for three and there is no seat number on any ballot or canvass. 'At-Large 1/2/3' here is a panel artifact needed for seat-year coverage. The person-to-slot assignment follows the succession pairing given by Wikipedia's council article (Griffin succeeded Watterman, Singh succeeded Rivera, Lavarro succeeded DeGise, DeGise succeeded Lavarro). The set of at-large holders in each year is high-confidence from official canvasses; only which numbered slot each occupies is arbitrary. Ward D 2020 correctly carries two tenure rows (Yun to 2020-04-06, Saleh from 2020-04-30); the ~24-day vacancy between them is not filed as a gap because the seat-year is already sourced and a gap row would emit a contradictory third panel row for that cell. Saleh's split between his appointed row and his elected row is dated at the 2020-11-03 election itself; the certification/swearing date within November 2020 was not sourced."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "not_found",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "CLARITY RE-TEST (registry said robots-blocked): CONFIRMED OPEN. results.enr.clarityelections.com/robots.txt returns HTTP 404 - no robots.txt exists, so no Disallow exists; the registry's 'robots-blocked in every state tested' line is WRONG and should be struck. The JSON API answers to plain curl: /NJ/Hudson/{id}/current_ver.txt -> 375722, and /NJ/Hudson/{id}/{ver}/json/en/summary.json returns a 56-contest array (it is GZIPPED and served without a decodable header to bare curl - use curl --compressed or the parse fails on byte 0x8b). BUT it does not help Jersey City: the only election id Hudson exposes (126484, linked from the clerk's own site) is the 6/2/2026 PRIMARY, which carries no municipal races, and /NJ/Hudson/elections.json returns an empty array [] so there is no id discovery route. Hudson's historical municipal results live as PDFs on the LEGACY Connect asset host assets01.aws.connect.clarityelections.com/.../hudson-nj.connect.clarityelections.com/Election_Archive/{year}/{stage}/, indexed by hudsoncountyclerk.org/elections-archives/ - which is the route this city was already run on. No 'Special Municipal Elections' Clarity entry was found for either December runoff."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "AUDIT SERIES - the highest-value find of this city, and it OVERTURNED a fact. jerseycitynj.gov/cityhall/finance/audits lists CY2007-CY2020 annual audits as direct PDFs (fetchable by curl, ~25MB each, clean text layer). Each carries a 'CITY OF JERSEY CITY / OFFICIALS IN OFFICE / January 1, {YEAR} through Date of Report' page naming the mayor, all nine council seats WITH ward names, and the Council President, with exact effective dates for mid-year changes. CORRECTION MADE: Wikipedia and a search summary both said Joyce Watterman was Council President from 2019. The CY2019 audit says otherwise and is contemporaneous and official - 'Council President (2018-2019) ... Rolando R. Lavarro, Jr' and 'Council President (2020-2021) ... Joyce Watterman'. Lavarro therefore held the presidency through 2019 and Watterman took it in January 2020; the CY2020 audit lists Watterman alone as Council President, consistent. The 2019 Council President row was rewritten accordingly. The audits also independently confirm Saleh 'Appointed - 04/30/2020' (vindicating the Hudson County View timestamp over Ballotpedia's May 5 writeup) and let four 2018-2021 ward rows be upgraded from newspaper/medium to audit_report/high. NOTE the 'runs ahead' failure mode is present and visible here: the CY2020 audit already lists Amy DeGise and Frank Gilmore as '(commencing 2022)', i.e. people who had not yet taken office - harmless only because the audit labels them. The city's audits page STOPS AT CY2020 (CY2021-CY2025 are not linked there; cityofjerseycity.com DisplayFile?itemId=7380553 is the CY2011 report, not a recent one), so the 2022-2025 Council President row still rests on the Jan 2024 reorganization report and stays medium. Ward names for the record: A Greenville, B West Side, C Journal Square, D The Heights, E Downtown, F Bergen/Lafayette."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "ONE UNRESOLVED ONE-DAY CONTRADICTION: contemporaneous reporting puts Michael Yun's death on 2020-04-06 (a Monday), while both the CY2019 and CY2020 audits print 'Ward D - The Heights ... Michael Yun (through 4/7/2020)'. Kept 2020-04-06 as the tenure end. It moves no seat-year and the Ward D 2020 cell is covered by both Yun and Saleh regardless."
+    }
+  ],
+  "totals": {
+    "tool_calls": 48,
+    "searches": 8
+  }
+}

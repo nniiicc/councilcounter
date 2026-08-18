@@ -1,0 +1,668 @@
+{
+  "city_id": 9,
+  "city": "Bristol",
+  "state": "Virginia",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Two classes. Class I = 3 at-large seats (elected 2018-05-01, 2022-11-08, next 2026-11-03). Class II = 2 at-large seats (elected 2020-05-19, 2024-11-05, next 2028-11-07). Elections moved from the first Tuesday in May of even years to November of even years; sitting terms were EXTENDED, so the 2018 class served to 2022-12-31 and the 2020 class to 2024-12-31. No municipal election in 2019, 2021, 2023 or 2025. CHARTER-CONFIRMED (law.lis.virginia.gov/charters/bristol/): Ch.3 'A municipal election shall be held on the first Tuesday following the first Monday in November of every second year beginning in the year 2022' (1990 c.542, amended 2022 c.143), members elected 'on a general ticket from the city at large', 'The number of candidates equal to the positions to be filled who receive the highest number of votes at such election shall be declared elected', and 'Councilmembers shall serve for a term of four years from January 1 following their election.'",
+    "mayor_selection": "council-selected",
+    "election_month": "May (even years) through 2020; November (even years) from 2022",
+    "profile_source_url": "https://law.lis.virginia.gov/charters/bristol/"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-05-01",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07022018-624"
+    },
+    {
+      "election_date": "2020-05-19",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/139712_table.csv?split_party=false"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/BRISTOL_CITY/Index.html"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161319_table.csv?split_party=false"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Neal Osborne",
+      "name_variants": [
+        "Franklin Neal Osborne",
+        "Neal Osborne"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 1",
+      "role": "council_member",
+      "start_date": "2018-07-02",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07022018-624",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Neal Osborne",
+      "name_variants": [
+        "Franklin Neal Osborne",
+        "Neal Osborne"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 1",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/BRISTOL_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "William Hartley",
+      "name_variants": [
+        "William T. Hartley",
+        "Bill Hartley",
+        "William Hartley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 2",
+      "role": "council_member",
+      "start_date": "2018-07-02",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07022018-624",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Jake Holmes",
+      "name_variants": [
+        "Jake Preston Holmes",
+        "Jake Holmes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 2",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/BRISTOL_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Kevin Wingard",
+      "name_variants": [
+        "Kevin Wingard"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 3",
+      "role": "council_member",
+      "start_date": "2018-07-02",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07022018-624",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Michael Pollard",
+      "name_variants": [
+        "Michael W. Pollard",
+        "Michael William Pollard",
+        "Michael Pollard"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 3",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/BRISTOL_CITY/Index.html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Anthony Farnum",
+      "name_variants": [
+        "Anthony Michael Farnum",
+        "Anthony M. Farnum",
+        "Anthony Farnum"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 4",
+      "role": "council_member",
+      "start_date": "2018-11-13",
+      "end_date": "2020-06-30",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_11132018-668",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Anthony Farnum",
+      "name_variants": [
+        "Anthony Michael Farnum",
+        "Anthony M. Farnum",
+        "Anthony Farnum"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 4",
+      "role": "council_member",
+      "start_date": "2020-07-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/139712_table.csv?split_party=false",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-05-19"
+    },
+    {
+      "person": "Anthony Farnum",
+      "name_variants": [
+        "Anthony Michael Farnum",
+        "Anthony M. Farnum",
+        "Anthony Farnum"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 4",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161319_table.csv?split_party=false",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Kevin Mumpower",
+      "name_variants": [
+        "Kevin Neal Mumpower",
+        "Kevin Mumpower"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 5",
+      "role": "council_member",
+      "start_date": "2016-07-01",
+      "end_date": "2020-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/DocumentCenter/View/2518/2018-2019-Annual-Audit-Report-City-of-Bristol-VA-Ending-063019",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Kevin Mumpower",
+      "name_variants": [
+        "Kevin Neal Mumpower",
+        "Kevin Mumpower"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 5",
+      "role": "council_member",
+      "start_date": "2020-07-01",
+      "end_date": "2021-06-08",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/139712_table.csv?split_party=false",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-05-19"
+    },
+    {
+      "person": "Becky Nave",
+      "name_variants": [
+        "Becky J. Nave",
+        "Becky Nave"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 5",
+      "role": "council_member",
+      "start_date": "2021-07-06",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://heraldcourier.com/news/watch-now-bristol-virginia-city-council-selects-nave-to-fill-vacant-seat/article_92d4a617-5670-5566-8b77-b3a3bffc0329.html",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Becky Nave",
+      "name_variants": [
+        "Becky J. Nave",
+        "Becky Nave"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 5",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": "2026-01-31",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161319_table.csv?split_party=false",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Alex Littleton",
+      "name_variants": [
+        "Alex Littleton"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large 5",
+      "role": "council_member",
+      "start_date": "2026-02-24",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://cardinalnews.org/2026/02/26/bristol-council-names-nonprofit-executive-to-vacant-seat/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kevin Mumpower",
+      "name_variants": [
+        "Kevin Neal Mumpower",
+        "Kevin Mumpower"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-07-02",
+      "end_date": "2019-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07022018-624",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Neal Osborne",
+      "name_variants": [
+        "Franklin Neal Osborne",
+        "Neal Osborne"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-07-01",
+      "end_date": "2020-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07012019-730",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "William Hartley",
+      "name_variants": [
+        "William T. Hartley",
+        "Bill Hartley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-07-01",
+      "end_date": "2021-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/DocumentCenter/View/3502/City-of-Bristol-Virginia-Annual-Comprehensive-Financial-Report-2021",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Anthony Farnum",
+      "name_variants": [
+        "Anthony Michael Farnum",
+        "Anthony Farnum"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-07-01",
+      "end_date": "2023-01-03",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/DocumentCenter/View/3935",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Neal Osborne",
+      "name_variants": [
+        "Franklin Neal Osborne",
+        "Neal Osborne"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://wcyb.com/news/local/new-bristol-virginia-city-council-members-sworn-in-neal-osborne-takes-over-as-mayor-jake-holmes-michael-pollard-becky-nave-anthony-farnum-randy-eads",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Becky Nave",
+      "name_variants": [
+        "Becky J. Nave",
+        "Becky Nave"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://wcyb.com/news/local/bristol-virginias-new-mayor-becky-nave-aims-to-inspire-area-women-and-girls-city-council-second-female-mayor-catherine-brillhart-fulfill-dreams-younger-generation-appointment-city-leader",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jake Holmes",
+      "name_variants": [
+        "Jake Preston Holmes",
+        "Jake Holmes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://wcyb.com/news/local/jake-holmes-now-new-mayor-of-bristol-virginia",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kevin Wingard",
+      "name_variants": [
+        "Kevin Wingard"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2018-07-02",
+      "end_date": "2019-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07022018-624",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "William Hartley",
+      "name_variants": [
+        "William T. Hartley",
+        "Bill Hartley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2019-07-01",
+      "end_date": "2020-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/AgendaCenter/ViewFile/Minutes/_07012019-730",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Anthony Farnum",
+      "name_variants": [
+        "Anthony Michael Farnum",
+        "Anthony Farnum"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2020-07-01",
+      "end_date": "2021-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/DocumentCenter/View/3502/City-of-Bristol-Virginia-Annual-Comprehensive-Financial-Report-2021",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Neal Osborne",
+      "name_variants": [
+        "Franklin Neal Osborne",
+        "Neal Osborne"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2021-07-01",
+      "end_date": "2023-01-03",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/DocumentCenter/View/3935",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Becky Nave",
+      "name_variants": [
+        "Becky J. Nave",
+        "Becky Nave"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2023-01-03",
+      "end_date": "2024-01-02",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://wcyb.com/news/local/new-bristol-virginia-city-council-members-sworn-in-neal-osborne-takes-over-as-mayor-jake-holmes-michael-pollard-becky-nave-anthony-farnum-randy-eads",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jake Holmes",
+      "name_variants": [
+        "Jake Preston Holmes",
+        "Jake Holmes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2024-01-02",
+      "end_date": "2026-01-05",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.bristolva.gov/DocumentCenter/View/5914/2023-2024-Annual-Audit-Report-City-of-Bristol-Virginia-ACFR",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Neal Osborne",
+      "name_variants": [
+        "Franklin Neal Osborne",
+        "Neal Osborne"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.bristolva.gov/223/City-Council",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Registry Virginia entry re-verified. CONFIRMED: results.elections.virginia.gov serves ONLY '2022 November General' - 2018/2019/2020/2021/2023/2024/2025 November General folders all 404 for BRISTOL_CITY. Bristol is an independent city and IS top-level as the registry says. CONFIRMED: council-selected mayor. CORRECTION: registry says historical.elections.virginia.gov 'deep links do not work / non-scriptable' - this is now WRONG, and there is a CSV canvass API behind it (see the cycle_retrieval entry). The host has been rebuilt on the electionstats (Next.js) platform and /contest/{id} pages are SERVER-RENDERED and fetch cleanly by curl, giving contest date, office, locality, 'Vote for N' and the full candidate list. Contest ids are not derivable; surface them by WebSearch. CORRECTION: VPAP was effectively DEAD for this run - 20221108 returned a 200 with only site chrome, 20181106/20231107 returned a rendered 'Page not found', and after ~10 requests every further date returned a 2,425-byte error page. Zero usable data from VPAP."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 2,
+      "detail": "Bristol VA = council-manager, 5 at-large seats, 4-year staggered terms in two classes (3 seats / 2 seats). Elections were held the FIRST TUESDAY IN MAY of even years through 2020 (bristolva.gov FAQ qid=64 still states this), then moved to NOVEMBER of even years; terms were EXTENDED, not shortened - the class elected 2018-05-01 ran to 2022-12-31 and the class elected 2020-05-19 ran to 2024-12-31. The May 2020 election was COVID-postponed from 2020-05-05 to 2020-05-19 (historical.elections.virginia.gov labels the contest '2020 May 19'). CONSEQUENCE: there was NO Bristol VA council contest in Nov 2018 or Nov 2020, and no municipal election at all in 2019, 2021, 2023 or 2025 - these are structural holdover years, not gaps. The Nov 2026 cycle (3 seats) has not yet been held as of 2026-08-17 and would not seat anyone until 2027-01, so it is outside the panel and is not recorded as a cycle."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 2,
+      "detail": "2022-11-08 from the state portal, verbatim: Member City Council (BRISTOL CITY) x3 - Jake Preston Holmes 2,621 (28.24%), Michael W. Pollard 2,254 (24.28%), Franklin Neal Osborne 2,021 (21.77%), William T. Hartley 2,001 (21.56%), Write In 385. Top 3 elected; HARTLEY LOST BY 20 VOTES - recorded as exit_mode defeated, not term_end. 2020-05-19 from historical.elections.virginia.gov/contest/139712: 'Candidates (Vote for 2)' Anthony Michael Farnum, Kevin Neal Mumpower, Ricky Scott Watts, Michael William Pollard (Farnum 32.2%, Mumpower 25.4% per search snippet; the rendered page gives names + seat count only). 2024-11-05 from contest/161319: 'Candidates (Vote for 2)' Becky J. Nave and Anthony M. Farnum, unopposed. 2018-05-01 sourced not from a canvass but from the city's own inaugural-meeting minutes (see below)."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 1,
+      "detail": "CONFIRMED AND EXTENDED THE POQUOSON FINDING - the Virginia registry entry is wrong twice over. historical.elections.virginia.gov/contest/{id} AND /elections/view/{id} both serve server-rendered pages to plain curl, and the CSV canvass API at https://va2.elstats.civera.com/api/download_contest/{id}_table.csv?split_party=false returns FULL PRECINCT-LEVEL certified results. Both Bristol cycles pulled clean. 2020-05-19 (Vote for 2), locality totals verbatim: Anthony Michael Farnum 1,066; Kevin Neal Mumpower 840; Ricky Scott Watts 785; Michael William Pollard 605; Write-Ins 15; Total Votes Cast 3,311 - Farnum and Mumpower elected. 2024-11-05 (Vote for 2), locality totals verbatim: Becky J. Nave 4,459; Anthony M. Farnum 3,980; Write-Ins 237; Total Votes Cast 8,676 - both elected, unopposed. NOTE the precinct naming differs between the two files ('1 - First Ward' in 2020, '001 - 1st' in 2024) - same four/five wards, renamed. ID-SWEEP CAVEAT: the coordinator's 2018 seed 134263 is NOT adjacent to Bristol's May 2018 contest - a full sweep of 134240-134300 returned no 'Bristol City' locality row, so the contiguous-id trick did not reach a May-2018 city election from that seed. The 2018-05-01 cycle is therefore sourced from the city's own inaugural-meeting minutes at Rung 6 instead, corroborated by the Herald Courier: four candidates for three seats, Hartley 1,054, Osborne 952, Wingard 665, Michael Pollard fourth; incumbent Archie Hubbard did not seek re-election. That matches the oath-of-office roll in the 2018-07-02 minutes name for name."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "bristolva.gov is CivicEngage and is FULLY OPEN to plain curl despite the census note - robots.txt only name-blocks Baiduspider/Yandex. The AgendaCenter dated search /AgendaCenter/Search/?term=&CIDs=1&startDate=&endDate= works and /AgendaCenter/ViewFile/Minutes/_MMDDYYYY-NNN serves the file. CAVEAT: the City Council archive (CID 1) year tabs STOP AT 2019 - there are no 2020-2026 minutes on this portal at all, so the AgendaCenter covers only the first year of the panel plus 2018. Most 2019 minutes are Canon-scanner image PDFs needing OCR (tesseract), but the 2018 files extract as real text under pdftotext -layout. Verbatim from 2018-07-02 minutes: 'Circuit Court Clerk Kelly Duffy provided the oath of office to new Council member Neal Osborne and re-elected Council members Kevin Wingard and Bill Hartley' - this establishes the 2018-05-01 cycle at 3 seats and its winners. Same document: Mumpower elected Mayor, Wingard elected Vice-Mayor. Verbatim from 2019-07-01 organizational minutes (OCR): 'Mr. Hartley nominated Neal Osborne as Mayor... AYES: Farnum, Hartley, Osborne. NO: Mumpower, Wingard' and 'Mr. Farnum nominated Mr. Hartley as Vice-Mayor'."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "THE DECISIVE SOURCE FOR THIS CITY: bristolva.gov publishes a complete true-ACFR series FY2010-FY2025 at /343/Annual-Audit, each with a 'MEMBERS OF CITY COUNCIL' page naming all five members AND annotating Mayor and Vice Mayor, as of June 30. Scraped real hrefs from the finance page rather than constructing them. Eight consecutive June-30 snapshots: FY2018 Mumpower(M)/Wingard(VM)/Hartley/Hubbard/Fleenor; FY2019 Mumpower(M)/Wingard(VM)/Osborne/Hartley/Farnum; FY2020 Osborne(M)/Hartley(VM)/Mumpower/Wingard/Farnum; FY2021 Hartley(M)/Farnum(VM)/Wingard/Osborne - FOUR NAMES ONLY, which is how the mid-2021 vacancy was detected; FY2022 Farnum(M)/Osborne(VM)/Nave/Wingard/Hartley; FY2023 Osborne(M)/Nave(VM)/Farnum/Holmes/Pollard; FY2024 and FY2025 both Nave(M)/Holmes(VM)/Farnum/Osborne/Pollard. This series alone dates every mayoral and vice-mayoral rotation to within one fiscal year."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 3,
+      "detail": "FOUR mid-term changes found, all dated. (1) 2018-11-13 Anthony Farnum sworn in to fill the unexpired Class-II term of Doug Fleenor - verbatim from the 2018-11-13 minutes, 'Council member Anthony Farum [sic] was sworn in by the Clerk of Circuit Court Kelly Duffy just prior to the meeting'; the city's own bio confirms 'appointed to the Bristol, Virginia City Council in November of 2018' and that he 'won election to a full council term in 2020'. (2) 2021-06-08 Kevin Mumpower resigned mid-term citing job obligations (Herald Courier dated 2021-06-09; 2021-06-08 was a Tuesday, a council meeting night; corroborated by his absence from the FY2021 ACFR at 6/30/2021). (3) 2021-07-06 Becky Nave selected by council 3-0-1 to fill Mumpower's unexpired term (Herald Courier dated 2021-07-07; 2021-07-06 was a Tuesday). She then won the seat unopposed on 2024-11-05. (4) 2026-01-31 Becky Nave resigned on promotion to VP of Partnership Marketing at Virginia Tourism Corp (Cardinal News 2026-01-28: 'Her final day as a council member will be Saturday' - the Saturday after Wednesday 2026-01-28 is 2026-01-31, and Cardinal News later states the seat 'was vacated Jan. 31'); Alex Littleton appointed 3-1 on Tuesday 2026-02-24 to serve the remaining ~3 years, next election Nov 2028. The seat was vacant 2026-02-01 to 2026-02-23 and 2021-06-09 to 2021-07-05; both are sub-year vacancies inside otherwise-sourced seat-years, so per the brief they are recorded as caveats here rather than as gap rows."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "BRISTOL TN CONTAMINATION CHECK - EXPLICITLY PERFORMED AND CLEAN. Every query was scoped with 'Virginia'/'VA' and every source was state-checked before use: the state portal path is BRISTOL_CITY under Virginia Dept of Elections; historical.elections.virginia.gov contests are labelled 'Bristol City' under the Commonwealth of Virginia; every minutes document opens 'A ... MEETING OF THE BRISTOL, VIRGINIA, CITY COUNCIL ... AT 300 LEE STREET, BRISTOL, VIRGINIA'; every ACFR is 'City of Bristol, Virginia'; the two Cardinal News and three WCYB items are datelined 'BRISTOL, Va.'. NO name recorded here appears in Bristol TN's five-member council. Structures confirmed DIFFERENT and not imported: Bristol VA has 5 at-large seats with no residency districts, versus Bristol TN's three residency-district seats (East/South/West) plus two at-large; Bristol VA elected in MAY of even years then November of even years, versus Bristol TN's May of odd years then November of even years. TWO NAMED TRAPS AVOIDED. (a) Bristol VA's mayor is council-selected annually, so the top vote-getter is NOT the mayor: in the 2022 election Jake Holmes led the poll with 2,621 votes but Neal Osborne became mayor on 2023-01-03 and Holmes did not become mayor until 2026-01-05 - reading the ballot top as a mayoral win would have been wrong by three years and one person. (b) 'Michael William Pollard' appears as a LOSING candidate in the 2020-05-19 contest and as a WINNER in 2022-11-08; the city's bio confirms one person ('elected to the City Council in November 2022 but has attended City Council meetings since 2011'), so these are not two people. Day-of-week checks passed on 2018-05-01 (Tue), 2018-07-02 (Mon, minutes verbatim), 2018-11-13 (Tue), 2021-06-08 (Tue), 2021-07-06 (Tue), 2023-01-03 (Tue, 'Tue, January 3, 2023' timestamp), 2024-01-02 (Tue), 2026-01-05 (Mon, 'Mon, January 5, 2026' timestamp), 2026-01-31 (Sat), 2026-02-24 (Tue). CONTRADICTION LEFT UNRESOLVED (minor): the city's own staff-directory bios say Osborne was 'named Vice Mayor on January 5, 2026' but Holmes was 'named Mayor on January 6, 2026'; WCYB reports the appointment happened Monday morning 2026-01-05, and 2026-01-06 was a Tuesday. Both offices are recorded here as starting 2026-01-05 on the strength of the dated news report. ONE FURTHER HOMONYM TRAP, not Tennessee: a WebSearch for the 2018 cycle returned Wikipedia articles titled '2014/2015/2016/2021 Bristol City Council election' - these are BRISTOL, ENGLAND, a completely different body with wards and party groups. None were used."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "not_found",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "DATE PRECISION CAVEATS, none affecting seat-year coverage. The July organizational meetings of 2020 and 2021 are NOT on the AgendaCenter (archive stops at 2019) and no minutes for them were located, so the Hartley->Farnum (2020) and Farnum->Osborne (2021) vice-mayoral and Hartley (2020) / Farnum (2021) mayoral boundaries are set at the statutory 2020-07-01 and 2021-07-01 term-start dates and carry confidence medium; the identity of each officer in each fiscal year is nonetheless fixed by the ACFR June-30 snapshots. Likewise the January 2024 reorganization date is set at 2024-01-02 (the first Tuesday) - WCYB's article of 2024-01-12 says Nave was 'recently appointed' mayor without naming the meeting date. Neither ambiguity changes which person is recorded for any panel year. Kevin Mumpower's 2016-07-01 start is inferred from the 2016 cycle and is outside the panel window; his presence throughout 2019-2020 is directly sourced. 'Winning is not holding' checked on every ballot winner: all seven winners across the four cycles are independently shown seated - Hartley/Osborne/Wingard by the 2018-07-02 oath-of-office minutes, Farnum/Mumpower by the FY2021 ACFR, Holmes/Pollard/Osborne by the WCYB report of their 2023-01-03 swearing-in and the FY2023 ACFR, and Nave/Farnum by the FY2025 ACFR. No winner is recorded who cannot be shown in office."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "FETCHABILITY NOTES FOR VIRGINIA/TRI-CITIES OUTLETS. wjhl.com returns HTTP 403 (6,520-byte block page) to curl with a full browser UA on every article tried - three attempts, all blocked; its headlines were still usable as search-result leads. wcyb.com fetches cleanly by curl and prints an exact 'Tue, January 3, 2023 at 10:58 AM' style timestamp in the body, which is what pinned two organizational meetings. cardinalnews.org fetches cleanly and complete. heraldcourier.com fetches by curl and, as the registry says, article bodies are rot13-obfuscated for non-subscribers - but the plain-text meta datePublished is exposed and is exactly what dated the Mumpower resignation (2021-06-09) and the Nave selection (2021-07-07). UNLIKE NORFOLK, Bristol VA's Office of Elections page (/225/Elections) hosts NO canvass or results archive - three CivicPlus site searches ('election results', 'voter registrar election results', 'abstract of votes') returned only voter-information pages and public notices, so the local-canvass route that solved Norfolk does not exist here."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "56 seat-years (7 seats x 8 years) all sourced; zero gap rows; zero uncovered seat-years."
+    },
+    {
+      "step": "validation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "CHARTER READ DIRECTLY at https://law.lis.virginia.gov/charters/bristol/ - one fetch settled composition, calendar, term length, mayor selection and the vacancy rule, and it CORRECTED two dates I had inferred. (a) MAYOR SELECTION IS DEFINITIVELY COUNCIL-SELECTED, and the registry's characterisation is imprecise in a way worth fixing: it says Bristol's 'mayor' was 'simply the top vote-getter in an ordinary at-large council race'. It is not. Charter Sec. 4.05: 'At each inaugural and each organizational meeting of council, council shall elect one of its members as chairman, who shall be entitled mayor and one of its members as vice chairman, who shall be entitled vice mayor, each of whom shall serve for a term of one year, or until his successor is elected.' The mayoralty is a distinct charter office filled by internal annual vote; the poll-topper has no claim on it, and in 2022 did not get it. Sec. 4.05 also supplies the succession path: 'If a vacancy shall occur in the office of mayor, the vice mayor shall become mayor for the unexpired portion of the mayor's term' - not exercised in this window. (b) TERM BOUNDARY CORRECTED: 'Councilmembers shall serve for a term of four years from January 1 following their election', so the 2022 class began 2023-01-01, not 2023-01-03 (the 01-03 date is the oath/inaugural meeting). Council-seat rows were moved to 2022-12-31 / 2023-01-01; the Mayor and Vice Mayor rows correctly stay at 2023-01-03, the date council actually voted. (c) ORGANIZATIONAL MEETING DATE RULE RECOVERED, Sec. 4.03: 'At nine o'clock a.m. on the first business day following January 1' - in an election year and in every other year alike. This converts my inferred 2024-01-02 from a guess into a charter-derived date (Jan 1 2024 was a Monday holiday, so the first business day following was Tuesday Jan 2), and it independently predicts the observed Tuesday 2023-01-03 (Jan 2 2023 was the observed holiday). Those mayor/vice-mayor rows were upgraded to high confidence. (d) Sec. 4.01 'The council shall consist of five members' confirms seat_count. (e) VACANCY RULE, Ch.3: 'Mid-term vacancies in the office of councilmembers, from whatever cause arising, shall be filled within thirty days for the unexpired portion of the term by majority vote of the remaining members of the council' - both observed appointments obey it, 2021-06-08 to 2021-07-06 is 28 days and 2026-01-31 to 2026-02-24 is 24 days, which corroborates both dates. RESIDUAL DISCREPANCY: the charter rule predicts Friday 2026-01-02 for the 2026 organizational meeting, but WCYB reports Holmes appointed mayor 'Monday morning' with a 'Mon, January 5, 2026' timestamp and the city's own bio says Osborne was named Vice Mayor January 5, 2026. The dated news report is kept over the charter inference; 2026-01-05 stands."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CONTEST-ID ADJACENCY TESTED, AND IT PRODUCED A DECISIVE NEGATIVE FOR THE MAYOR QUESTION. The coordinator's rule - that a locality's mayoral contest sits within a couple of ids of its council contest for the same date - holds, and Bristol's blocks are contiguous per locality: 2020 May 19 gives 139711 School Board / 139712 City Council for Bristol City, and 2024 Nov 5 gives 161319 City Council / 161320 School Board. IN NEITHER BLOCK IS THERE A MAYOR CONTEST FOR BRISTOL CITY. That this absence is real and not an indexing artifact is proved inside the very same 2020 block, where Chesapeake City DOES carry one at 139713 Mayor immediately beside 139714 City Council. So the state's own contest index independently confirms Bristol VA has never had a mayoral ballot line - a second, structural confirmation of the charter's council-selected mayoralty, arrived at without reading the charter."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "not_found",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "2018 CYCLE NOT LOCATED IN THE STATE CONTEST INDEX, and the -L warning does not explain it. All my sweeps used curl -sL from the outset, so the 307-redirect trap the coordinator warns about was never hit here. I swept 134150-134300 - 150 consecutive ids spanning and extending below the coordinator's 2018 seed pair 134206/134209 - checking the contest page title for 'Bristol', and got zero hits; the 2018 ids around that seed belong to other localities. Bristol's May 2018 city election is either indexed in a non-adjacent block or absent. Rather than sweep blind against the effort cap, the 2018-05-01 cycle rests on two independent non-portal sources that agree name for name: the city's own inaugural-meeting minutes of 2018-07-02, which record the Circuit Court Clerk administering the oath to 'new Council member Neal Osborne and re-elected Council members Kevin Wingard and Bill Hartley', and the Herald Courier, which reports four candidates for three seats with Hartley 1,054, Osborne 952, Wingard 665 and Michael Pollard fourth, incumbent Archie Hubbard not seeking re-election. This is a documented Rung-1 miss, not a gap: the cycle is fully sourced."
+    }
+  ],
+  "totals": {
+    "tool_calls": 58,
+    "searches": 6
+  }
+}

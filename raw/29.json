@@ -1,0 +1,1009 @@
+{
+  "city_id": 29,
+  "city": "Hot Springs",
+  "state": "SD",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 9,
+    "seat_scheme": "ward",
+    "term_length": 2,
+    "stagger_pattern": "Aldermanic form: a mayor plus two aldermen from each of four wards; every office is a 2-year term. One alderman per ward is elected EVERY year, so there is an election every year; the mayoralty is on the ballot in even years. Seat labels used here: 'Ward N Seat A' = the class elected in EVEN years (2018/2020/2022/2024/2026); 'Ward N Seat B' = the class elected in ODD years (2019/2021/2023/2025). Election day is the first Tuesday after the first Monday in JUNE (verified 2021-06-08, 2022-06-07, 2023-06-06, 2024-06-04, 2025-06-03, 2026-06-02). Winners take the oath at the first regular council meeting in July. An internal Council President (presiding officer) and Council Vice President are elected by the council at that same July meeting; Council President is tracked here as its own seat with role vice_mayor.",
+    "mayor_selection": "elected",
+    "election_month": "June",
+    "profile_source_url": "https://hotspringssd.gov/government/city_council/index.php"
+  },
+  "cycles": [
+    {
+      "election_date": "2019-06-04",
+      "seats_up": 4,
+      "status": "flagged",
+      "source_url": null
+    },
+    {
+      "election_date": "2020-06-02",
+      "seats_up": 5,
+      "status": "flagged",
+      "source_url": null
+    },
+    {
+      "election_date": "2021-06-08",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://web.archive.org/web/20240208150422id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN07062021.pdf"
+    },
+    {
+      "election_date": "2022-06-07",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2022/Minutes/2022-06-13_Special_Council_Meeting_Minutes.pdf"
+    },
+    {
+      "election_date": "2023-06-06",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN06122023canvass_election.pdf"
+    },
+    {
+      "election_date": "2024-06-04",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2024/07012024/MIN07012024.pdf"
+    },
+    {
+      "election_date": "2025-06-03",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/06092025/MIN06092025-special%20mtg.%20to%20canvass%20election%20results.pdf"
+    },
+    {
+      "election_date": "2026-06-02",
+      "seats_up": 6,
+      "status": "sourced",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/06092026/MIN06092026-special%20mtg.%20to%20canvass%20election%20results.pdf"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "George Kotti",
+      "name_variants": [
+        "Mayor George Kotti"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "unknown",
+      "source_url": "https://frcheraldstar.com/legals/1618-proceedings-city-of-hot-springs-march-16-2020",
+      "retrieval_method": "public_notice",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Bob Nelson",
+      "name_variants": [
+        "Robert L. Nelson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-07-05",
+      "end_date": "2024-07-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2022/Minutes/2022-07-05_Unofficial_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-06-07"
+    },
+    {
+      "person": "Bob Nelson",
+      "name_variants": [
+        "Robert L. Nelson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-07-01",
+      "end_date": "2026-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2024/07012024/MIN07012024.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-06-04"
+    },
+    {
+      "person": "Bob Nelson",
+      "name_variants": [
+        "Mayor Robert Nelson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "Larry Pratt",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat A",
+      "role": "council_member",
+      "start_date": "2020-07-06",
+      "end_date": "2022-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150509id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/01-04-2021-Council-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Larry Pratt",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat A",
+      "role": "council_member",
+      "start_date": "2022-07-05",
+      "end_date": "2024-07-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2022/Minutes/2022-07-05_Unofficial_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-06-07"
+    },
+    {
+      "person": "Larry Pratt",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat A",
+      "role": "council_member",
+      "start_date": "2024-07-01",
+      "end_date": "2025-07-07",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-06-04"
+    },
+    {
+      "person": "Randy Graham",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat A",
+      "role": "council_member",
+      "start_date": "2025-07-21",
+      "end_date": "2026-07-06",
+      "entry_mode": "appointed",
+      "exit_mode": "defeated",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07212025/MIN07212025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Larry Pratt",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat A",
+      "role": "council_member",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "Craig Romey",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2019-07-02",
+      "end_date": "2021-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://frcheraldstar.com/legals/1618-proceedings-city-of-hot-springs-march-16-2020",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2019-06-04"
+    },
+    {
+      "person": "Craig Romey",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2021-07-06",
+      "end_date": "2023-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://web.archive.org/web/20240208150422id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN07062021.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-06-08"
+    },
+    {
+      "person": "Hal Glanville",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2023-07-05",
+      "end_date": "2025-07-07",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN07052023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-06-06"
+    },
+    {
+      "person": "Craig Romey",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2025-07-07",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-06-03"
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://frcheraldstar.com/legals/1618-proceedings-city-of-hot-springs-march-16-2020",
+      "retrieval_method": "public_notice",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2020-07-06",
+      "end_date": "2022-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150509id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/01-04-2021-Council-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2022-07-05",
+      "end_date": "2024-07-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2022/Minutes/2022-07-05_Unofficial_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-06-07"
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2024-07-01",
+      "end_date": "2026-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2024/07012024/MIN07012024.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-06-04"
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "Dave Burris",
+      "name_variants": [
+        "David Burris",
+        "David J Burris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2019-07-02",
+      "end_date": "2021-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://frcheraldstar.com/legals/1618-proceedings-city-of-hot-springs-march-16-2020",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2019-06-04"
+    },
+    {
+      "person": "Dave Burris",
+      "name_variants": [
+        "David Burris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2021-07-06",
+      "end_date": "2023-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150422id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN07062021.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-06-08"
+    },
+    {
+      "person": "Travis Orback",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2023-07-05",
+      "end_date": "2025-07-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN07052023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-06-06"
+    },
+    {
+      "person": "Dave Burris",
+      "name_variants": [
+        "David J Burris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2025-07-07",
+      "end_date": "2026-07-06",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dave Burris",
+      "name_variants": [
+        "David J Burris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "JR Huddleston",
+      "name_variants": [
+        "Johnny (JR) Huddleston",
+        "Johnny Huddleston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2020-07-06",
+      "end_date": "2022-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150509id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/01-04-2021-Council-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "JR Huddleston",
+      "name_variants": [
+        "Johnny (JR) Huddleston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2022-07-05",
+      "end_date": "2024-07-01",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2022/Minutes/2022-07-05_Unofficial_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-06-07"
+    },
+    {
+      "person": "JR Huddleston",
+      "name_variants": [
+        "Johnny (JR) Huddleston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2024-07-01",
+      "end_date": "2026-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2024/07012024/MIN07012024.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-06-04"
+    },
+    {
+      "person": "JR Huddleston",
+      "name_variants": [
+        "Johnny (JR) Huddleston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "Linda Varvel",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2021-07-06",
+      "end_date": "2023-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150422id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN07062021.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-06-08"
+    },
+    {
+      "person": "Linda Varvel",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2023-07-05",
+      "end_date": "2025-07-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN07052023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-06-06"
+    },
+    {
+      "person": "Linda Varvel",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2025-07-07",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-06-03"
+    },
+    {
+      "person": "Caitlin Turner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://frcheraldstar.com/legals/1618-proceedings-city-of-hot-springs-march-16-2020",
+      "retrieval_method": "public_notice",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Caitlin Turner",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2020-07-06",
+      "end_date": "2022-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150509id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/01-04-2021-Council-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Melanie Wilson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2022-07-05",
+      "end_date": "2023-02-06",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN02062023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-06-07"
+    },
+    {
+      "person": "Malisa Niles",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2023-03-06",
+      "end_date": "2024-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN03062023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Gary Telkamp",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2024-07-01",
+      "end_date": "2025-07-07",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2024/07012024/MIN07012024.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Gary Telkamp",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2025-07-07",
+      "end_date": "2026-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-06-03"
+    },
+    {
+      "person": "Gary Telkamp",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat A",
+      "role": "council_member",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "Debra Johnston",
+      "name_variants": [
+        "Debra A Johnston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat B",
+      "role": "council_member",
+      "start_date": "2021-07-06",
+      "end_date": "2023-07-05",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150422id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN07062021.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-06-08"
+    },
+    {
+      "person": "Debra Johnston",
+      "name_variants": [
+        "Debra A Johnston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat B",
+      "role": "council_member",
+      "start_date": "2023-07-05",
+      "end_date": "2025-07-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN07052023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-06-06"
+    },
+    {
+      "person": "Debra Johnston",
+      "name_variants": [
+        "Debra A Johnston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat B",
+      "role": "council_member",
+      "start_date": "2025-07-07",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-06-03"
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2022-07-05",
+      "end_date": "2023-07-05",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2022/Minutes/2022-07-05_Unofficial_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2023-07-05",
+      "end_date": "2024-07-01",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2023/Minutes/MIN07052023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2024-07-01",
+      "end_date": "2025-07-07",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2024/07012024/MIN07012024.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-07-07",
+      "end_date": "2026-07-06",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2025/07072025/MIN07072025.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://hotspringssd.gov/Documents/Government/City%20Council/2026/07062026/MIN07062026.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Bob Nelson",
+      "name_variants": [
+        "Robert L. Nelson",
+        "Mayor Robert Nelson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-01-04",
+      "end_date": "2022-07-05",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150509id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/01-04-2021-Council-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Wes Grimes",
+      "name_variants": [
+        "Wes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2020-07-06",
+      "end_date": "2021-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150436id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN06212021.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Debra Johnston",
+      "name_variants": [
+        "Debra A Johnston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 4 Seat B",
+      "role": "council_member",
+      "start_date": "2020-07-06",
+      "end_date": "2021-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150509id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/01-04-2021-Council-Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Bill Lukens",
+      "name_variants": [
+        "William Lukens"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2021-07-06",
+      "end_date": "2022-07-05",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20240208150422id_/https://hs-sd.org/Documents/Government/City%20Council/2021/Minutes/MIN07062021.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2019,
+      "seat_label": "Ward 1 Seat A",
+      "reason": "missing_cycle",
+      "attempted": "Holder is one of Ray Ecoffey / Bob Nelson / Ron Richards / Alison Ritterbush, all four sourced as sitting aldermen on 2020-03-16 (frcheraldstar legals 1618, now 404), but no source assigns any of them to a ward. Same escalation trail as the Mayor 2021 gap.",
+      "notes": "Larry Pratt takes this seat 2020-07-06."
+    },
+    {
+      "year": 2019,
+      "seat_label": "Ward 3 Seat A",
+      "reason": "missing_cycle",
+      "attempted": "Same as Ward 1 Seat A 2019: the four March-2020 aldermen whose wards are unknown (Ecoffey, Nelson, Richards, Ritterbush) fill this and three other seats; no ward-assigning source found.",
+      "notes": "JR Huddleston takes this seat 2020-07-06."
+    },
+    {
+      "year": 2019,
+      "seat_label": "Ward 3 Seat B",
+      "reason": "missing_cycle",
+      "attempted": "Same trail. No 2019 canvass, roster or proceedings naming the Ward 3 odd-year alderman was retrievable.",
+      "notes": "Wes Grimes takes this seat 2020-07-06 on a one-year unexpired term; the mayor's 2021-06-21 report thanks him 'for serving on City Council for the past year and for his previous years on Council', so his 2019 status is genuinely unclear."
+    },
+    {
+      "year": 2019,
+      "seat_label": "Ward 4 Seat B",
+      "reason": "missing_cycle",
+      "attempted": "Same trail. No 2019 canvass, roster or proceedings naming the Ward 4 odd-year alderman was retrievable.",
+      "notes": "Debra Johnston takes this seat 2020-07-06; she is absent from the 2020-03-16 roster, so the 2019 holder is one of Ecoffey/Richards/Ritterbush."
+    },
+    {
+      "year": 2019,
+      "seat_label": "Council President",
+      "reason": "missing_cycle",
+      "attempted": "The council elects a President and Vice President at its first July meeting. No pre-2022 minutes or proceedings recording that vote were retrievable (city archive starts 2022; newspaper legals archive purged).",
+      "notes": ""
+    },
+    {
+      "year": 2020,
+      "seat_label": "Council President",
+      "reason": "missing_cycle",
+      "attempted": "Same as 2019 Council President.",
+      "notes": ""
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": 3,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "REGISTRY ENTRY PARTIALLY DEAD. 'legislativeaudit.sd.gov/reports/City/{City} City {Year}.pdf' returns 404 for Hot Springs City 2018-2024; only 2025 returns 200 (712 KB) and it is a KTLLP (private CPA) financial-statement audit with NO 'City Officials' page - grep for mayor/ward/officials/council member = 0 hits in the extracted text. 'legislativeaudit.sd.gov/reports/' index 403s. The SD audit-report route yielded nothing for this city. sdmunicipalleague.org 403s (registry note confirmed still true)."
+    },
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Census domain move routed: hs-sd.org 301s (not 302) to hotspringssd.gov, HTTP 200 to plain curl with a browser UA. CMS is REVIZE (not CivicPlus/CivicClerk/Legistar). The 'JavaScript-gated' pre-2022 archive is really an absence: the Revize Document Center emits plain <a href=\"Documents/...\"> links directly in the server-rendered HTML for 2022-2026, and the Meeting Archives page lists only 2022-2026. Directory probes distinguish existence by status code (403 = exists, 404 = does not): Documents/Government/City Council/2018/ and /2020/ are 404, /2021/ and /2021/Minutes/ and /2021/Agenda/ are 403. So a 2021 folder exists but is unlisted; ~100 filename permutations across the two observed naming conventions ('M-D-YY_Official_City_Council_Minutes.pdf' and 'MIN{MMDDYYYY}.pdf', both bare and inside a per-meeting {MMDDYYYY}/ subfolder) over all 2021 Mondays and Tuesdays returned zero hits. cms3.revize.com serves the same files but 403s every directory."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "Council page states the aldermanic form verbatim: mayor + two aldermen from each of four wards, ALL terms two years. That forces an annual election with a one-year stagger inside each ward. Election day is the first Tuesday after the first Monday in June (not the SDCL default second Tuesday in April): 2021-06-08, 2022-06-07, 2023-06-06, 2024-06-04, 2025-06-03, 2026-06-02 all fit that rule and are independently corroborated by the canvass minutes. Oath of office is administered at the first regular July meeting."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 0,
+      "detail": "There is no county or state results source for SD municipal elections (registry confirmed). The city canvasses its own election at a special council meeting and the canvass IS the primary record: 2022-06-13, 2023-06-12, 2025-06-09, 2026-06-09 minutes each print race-by-race vote totals. The following July minutes print the full Oath-of-Office list ward by ward with term lengths, plus the Council President / Vice President election. Together these two documents fully source each cycle 2022-2026 at zero WebSearch cost."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 1,
+      "detail": "STATE-LEVEL FINDING - South Dakota does NOT put unopposed municipal seats on the ballot. Every canvass in this window covers only the contested race(s): 2022 canvassed Mayor and Ward 1 only, 2023 Ward 1 only, 2025 Ward 1 only, 2026 Wards 1, 2 and 4 - yet the July oath lists seat four or five officials each time. The 2021 sample ballot published in the Herald-Star likewise carried only the Ward 1 alderman race. Reading a canvass as the full slate would produce spurious gaps for three of four wards in most years. Cross-state finding 3b applies to SD."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "SIX mid-term changes found, all dated from minutes: (1) Melanie Wilson (Ward 4 Seat A) resignation acknowledged 2023-02-06; (2) Malisa Niles appointed to that seat and sworn in at the same meeting 2023-03-06; (3) no candidate for Ward 4 Seat A in June 2024, so Gary Telkamp was APPOINTED on 2024-07-01 to a 1-yr term and then elected in 2025 to the 1-yr unexpired remainder; (4) no candidate for Ward 2 Seat B in June 2025, so Dave Burris was appointed 2025-07-07 to a 1-yr term (over Bob Sprentall, 4-2) and elected in 2026 to the 1-yr unexpired remainder - the 'Ward 2 (1yr.)' race on the 2026 canvass is the structural tell; (5) Larry Pratt resigned Ward 1 Seat A on 2025-07-07 mid-term; (6) Randy Graham appointed to it 2025-07-21 for a 1-yr term, then defeated by Pratt in June 2026. None of (1),(2),(5),(6) appears in any election result."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "blocked",
+      "tool_calls": 8,
+      "searches": 5,
+      "detail": "2019-2021 could not be sourced from the city. Newspaper route: the official newspaper is the Fall River County Herald-Star (frcheraldstar.com). It has MIGRATED from Joomla to Drupal 11 (eType Services) and EVERY pre-2024 /legals/{id}-{slug} permalink now returns 404 - verified on ids 512 (Jan 2018), 1618 (Mar 2020), 1636, 2586, 3464, 3564; /node/{id}, /legals/{id} bare, trailing slash, index.php and component/content forms all 404 too. Its Drupal site search returns nothing older than 2024. wp-json absent (not WordPress). Search-engine snippets still carry the old proceedings text, which is how the 2020-03-16 roster was recovered, but the documents themselves are gone. A crawler artifact host 'ftp.gordonmemorial.org' appearing to mirror the same legals ids does not resolve (ENOTFOUND) and gordonmemorial.org is an unrelated hospital site - dead end, do not chase it. hotspringsstar.com is now a HugeDomains parking page; frontierhorizonnews.com does not resolve; hotsprings-sd.com is the Chamber of Commerce, not a news site. sdpublicnotices.com is a session-bound ASP.NET postback app and southdakota.column.us is a Next.js SPA behind an elastic API - neither drivable inside budget. ballotpedia.org would not connect by curl (000)."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "not_found",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "ACFR route ruled out for this city. The city's finance page publishes an 'Annual Report' for every year 2019-2025 plus audited financial statements, and all of them fetch and extract cleanly - but they are SDCL-form statutory financial reports (fund-by-fund receipts and disbursements). Zero occurrences of 'mayor', 'ward', 'alderman' or 'officials' in any year. Hot Springs publishes NO Annual Comprehensive Financial Report and therefore has no 'List of Principal Officials' page. No OCR was needed - nothing was image-only."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Seat model verified against the current council page (mayor + 8 aldermen, terms 2025-2027 / 2026-2028) and it reconciles with every oath list. One discrepancy left standing: the city page gives Dave Burris 'Term: 2026-2028', but the 2026-06-09 canvass and the 2026-07-06 oath both record Ward 2 Burris on a ONE-year unexpired term - the dated primary records win, so his term is recorded as ending 2027. Day-of-week checks pass on all dated minutes. All names were read from locally extracted pdftotext -layout output, not from summaries, except the 2019-2021 material which came only from search snippets of a now-404 newspaper page and is therefore capped at 'low'."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "10 seat-years in gaps out of 80 (9 elective seats + the internal Council President seat, x 8 years). 70 sourced, 0 known-vacant. 12 tenure rows carry low confidence, all of them in 2019-2021."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 0,
+      "detail": "WAYBACK CDX WORKS - the project's 'known dead' entry is wrong, confirmed independently here. http://web.archive.org/cdx/search/cdx?url=hs-sd.org&matchType=domain returned HTTP 200 and 2,979 rows (1,043 PDFs) to plain curl. Critically, you must query the OLD domain: hs-sd.org returns the full index while hotspringssd.gov returns ZERO rows, so a domain-move city is invisible if you only ask about the current host. This recovered the entire 2021 council-minutes series, which is DELETED from the live server (all four filenames 404 on hotspringssd.gov) and which uses a THIRD naming convention not present in any live year: 'MM-DD-YYYY-Council-Minutes.pdf'. That is why ~100 filename guesses failed - the convention was unguessable. Replay via /web/{timestamp}id_/{url}; payloads were 140-160 KB, well under the 1MB/5MB truncation thresholds, and extracted cleanly. Wayback holds NO 2019 or 2020 council documents for this city at any path (City Council folder counts: 2021=75, 2022=76, 2023=76, 2024=9, 2025=2, and nothing earlier); the only useful crawl is a single 2024-02-08 sweep of the post-migration site, whose own archive already started at 2021."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "The 2021 minutes resolved four open questions. (1) Bob Nelson is already mayor on 2021-01-04, so the Kotti-to-Nelson handover falls between 2020-03-16 and 2021-01-04 and is almost certainly the 2020-06-02 election; the Mayor 2021 gap is closed. (2) Bill Lukens has been Council President since 2021-07-06. (3) Ward 3 Seat B was held by Wes Grimes from 2020-07-06 to 2021-07-06 - the 2021-06-21 mayor's report says verbatim that Linda Varvel 'will replace Wes who chose not to run for Council in Ward 3' and thanks Wes 'for serving on City Council for the past year', i.e. a one-year unexpired term, the same appoint-then-elect pattern seen in 2024 (Telkamp) and 2025 (Burris). (4) Debra Johnston already holds Ward 4 Seat B on 2021-01-04 though she is absent from the 2020-03-16 roster, so she too entered at the 2020 election on a one-year unexpired term. The same report confirms the unopposed rule again: Varvel, Burris and Johnston 'ran unopposed' and only Ward 1 appeared on the 2021 ballot (12.6% turnout, Ward 1 only)."
+    }
+  ],
+  "totals": {
+    "tool_calls": 56,
+    "searches": 8
+  }
+}

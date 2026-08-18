@@ -70,7 +70,19 @@ Practical notes:
   council-manager cities. Use them to establish *composition*, then resolve identities against the
   election record.
 - Some PDFs are image scans with no extractable text — `pdftotext` returns a handful of bytes.
-  **There is now a working OCR path; use it before recording `scanned_pdf`:**
+  **Try the AGENDA for the same meeting before reaching for OCR.** In one city every 2019 *minutes*
+file was an image-only scan while the *agendas* in the same folder had a real text layer — and the
+agenda's first-page header prints the full roster **with titles** (`MAYOR • … / VICE MAYOR • … /
+COUNCILMEMBER • …`), which beats a surname-only roll call. One `pdftotext` call replaces a whole
+`pdftoppm`+`tesseract` pass, and it is often the *better* document. Where minutes are scanned, check
+the agenda first.
+
+**Diff two independent annual series wherever you can.** A stale carry-over is invisible inside a
+single series — one city's FY2020 audit was character-identical to FY2019 and silently hid a mid-term
+vice-mayor change, which surfaced only when a second annual roster disagreed. Two series that agree
+are strong evidence; one series alone can be confidently wrong for years.
+
+**There is now a working OCR path; use it before recording `scanned_pdf`:**
   ```
   pdftoppm -r 300 -png <file.pdf> <prefix>
   tesseract <prefix>-1.png - --psm 4 -c preserve_interword_spaces=1
@@ -80,6 +92,9 @@ Practical notes:
   a town clerk's image-only **certified election results** — every name and vote total verbatim.
   Treat OCR'd text as **`medium`** confidence unless it is crisp and cross-checkable against
   another source, and read the output yourself rather than trusting a summary of it.
+  **`pdftoppm` naming trap:** it writes `{prefix}-1.png` for short PDFs and `-001.png` only once the
+  page count reaches three digits — so a hard-coded `-001` glob silently matches nothing and looks
+  exactly like an OCR failure. Glob for `{prefix}-*.png`.
   **Orientation is a real trap:** some scans are fed upside-down and need `sips -r 180` first, while
   others are correctly oriented and are *destroyed* by the same rotation — the giveaway is mirrored
   output (`ssaulsng ON` for `No Business`). Try both orientations and keep the readable one. Where

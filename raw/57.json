@@ -1,0 +1,717 @@
+{
+  "city_id": 57,
+  "city": "Sioux Falls city",
+  "state": "South Dakota",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 8,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "Two alternating cycles, four years apart, both in even years. MAYORAL CYCLE (2018, 2022, 2026): Mayor + Southeast District (Ward-2) + Central District (Ward-5) + At Large A + At Large B = 4 council seats plus the mayoralty. OFF CYCLE (2016, 2020, 2024): Northwest District (Ward-3) + Northeast District (Ward-4) + Southwest District + the third, unlettered At Large seat = 4 council seats. 5 district seats + 3 at-large seats = 8 council members.",
+    "mayor_selection": "elected",
+    "election_month": "April (moved to June in 2020 for COVID-19 and in 2026); majority required, otherwise a runoff roughly three weeks later",
+    "profile_source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AV9B8aL0QKzNoiUGhLkrz2qW5A6A35xC%C3%81HR%C3%89dn6hAC8ZjN6YMjygoPP4UOvI7pu8SYvflYEs0cIL%C3%81cy%C3%89c7JFO0M%3D/"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-04-12",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/Adc%C3%89AAl%C3%89LONNCg%C3%81kKLRC7%C3%81jbPq588BYKJEnSgiksfLKKa%C3%81s7xWrGKQRWIKSIVBhIWOJaXpMCR1qmJNf4nm%C3%8107dE%3D/"
+    },
+    {
+      "election_date": "2018-04-10",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AXA%C3%89Z6VpqJAFcFB3a%C3%89fR2gUh6fNRyapP2CfqQsdpscMoGCNTFOaA%C3%81jqJ8721i1CZ60rB6URNUlDFZMVmpqT%C3%816Hs%3D/"
+    },
+    {
+      "election_date": "2018-05-01",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/ATonJ1SLpDHpp6uJ3Vyg6veH8p3NbU9ClZdaIIaZSkHQlz4Ew11LNnRPnoV%C3%81fLsH6xaqKsM41IHsYqU4fCino5U%3D/"
+    },
+    {
+      "election_date": "2020-06-02",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AWpKb2NBzL8LP8MtlynnQ6ljaq6HPqiPiUXhoHYoRxv3bWppAoT3SfwoBomT8Ht%C3%89imTXkKfrqNA5a6f0oQCllOk%3D/"
+    },
+    {
+      "election_date": "2020-06-24",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AYQrUAvb%C3%81my9eNwUqgMvKFcbNNlabip5kaF%C3%81Rjqlij%C3%89V8u%C3%81qqQyy31SvaQON4OkfgVoCyXGXPTSNqyA6F3DYl70%3D/"
+    },
+    {
+      "election_date": "2022-04-12",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AV9B8aL0QKzNoiUGhLkrz2qW5A6A35xC%C3%81HR%C3%89dn6hAC8ZjN6YMjygoPP4UOvI7pu8SYvflYEs0cIL%C3%81cy%C3%89c7JFO0M%3D/"
+    },
+    {
+      "election_date": "2024-04-09",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AZtBqNIv2AEgO4t8cEwXr2p1ZFoFMAvJh%C3%81v2p1%C3%81h5tx3eskvl1HfUoprRfOyRO6CqlbvUPAMiOfif%C3%89PPfeY8eMU%3D/"
+    },
+    {
+      "election_date": "2024-04-30",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/ATaMq1PC5D7YDbRZn63R4jv0yuopydWRVW8AYPUkY0HliH0%C3%81wE3yAx8pNywcaaP2jSuPk%C3%89u00S%C3%894l7tQuqQUk%C3%89E%3D/"
+    },
+    {
+      "election_date": "2026-06-02",
+      "seats_up": 5,
+      "status": "flagged",
+      "source_url": "https://www.siouxfallslive.com/news/sioux-falls/merkouris-wins-re-election-as-three-council-races-advance-to-runoffs"
+    },
+    {
+      "election_date": "2026-06-23",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AVxOGW5tQzLJJXFqKCudLOWlDdAk%C3%81tRHOuCczH6LdpCYLfndatU16J0laHuhGAmLpb8POO2tTzwmK9LXNQqa8H8%3D/"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Paul TenHaken",
+      "name_variants": [
+        "Paul TenHaken"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-05-15",
+      "end_date": "2022-05-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/ATonJ1SLpDHpp6uJ3Vyg6veH8p3NbU9ClZdaIIaZSkHQlz4Ew11LNnRPnoV%C3%81fLsH6xaqKsM41IHsYqU4fCino5U%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Paul TenHaken",
+      "name_variants": [
+        "Paul TenHaken"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-05-17",
+      "end_date": "2026-07-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AV9B8aL0QKzNoiUGhLkrz2qW5A6A35xC%C3%81HR%C3%89dn6hAC8ZjN6YMjygoPP4UOvI7pu8SYvflYEs0cIL%C3%81cy%C3%89c7JFO0M%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Christine Erickson",
+      "name_variants": [
+        "Christine Erickson",
+        "Christine M. Erickson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-07-17",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.sdpb.org/politics/2026-07-17/christine-erickson-is-sworn-in-as-the-first-woman-mayor-of-sioux-falls",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2026-06-23"
+    },
+    {
+      "person": "Janet Brekke",
+      "name_variants": [
+        "Janet Brekke",
+        "Janet F. Brekke"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large A",
+      "role": "council_member",
+      "start_date": "2018-05-15",
+      "end_date": "2022-05-17",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AXA%C3%89Z6VpqJAFcFB3a%C3%89fR2gUh6fNRyapP2CfqQsdpscMoGCNTFOaA%C3%81jqJ8721i1CZ60rB6URNUlDFZMVmpqT%C3%816Hs%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-04-10"
+    },
+    {
+      "person": "Sarah Cole",
+      "name_variants": [
+        "Sarah Cole",
+        "Sara Cole"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large A",
+      "role": "council_member",
+      "start_date": "2022-05-17",
+      "end_date": "2025-12-03",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.dakotanewsnow.com/2025/10/17/sarah-cole-announces-resignation-sioux-falls-city-council/",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Vernon Brown",
+      "name_variants": [
+        "Vernon Brown"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large A",
+      "role": "council_member",
+      "start_date": "2025-12-19",
+      "end_date": "2026-07-17",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AUTwty4aMo1a%C3%81PLDbH9Kr6KtIyNrxdsho8eHfPbi3%C3%819Ed0vmlpoLutjz1%C3%81VFIPN%C3%81RFkVvxvlTdWosCWh%C3%8100Mo4Y%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "James Oppenheimer",
+      "name_variants": [
+        "James Oppenheimer"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large A",
+      "role": "council_member",
+      "start_date": "2026-07-17",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AVxOGW5tQzLJJXFqKCudLOWlDdAk%C3%81tRHOuCczH6LdpCYLfndatU16J0laHuhGAmLpb8POO2tTzwmK9LXNQqa8H8%3D/",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": "2026-06-23"
+    },
+    {
+      "person": "Christine M. Erickson",
+      "name_variants": [
+        "Christine M. Erickson",
+        "Christine Erickson"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large B",
+      "role": "council_member",
+      "start_date": "2018-05-15",
+      "end_date": "2022-05-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AXA%C3%89Z6VpqJAFcFB3a%C3%89fR2gUh6fNRyapP2CfqQsdpscMoGCNTFOaA%C3%81jqJ8721i1CZ60rB6URNUlDFZMVmpqT%C3%816Hs%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-04-10"
+    },
+    {
+      "person": "Rich Merkouris",
+      "name_variants": [
+        "Rich Merkouris",
+        "Richard Merkouris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large B",
+      "role": "council_member",
+      "start_date": "2022-05-17",
+      "end_date": "2026-07-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AV9B8aL0QKzNoiUGhLkrz2qW5A6A35xC%C3%81HR%C3%89dn6hAC8ZjN6YMjygoPP4UOvI7pu8SYvflYEs0cIL%C3%81cy%C3%89c7JFO0M%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Rich Merkouris",
+      "name_variants": [
+        "Rich Merkouris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large B",
+      "role": "council_member",
+      "start_date": "2026-07-17",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.siouxfallslive.com/news/sioux-falls/merkouris-wins-re-election-as-three-council-races-advance-to-runoffs",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": "2026-06-02"
+    },
+    {
+      "person": "Theresa Stehly",
+      "name_variants": [
+        "Theresa Stehly"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large",
+      "role": "council_member",
+      "start_date": "2016-05-17",
+      "end_date": "2020-07-14",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/ARxfjBIJ%C3%89My3Nng03qh6YfNn%C3%81%C3%812nu1hVg0IgVtEk1J8bQ1LvGP1Ik3zTuUXdV4YfB5im116fcpfOnRDzQDBSEQ8%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2016-04-12"
+    },
+    {
+      "person": "Alex Jensen",
+      "name_variants": [
+        "Alex Jensen"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large",
+      "role": "council_member",
+      "start_date": "2020-07-14",
+      "end_date": "2024-05-18",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AYQrUAvb%C3%81my9eNwUqgMvKFcbNNlabip5kaF%C3%81Rjqlij%C3%89V8u%C3%81qqQyy31SvaQON4OkfgVoCyXGXPTSNqyA6F3DYl70%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Richard L. Thomason",
+      "name_variants": [
+        "Richard L. Thomason",
+        "Richard Thomason"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At Large",
+      "role": "council_member",
+      "start_date": "2024-05-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/ATaMq1PC5D7YDbRZn63R4jv0yuopydWRVW8AYPUkY0HliH0%C3%81wE3yAx8pNywcaaP2jSuPk%C3%89u00S%C3%894l7tQuqQUk%C3%89E%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2024-04-30"
+    },
+    {
+      "person": "Greg Neitzert",
+      "name_variants": [
+        "Greg Neitzert"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Northwest District",
+      "role": "council_member",
+      "start_date": "2016-05-17",
+      "end_date": "2020-07-14",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/Afw9Wj3P%C3%89v6KNdeHd8bRIMb7y1fa4%C3%81Cet16sFielssDyVGyM1s%C3%89yzRTPSk5W3ZbExHmr66pf%C3%81b5P1HaYUut1EJs%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2016-04-12"
+    },
+    {
+      "person": "Greg Neitzert",
+      "name_variants": [
+        "Greg Neitzert"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Northwest District",
+      "role": "council_member",
+      "start_date": "2020-07-14",
+      "end_date": "2024-05-18",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AWpKb2NBzL8LP8MtlynnQ6ljaq6HPqiPiUXhoHYoRxv3bWppAoT3SfwoBomT8Ht%C3%89imTXkKfrqNA5a6f0oQCllOk%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Jennifer Sigette",
+      "name_variants": [
+        "Jennifer Sigette"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Northwest District",
+      "role": "council_member",
+      "start_date": "2024-05-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AdYvkBMbBtBqgI1xcsv2pMCbtGhD3eA8tUTXSrvIzGBDQ5ko9TbkAjHPt%C3%81vvW4Nu0%C3%81ezyMCPBJ7CGJgw6AHkivA%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2024-04-09"
+    },
+    {
+      "person": "Pat Starr",
+      "name_variants": [
+        "Pat Starr",
+        "Patrick Starr"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Northeast District",
+      "role": "council_member",
+      "start_date": "2016-05-17",
+      "end_date": "2020-07-14",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AfyUJW%C3%89kf%C3%89GTGIfMp0BuhizOsoMhheb2YvMQp6Y3B4qNxiSID4blRTI1Yvjqb5nbnDomQDQo%C3%812ZTvQiRLXTUa0Q%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2016-04-12"
+    },
+    {
+      "person": "Pat Starr",
+      "name_variants": [
+        "Pat Starr"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Northeast District",
+      "role": "council_member",
+      "start_date": "2020-07-14",
+      "end_date": "2024-05-18",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AZ8lqJOc%C3%81AVLrFew7Vao1aCHKlJJkI%C3%89AzW8ptPALhwJ8MLvl9k7%C3%815yxnRC%C3%81jWVc7DPisgMpRgizd%C3%81KL2K1QcObM%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Miranda Basye",
+      "name_variants": [
+        "Miranda Basye"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Northeast District",
+      "role": "council_member",
+      "start_date": "2024-05-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AZtBqNIv2AEgO4t8cEwXr2p1ZFoFMAvJh%C3%81v2p1%C3%81h5tx3eskvl1HfUoprRfOyRO6CqlbvUPAMiOfif%C3%89PPfeY8eMU%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2024-04-09"
+    },
+    {
+      "person": "Marshall Selberg",
+      "name_variants": [
+        "Marshall Selberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Southwest District",
+      "role": "council_member",
+      "start_date": "2016-05-17",
+      "end_date": "2020-07-14",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/Af8ItPkjamMLLedmCMHqjHSDu9Bo7Gd630oYa1SeWS0iRsiDr1g4ytqa1TIaR64E9bP3LZeyVptzqrpsX0QSSyI%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2016-04-12"
+    },
+    {
+      "person": "Marshall Selberg",
+      "name_variants": [
+        "Marshall Selberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Southwest District",
+      "role": "council_member",
+      "start_date": "2020-07-14",
+      "end_date": "2024-05-18",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AdJijvrrjq%C3%898L7H7yq1VpJRotpc0PV3nb6XH9sF%C3%81yu%C3%81QKSoT38XugaLVtwa2vqj7XuPRjt4oRXKTfNsCJ4j5aK4%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2020-06-02"
+    },
+    {
+      "person": "Ryan Spellerberg",
+      "name_variants": [
+        "Ryan Spellerberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Southwest District",
+      "role": "council_member",
+      "start_date": "2024-05-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AU87pK6FBRB8P1YKQqpKfhFi%C3%81%C3%813p4xZVA9w4blDSWEMlUPrXSDEJDY5dnFpvwz0EH3nPjF5YOmBfNQABkcPve%C3%89Y%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2024-04-09"
+    },
+    {
+      "person": "Curt Soehl",
+      "name_variants": [
+        "Curt Soehl"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Central District",
+      "role": "council_member",
+      "start_date": "2018-05-15",
+      "end_date": "2022-05-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/ATonJ1SLpDHpp6uJ3Vyg6veH8p3NbU9ClZdaIIaZSkHQlz4Ew11LNnRPnoV%C3%81fLsH6xaqKsM41IHsYqU4fCino5U%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-05-01"
+    },
+    {
+      "person": "Curt Soehl",
+      "name_variants": [
+        "Curt Soehl"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Central District",
+      "role": "council_member",
+      "start_date": "2022-05-17",
+      "end_date": "2026-07-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AV9B8aL0QKzNoiUGhLkrz2qW5A6A35xC%C3%81HR%C3%89dn6hAC8ZjN6YMjygoPP4UOvI7pu8SYvflYEs0cIL%C3%81cy%C3%89c7JFO0M%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Zak Okuwe",
+      "name_variants": [
+        "Zak Okuwe"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Central District",
+      "role": "council_member",
+      "start_date": "2026-07-17",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AVxOGW5tQzLJJXFqKCudLOWlDdAk%C3%81tRHOuCczH6LdpCYLfndatU16J0laHuhGAmLpb8POO2tTzwmK9LXNQqa8H8%3D/",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": "2026-06-23"
+    },
+    {
+      "person": "Rick Kiley",
+      "name_variants": [
+        "Rick Kiley",
+        "Richard Kiley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Southeast District",
+      "role": "council_member",
+      "start_date": "2018-05-15",
+      "end_date": "2022-05-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AR0fQUDm2REA5c70I4lesKekaAwzPSjytTOVlL2lJzlBPkj74KNqA9fwwv13nMDQGUoEuncg2%C3%89G4v8YeZY199Lo%3D/",
+      "retrieval_method": "public_notice",
+      "confidence": "medium",
+      "election_date": "2018-04-10"
+    },
+    {
+      "person": "David Barranco",
+      "name_variants": [
+        "David Barranco"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Southeast District",
+      "role": "council_member",
+      "start_date": "2022-05-17",
+      "end_date": "2026-07-17",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AV9B8aL0QKzNoiUGhLkrz2qW5A6A35xC%C3%81HR%C3%89dn6hAC8ZjN6YMjygoPP4UOvI7pu8SYvflYEs0cIL%C3%81cy%C3%89c7JFO0M%3D/",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Sara Pankonin",
+      "name_variants": [
+        "Sara Pankonin"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Southeast District",
+      "role": "council_member",
+      "start_date": "2026-07-17",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/api/Document/AVxOGW5tQzLJJXFqKCudLOWlDdAk%C3%81tRHOuCczH6LdpCYLfndatU16J0laHuhGAmLpb8POO2tTzwmK9LXNQqa8H8%3D/",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": "2026-06-23"
+    },
+    {
+      "person": "Marshall Selberg",
+      "name_variants": [
+        "Marshall Selberg"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chair",
+      "role": "vice_mayor",
+      "start_date": "2019-05-21",
+      "end_date": "2020-07-14",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/docs/searchq/",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Curt Soehl",
+      "name_variants": [
+        "Curt Soehl"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chair",
+      "role": "vice_mayor",
+      "start_date": "2022-05-17",
+      "end_date": "2023-05-16",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/docs/searchq/",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Rich Merkouris",
+      "name_variants": [
+        "Rich Merkouris"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council Chair",
+      "role": "vice_mayor",
+      "start_date": "2024-05-21",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://amv.siouxfalls.gov/publicaccess/docs/searchq/",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2021,
+      "seat_label": "Council Chair",
+      "reason": "scanned_pdf",
+      "attempted": "OnBase minutes full-text search (query 111) for '\"VICE CHAIR\"', '\"COUNCIL CHAIR\"' and 'N6{vice, chair}' over 2021-04-15 to 2021-08-31 returned 0 hits; the same sweep returned hits for every other panel year. Minutes PDFs themselves are image-only scans (pdftotext yields <10 bytes), so only OnBase's own OCR index is searchable and its returned Summary snippets are ~150 chars and truncate before the name. www.siouxfalls.gov returns HTTP 403 (Akamai) to curl and WebFetch alike, so the council's own leadership page could not be read.",
+      "notes": "The chair elected in May 2021 could not be named, and no other holder is sourced anywhere in 2021, so this is a true uncovered seat-year. Adjacent partial-year unknowns are NOT filed as gaps because those seat-years are partly sourced and the tenure confidence already carries it: 2019-01-01 to 2019-05-21 (chair of the 2018-19 term), 2020-07-14 to 2021-05 (chair elected after the delayed 2020 seating), 2022-01-01 to 2022-05-17 (chair of the 2021-22 term) and 2023-05-16 to 2024-05-21 (chair of the 2023-24 term, whose vice chair was Rich Merkouris) are all unnamed."
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "Read agent-brief.md and the South Dakota registry entry. Registry is correct that no centralized SD municipal results exist and that cities run their own April elections; no state or county portal was attempted. The 'legislativeaudit.sd.gov/reports/City/{City} City {Year}.pdf' route was NOT needed and was not spent on - Sioux Falls' own OnBase archive proved far richer. The registry's warning that SD is 'the hardest state measured' does not hold for Sioux Falls."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 14,
+      "searches": 0,
+      "detail": "UNLOCKED THE ONBASE PUBLIC ACCESS (OBPA) API. www.siouxfalls.gov is behind Akamai and returns HTTP 403 to curl AND WebFetch for every path including /robots.txt, but amv.siouxfalls.gov is wide open. Route: GET /publicaccess/docs/searchq/obpa-config.json gives api.url='../../api'. Then GET /publicaccess/api/DocumentType and /publicaccess/api/CustomQuery enumerate doc types and saved queries. POST /publicaccess/api/Keywords with {\"QueryID\":\"<id>\"} returns each query's keyword fields AND their full value datasets. POST /publicaccess/api/CustomQuery/KeywordSearch with {\"QueryID\",\"Keywords\":[{\"ID\",\"Name\",\"Value\",\"KeywordOperator\":0}],\"FromDate\",\"ToDate\",\"QueryLimit\":0} returns document lists. POST /publicaccess/api/DocumentType/FullTextSearch with {\"SearchText\",\"FromDate\",\"ToDate\",\"QueryID\":\"111\"} full-text searches minutes 1877-present. GET /publicaccess/api/Document/{urlencoded-docID}/ returns the PDF. Key saved queries: 113 = Election Returns (1942-present), 119 = Elected Official Records (oaths, certificates of election, financial-interest statements), 111 = Minutes full text, 105 = Minutes keyword."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Two four-year cycles. Mayoral cycle 2018/2022/2026 = Mayor + Southeast (Ward-2) + Central (Ward-5) + At Large A + At Large B. Off cycle 2016/2020/2024 = Northwest (Ward-3) + Northeast (Ward-4) + Southwest + the third unlettered At Large seat. Ward-to-district mapping read off ballot contest names: 'Central District Council Member Sioux Falls Ward-5' (2018), 'Northwest District City Council Member Sioux Falls Ward-3' (2020), 'Northeast District Council Member Sioux Falls Ward-4' (2024). Ward-2 = Southeast, established by elimination plus the 2026 runoff pairing of Ward-2 and Ward-5 with the two mayoral-cycle districts."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "Fetched and locally extracted (pdftotext -layout) certified summary reports for 2016-04-12, 2018-04-10, 2018-05-01 runoff, 2020-06-02, 2020-06-24 recount, 2022-04-12, 2024-04-09, 2024-04-30 runoff, 2026-06-23 runoff. All verbatim, no summarizer in the trust path. Two separate 2020-06-02 summary PDFs exist in the index; both are Minnehaha County and carry the same three contests."
+    },
+    {
+      "step": "escalation",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "UNOPPOSED SEATS CONFIRMED AS THE ABSENCE MECHANISM, exactly as the cross-state finding predicts. 2018 has no Southeast District contest on the ballot (Rick Kiley); 2020 has no Southwest or Northeast contest (Selberg, Starr); 2024 has no Northwest or Southwest contest (Sigette, Spellerberg). All were nonetheless issued Certificates of Election - 2018-04-17, 2020-06-11 - and took Oaths of Office, which OnBase query 119 indexes by name and date. The oath dates are the authoritative seating dates used throughout this file: 2016-05-17, 2018-05-15, 2020-07-14 (delayed - the 2020 election itself moved from April to June for COVID-19), 2022-05-17, 2024-05-18, 2025-12-19."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 2,
+      "detail": "MANDATORY CHECK RUN, AND IT HAS AN UNUSUALLY STRONG NEGATIVE CONTROL. OnBase query 119's 'CC - Elected Official Name' keyword exposes its complete value dataset: exactly 22 names, which reduce to the 21 distinct people in this file (Christine Erickson appears twice, as 'Christine Erickson' and 'Christine M. Erickson'). No unaccounted-for officeholder exists in the city's own index, so the single mid-term change below is the only one since 2016. Found: Sarah Cole (At Large A, elected 2022) announced her resignation 2025-10-17 and left 2025-12-03 after taking a job out of state; council adopted a procedure resolution 2025-11-12 ('RESOLUTION ESTABLISHING THE PROCEDURE FOR THE APPOINTMENT TO FILL THE VACANCY OF AT LARGE CITY COUNCIL MEMBER A IN 2025' - the OCR renders the seat letter as 'K'); Vernon Brown, a councilor 2004-2012, was appointed 2025-12-09 ('TO FILL THE UNEXPIRED TERM FOR THE AT LARGE A COUNCIL MEMBER VACANCY A MOTION WAS MADE BY COUNCIL MEMBER BASYE') and took the oath 2025-12-19."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 4,
+      "detail": "The 2026 cycle is not fully in OnBase. The 2026-06-23 runoff summary report is indexed and was fetched; the 2026-06-02 regular summary report is NOT in the index under any Election Type or Report Type value. Rich Merkouris' outright At Large B win (60%, above the 50% runoff threshold) therefore rests on Sioux Falls Live and The Dakota Scout, not on a canvass. The mayoral runoff was decided by 2 votes (Erickson 18,280 / Smith 18,278) on an UNOFFICIAL report; a recount 2026-07-09 affirmed Erickson with a 4-vote margin and she was sworn in 2026-07-17 as the city's first woman mayor. 2026-07-17 is therefore used as the seating date for the whole 2026 class; only the mayor's date is directly sourced, so the four council rows carry medium confidence."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 1,
+      "detail": "Seat count holds at 8 across the whole panel - no redistricting or seat change 2019-2026. Day-of-week checks: 2024-05-17 (inauguration special meeting) is a Friday and 2026-07-17 is a Friday, consistent with each other; 2026-06-02 and 2026-06-23 are Tuesdays. Continuity: nobody appears, vanishes and reappears except Vernon Brown, whose 2004-2012 service is outside the panel and is a genuine second, separate tenure. No surname collisions. Cross-check of the 2020 At Large race: the election-night report gave Jensen 13,640 to Stehly 13,531 and the 2020-06-24 recount confirmed Jensen 13,791 to Stehly 13,694 - the winner did not change."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "blocked",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "COUNCIL CHAIR IS THE ONE PARTIAL FAILURE. Sioux Falls minutes in OnBase are image-only scans - pdftotext returns under 10 bytes on a 3 MB file - so only OnBase's server-side OCR index is searchable, and the Summary snippets it returns are ~150 characters and repeatedly truncate immediately before the officeholder's name. Sourced: Marshall Selberg chair as of 2020-04-17; Curt Soehl chair and Alex Jensen vice chair for the term ending 2023-05-16; Rich Merkouris vice chair 2023-24 then chair from 2024-05-21; Merkouris chair with Jennifer Sigette vice chair 2025 and re-elected July 2026. Not sourced: the chairs elected in May 2021, May 2022 (pre-Soehl) and May 2023. www.siouxfalls.gov, which carries the council leadership page, is 403 to both curl and WebFetch."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Wrote raw/57.json. ACFR route (Step C second spine) was NOT attempted: the city's finance pages sit on www.siouxfalls.gov, which is uniformly 403, and the OnBase archive had already delivered certified returns plus dated oaths for every council seat-year, so the marginal value was near zero. It remains the obvious route to the missing council-chair years if this city is revisited."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Coverage audit: 10 seats x 8 years = 80 seat-years, all covered. 79 sit in tenures, 1 (Council Chair 2021) in gaps. Two draft gap rows for Council Chair 2020 and 2023 were withdrawn because those seat-years are partly sourced - filing them would have made the panel emit contradictory rows for a sourced cell; the unknown segments are recorded in the 2021 gap's notes and in the rung-6 log entry instead."
+    }
+  ],
+  "totals": {
+    "tool_calls": 52,
+    "searches": 8
+  }
+}

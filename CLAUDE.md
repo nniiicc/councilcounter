@@ -44,8 +44,14 @@ several state JS portals) that each cost significant time to rule out.
 
 The workbook's `Archive Census` sheet is the one to load: one row per city with a **working**
 archive URL, platform, blocker type, and earliest year confirmed. 40 of the given URLs were stale
-or wrong and were corrected (see the `URL Corrections` sheet); 8 cities have no working archive at
-all.
+or wrong and were corrected (see the `URL Corrections` sheet).
+
+**Treat the census's negative findings as unproven.** It lists 8 cities as having no working archive
+(Franklin Twp NJ, Hartford SD, Howell Twp NJ, New Brunswick NJ, Odessa TX, **Poquoson VA**, Ripon CA,
+Shenandoah TX) — but Poquoson's host returned **HTTP 200 to plain curl with a browser UA on the first
+try**, with robots disallowing only `/admin`, `/Search`, `/Map`, `/CurrentEvents` and `/RSS.aspx`.
+Several other cities marked "robots-blocked" have likewise proved reachable. A census entry records
+what one fetcher saw once; re-test before accepting it. The remaining 7 fall in batches still to run.
 
 ## Setup
 

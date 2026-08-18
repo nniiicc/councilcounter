@@ -1,0 +1,524 @@
+{
+  "city_id": 27,
+  "city": "Hartford",
+  "state": "SD",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 7,
+    "seat_scheme": "ward",
+    "term_length": 2,
+    "stagger_pattern": "Annual April election; 6 council seats on staggered 2-year terms (two per ward), roughly 3 seats up each year, plus the mayor at-large on a 2-year term. Seats with a single qualified candidate are seated without a ballot; if no petition is filed the seat becomes vacant and is filled by council appointment until the next April election (this happened to 4 seats + the mayoralty in 2021, when the election was cancelled outright). A Council President and Vice-President are elected by the council from among its members each May for 1-year terms.",
+    "mayor_selection": "elected",
+    "election_month": "April",
+    "profile_source_url": "https://web.archive.org/web/20201016163042id_/https://www.hartfordsd.us/cityofficials"
+  },
+  "cycles": [
+    {
+      "election_date": "2019-04-09",
+      "seats_up": 3,
+      "status": "unrecoverable",
+      "source_url": null
+    },
+    {
+      "election_date": "2020-06-23",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://web.archive.org/web/20201019083306id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/07.07.2020_City_Council_Packet(1).pdf"
+    },
+    {
+      "election_date": "2021-04-13",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://web.archive.org/web/20220319195025id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/05.18.2021_City_Council_Packet(1).pdf"
+    },
+    {
+      "election_date": "2022-04-12",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": "https://web.archive.org/web/20220615020354id_/https://www.hartfordsd.us/cityofficials"
+    },
+    {
+      "election_date": "2023-04-11",
+      "seats_up": 2,
+      "status": "flagged",
+      "source_url": "https://web.archive.org/web/20231110010136id_/https://www.hartfordsd.us/city-officials"
+    },
+    {
+      "election_date": "2024-04-09",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf"
+    },
+    {
+      "election_date": "2025-04-08",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": "https://web.archive.org/web/20250522183944id_/https://www.hartfordsd.us/city-officials"
+    },
+    {
+      "election_date": "2026-04-14",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": "https://web.archive.org/web/20260420212517id_/https://www.hartfordsd.us/city-officials"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Jeremy Menning",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2022-05-03",
+      "entry_mode": "unknown",
+      "exit_mode": "unknown",
+      "source_url": "https://web.archive.org/web/20220319195025id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/05.18.2021_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Arden Jones",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-05-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Travis Kuehl",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat A",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": null,
+      "entry_mode": "unknown",
+      "exit_mode": "ongoing",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mark Brenneman",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2024-05-07",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20201018120626id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/08.04.2020_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Ryan Horn",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2024-05-07",
+      "end_date": "2025-11-30",
+      "entry_mode": "elected",
+      "exit_mode": "unknown",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2024-04-09"
+    },
+    {
+      "person": "Keith Carlson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 1 Seat B",
+      "role": "council_member",
+      "start_date": "2025-11-30",
+      "end_date": null,
+      "entry_mode": "unknown",
+      "exit_mode": "ongoing",
+      "source_url": "https://web.archive.org/web/20260607113728id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/01.06.2026_City__Council_Packet.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mark Monahan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-05-03",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20220319195025id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/05.18.2021_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Chris Woslager",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2022-05-03",
+      "end_date": "2024-05-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20220615020354id_/https://www.hartfordsd.us/cityofficials",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Lisa Berens",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2024-05-07",
+      "end_date": "2025-05-06",
+      "entry_mode": "elected",
+      "exit_mode": "unknown",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2024-04-09"
+    },
+    {
+      "person": "Darrell Horacek",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat A",
+      "role": "council_member",
+      "start_date": "2025-08-15",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://web.archive.org/web/20260607113728id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/01.06.2026_City__Council_Packet.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Jessica Johnson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-08-06",
+      "entry_mode": "unknown",
+      "exit_mode": "resigned",
+      "source_url": "https://web.archive.org/web/20201018012941id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/07.02.2019_City_Council_Packet.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Brittany Glanzer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2019-08-20",
+      "end_date": "2020-07-21",
+      "entry_mode": "appointed",
+      "exit_mode": "unknown",
+      "source_url": "https://web.archive.org/web/20201018063357id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/09.03.2019_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mark O'Hara",
+      "name_variants": [
+        "Mark O’Hara"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2020-07-21",
+      "end_date": "2023-05-02",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20220319195025id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/05.18.2021_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Shaun Boen",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 2 Seat B",
+      "role": "council_member",
+      "start_date": "2023-05-02",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2023-04-11"
+    },
+    {
+      "person": "Scott Nelson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-07-07",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20201018012941id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/07.02.2019_City_Council_Packet.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "LaVonne Randall",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2020-07-07",
+      "end_date": "2022-05-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://web.archive.org/web/20201019083306id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/07.07.2020_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-06-23"
+    },
+    {
+      "person": "Cindy Matson",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat A",
+      "role": "council_member",
+      "start_date": "2022-05-03",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2022-04-12"
+    },
+    {
+      "person": "Arden Jones",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-05-03",
+      "entry_mode": "unknown",
+      "exit_mode": "elevated",
+      "source_url": "https://web.archive.org/web/20220319195025id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/05.18.2021_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jake Jass",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2022-07-19",
+      "end_date": "2025-05-06",
+      "entry_mode": "appointed",
+      "exit_mode": "unknown",
+      "source_url": "https://legislativeaudit.sd.gov/reports/City/Hartford%20City%202024.pdf",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Michelle Schilling",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Ward 3 Seat B",
+      "role": "council_member",
+      "start_date": "2025-05-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://web.archive.org/web/20260607113728id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/01.06.2026_City__Council_Packet.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2025-04-08"
+    },
+    {
+      "person": "Arden Jones",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2020-05-05",
+      "end_date": "2022-05-03",
+      "entry_mode": "elected",
+      "exit_mode": "elevated",
+      "source_url": "https://web.archive.org/web/20220319195025id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/05.18.2021_City_Council_Packet(1).pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Travis Kuehl",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-04-15",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://web.archive.org/web/20250522191326id_/https://www.hartfordsd.us/vertical/sites/%7B0786574D-ED03-4822-A2DF-5DE2E3C986DE%7D/uploads/04.15.2025_City_Council_Packet.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2019,
+      "seat_label": "Council President",
+      "reason": "no_archive",
+      "attempted": "Council President/Vice-President are elected annually at the first May meeting (established from the 05.04.2021 agenda and 05.18.2021 minutes). No Hartford council packet earlier than 07.02.2019 exists in the Wayback CDX index for hartfordsd.us, so the May 2019 reorganization is not retrievable; the city domain itself is robots-disallowed and the SD legislative audit series holds only a 2024 report for Hartford.",
+      "notes": "Arden Jones is the first documented holder (July 2020)."
+    },
+    {
+      "year": 2023,
+      "seat_label": "Council President",
+      "reason": "no_archive",
+      "attempted": "The May 2023 reorganization would appear in the 05.02.2023 or 05.16.2023 packet. Both are in Wayback but the archived captures are TRUNCATED at exactly 5,242,880 bytes; pdftotext and pypdf (strict=False) both fail with 'Invalid object in /Pages'. qpdf/mutool/gs unavailable locally. Officials pages do not name the council president.",
+      "notes": "Travis Kuehl is the plausible holder but no dated record was found; not asserted."
+    },
+    {
+      "year": 2024,
+      "seat_label": "Council President",
+      "reason": "no_archive",
+      "attempted": "Same as 2023: 05.07.2024 and 05.21.2024 packets archived but truncated at exactly 1,048,576 bytes, unreadable/unrepairable. The Dec-2024 state audit report names only mayor, governing board and finance officer, not the presiding officer.",
+      "notes": ""
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "ROBOTS FINDING — https://hartfordsd.us/robots.txt returns HTTP 200 with a REAL, parseable robots.txt. Googlebot, bingbot, ia_archiver, archive.org_bot, CCBot and W3C-checklink are each disallowed only /admin/ and /manager/ (plus /*month* and /*GUESTBOOK* for the two search engines). The final group is 'User-agent: *  Disallow: /'. So for a generic client the ENTIRE domain is disallowed, and the census entry is CORRECT — unlike Clarity Elections, this is a genuine prohibition, not a failed check. hartfordsd.us was therefore never fetched directly in this run. CRUCIAL COROLLARY: the file explicitly PERMITS archive.org_bot and ia_archiver on everything outside /admin/ and /manager/, so the Wayback Machine's copy of Hartford is collected with the city's own consent and is the compliant route in."
+    },
+    {
+      "step": "registry",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "South Dakota registry entry re-verified as accurate in outline: no centralized municipal results at SoS or Minnehaha County; the city runs its own April election. legislativeaudit.sd.gov has NO robots.txt (404) and serves reports to plain curl."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "SD legislative audit: 'Hartford City 2024.pdf' is the ONLY Hartford report on the server. 2018-2023 and 2025 all 404, as do 11 filename variants (spaceless 'HartfordCityYYYY-YYYY', 'ICR', hyphenated year ranges) modelled on other cities' real filenames scraped from /reports/reports.aspx. Registry warning confirmed: the index lists only the most recent report per city. The 2024 report's 'City Officials / December 31, 2024' page is a clean high-confidence anchor: Mayor Arden Jones; board Travis Kuehl, Jake Jass, Ryan Horn, Shaun Boen, Lisa Berens, Cindy Matson."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 14,
+      "searches": 0,
+      "detail": "THE UNLOCK — Wayback via plain curl. 'KNOWN DEAD' in the brief says web.archive.org is proxy-blocked (403) and /cdx 404s. FALSE from this machine: http://web.archive.org/cdx/search/cdx?url=hartfordsd.us&matchType=domain returned HTTP 200 and 8,000 rows, including 1,529 archived PDFs and the complete 2019-2026 council-packet series. (archive.org/wayback/available did 429, so that one endpoint is genuinely rate-limited.) Snapshots fetched with the /web/{ts}id_/ raw modifier and extracted locally with pdftotext -layout, so no summarizer sat in the trust path."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Mayor at-large + 6 aldermen, two per ward across three wards (officials page, all snapshots). TERMS ARE TWO YEARS, sourced verbatim: 07.07.2020 packet — 'Incumbent Mark Brenneman (Ward 1) will be renewing his oath of office for another 2 year term'; 05.18.2021 minutes — 'Jeremy Menning - 2yr term Mayor'. Annual election, 2nd Tuesday of April; new officers take the oath at the FIRST MEETING IN MAY, which is why every seat boundary in this file is dated to a first-Tuesday-of-May. 2020 was moved to June 23 by COVID (07.07.2020 minutes: 'The municipal election for Ward 3 was held on...'), pushing that year's oaths to July."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "2020 cycle sourced verbatim from the 07.07.2020 packet: 'Canvass Election Results for 2020 Ward 3 Municipal Election ... LaVonne Randall received 74 votes and Gail Olson-Duck received 40 votes', and 'Oath of Office - LaVonne Randall, Ward 3'. Ward 1 drew no opponent — 08.04.2020 packet: 'Mark Brenneman, who ran unopposed for Ward 1, took his oath of office'. This confirms the brief's UNOPPOSED rule for SD: a sole qualified candidate is seated without appearing in any canvass."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "2021 IS A STRUCTURAL ZERO, not a gap: the April 2021 election was CANCELLED. 04.20.2021 packet shows a budget line 'ELECTION CANCELLATION 14.90'; 05.04.2021 agenda states 'the city technically has 4 vacant council seats since no petitions were received during our last election. SDCL states that the council needs to fill the vacant seats with an appointment until the next city election in 2022 ... Travis Kuehl's seat (ward 1), Mark Monahan's seat (ward 2), Mark O'Hara's seat (ward 2) and Arden Jones's seat (ward 3).' 05.18.2021 packet carries the 05.04.2021 minutes with all four appointments carried and the oaths: Kuehl 1yr W1, O'Hara 1yr W2, Monahan 1yr W2, Jones 1yr W3, Jeremy Menning 2yr Mayor."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "SIX mid-term changes found. (1) 2019: Jessica Johnson (W2) left and 'Brittany Glanzer took the oath of office for the Ward 2 council position' — 09.03.2019 packet; Johnson was present 06/18/2019, Glanzer seated by the August 2019 meeting. (2) 2020: Glanzer out, Mark O'Hara in, seated between the 07.07.2020 meeting (his name absent from that agenda's oath item) and the roll call in the 08.04.2020 packet; mechanism not sourced. (3) 2022: Arden Jones vacated Ward 3 Seat B on ELEVATION to mayor — Menning had taken a 2-year mayoral term in May 2021 that should have run to 2023, so Jones's 2022 mayoral win was for an UNEXPIRED TERM, exactly the structural tell the brief describes. (4) 2022: Jake Jass APPOINTED to the resulting Ward 3 Seat B vacancy — officials page of 2022-06-19 shows Ward 3 with Matson alone, 2022-08-03 shows Matson and Jass. (5) 2025: Lisa Berens left Ward 2 Seat A mid-term (present at the 04.15.2025 meeting roll call, absent from the 2025-05-22 officials page, which shows Ward 2 with Boen alone) and Darrell Horacek filled it by 2025-09-05. (6) 2025: Ryan Horn left Ward 1 Seat B mid-term (still listed 2025-09-05, replaced by Keith Carlson on the 2025-12-15 page)."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "blocked",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "WAYBACK TRUNCATION — a new failure mode worth registering. Every 2022, 2023, 2024 and 06.2026 council packet is present in the CDX index with HTTP 200 but the stored payload is cut at an exact power of two (1,048,576 or 5,242,880 bytes). pdftotext fails outright and pypdf 6.14.2 with strict=False dies on 'Invalid object in /Pages' after 'incorrect startxref pointer'; qpdf, mutool and ghostscript are not installed locally. Affected: 04.19.2022, 05.03.2022, 06.06.2022, 06.21.2022, 05.02.2023, 05.16.2023, 05.07.2024, 05.21.2024, 05.05.2026. That is why the 2022-2024 canvasses and the 2023/2024 council-president elections are not sourced. A 1MB/5MB payload from Wayback should be treated as TRUNCATED, not as the file."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "Fallback for 2022-2026 boundaries: 22 distinct content versions of the city-officials page (collapse=digest over /cityofficials and /city-officials) bracket every roster change to a dated interval. The 2019-2021 and 2025-2026 packets that ARE intact (07.02.2019, 09.03.2019, 07.07.2020, 08.04.2020, 09.15.2020, 04.20.2021, 05.18.2021, 04.15.2025, 01.06.2026) supply verbatim roll calls. 2019 roster established from the 07.02.2019 packet ('members present: Mark Monahan, Travis Kuehl, Jessica Johnson and Scott Nelson. Mayor Jeremy Menning and Mark Brenneman were absent with notice') plus the 09.03.2019 packet, which adds Arden Jones and Glanzer."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Cross-checks: the Dec-31-2024 state audit roster is identical to the 2025-02-11 officials page (Kuehl, Jass, Horn, Boen, Berens, Matson + Mayor Jones) — two independent hosts agreeing. 04.15.2025 roll call and 01.06.2026 roll call each corroborate the adjacent officials pages. CAVEATS, filed here rather than as gaps because the seat-years are sourced: (a) every May seating date is the structural first-Tuesday-in-May, not a date read off a document, for 2022, 2023, 2024 and 2025 — the identities are firm, the day is soft; (b) Ward 2 Seat A was VACANT from roughly 2025-05-06 to 2025-08-15 and Ward 3 Seat B from 2022-05-03 to 2022-07-19, both dated by bracketing officials pages, but each of those seat-years also carries sourced holders, so recording them as gaps would emit contradictory panel rows; (c) Jessica Johnson's ward is inferred from Glanzer replacing her in 'the Ward 2 council position'; (d) Horacek's and Carlson's entry dates are interval midpoints. Seat A/B labels within each ward are this project's construction for seat continuity — Hartford itself labels both seats simply 'Ward N'. Day-of-week check: 2020-06-23, 2021-04-13, 2022-04-12, 2023-04-11, 2024-04-09, 2025-04-08 and 2026-04-14 are all Tuesdays, as SDCL requires."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "budget_cap",
+      "tool_calls": 2,
+      "searches": 4,
+      "detail": "Stopped near the 60-call cap. Left unexplored: the Minnehaha Messenger, named as Hartford's official newspaper in the 05.18.2021 minutes ('Mayor Menning appointed the Official Newspaper as the Minnehaha Messenger') — the statutory-proceedings route the SD registry recommends, and the obvious next move for the 2022-2024 canvasses; also sdpublicnotices.com and the per-member officials bio pages, which carry term-expiry dates (a search snippet showed Arden Jones's term expiring May 2027, consistent with 2-year mayoral terms and a 2025 re-election)."
+    }
+  ],
+  "totals": {
+    "tool_calls": 50,
+    "searches": 4
+  }
+}

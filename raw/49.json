@@ -1,0 +1,630 @@
+{
+  "city_id": 49,
+  "city": "Portsmouth",
+  "state": "VA",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 7,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Independent city. Council of 7 = directly elected Mayor + 6 council members, ALL elected at large citywide, 4-year terms running Jan 1 - Dec 31. Three council seats are elected at each November even-year general (2016, 2018, 2020, 2022, 2024, 2026); the Mayor is a separate ballot line elected every 4 years (2016, 2020, 2024). No wards, no numbered posts, no districts at any point 2019-2026; council size constant at 7 across the whole window. The Vice Mayor is an INTERNAL office chosen by the council from among its members at the organizational meeting in January following each council election, i.e. a 2-year presiding-officer term (Jan 2019, Jan 2021, Jan 2023, Jan 2025).",
+    "mayor_selection": "elected",
+    "election_month": "November (even years)",
+    "profile_source_url": "https://law.lis.virginia.gov/charters/portsmouth/"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/contest/81066"
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/elections/view/134266/"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/elections/view/144756"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/PORTSMOUTH_CITY/Member_City_Council_(PORTSMOUTH_CITY).html"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161547_table.csv?split_party=false"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "John L. Rowe, Jr.",
+      "name_variants": [
+        "John Louis Rowe, Jr",
+        "John Rowe"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2017-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://historical.elections.virginia.gov/contest/81065",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Shannon E. Glover",
+      "name_variants": [
+        "Shannon Elish Glover",
+        "Shannon Glover"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/144756_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Shannon E. Glover",
+      "name_variants": [
+        "Shannon Elish Glover",
+        "Shannon Glover"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161546_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Lisa L. Lucas-Burke",
+      "name_variants": [
+        "Lisa Louise Lucas-Burke",
+        "Lisa Lucas-Burke"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.wavy.com/news/local-news/portsmouth/lucas-burke-selected-as-portsmouths-vice-mayor/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "De'Andre A. Barnes",
+      "name_variants": [
+        "Deandre Antonia Barnes",
+        "De'Andre Barnes",
+        "DeAndre Barnes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://portsmouthva.gov/AgendaCenter/ViewFile/Agenda/_04132021-698",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Lisa L. Lucas-Burke",
+      "name_variants": [
+        "Lisa Louise Lucas-Burke",
+        "Lisa Lucas-Burke"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2023-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://content.civicplus.com/api/assets/va-portsmouth/f87cd3cc-1fb9-4da1-b1cf-24c56d3fe6fc",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "William E. Moody, Jr.",
+      "name_variants": [
+        "William Bill E. Moody, Jr",
+        "William E. \"Bill\" Moody, Jr.",
+        "Bill Moody"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2025-01-02",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.yahoo.com/news/longtime-portsmouth-councilman-bill-moody-143400523.html",
+      "retrieval_method": "newspaper",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Lisa L. Lucas-Burke",
+      "name_variants": [
+        "Lisa Louise Lucas-Burke",
+        "Lisa Lucas-Burke"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A",
+      "role": "council_member",
+      "start_date": "2017-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/81066_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Lisa L. Lucas-Burke",
+      "name_variants": [
+        "Lisa Louise Lucas-Burke",
+        "Lisa Lucas-Burke"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/144757_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Yolanda E. Thomas",
+      "name_variants": [
+        "Yolanda C. \"Edmonds\" Thomas",
+        "Yolanda Chatel Thomas",
+        "Yolanda Edmonds-Thomas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161547_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Elizabeth M. Psimas",
+      "name_variants": [
+        "Elizabeth Morse Psimas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B",
+      "role": "council_member",
+      "start_date": "2017-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/81066_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Mark M. Whitaker",
+      "name_variants": [
+        "Mark Micaiah Whitaker",
+        "Dr. Mark M. Whitaker"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/144757_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Kathryn W. Bryant",
+      "name_variants": [
+        "Kathryn W. \"Kitty\" Bryant",
+        "Kitty Bryant"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161547_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Nathan J. Clark",
+      "name_variants": [
+        "Nathan Joseph Clark"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large C",
+      "role": "council_member",
+      "start_date": "2017-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/81066_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "De'Andre A. Barnes",
+      "name_variants": [
+        "Deandre Antonia Barnes",
+        "De'Andre Barnes",
+        "DeAndre Barnes"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large C",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/144757_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "William S. Dodson, Jr.",
+      "name_variants": [
+        "William Smith \"Bill\" Dodson, Jr.",
+        "Bill Dodson Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large C",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/161547_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Shannon E. Glover",
+      "name_variants": [
+        "Shannon Elish Glover",
+        "Shannon Glover"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large D",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "elevated",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/134266_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Christopher L. Woodard, Jr.",
+      "name_variants": [
+        "Christopher Lynn Woodard, Jr",
+        "Christopher L. Woodard Jr.",
+        "Chris Woodard"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large D",
+      "role": "council_member",
+      "start_date": "2021-01-04",
+      "end_date": "2022-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "defeated",
+      "source_url": "https://www.wavy.com/news/local-news/portsmouth/woodard-appointed-to-fill-glovers-portsmouth-council-seat/",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Mark A. Hugel",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large D",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/PORTSMOUTH_CITY/Member_City_Council_(PORTSMOUTH_CITY).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Paul J. Battle",
+      "name_variants": [
+        "Paul Jerome Battle"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large E",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/134266_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Vernon L. Tillage, Jr.",
+      "name_variants": [
+        "Vernon Lamont Tillage, Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large E",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/PORTSMOUTH_CITY/Member_City_Council_(PORTSMOUTH_CITY).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "William E. Moody, Jr.",
+      "name_variants": [
+        "William Bill E. Moody, Jr",
+        "William E. \"Bill\" Moody, Jr.",
+        "Bill Moody"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large F",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://va2.elstats.civera.com/api/download_contest/134266_table.csv?split_party=false",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "William E. Moody, Jr.",
+      "name_variants": [
+        "William Bill E. Moody, Jr",
+        "William E. \"Bill\" Moody, Jr.",
+        "Bill Moody"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large F",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/PORTSMOUTH_CITY/Member_City_Council_(PORTSMOUTH_CITY).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry Virginia entry re-verified. CONFIRMED CORRECT: results.elections.virginia.gov carries ONLY '2022 November General'; Portsmouth is an independent city and is top-level at .../Site/Locality/PORTSMOUTH_CITY/Index.html. That index links exactly three contests - Member City Council, Member House of Representatives (03), Member School Board - and NO Mayor contest, which independently confirms the mayor is on a separate 4-year cycle (2016/2020/2024)."
+    },
+    {
+      "step": "registry",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "REGISTRY ENTRY NOW DEAD: VPAP. www.vpap.org is behind an AWS WAF JavaScript challenge as of 2026-08-17. Plain curl with browser UA/Accept/Referer/--compressed returns HTTP 202 with a 2,425-byte AwsWafIntegration shell ('In order to continue, we need to verify that you're not a robot'); WebFetch returns HTTP 403. Tried 20181106, 20201103, 20241105 - all identical. This is NOT the 'inconsistent empty rendering' the registry describes; VPAP is now uniformly unusable to any non-JS fetcher. Do not budget for it."
+    },
+    {
+      "step": "registry",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 3,
+      "detail": "REGISTRY ENTRY WRONG - historical.elections.virginia.gov IS usable, contrary to 'deep links all 404 - non-scriptable'. It is now a Next.js app at two working URL forms, /elections/view/{id} and /contest/{id}, and although the page body is client-rendered, the HTML source contains a DIRECT CSV DOWNLOAD LINK to a separate host: https://va2.elstats.civera.com/api/download_contest/{id}_table.csv?split_party=false . That CSV is plain text, needs no JS, and gives locality total plus per-precinct counts for every candidate with full legal names. Contest ids are chronological and locality contests are ADJACENT, so once one id is known the neighbours can be swept: 81065=2016 Mayor, 81066=2016 Council, 134266=2018 Council, 144756=2020 Mayor, 144757=2020 Council. This is now the best Virginia source and it routes around both the orphaned 2022 snapshot and dead VPAP."
+    },
+    {
+      "step": "registry",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "The civera CSV API fails for the ENTIRE 2024 election: 168252 (2024 Council) and every neighbour id 168249-168254 return HTTP 500 {'errors':[{'message':'this contest does not have a division assigned'}]}. /contest/168252 itself 404s. Suffix variants _locality.csv/_precinct.csv/.csv all 404. So 2024 has no official machine-readable source in any Virginia portal - the 2024 cycle is flagged and sourced from news plus city agendas."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 1,
+      "detail": "Calendar established from the charter (law.lis.virginia.gov/charters/portsmouth/) plus five confirmed contests. Portsmouth votes in NOVEMBER of EVEN years and has done so throughout the panel window - it did NOT vote in May, so the SB1157 May->November town shift and the COVID May-2020 postponement flagged for Norfolk DO NOT APPLY here. (The charter text still carries legacy 'first Tuesday in May' language from the 1976 mayoral provision; the actual contest record - 2016-11-08, 2018-11-06, 2020-11-03, 2022-11-08, 2024-11-05 - governs.) Terms run Jan 1 - Dec 31. 3 council seats per cycle; mayor every 4 years. NOTE: the 2026-11-03 cycle falls inside the panel span but had not occurred as of the research date (2026-08-17) and seats nobody before 2027-01-01, so it is deliberately NOT recorded as a cycle row - recording it would manufacture a spurious flagged cycle."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 2,
+      "detail": "VERBATIM locality totals, all from primary sources. 2016 Council (81066): Lucas-Burke 21,355 / Psimas 18,116 / Clark 14,098 elected (next: Battle 12,769). 2016 Mayor (81065): John Louis Rowe, Jr 49.8% def. Kenneth Irvin Wright 30.0% - the CSV for 81065 returned empty so the percentages are from the contest page summary, a weaker read than the other four. 2018 Council (134266): Glover 18,060 / Battle 14,779 / Moody 13,769 elected (next: Revell 11,867). 2020 Mayor (144756): Glover 15,265 def. Meeks 12,385 / Battle 8,823. 2020 Council (144757): Barnes 17,484 / Lucas-Burke 17,086 / Whitaker 13,815 elected (next: Shewmake 13,580). 2022 Council (state portal HTML table): Hugel 13,370 / Tillage 12,510 / Moody 11,179 elected (next: Woodard 6,414 - a sitting appointed incumbent finishing 6th)."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 2,
+      "detail": "2024 cycle (flagged, no official portal). Council winners Yolanda C. Thomas (15.9%), Kathryn W. Bryant (12.1%), William Smith Dodson, Jr (11.7%), defeating incumbents De'Andre A. Barnes (11.7%) and Mark M. Whitaker (10.9%) from a field of 11. Dodson beat Barnes by 33 votes after a December 2024 recount in Portsmouth Circuit Court. Glover won re-election as mayor. Corroborated independently by the Jan 2025 Virginian-Pilot vice-mayor story and by three 2025 city council agenda cover letters naming the seated body."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 4,
+      "detail": "ONE mid-term change found and dated, in a window of extreme political turbulence. Shannon Glover vacated his At-Large council seat on 2020-12-31 on being elected mayor (exit_mode 'elevated', not 'resigned'). Council voted 4-2 on MONDAY 2021-01-04 - day-of-week checked, 2021-01-04 was a Monday - to appoint Christopher L. Woodard, Jr. from a field of 30 applicants (3 finalists interviewed); Glover and Lisa Lucas-Burke voted no. Woodard was sworn in and served the unexpired term to 2022-12-31, then finished 6th of 11 in the regular Nov 2022 election. Structural tell that would have caught this without the news: Glover appears as a 2018 council winner AND a 2020 mayoral winner."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 2,
+      "detail": "TURBULENCE THAT PRODUCED NO ROSTER CHANGE - checked explicitly and ruled out, because it is exactly the kind of noise that invites a false vacancy row. (a) The council fired City Manager Angel Jones 4-3 in May 2022 (Barnes, Whitaker, Battle, Woodard in favour); Jones filed a wrongful-termination suit. (b) A citizen group filed an official recall effort against Barnes and Whitaker in June 2022; per Ballotpedia's recall page it never reached a recall election and BOTH men served to 2024-12-31, leaving only by regular defeat on 2024-11-05. (c) Mayor Glover sought criminal charges against Barnes and Whitaker; the chief magistrate declined to file. (d) Lucas-Burke was charged in Aug 2020 in the Confederate-monument case (charges later dropped) and did not leave office. NONE of these changed the composition of the body - the seven-member roster is continuous apart from the single Glover/Woodard handover."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "not_found",
+      "tool_calls": 1,
+      "searches": 2,
+      "detail": "No vacancy, resignation, death or appointment found for 2019, 2020, 2025 or 2026. The 2019 roster is positively corroborated by the 2019-11-12 council agenda, which names all seven - Battle, Clark, Glover, Lucas-Burke, Moody, Psimas, Rowe (2019-11-12 was a Tuesday, checked). The 2025-2026 roster is corroborated by three separate 2025 agenda cover letters (June 4, Aug 20, Nov 19) naming Glover, Moody, Hugel, Tillage, Bryant, Dodson, Thomas. Searches for 2026 Portsmouth Virginia vacancies returned only Portsmouth, ENGLAND results."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "blocked",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "CENSUS ARCHIVE NOTES CONFIRMED AND EXTENDED - Portsmouth's document estate is worse than recorded. (1) The city has migrated to a new CivicPlus SPA: /AgendaCenter/ViewFile/Agenda/_MMDDYYYY-NNN, /ArchiveCenter/ViewFile/Item/{id}, /DocumentCenter/View/{id} and /Search/Results?searchPhrase= ALL return HTTP 200 with an identical ~327KB React shell and content-type text/html - never a PDF - even for URLs that a search engine has clearly indexed with their real PDF text. Per the brief this is a BLOCK, not an absence. Tested on 2018, 2021 and 2025 agenda ids and on the FY2022 ACFR (ArchiveCenter item 4070); WebFetch on the same ACFR URL reports 404. (2) The replacement asset host DOES serve real PDFs to plain curl: https://content.civicplus.com/api/assets/va-portsmouth/{uuid} returned the 2023-06-07 council agenda as a genuine 5-page application/pdf, clean under pdftotext -layout. But the uuids are non-enumerable and surface only through a search engine, so it is a one-document-at-a-time route, not an archive. (3) www2.portsmouthva.gov: the SSL error is indeed only a transport problem and curl -k fetches through it - but what is behind it is a Laserfiche WebLink 9 SIGN-IN WALL (repositories Portsmouth-City-Clerk and Portsmouth-City-Attorney) requiring a username and password. With a cookie jar it renders the login form, not a browse tree. The pre-2023 minutes are behind authentication, not behind a certificate. (4) wm.portsmouthva.gov is a Waste Management microsite that serves the same single page for every path - it is not a legacy mirror. (5) data.portsmouthva.gov/registrar/ (old ASP.NET registrar site, incl. pastvotinglinks.aspx) returns HTTP 500 Runtime Error on every path."
+    },
+    {
+      "step": "escalation",
+      "rung": 7,
+      "outcome": "blocked",
+      "tool_calls": 4,
+      "searches": 1,
+      "detail": "ACFR route attempted and effectively closed. Portsmouth DOES publish a true ACFR with a principal-officials page - a search index preserves the FY2022 text verbatim: 'Shannon E. Glover (Mayor), De'Andre A. Barnes (Vice Mayor), Paul J. Battle, Lisa L. Lucas-Burke, William E. Moody, Jr., Dr. Mark M. Whitaker, Christopher Woodard, Jr.' as of June 30, 2022, with City Manager Tonya Chapman and City Clerk Debra Y. White. That single snapshot corroborates the 2021-2022 roster exactly, including the Woodard appointment and the Barnes vice-mayoralty. But the PDFs themselves are unreachable: the only located URL is ArchiveCenter item 4070, which serves the SPA shell to curl and 404s to WebFetch, and the /1030/Annual-Comprehensive-Financial-Report and /267/Finance pages are client-rendered with no scrapeable hrefs. No off-domain mirror was found; the Virginia APA route was not reached inside the call cap. A future run with a browser-capable tool should take the ACFR series first - it would upgrade the vice-mayor rows from medium to high across the whole panel."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "News fetchability, Hampton Roads. wavy.com returns HTTP 403 to BOTH plain curl with a browser UA AND WebFetch (a 'Javascript disabled' interstitial) - the two WAVY stories carrying the Woodard appointment vote and the 2019 Lucas-Burke vice-mayor selection are therefore cited from their search-indexed text only, which is why those two rows are medium rather than high. yahoo.com syndication of Virginian-Pilot copy fetches cleanly by curl and carried the full Jan 2025 vice-mayor story verbatim - the brief's 'syndication mirrors fetch where the origin blocks' rule held. ballotpedia.org fetches fine by curl (recall page, full text), confirming the registry's re-test note. portsmouthcitywatch.org does not resolve over https and returns a canned error page over http."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "MAYOR-SELECTION QUESTION SETTLED: DIRECTLY ELECTED, not council-selected. The registry's 'medium-confidence' rating can be upgraded to high. Three independent proofs: (1) the charter (law.lis.virginia.gov/charters/portsmouth/) provides that the governing body 'shall consist of a Mayor and six Council members to be elected by and from the city at large' and that 'The Mayor shall be elected in nineteen hundred seventy-six and every four years thereafter'; (2) a standalone 'Mayor - Portsmouth City' ballot contest exists in the state election database in 2016 (81065), 2020 (144756) and 2024, separate from the council contest; (3) the city's own bio page for Glover states he 'was elected Mayor of the City of Portsmouth on November 2, 2020, with a term of office from January 1, 2021 to December 31, 2024'. The VICE MAYOR, by contrast, IS internally chosen by the council - confirmed by the Jan 2025 unanimous vote selecting Moody 'for the next two years' - so the two offices must not be conflated."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "SEAT-LABEL CONVENTION. Portsmouth elects all six council members at large with no wards, posts or numbered positions, so 'seats' are an analytic construct. Labels A-C carry the 2016/2020/2024 cohort and D-F the 2018/2022/2026 cohort. Within a cohort the deterministic rule is: a re-elected incumbent keeps his or her existing label, and the remaining winners are assigned by descending vote share. Continuity cases: Lucas-Burke keeps At-Large A across 2016 and 2020; Moody keeps At-Large F across 2018 and 2022. Labels are stable across all eight panel years; do not read them as ballot positions."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "CAVEATS - deliberately recorded here rather than as gaps, per the brief. (a) At-Large D was lawfully VACANT from 2021-01-01 to 2021-01-04, a four-day gap between Glover's elevation and Woodard's appointment. The seat-year 2021 is fully sourced by Woodard's tenure, so filing a gap row would emit a contradictory second panel row for a cell that is not missing. (b) The two Lucas-Burke vice-mayor rows have soft START dates: 2019-01-01 and 2023-01-01 are the charter organizational-meeting dates, and while the July 2018 agenda proves Psimas held the office through 2018 and the June 2023 agenda proves Lucas-Burke held it in 2023, no dated document naming the exact selection meeting was retrieved. Both rows are therefore medium. The Barnes row (2021) has the same soft start, evidenced by an April 2021 agenda header and the FY2022 ACFR. The Moody row is hard-dated 2025-01-02. (c) All 2019 and 2020 tenures derive their END dates from the fixed Dec 31 charter term boundary, not from a document."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "HOMONYM TRAP - severe for this city and it contaminated roughly a third of all search results. 'Portsmouth City Council' is the 42-member council of Portsmouth, HAMPSHIRE, ENGLAND, and English Wikipedia's '2018/2019/2021/2022/2023/2024/2026 Portsmouth City Council election' articles are ALL about England - only '2026 Portsmouth, Virginia City Council election' (with the comma) is this city. Every English hit names real councillors (Gerald Vernon-Jackson, Brian Madgwick) on real dates, so it fails silently rather than obviously. Always add 'Virginia' or a Hampton Roads outlet name to the query. Separately: an early search summary asserted that a 'Council Member Paige Cherry' was elected City Treasurer and thereby created a council vacancy. This is FALSE and was rejected - Paige D. Cherry won the Portsmouth City Treasurer race in Nov 2021 with 97.5% and appears in no council contest in any panel year. No such vacancy exists. Recorded because it is precisely the fabricated-appointee failure mode the brief warns about."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "56 seat-years (7 seats x 8 years 2019-2026) written; 56 sourced, 0 in gaps, 0 known-vacant at year granularity. 23 tenure rows, of which 0 are low-confidence."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "2024 CYCLE RECOVERED AND UPGRADED flagged -> sourced. The earlier 'this contest does not have a division assigned' 500s came from sweeping the WRONG id block: 168249-168254 are not Portsmouth's 2024 contests. The correct block is 161546 (Mayor), 161547 (City Council), 161548 (School Board), found by sweeping 161535-161560 outward from a seed id. Contest ids are contiguous PER ELECTION but the 2024 block is not adjacent to the 2022 one, so sweep from a known-good same-election seed rather than from the previous cycle. VERBATIM certified canvass, 2024-11-05: Mayor - Shannon E. Glover 19,849 def. Lisa L. Lucas-Burke 16,341 and Harold S. Carothers III 3,629 (write-ins 178, total 39,997). Council (vote for 3) - Yolanda C. \"Edmonds\" Thomas 15,962 / Kathryn W. \"Kitty\" Bryant 12,119 / William Smith \"Bill\" Dodson, Jr. 11,739 elected; De'Andre A. Barnes 11,718 fourth, Mark M. Whitaker 10,941 fifth, of 11 candidates (total 100,166). All 2024 rows are now high confidence on a state primary source rather than news."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "THREE VALIDATION POINTS FROM THE 2024 CANVASS. (1) It explains Lucas-Burke's disappearance from the council ballot without inventing a resignation: she did not seek re-election to council because she ran for MAYOR against Glover and lost. Her council seat therefore ends at the ordinary term boundary 2024-12-31, exit_mode term_end, not resigned. (2) MINOR UNRESOLVED DISCREPANCY, winner unaffected: this canvass puts Dodson 21 votes ahead of Barnes (11,739 v 11,718), while the Virginian-Pilot reports Dodson prevailing by 33 after the December 2024 Portsmouth Circuit Court recount. One of the two figures is pre- and the other post-recount; both seat Dodson, so no roster consequence. Recorded rather than smoothed over. (3) 'Winning is not holding' checked for every 2024 winner: Thomas, Bryant and Dodson are each independently shown SEATED by three 2025 council agenda cover letters (June 4, Aug 20, Nov 19, 2025), and Glover by the same documents plus his city bio - so no ballot winner is credited a tenure on the strength of the ballot alone."
+    }
+  ],
+  "totals": {
+    "tool_calls": 50,
+    "searches": 15
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "city_id": 58,
+  "city": "Tazewell",
+  "state": "VA",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 7,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "Six council seats at large in two cohorts of three on 4-year terms: cohort A elected Nov 2018/2022/2026, cohort B elected Nov 2016/2020/2024. The MAYOR is elected separately to a TWO-year term at every November even-year election (2018, 2020, 2022, 2024, 2026). All terms commence January 1. NO May->November transition applies: the charter was amended in 2014 to the November even-year calendar, so SB 1157 (2021) had no effect on this town and there is no extended or held-over term anywhere in the panel.",
+    "mayor_selection": "elected",
+    "election_month": "November (even years)",
+    "profile_source_url": "https://law.lis.virginia.gov/charters/tazewell/"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 3,
+      "status": "flagged",
+      "source_url": null
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/contest/134209"
+    },
+    {
+      "election_date": "2019-11-05",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/contest/135696"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/contest/144705"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/TAZEWELL_COUNTY/Member_Town_Council_-_Tazewell_(TAZEWELL).html"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://historical.elections.virginia.gov/contest/161673"
+    },
+    {
+      "election_date": "2025-11-04",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.townoftazewell.org/council/minutes/minutes-2025-11-18.pdf"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Michael F. Hoops",
+      "name_variants": [
+        "Michael Hoops",
+        "Michael F. Hoops",
+        "Michael Foster Hoops"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/134206",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Michael F. Hoops",
+      "name_variants": [
+        "Michael Hoops",
+        "Michael F. Hoops",
+        "Michael Foster Hoops"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/144704",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Michael F. Hoops",
+      "name_variants": [
+        "Michael Hoops",
+        "Michael F. Hoops",
+        "Michael Foster Hoops"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/TAZEWELL_COUNTY/Mayor_-_Tazewell_(TAZEWELL).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Michael F. Hoops",
+      "name_variants": [
+        "Michael Hoops",
+        "Michael F. Hoops",
+        "Michael Foster Hoops"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-01-01",
+      "end_date": "2025-10-07",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://historical.elections.virginia.gov/contest/161672",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Joe R. Beasley",
+      "name_variants": [
+        "Joseph Russell Beasley",
+        "Joe Beasley",
+        "Joe R. Beasley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-12-09",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.townoftazewell.org/council/minutes/minutes-2025-12-09.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Terry Mullins",
+      "name_variants": [
+        "Terry W. Mullins",
+        "Dr. Terry Mullins",
+        "Terry Mullins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.townoftazewell.org/docs/budgets/2019-2020-budget.pdf",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Glenn L. Catron",
+      "name_variants": [
+        "Dr. Glenn Catron",
+        "Glenn Catron",
+        "Glenn L. Catron"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2023-01-10",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.townoftazewell.org/wp-content/uploads/2023/03/Council-Meeting-Minutes-Jan-10-2023.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Joe R. Beasley",
+      "name_variants": [
+        "Joseph Russell Beasley",
+        "Joe Beasley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2025-01-14",
+      "end_date": "2025-12-08",
+      "entry_mode": "appointed",
+      "exit_mode": "elevated",
+      "source_url": "https://www.townoftazewell.org/council/minutes/minutes-2025-01-14.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jonathan E. Hankins",
+      "name_variants": [
+        "Jonathan Hankins",
+        "Jonathan E. Hankins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Vice Mayor",
+      "role": "vice_mayor",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.townoftazewell.org/council/minutes/minutes-2026-01-05.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Terry Mullins",
+      "name_variants": [
+        "Terry W. Mullins",
+        "Dr. Terry Mullins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A1",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/134209",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Jonathan E. Hankins",
+      "name_variants": [
+        "Jonathan Hankins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A1",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/TAZEWELL_COUNTY/Member_Town_Council_-_Tazewell_(TAZEWELL).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Chris R. Brown",
+      "name_variants": [
+        "Dr. Chris Brown",
+        "Chris Brown",
+        "Christopher Robert Brown"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/134209",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Zachary T. Cline",
+      "name_variants": [
+        "Zach T. Cline",
+        "Zach Cline",
+        "Zachary T. Cline"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A2",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/TAZEWELL_COUNTY/Member_Town_Council_-_Tazewell_(TAZEWELL).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Emily Combs Davis",
+      "name_variants": [
+        "Emily C. Davis",
+        "Emily Davis",
+        "Emily Combs Davis",
+        "Emily Reeves Combs Davis"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A3",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/134209",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Emily Combs Davis",
+      "name_variants": [
+        "Emily C. Davis",
+        "Emily Davis",
+        "Emily Reeves Combs Davis"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A3",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": "2025-06-30",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://results.elections.virginia.gov/vaelections/2022%20November%20General/Site/Locality/TAZEWELL_COUNTY/Member_Town_Council_-_Tazewell_(TAZEWELL).html",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Glen A. Keen, Jr.",
+      "name_variants": [
+        "Glen Keen",
+        "Glen A. Keen, Jr.",
+        "Glen Keen, Jr."
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large A3",
+      "role": "council_member",
+      "start_date": "2025-11-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.townoftazewell.org/council/minutes/minutes-2025-11-18.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "Glenn L. Catron",
+      "name_variants": [
+        "Dr. Glenn Catron",
+        "Glenn Catron"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B1",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.townoftazewell.org/docs/budgets/2019-2020-budget.pdf",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Glenn L. Catron",
+      "name_variants": [
+        "Dr. Glenn Catron",
+        "Glenn Catron"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B1",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/144705",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Danny C. Willis",
+      "name_variants": [
+        "Danny Willis"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B1",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://historical.elections.virginia.gov/contest/161673",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "David H. Fox",
+      "name_variants": [
+        "David Harman Fox",
+        "David Fox"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B2",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.townoftazewell.org/docs/budgets/2019-2020-budget.pdf",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "David H. Fox",
+      "name_variants": [
+        "David Harman Fox",
+        "David Fox"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B2",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/144705",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "David H. Fox",
+      "name_variants": [
+        "David Harman Fox",
+        "David Fox"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B2",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://historical.elections.virginia.gov/contest/161673",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Nancy G. Brooks",
+      "name_variants": [
+        "Nancy Greever Brooks",
+        "Nancy Brooks",
+        "Nancy G. Brooks"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B3",
+      "role": "council_member",
+      "start_date": "2018-12-18",
+      "end_date": "2020-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/135696",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Joe R. Beasley",
+      "name_variants": [
+        "Joseph Russell Beasley",
+        "Joe Beasley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B3",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://historical.elections.virginia.gov/contest/144705",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Joe R. Beasley",
+      "name_variants": [
+        "Joseph Russell Beasley",
+        "Joe Beasley"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B3",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-08",
+      "entry_mode": "elected",
+      "exit_mode": "elevated",
+      "source_url": "https://historical.elections.virginia.gov/contest/161673",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Elisabeth D. Takach",
+      "name_variants": [
+        "Elizabeth Takach",
+        "Elisabeth Takach",
+        "Elisabeth D. Takach"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large B3",
+      "role": "council_member",
+      "start_date": "2026-01-13",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.townoftazewell.org/council/minutes/minutes-2026-01-13.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "blocked",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "REGISTRY CORRECTIONS. (a) The briefed May->November SB1157 transition DOES NOT APPLY to Tazewell town: its charter was amended in 2014 (Acts 2014 cc.245,682) to hold municipal elections 'on the Tuesday after the first Monday in November of each even-numbered year', terms commencing January 1. Tazewell was already on the November calendar for the whole panel window; there is no May cycle, no held-over/extended term, and no COVID-postponed May 2020 election. https://law.lis.virginia.gov/charters/tazewell/ (b) VPAP IS DEAD, not merely inconsistent: WebFetch returns HTTP 403 and curl with a browser UA returns an HTTP 202 Akamai challenge shell (2,425 bytes) on every path tried, including the correct county slug /electionresults/20201103/local/tazewell-county-va/. The registry's claim that VPAP recovered Tazewell's 2020 cycle no longer holds. (c) results.elections.virginia.gov 2022-only and the towns-nested-under-county rule are CONFIRMED correct - TAZEWELL_COUNTY/Index.html carries 'Mayor - Tazewell' and 'Member Town Council - Tazewell x3'."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 1,
+      "detail": "NEW STATEWIDE VIRGINIA SOURCE - historical.elections.virginia.gov IS NOT DEAD. The registry says 'every constructed locality/contest path 404s'. /elections/view/{id} does 404, but /contest/{id} returns HTTP 200 with real content, and each contest page carries a machine-readable precinct-level canvass CSV at https://va2.elstats.civera.com/api/download_contest/{id}_table.csv?split_party=false (plain curl, no UA tricks). This yielded official canvasses for 2019-11-05 (135696), 2020-11-03 (144705) and 2024-11-05 (161673). Contest ids are NOT clustered by locality (a 42-id sweep around the known council ids found no Tazewell mayor contest), but they are discoverable from /candidate/{id} pages, whose __NEXT_DATA__ JSON lists every opponent with the contest id and date. This route should be tried for every Virginia city in the batch."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Charter 3-1/3-2/3-5: mayor + six councilmen at large; at each November even-year election three councilmen are elected to 4-year terms and the MAYOR to a TWO-year term; terms commence January 1. Vice-mayor is chosen by council from its own number at the regular January meeting following a municipal election, for two years, and succeeds to the mayoralty on a vacancy. Cohort A (3 seats) 2018/2022/2026; cohort B (3 seats) 2016/2020/2024; mayor every even year. The 2-year mayoral term is independently confirmed by the 2025-12-09 minutes recording Beasley sworn 'with his term beginning immediately and concluding on December 31, 2026'."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "2022-11-08 from the state portal: Mayor Michael F. Hoops 959 (82.53%) v write-ins 203; Council x3 - Jonathan E. Hankins 931, Emily Combs Davis 694, Zach T. Cline 681 elected over Justin A. Takach 376 and Zach T. Hash 233. 2020-11-03 canvass CSV: Fox 1357, Catron 1313, Beasley 1158, write-ins 59. 2024-11-05 canvass CSV: Willis 1220, Fox 1219, Beasley 916, de Courcy 588, write-ins 70. 2019-11-05 SPECIAL: Nancy Greever Brooks 556 def. Joseph Russell Beasley 547 - a 9-vote margin."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "BUDGET COVER PAGES ARE THE BACKBONE FOR THIS TOWN. /docs/budgets/{FY}-budget.pdf exists for FY2019/20 through FY2026/27 (8 consecutive years, plain curl, clean pdftotext -layout) and each names the mayor, the vice-mayor by title and all six councilmembers. This is an ACFR-style 'principal officials' page under a different name and it independently covers every panel year. Adopted dates are printed on the page (June of the first FY year), so each is a dated June snapshot."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "Minutes are served two ways: (a) WordPress media API wp-json/wp/v2/media?search=minutes&per_page=100 returns 147 PDFs but with a hole for 2018-2020 and nothing after 2024-03; (b) the current pattern is a clean constructible path /council/minutes/minutes-YYYY-MM-DD.pdf (also /council/agendas/agenda-YYYY-MM.pdf, /council/packets/packet-YYYY-MM.pdf), discovered from the per-meeting /documents/ pages. Roll calls name every member with title. Also high-yield: wp-json/wp/v2/posts?search=<name> over the town's meeting-recap posts, which record swearings-in, resignations and appointments in plain prose."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 1,
+      "detail": "SIX mid-term changes found. (1) 2018-12-18 Nancy Brooks appointed to the seat vacated by Jennifer Boyd's resignation - council first selected Jack Murray on 2018-12-13, who declined. (2) 2019-11-05 special election for that unexpired term: Brooks 556 def. Beasley 547. (3) 2025-06-10 Emily Combs Davis announced her resignation; the town records her service as 'January 2019 through June 2025' and the 2025-07-08 roll call no longer lists her; the seat was left VACANT rather than filled by interim appointment. (4) 2025-11-04 special election filled it - Glen A. Keen, Jr. sworn 2025-11-18. (5) Mayor Michael F. Hoops left office 2025-10-07; despite charter 3-5 providing that the vice-mayor becomes mayor, the town ran an application-and-public-hearing process (names announced 2025-11-18, hearing 2025-12-01) and appointed Vice Mayor Joe R. Beasley, sworn 2025-12-09 for a term ending 2026-12-31. Vice Mayor Beasley presided over the 2025-10-14, 2025-11-18 and 2025-12-09 meetings in the interim. (6) Beasley's council seat then fell vacant; resumes from Elisabeth Takach, Aaron Gilliespie and Renee Addair were heard 2026-01-05 and Takach was appointed and sworn 2026-01-13 'until the regular election in November 2026'. Vice-mayor succession: Mullins (through 2022-12-31) -> Catron (appointed 2023-01-10) -> Beasley (appointed 2025-01-14) -> Hankins (in office by 2026-01-05)."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 1,
+      "detail": "TWO SEARCH-SUMMARY FABRICATIONS CAUGHT. A WebSearch summary asserted that 'David H. Fox, Joe R. Beasley and Glenn L Catron won for Tazewell Member Town Council' in 2024 - Catron was not a candidate in 2024 at all; the official canvass shows Willis, Fox, Beasley over de Courcy. The same summary reported 'Michael F. Hoops won the Mayor position with 1,763 votes', which is not any Tazewell mayoral figure (2022 total 1,162; 2024 election-night total 608). Both were discarded against primary sources. Newspaper election-night figures for 2024 (Hoops 435/Weeks 173; Willis 363, Fox 354, Beasley 267) are UNOFFICIAL partial returns and are superseded by the state canvass CSV. Day-of-week checks pass: 2018-11-06, 2019-11-05, 2020-11-03, 2022-11-08, 2024-11-05 and 2025-11-04 are all Tuesdays; 2025-12-09, 2026-01-05 and 2026-01-13 match the minutes. Seat count is a constant 7 (mayor + 6 at large) across all eight years, matching charter 3-1."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "SEAT-LABEL CAVEAT - the six council seats are AT-LARGE and carry no numbers, districts or posts. Labels A1-A3 (2018/2022/2026 cohort) and B1-B3 (2016/2020/2024 cohort) are assigned here to make the panel tractable; the cohort membership is real and sourced, but the pairing of a particular successor to a particular predecessor WITHIN a cohort is arbitrary (e.g. whether Hankins 'replaced' Mullins or Brown is not a fact about the world). Do not read seat-level continuity across a cohort boundary."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "not_found",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Not recovered: the 2016-11-08 cycle (seated Catron, Fox and Jennifer Boyd for 2017-2020) and the state canvasses for the 2018-11-06 and 2025-11-04 contests and for the 2020/2024 MAYORAL contests. historical.elections.virginia.gov/elections/view/{id} 404s and there is no discoverable locality index; contest ids are not clustered, so a sweep is impractical. Blast radius is nil in practice: every affected seat-year is independently sourced - 2018 winners by the town's 2018-12-18 swearing-in record, 2020/2024 mayor by the 2020-12-08 swearing-in record, the FY2025/26 budget and the 2025-12-09 minutes, and the 2025 special by the 2025-11-18 swearing-in minutes."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "64 of 64 seat-years covered (8 tracked seats x 8 years: Mayor, Vice Mayor, A1-A3, B1-B3). Zero gap rows. Note the vice-mayor holder simultaneously holds an ordinary council seat, so 6 of the 64 are intentional double-counts of the same person."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 0,
+      "detail": "CRITICAL TOOLING NOTE - the elstats CSV endpoint 307-REDIRECTS, so `curl -s` without -L returns an HTML redirect stub and an id sweep silently finds NOTHING. A first sweep of 540 ids returned zero hits purely for this reason and was nearly recorded as 'contest ids are not clustered'. With `curl -sL` the ids ARE clustered per election and per locality, and the MAYOR contest sits immediately BELOW the town-council contest id for the same town and date (144704/144705 in 2020, 161672/161673 in 2024, 134206/134209 in 2018). Official canvasses now recovered for every cycle 2018-2024: 2018-11-06 Mayor 134206 Michael Foster Hoops 717 def. Aaron Donald Buchanan, Jr. 652; 2018-11-06 Council x3 134209 Terry W. Mullins 1010, Emily Reeves Combs Davis 886, Christopher Robert Brown 813 elected over Jack Thomas Murray, Sr. 523, write-ins 45. 2020-11-03 Mayor 144704 Michael Foster Hoops 1768 unopposed, write-ins 53. 2024-11-05 Mayor 161672 Michael F. Hoops 1369 def. Bill A. Weeks 588, write-ins 12. Only the 2025-11-04 special (Glen Keen) remains without a canvass - a sparse probe of 161700-164600 did not locate the 2025 event block, and the seat is already sourced by the 2025-11-18 swearing-in minutes."
+    }
+  ],
+  "totals": {
+    "tool_calls": 57,
+    "searches": 3
+  }
+}

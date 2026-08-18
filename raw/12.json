@@ -1,0 +1,776 @@
+{
+  "city_id": 12,
+  "city": "Canyon Lake",
+  "state": "California",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "at-large",
+    "term_length": 4,
+    "stagger_pattern": "General law city, five at-large seats, four-year staggered terms; either two or three seats up every two years. Class I (3 seats) elected 2016, 2020, 2024; Class II (2 seats) elected 2018, 2022, 2026. Seat labels below are lineage-stable at-large labels assigned by this research (the city does not number its seats).",
+    "mayor_selection": "council-selected",
+    "election_month": "November (even years, consolidated with Riverside County under SB 415)",
+    "profile_source_url": "https://www.canyonlakeca.gov/election"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf"
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2018/CC/20181212_115/114_2018-12-12_Adjourned_City_Council_Minutes.pdf"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2020/CC/20201207_176/175_2020-12-07_Regular_City_Council_Minutes.pdf"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Jordan Ehrenkranz",
+      "name_variants": [
+        "Jordan Ehrenkranz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2016-12-14",
+      "end_date": "2020-12-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Jordan Ehrenkranz",
+      "name_variants": [
+        "Jordan Ehrenkranz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2020-12-07",
+      "end_date": "2021-05-05",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2021/CC/20210505_185/184_05-05-2021_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Jennifer A. Dain",
+      "name_variants": [
+        "Jennifer Dain",
+        "Jennifer A. Dain"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2021-06-23",
+      "end_date": "2022-12-14",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2021/CC/20210623_187/186_06-23-2021_Special_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jennifer A. Dain",
+      "name_variants": [
+        "Jennifer Dain",
+        "Jennifer A. Dain"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2022-12-14",
+      "end_date": "2024-12-11",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Joshua Steeber",
+      "name_variants": [
+        "Josh Steeber",
+        "Joshua Steeber"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 1",
+      "role": "council_member",
+      "start_date": "2024-12-11",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Larry B. Greene",
+      "name_variants": [
+        "Larry Greene",
+        "Larry B. Greene"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2016-12-14",
+      "end_date": "2019-09-04",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2019/CC/20190904_136/135_2019-09-04_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Larry B. Greene",
+      "name_variants": [
+        "Larry Greene",
+        "Larry B. Greene"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2019-10-02",
+      "end_date": "2020-12-07",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2019/CC/20191002_140/139_2019-10-02_Special_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Larry B. Greene",
+      "name_variants": [
+        "Larry Greene",
+        "Larry B. Greene"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2020-12-07",
+      "end_date": "2022-10-12",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2022/CC/20221109_165/164_11-09-2022%20Regular.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Mark Terry",
+      "name_variants": [
+        "Mark Terry"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2022-10-12",
+      "end_date": "2024-12-11",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2022/CC/20221109_165/164_11-09-2022%20Regular.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mark Terry",
+      "name_variants": [
+        "Mark Terry"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 2",
+      "role": "council_member",
+      "start_date": "2024-12-11",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Randall Bonner",
+      "name_variants": [
+        "Randall Bonner",
+        "Randall \"Randy\" Bonner",
+        "Randy Bonner"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2016-12-14",
+      "end_date": "2020-12-07",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2020/CC/20201207_176/175_2020-12-07_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Dale Welty",
+      "name_variants": [
+        "Dale Welty"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2020-12-07",
+      "end_date": "2024-12-11",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2020/CC/20201207_176/175_2020-12-07_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Dale Welty",
+      "name_variants": [
+        "Dale Welty"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 3",
+      "role": "council_member",
+      "start_date": "2024-12-11",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo",
+        "Kasey A. Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2018-12-12",
+      "end_date": "2022-12-14",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2018/CC/20181212_115/114_2018-12-12_Adjourned_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo",
+        "Kasey A. Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 4",
+      "role": "council_member",
+      "start_date": "2022-12-14",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Jeremy A. Smith",
+      "name_variants": [
+        "Jeremy Smith",
+        "Jeremy A. Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2018-12-12",
+      "end_date": "2022-12-14",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2018/CC/20181212_115/114_2018-12-12_Adjourned_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Jeremy A. Smith",
+      "name_variants": [
+        "Jeremy Smith",
+        "Jeremy A. Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat 5",
+      "role": "council_member",
+      "start_date": "2022-12-14",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Larry B. Greene",
+      "name_variants": [
+        "Larry Greene",
+        "Larry B. Greene"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-12-12",
+      "end_date": "2019-09-04",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2018/CC/20181212_115/114_2018-12-12_Adjourned_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Jordan Ehrenkranz",
+      "name_variants": [
+        "Jordan Ehrenkranz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-09-04",
+      "end_date": "2019-12-04",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2019/CC/20190904_136/135_2019-09-04_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Jordan Ehrenkranz",
+      "name_variants": [
+        "Jordan Ehrenkranz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-12-04",
+      "end_date": "2020-12-07",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2019/CC/20191204_142/141_2019-12-04_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-12-07",
+      "end_date": "2021-12-06",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2020/CC/20201207_176/175_2020-12-07_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jeremy A. Smith",
+      "name_variants": [
+        "Jeremy Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2021-12-06",
+      "end_date": "2022-12-14",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2022/CC/20220112_146/145_01-12-2022%20Regular.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jeremy A. Smith",
+      "name_variants": [
+        "Jeremy Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-12-14",
+      "end_date": "2023-12-13",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2023/CC/20231213_73/72_12-13-23_Regular.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Dale Welty",
+      "name_variants": [
+        "Dale Welty"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-12-13",
+      "end_date": "2024-12-11",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2024/CC/20241211_57/56_12-11-2024_City_Council_Agenda.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Mark Terry",
+      "name_variants": [
+        "Mark Terry"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-12-11",
+      "end_date": "2025-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2025/CC/20250923_4/4_01-08-2025_City_Council_Agenda.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jeremy A. Smith",
+      "name_variants": [
+        "Jeremy Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-12-10",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jordan Ehrenkranz",
+      "name_variants": [
+        "Jordan Ehrenkranz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2018-12-12",
+      "end_date": "2019-09-04",
+      "entry_mode": "appointed",
+      "exit_mode": "elevated",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2018/CC/20181212_115/114_2018-12-12_Adjourned_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-09-04",
+      "end_date": "2019-12-04",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2019/CC/20190926_137/136_2019-09-26_Special_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-12-04",
+      "end_date": "2020-12-07",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2019/CC/20191204_142/141_2019-12-04_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jeremy A. Smith",
+      "name_variants": [
+        "Jeremy Smith"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2020-12-07",
+      "end_date": "2021-12-06",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2020/CC/20201207_176/175_2020-12-07_Regular_City_Council_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Larry B. Greene",
+      "name_variants": [
+        "Larry Greene"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2021-12-06",
+      "end_date": "2022-10-12",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2022/CC/20220112_146/145_01-12-2022%20Regular.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dale Welty",
+      "name_variants": [
+        "Dale Welty"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2022-12-14",
+      "end_date": "2023-12-13",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2023/CC/20231213_73/72_12-13-23_Regular.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Mark Terry",
+      "name_variants": [
+        "Mark Terry"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2023-12-13",
+      "end_date": "2024-12-11",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2024/CC/20241211_57/56_12-11-2024_City_Council_Agenda.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2024-12-11",
+      "end_date": "2025-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://public.destinyhosted.com/canyodocs/2025/CC/20250923_4/4_01-08-2025_City_Council_Agenda.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kasey A. Castillo",
+      "name_variants": [
+        "Kasey Castillo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2025-12-10",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2026/cities-towns.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [
+    {
+      "year": 2022,
+      "seat_label": "Mayor Pro Tem",
+      "reason": "vacant",
+      "attempted": "Larry Greene resigned as Councilmember and Mayor Pro Tem effective 2022-10-12 (minutes of the 10/12/2022 regular meeting, carried in the 11/09/2022 packet). The 11/09/2022 regular-meeting minutes (in the 12/14/2022 packet) show no Mayor Pro Tem on the roll call; the office stayed vacant until the annual reorganization on 2022-12-14 seated Dale Welty. Checked 11/09/2022 and 12/14/2022 minutes for an interim designation - none.",
+      "notes": "Partial-year vacancy 2022-10-12 to 2022-12-14; the 2022 Mayor Pro Tem seat-year is otherwise covered by Greene's tenure row."
+    }
+  ],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry entry for California says 'canyonlakeca.gov robots-blocked'. RETESTED AND WRONG in practice: robots.txt does carry 'User-agent: * / Disallow: /', but the host serves 200s with full HTML to plain curl with a browser UA on every path tried (/, /agendas_minutes, /city_council, /election). No blocking observed. The Riverside Democracy Live pattern (livevoterturnout.com) was never needed and was not probed."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "https://www.canyonlakeca.gov/election establishes the structure verbatim: general law city, five-member council, staggered terms, two or three seats every two years, elections consolidated with Riverside County. https://www.canyonlakeca.gov/city_council establishes that Mayor and Mayor Pro Tem are selected annually by the Council for a twelve-month term. Municipal code (codelibrary.amlegal.com/codes/canyonlakeca) was located but not needed - the city's own elections page carried the structural facts more cheaply. Seat classes derived: Class I (3 seats) 2016/2020/2024, Class II (2 seats) 2018/2022/2026."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 2,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "The Elections page links a single consolidated PDF, 'Election Results 2014 through 2024' (15 MB, scanned): https://canyonlakeca.govoffice3.com/vertical/Sites/%7B914485A7-E93B-4BFA-A369-593050FBB784%7D/uploads/Election_Results_2014_through_2024.pdf . pdftotext -layout yields clean resolution text for 2024, 2022 and 2016. The 2018 and 2020 Riverside County Statement-of-Vote pages inside it are rotated scans whose candidate-name column headers OCR as garbage - those two cycles were sourced instead from the swearing-in minutes. 2024: Dale Welty 3,453 / Joshua Steeber 3,231 / Mark Terry 3,143, vote for 3. 2016: Jordan Ehrenkranz, Larry B. Greene, Randall 'Randy' Bonner elected."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 0,
+      "detail": "PORTAL UNLOCK - the census recorded the /agendas_minutes archive as GovOffice + AgendaQuick with year links that never render. The page links out to the AgendaQuick tenant at https://public.destinyhosted.com/22696/agenda/ , which serves plain HTML to curl. Listing endpoint: default.cfm?mt=ALL&month=<M>&year=<Y> returns a six-month window with DIRECT hrefs to minutes and packet PDFs under /canyodocs/<year>/CC/<YYYYMMDD>_<id>/<n>_<name>.pdf . Coverage runs 2016-2026. There is also a full-text search.cfm?searchTerm=&startDate=&endDate=&form_type=AG_MEMO|MINUTES, but its index only reaches back to ~2025 and was not useful for this window. No JavaScript needed. Zero WebSearches used for the whole city."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "2019-2021 minutes on this portal are image-only scans (pdftotext returns ~10 bytes). Extracted locally with pdftoppm -r 150-200 -gray -png piped to tesseract; output was clean enough to read roll calls and motions verbatim. 2022-2025 packets carry real text layers and needed only pdftotext -layout."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 10,
+      "searches": 0,
+      "detail": "FIVE mid-term changes found, all dated from minutes. (1) Mayor Larry Greene resigned from the Council between 2019-08-07 (still presiding as Mayor, per that meeting's minutes) and 2019-09-04, at which meeting he is called 'former Mayor Larry Greene', Mayor Pro Tem Ehrenkranz presides as Mayor, Castillo is Mayor Pro Tem, and the Council adopts Urgency Ordinance 184 and Resolution 2019-33 creating a vacancy-filling policy. Exact resignation date not established - recorded as 2019-09-04, confidence medium. (2) Larry Greene was RE-APPOINTED to the very seat he had vacated on 2019-10-02 (special meeting; motion Smith/Castillo, carried 4-0; ceremonial oath administered by Terry Gessinger) 'for the term expiring in December 2020'. Seat vacant 2019-09-04 to 2019-10-02. (3) Jordan Ehrenkranz left the Council between 2021-04-07 (present) and 2021-05-05 (roll call shows only four members). (4) Jennifer Dain appointed to that vacancy and sworn in 2021-06-23 after a multi-ballot process (Greene/Welty first moved Jeanne O'Dell, failed 2-2; Smith/Greene then moved Dain, carried 3-1, Welty nay); the item is captioned 'for the term expiring in December 2022', i.e. a Gov. Code 36512 appointment running to the next general municipal election. (5) Mayor Pro Tem Larry Greene announced his resignation at the 2022-09-14 meeting effective on appointment of a successor; Mark Terry was selected and sworn in on 2022-10-12 (four applicants interviewed - Terry, Josh Steeber, Danielle Coats, Kelly Bastman; motions for Bastman failed 2-3 and for Steeber died for want of a second; Castillo/Dain moved Terry, carried 4-1 with Greene nay) 'for the term expiring in December 2024'."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Annual reorganizations, all sourced to the motion text or to a subsequent roll call: 2018-12-12 Greene Mayor / Ehrenkranz MPT; 2019-12-04 Ehrenkranz Mayor / Castillo MPT (re-selected - both already held the posts after the September succession); 2020-12-07 Castillo Mayor / Smith MPT; 2021-12-06 Smith Mayor / Greene MPT; 2022-12-14 Smith Mayor / Welty MPT (motion text not retrieved; established from the 11/2023 roll call in the 12/13/2023 packet); 2023-12-13 Welty Mayor / Terry MPT (established from the 11/2024 roll call in the 12/11/2024 packet); 2024-12-11 Terry Mayor / Castillo MPT (motion carried 4-1, Steeber recusing); 2025-12-10 Smith Mayor / Castillo MPT (from the current city_council page; the 12/10/2025 reorganization date is inferred from the meeting calendar, not read from minutes)."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CONTAMINATION CAUGHT. An intermediate local copy of the 2019-12-04 minutes was 275 KB rather than the 8.8 MB the server reported, and OCR'd as RIPON, CALIFORNIA council minutes (Mayor Jacob Parks, Vice Mayor Daniel de Graaf, 'Ripon Municipal Code Section 2.04.020 Mayoral Selection') - another city in this same corpus. Re-fetching the identical URL returned the genuine 8.8 MB Canyon Lake document (Creator: TOSHIBA e-STUDIO7516AC), and every fact recorded here comes from that re-fetched copy. Root cause not established - either a truncated/mis-served response or local file clobbering - but it is exactly the failure the brief warns about, and it was caught only by checking the city name inside the extracted text. Verify the city name inside every document extracted from this portal."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Day-of-week checked against every claimed date: 2018-12-12, 2019-08-07, 2019-09-04, 2019-10-02, 2019-11-06, 2019-12-04, 2021-04-07, 2021-06-23, 2022-10-12, 2022-12-14, 2023-12-13, 2024-12-11, 2025-12-10 all Wednesdays as the minutes state; 2019-09-26 a Thursday as stated; 2020-12-07 and 2021-12-06 Mondays as stated; all election dates Tuesdays. Seat-count sanity: five council seats throughout, no redistricting - Canyon Lake remains at-large, so no CVRA shift like Ojai's or Yuba City's. Continuity anomaly resolved: Larry Greene appears, vanishes and reappears in 2019 - this is genuine (resignation then re-appointment to his own seat), not a missed appointment, and is documented by both the 2019-09-04 and 2019-10-02 minutes."
+    },
+    {
+      "step": "escalation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "The 2022 cycle held NO ELECTION. Resolution 2022-48 (adopted 2022-08-25, in the results PDF) appoints the qualified candidates as elected under Elections Code 10229 because there were not more candidates than offices: Kasey A. Castillo (full term), Jeremy A. Smith (full term), Jennifer A. Dain (short term). The election scheduled for 2022-11-08 was cancelled. Recorded as entry_mode 'elected' because Section 4 of the resolution states the appointees 'shall qualify and take office and serve exactly as if elected at a municipal election'. This is the California analogue of the Texas 2.053 / Alabama / Georgia unopposed-cancellation pattern already in the cross-state findings - add California to that list."
+    },
+    {
+      "step": "escalation",
+      "rung": null,
+      "outcome": "not_found",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Not needed and not attempted, because the portal route closed the city completely: Riverside Democracy Live (livevoterturnout.com/ENR/riversidecaenr/...), voteinfo.net canvass PDFs, the ACFR route, the Friday Flyer, Press-Enterprise and Valley News, the Laserfiche portal (portal.laserfiche.com id=70803 - its /Portal/api/FolderListing endpoint 404s, so it would have needed a different approach), and amlegal's code library. Recording these as untried rather than dead."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "7 seat labels (5 at-large council seats plus Mayor and Mayor Pro Tem) x 8 years = 56 seat-years, all covered by tenure rows. Seat labels 1-5 are lineage-stable inventions of this research: the city numbers no seats, so Seat 1 = Ehrenkranz/Dain/Steeber, Seat 2 = Greene/Terry, Seat 3 = Bonner/Welty, Seat 4 = Castillo, Seat 5 = Smith. The 2024 assignment is forced and unambiguous: Terry and Welty already held Seats 2 and 3, so Steeber necessarily took Seat 1 (Dain's). Two documented partial-year seat vacancies (Seat 2, 2019-09-04 to 2019-10-02; Seat 1, ~2021-05-05 to 2021-06-23) are recorded here rather than as gap rows, because those seat-years are otherwise sourced and a gap row would emit a contradictory second panel row. The Mayor Pro Tem vacancy of 2022-10-12 to 2022-12-14 is filed as a 'vacant' gap because it is a distinct sourced finding about the presiding-officer seat."
+    },
+    {
+      "step": "validation",
+      "rung": 3,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "CALIFORNIA ROSTER CROSS-CHECK - the state registry's claim that California has no statewide officials source is WRONG. The Secretary of State's California Roster names Mayor, Vice Mayor/Mayor Pro Tempore and the full council for every city, annually: https://admin.cdn.sos.ca.gov/ca-roster/2019/02j-city-town.pdf and https://admin.cdn.sos.ca.gov/ca-roster/{YYYY}/cities-towns.pdf for 2020, 2021, 2024, 2025, 2026 (all fetched 200 to plain curl with a browser UA; text-extractable with pdftotext -layout; 2022 is a known stale carry-over of 2021 and 2023 403s, so neither was used here). Every Canyon Lake entry corroborates the minutes-derived reconstruction exactly, with no contradiction: 2019 Mayor Larry Greene / MPT Jordan Ehrenkranz / Council Randy Bonner, Kasey Castillo, Jeremy Smith; 2020 Mayor Ehrenkranz / MPT Castillo / Council Bonner, Greene, Smith; 2021 Mayor Castillo / MPT Smith / Council Greene, Ehrenkranz, Welty (Ehrenkranz still listed - the Roster is an early-year snapshot and he left around 2021-05-05, consistent rather than contradictory); 2024 Mayor Welty / MPT Terry / Council Castillo, Dain, Smith; 2025 Mayor Terry / Vice Mayor Castillo / Council Smith, Steeber, Welty; 2026 Mayor Jeremy Smith / MPT Kasey Castillo / Council Joshua Steeber, Mark Terry, 'Dale Welt' (a typo for Welty). The 2026 edition upgrades the two 2026 presiding-officer rows from medium to high confidence and replaces the city website as their source. Their start_date of 2025-12-10 remains inferred from the meeting calendar (the annual reorganization falls at the December regular meeting) - the Roster gives the holder, not the date. No Granicus deployment exists for Canyon Lake; its portal is AgendaQuick on public.destinyhosted.com tenant 22696."
+    }
+  ],
+  "totals": {
+    "tool_calls": 51,
+    "searches": 0
+  }
+}

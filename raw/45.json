@@ -1,0 +1,503 @@
+{
+  "city_id": 45,
+  "city": "Ojai",
+  "state": "CA",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "MAYOR IS DIRECTLY ELECTED CITYWIDE TO A TWO-YEAR TERM every even November. Measure A (2014-11-04) made the mayoralty an elective office; the first directly elected mayor was seated December 2016. Attempts to reverse it FAILED TWICE at the polls: Measure J (2018-11-06) and Measure L (2022-11-08) both asked voters to repeal Measure A and return to a mayor selected from among five elected council members, and both were defeated. The mayoralty therefore appears as its own ballot contest in 2016, 2018, 2020, 2022 and 2024, and the mayor does NOT simultaneously hold a council district seat. Four council seats on four-year terms. Through the Nov 2018 election all four council seats were AT-LARGE: one elected 2016 (to Dec 2020), three elected 2018 (to Dec 2022). Ojai adopted by-district elections with ORDINANCE NO. 889, ADOPTED 2018-12-11 (CVRA); the FIRST BY-DISTRICT ELECTION WAS 2020-11-03 and filled District 4 only. Districts 1, 2 and 3 were first elected 2022-11-08. Resolution 22-14 (adopted 2022-03-08, effective immediately) adopted the post-2020-census map and set sequencing: Districts 1/2/3 elect Nov 2022 and every four years; District 4 elects Nov 2024 and every four years. Mayor Pro Tempore is a separate internal office elected annually by the council, seated by past practice at the first regular meeting in December (slipped to January in 2022, 2024 and 2026).",
+    "mayor_selection": "elected",
+    "election_month": "November (even years)",
+    "profile_source_url": "https://www.ojai.ca.gov/DocumentCenter/View/1048/22-14-City-of-Ojai-Adoption-of-City-Council-Elections-District-Map-Under-Elections-Code-21600-21609-PDF"
+  },
+  "cycles": [
+    {
+      "election_date": "2016-11-08",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://ojai.ca.gov/DocumentCenter/View/749/16-55-Certification-of-Results---November-8-General-Election-PDF"
+    },
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/888/18-58-Declaring-the-Persons-Elected-as-Mayor-and-City-Council-Members-PDF"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/941/20-56-Certifying-the-General-Municipal-Election-Held-on-November-3-2020-PDF"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.ojairec.com/DocumentCenter/View/1095/22-62-Resolution-Certifying-2022-Election-Results-Counsel-Edits-2969181---Signed-PDF"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/3056"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "John F. Johnston",
+      "name_variants": [
+        "John F. Johnston",
+        "Johnny Johnston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-12-11",
+      "end_date": "2020-12-15",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/888/18-58-Declaring-the-Persons-Elected-as-Mayor-and-City-Council-Members-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Elizabeth E. Stix",
+      "name_variants": [
+        "Betsy Stix",
+        "Elizabeth E. Stix"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2020-12-15",
+      "end_date": "2022-12-13",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/941/20-56-Certifying-the-General-Municipal-Election-Held-on-November-3-2020-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Elizabeth E. Stix",
+      "name_variants": [
+        "Betsy Stix",
+        "Elizabeth E. Stix"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-12-13",
+      "end_date": "2024-12-10",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojairec.com/DocumentCenter/View/1095/22-62-Resolution-Certifying-2022-Election-Results-Counsel-Edits-2969181---Signed-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Andy Gilman",
+      "name_variants": [
+        "Andy Gilman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-12-10",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/3056",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Randy Haney",
+      "name_variants": [
+        "Randy Haney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": "2022-12-13",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/888/18-58-Declaring-the-Persons-Elected-as-Mayor-and-City-Council-Members-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Ryan Blatz",
+      "name_variants": [
+        "Ryan Blatz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": "2022-12-13",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/888/18-58-Declaring-the-Persons-Elected-as-Mayor-and-City-Council-Members-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "William Weirick",
+      "name_variants": [
+        "William Weirick",
+        "Bill Weirick"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2018-12-11",
+      "end_date": "2022-12-13",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/888/18-58-Declaring-the-Persons-Elected-as-Mayor-and-City-Council-Members-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Suza Francina",
+      "name_variants": [
+        "Suza Francina"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2016-12-13",
+      "end_date": "2020-12-15",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://ojai.ca.gov/DocumentCenter/View/749/16-55-Certification-of-Results---November-8-General-Election-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2016-11-08"
+    },
+    {
+      "person": "Suza Francina",
+      "name_variants": [
+        "Suza Francina"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2020-12-15",
+      "end_date": "2024-12-10",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/941/20-56-Certifying-the-General-Municipal-Election-Held-on-November-3-2020-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Kim Sofley-Mang",
+      "name_variants": [
+        "Kim Sofley-Mang",
+        "Kim Mang"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2024-12-10",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/3056",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Leslie C. Rule",
+      "name_variants": [
+        "Leslie C. Rule",
+        "Leslie Rule"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2022-12-13",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ojairec.com/DocumentCenter/View/1095/22-62-Resolution-Certifying-2022-Election-Results-Counsel-Edits-2969181---Signed-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Rachel Lang",
+      "name_variants": [
+        "Rachel Lang"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2022-12-13",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ojairec.com/DocumentCenter/View/1095/22-62-Resolution-Certifying-2022-Election-Results-Counsel-Edits-2969181---Signed-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Andrew K. Whitman",
+      "name_variants": [
+        "Andrew K. Whitman",
+        "Andrew Whitman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2022-12-13",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ojairec.com/DocumentCenter/View/1095/22-62-Resolution-Certifying-2022-Election-Results-Counsel-Edits-2969181---Signed-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Suza Francina",
+      "name_variants": [
+        "Suza Francina"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://admin.cdn.sos.ca.gov/ca-roster/2019/02j-city-town.pdf",
+      "retrieval_method": "state_portal",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Ryan Blatz",
+      "name_variants": [
+        "Ryan Blatz"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2019-12-10",
+      "end_date": "2020-12-15",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/890/19-39-Selection-of-Mayor-Pro-Tempore-for-2020-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "William Weirick",
+      "name_variants": [
+        "William Weirick",
+        "Bill Weirick"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2020-12-15",
+      "end_date": "2022-01-11",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/944/20-59-Selection-of-Mayor-Pro-Tempore-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Randy Haney",
+      "name_variants": [
+        "Randy Haney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2022-01-11",
+      "end_date": "2022-12-13",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/1098/22-03-Mayor-Pro-Tempore-Selection-for-2022-PDF",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Suza Francina",
+      "name_variants": [
+        "Suza Francina"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2022-12-13",
+      "end_date": "2024-01-23",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/ArchiveCenter/ViewFile/Item/78",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Andrew K. Whitman",
+      "name_variants": [
+        "Andrew K. Whitman",
+        "Andrew Whitman"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2024-01-23",
+      "end_date": "2024-12-10",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/2419/24-02-Mayor-Pro-Tem-Selection-for-2024",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Rachel Lang",
+      "name_variants": [
+        "Rachel Lang"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2024-12-10",
+      "end_date": "2026-01-27",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/3057",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kim Sofley-Mang",
+      "name_variants": [
+        "Kim Sofley-Mang",
+        "Kim Mang"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tempore",
+      "role": "vice_mayor",
+      "start_date": "2026-01-27",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.ojai.ca.gov/DocumentCenter/View/3096",
+      "retrieval_method": "other",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "CA registry entry is correct that there is no statewide source and that Ventura County is a JS/folder-ID portal - the county was never touched and never needed. Registry line 'Ojai and Yuba City moved at-large to by-district in 2022. Label seats by district from 2023 on, at-large for 2019-2021' is WRONG FOR OJAI and should be corrected; see cycle_calendar. Registry line 'Ojai's mayor-selection method after Measure L (2022) is unresolved' is now RESOLVED; see validation. Census note is confirmed: legacy ojaicity.org is dead (0 bytes / HTTP 000 to curl with browser UA). ojai.ca.gov robots.txt returns 200 and Disallows /Search, /Search.aspx, /map.aspx, /admin - so the CivicPlus site-search route is off-limits here, but /DocumentCenter, /Archive.aspx and /ArchiveCenter are all permitted and served everything to plain curl."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 1,
+      "detail": "CORRECTION TO THE TASK PREMISE AND THE REGISTRY. Ojai did NOT move at-large to by-district in 2022. Resolution 22-14 states verbatim: 'WHEREAS, the City of Ojai transitioned from at-large to by-district elections in December 2018'. The enabling instrument is ORDINANCE NO. 889, ADOPTED 2018-12-11 (referenced in 22-14 as 'the prior City Council election district map adopted with Ordinance No. 889', and independently confirmed by the city's own summary of the 2018-12-11 regular meeting). What happened in 2022 was REDISTRICTING under Elections Code 21600-21609 after the 2020 census, not the CVRA transition. Consequences: the first BY-DISTRICT election was 2020-11-03, filling District 4 only (Res 20-56 is titled '...Declaring the Persons Elected as Mayor, City Council Member for DISTRICT 4, City Treasurer and City Clerk'); Districts 1, 2 and 3 were first elected 2022-11-08 (Res 22-62). So the discontinuity is SPLIT, not single: District 4 became a district seat on 2020-12-15, while the other three seats stayed at-large until 2022-12-13. Calendar: mayor every even November on a TWO-year term (2016, 2018, 2020, 2022, 2024); council seats four-year, 1 seat in 2016/2020/2024 and 3 seats in 2018/2022. No odd-year elections at all. Res 22-14 Section 3 sequencing verbatim: 'At the general municipal election in November 2022 and every four (4) years thereafter, the voters in District 1 ... District 2 ... and District 3 ... shall elect members of the City Council by-district for full four (4) year terms. At the general municipal election in November 2024 and every four (4) years thereafter the voters in District 4 ... shall elect a member of the City Council by-district for a full four (4) year term.'"
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 2,
+      "detail": "Every cycle was sourced from the city's own certification resolutions, found by scraping the full resolution index at ojai.ca.gov/292/City-Council-Resolutions (572 DocumentCenter hrefs, one curl) and grepping - zero WebSearch cost per document after that. Ids: 749 = 16-55 (2016), 888 = 18-58 (2018), 941 = 20-56 (2020), 1095 = 22-62 (2022, served from the ojairec.com tenant), 3056 = 24-40 (2024). NOTE ON TENANTS: ojai.ca.gov and ojairec.com share a DocumentCenter id space and serve each other's documents - /DocumentCenter/View/1095 resolves on both. Every extracted document was checked for the string 'City of Ojai' before use; no cross-tenant contamination was found. EXTRACTION NOTE: resolutions 24-40, 24-41, 26-02 and 20-59 are SCANNED with only a thin clerk-certification text overlay - pdftotext returns 5-8 lines and looks like a stub. They were recovered with pdftoppm -r 200 + tesseract, which produced clean full text. Do not read a short pdftotext result from this city as an empty document."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 1,
+      "detail": "NO mid-term changes found in 2019-2026 - and this is a positive finding, not an unchecked box. Council composition was verified at nine independent dated checkpoints from resolution AYES/NOES/ABSENT rolls, which name all five members: 2018-12-11 (18-58: Blatz, Francina, Haney, Johnston, Weirick), 2019-07-22 (19-30: AYES Blatz/Francina/Johnston, NOES Haney/Weirick, ABSENT none - all five), 2019-12-10 (19-39: same five), 2020-12-15 (20-56 and 20-59: same five, then Stix for Johnston), 2021-06-08 (21-37: AYES Blatz/Francina/Haney/Weirick, NOES Stix - all five), 2022-01-11 (22-03: Blatz, Francina, Haney, Stix, Weirick), 2022-09-27 (22-56: AYES Blatz/Francina/Haney/Stix, NOES Weirick), 2022-12-13 (22-62: Weirick, Blatz, Stix, Francina, Haney), 2024-12-10 (24-41: Gilman, Whitman, Rule, Lang, Mang), 2025-09-16 (25-34: AYES Gilman/Lang/Whitman/Mang, ABSENT Rule), 2026-01-27 (26-02: Whitman, Gilman, Lang, Rule, Mang). Calendar 2023 is covered by the FY2024 ACFR officials page (Stix, Francina, Lang, Rule, Whitman) matching the Dec-2022-elected body exactly. Every seat changed hands only at a December seating following a general election. Searches for resignations, vacancies and appointments returned nothing; Ojai's own vacancy rule (the district's own councilmember appoints the replacement) was never invoked in-window."
+    },
+    {
+      "step": "escalation",
+      "rung": 3,
+      "outcome": "blocked",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "Only one cell needed escalation: Mayor Pro Tempore 2019. Rung 7 (audit reports) was tried via the Archive Center - AMID=37 'Annual Audited Financial Statements', ADIDs 51-61 and 76-78. THE ACFR-VS-AUDIT DISTINCTION BITES HERE EXACTLY AS THE BRIEF PREDICTS: FY2012, FY2013, FY2014, FY2015, FY2016, FY2017, FY2018, FY2019, FY2020, FY2021, FY2022 and FY2023 are all bare financial-statement audits that open at the auditor's opinion addressed to 'City Council of the City of Ojai' and name NOBODY. Only ADID=78, the FY2023-2024 report, is a true ACFR with an introductory 'City Officials' page. So there is exactly one usable officials page in the whole series and it does not reach 2019. NOTE: an Archive.aspx AMID sweep of 1-15 returns Custom404 on every id - Ojai's AMIDs start high (37, 38); do not conclude the Archive Center is absent from a low-id sweep. Also note ADID ordering is NOT chronological (56=FY2020, 57=FY2021, 59=FY2012, 76=FY2022, 77=FY2023, 78=FY2024)."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 1,
+      "detail": "MAYOR-SELECTION QUESTION SETTLED: OJAI'S MAYOR IS DIRECTLY ELECTED, ALL EIGHT PANEL YEARS. Measure L (2022-11-08) read, verbatim from Res 22-62: 'Shall the voters amend the Ojai Municipal Code to repeal Measure A and return to five elected city council members and a mayor selected by rotation from among the five elected city council members?' It was DEFEATED - 'a majority of the voters voting on Measure L did not vote in favor of it, and that Measure L was not carried and shall not be adopted and ratified' - and Section 7 declares the repeal of OMC 2-6.201 shall not take effect. Measure L was a proposal to MAKE the mayoralty council-selected; its defeat PRESERVED the directly elected mayoralty created by Measure A (adopted 2014-11-04), not the other way round. This is not an inference: the identical proposition ran and also failed four years earlier as Measure J (Res 18-58, 'Duly failed'), and the mayoralty appears as its own standalone ballot contest with its own declared winner in EVERY certification resolution 2016 through 2024. Res 20-59 states the mechanism verbatim: 'on November 4, 2014, the voters adopted a measure providing for a directly elected Mayor and the position of Mayor was directly elected on November 8, 2016 leaving the position of Mayor Pro Tem to be elected by the Council.' The council-selected office at Ojai is the MAYOR PRO TEMPORE, not the mayor. ALSO PASSED IN 2022: Measure M, authorizing the council at its discretion to adopt ranked-choice voting and revert to at-large council elections starting Nov 2024. IT WAS NOT IMPLEMENTED - the Nov 2024 election ran by district for District 4 (Res 24-40) and the council page still lists districts, so Measure M has no effect anywhere in this panel. It is a live trap for a later panel year. DAY-OF-WEEK CHECKS: 2018-11-06, 2020-11-03, 2022-11-08, 2024-11-05 are all Tuesdays; 2018-12-11, 2019-12-10, 2020-12-15, 2022-12-13, 2024-12-10, 2022-01-11, 2024-01-23, 2026-01-27 are all Tuesdays, consistent with Ojai's second/fourth-Tuesday meeting calendar. One OCR artifact noted and NOT propagated: the Res 24-40 body contains a typo, 'was duly held on Tuesday, November 5, 2025' in Section 1, while the title, the recitals and Section 7 all say November 5, 2024 and the resolution was adopted 2024-12-10 - the 2025 is a drafting error in the source, not a different election. MAYOR PRO TEM 2023 is the one medium-confidence row: it rests on the FY2024 ACFR officials page naming 'Suza Francina, Mayor Pro Temp' alongside Stix/Lang/Rule/Whitman. Because Res 24-02 dates Whitman's selection to 2024-01-23, that ACFR page is a STALE CARRY-OVER of the calendar-2023 roster - which is precisely why it is good evidence for 2023 and must not be read as evidence for FY2024. Per the brief, the dated primary record wins for 2024."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "48 council/mayor seat-years 2019-2026 (5 seats x 8 years) plus 8 Mayor Pro Tempore seat-years. 47 of 48 body seat-years sourced at high confidence and 8 of 8 MPT seat-years accounted for (7 sourced - 6 high, 1 medium - and 1 in gaps). Seat labels are deliberately discontinuous across the CVRA boundary and the boundary is SPLIT: 'At-Large Seat A/B/C' (2018 class, to 2022-12-13) and 'At-Large Seat D' (2016 class, to 2020-12-15) do not carry forward, and 'District 1/2/3' (from 2022-12-13) and 'District 4' (from 2020-12-15) do not carry back. District numbers were also redrawn from scratch by Res 22-14 in 2022, so even District 4 pre- and post-2022 is not the same territory, though it was held continuously by Suza Francina."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "THE REGISTRY'S 'No statewide California source' IS WRONG. The SoS California Roster carries an 'Incorporated City and Town Officials' section naming Mayor, Mayor Pro Tempore AND the full council for every city, annually: https://admin.cdn.sos.ca.gov/ca-roster/2019/02j-city-town.pdf and https://admin.cdn.sos.ca.gov/ca-roster/{YYYY}/cities-towns.pdf for 2020,2021,2022,2024,2025,2026 (2023 absent). All seven fetched to plain curl with a browser UA and extract cleanly under pdftotext -layout. It CLOSED THIS CITY'S ONLY GAP: the 2019 edition names 'Mayor: Johnny Johnston / Mayor Pro Tempore: Suza Francina / Council: Randy Haney, William Weirick, Ryan Blatz' - the Mayor Pro Tem for 2019, which no city-side source held (it was never issued as a numbered resolution). EXTRACTION NOTE: the roster is TWO-COLUMN and pdftotext -layout interleaves the two cities on a page line by line, so a naive grep -A on the city name returns the NEIGHBOURING city's officials. Ojai sits beside Orange Cove (2019/2020), Oakland (2021) and Orange (2025). Read by column offset, not by line order - this is the same trap the registry records for MCTX canvasses."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CALIFORNIA ROSTER RELIABILITY, MEASURED PER EDITION AGAINST DATED CITY RESOLUTIONS - IT IS WORSE THAN 'the 2022 edition is stale'. Ojai results: 2019 Johnston/Francina (my only source, unverifiable independently); 2020 Johnston/Blatz CORRECT vs Res 19-39; 2021 Stix/Weirick CORRECT vs Res 20-59; 2022 Stix/Weirick STALE (Res 22-03 makes Randy Haney the 2022 Mayor Pro Tem); 2024 Stix/Whitman CORRECT vs Res 24-02; 2025 Stix/Weirick + 'Council: Betsy Stix, William Weirick, Randy Haney, Ryan Blatz' GROSSLY STALE - that is the 2021 body, FOUR years out of date, naming a mayor who left office 2024-12-10 and three councilmembers who left 2022-12-13; 2026 Gilman/Mang CORRECT vs Res 26-02. Score 4 correct / 2 stale / 1 unverified. The 2025 failure is the one to propagate: it is NOT an off-by-one carry-over, so 'check it against one dated record' is insufficient - a single spot-check on 2024 or 2026 would have passed and licensed a completely wrong 2025 roster carrying an official state source. Note 2022 and 2025 reprint the SAME Weirick-era block, suggesting the SoS simply reprints the last block received when a city does not report. Also: the 2024 edition misprints Suza Francina as 'Susan Francina' - a source error, not a name variant. USE THE ROSTER AS A COROBORATOR AND A GAP-FILLER OF LAST RESORT, NEVER AS A SPINE. IT DOES, HOWEVER, INDEPENDENTLY CONFIRM THE MAYOR-SELECTION ANSWER: every edition prints 'Mayor' on its own line, separate from 'Council:', with Johnston (2019-2020), Stix (2021-2024) and Gilman (2026) never appearing in the Council line, and the mayoralty turning over on the two-year election cadence rather than rotating annually among members - which is what a council-selected mayoralty would look like."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "MAYOR PRO TEM 2023 (Suza Francina, medium) IS NOW STRONGLY CORROBORATED by the completed rotation. With 2019 filled in, the full chain is Francina(2019) - Blatz(2020) - Weirick(2021) - Haney(2022) - Francina(2023) - Whitman(2024) - Lang(2025) - Mang(2026): a clean four-person rotation through the eligible council pool that returns to Francina in 2023, which is exactly what must happen because Blatz, Weirick and Haney all left the council on 2022-12-13, leaving Francina the only member eligible to take the chair that year. That is an independent structural argument for the same name the FY2024 ACFR officials page gives. BOUNDARY CAVEAT (a caveat, not a gap): Francina's 2019 start is recorded as 2019-01-01 because the December 2018 selection meeting is unsourced - by the city's stated past practice ('the position of Mayor Pro Tem commence each year at the first regularly-scheduled Council meeting in December', Res 19-39/20-59) the true start is 2018-12-11. The 2019 seat-year is unaffected either way."
+    }
+  ],
+  "totals": {
+    "tool_calls": 53,
+    "searches": 7
+  }
+}

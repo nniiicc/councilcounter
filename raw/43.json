@@ -1,0 +1,671 @@
+{
+  "city_id": 43,
+  "city": "Oakland",
+  "state": "California",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 8,
+    "seat_scheme": "mixed",
+    "term_length": 4,
+    "stagger_pattern": "Two staggered classes on even-year Novembers. Class A (Mayor, District 2, District 4, District 6) elected 2018, 2022, 2026. Class B (At-Large, District 1, District 3, District 5, District 7) elected 2020, 2024. Terms begin at the January inauguration meeting following the election. All city offices use ranked-choice voting; the first-round leader is not always the winner (verified 2018 D4/D6, 2022 Mayor, 2024 At-Large, 2025 Mayor and D2 all required multiple rounds).",
+    "mayor_selection": "elected",
+    "election_month": "November",
+    "profile_source_url": "https://www.alamedacountyca.gov/rovresults/252/index.htm"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/236/indexA.htm"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/241/indexA.htm"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/248/index.htm"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 5,
+      "status": "sourced",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/252/index.htm"
+    },
+    {
+      "election_date": "2025-04-15",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/257/index.htm"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Libby Schaaf",
+      "name_variants": [
+        "Libby Schaaf"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-07",
+      "end_date": "2023-01-09",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/236/OaklandMayor/Pass%20Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Sheng Thao",
+      "name_variants": [
+        "Sheng Thao"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-01-09",
+      "end_date": "2024-12-17",
+      "entry_mode": "elected",
+      "exit_mode": "recalled",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/248/Oakland/001-Mayor/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Nikki Fortunato Bas",
+      "name_variants": [
+        "Nikki Bas",
+        "Nikki Fortunato Bas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2024-12-17",
+      "end_date": "2025-01-06",
+      "entry_mode": "succeeded",
+      "exit_mode": "resigned",
+      "source_url": "https://www.ktvu.com/news/oakland-mayor-city-council-kevin-jenkins",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Kevin Jenkins",
+      "name_variants": [
+        "Kevin Jenkins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-01-06",
+      "end_date": "2025-05-20",
+      "entry_mode": "succeeded",
+      "exit_mode": "term_end",
+      "source_url": "https://www.ktvu.com/news/oakland-mayor-city-council-kevin-jenkins",
+      "retrieval_method": "newspaper",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Barbara Lee",
+      "name_variants": [
+        "Barbara Lee"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2025-05-20",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/257/Oakland/001-Mayor/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-04-15"
+    },
+    {
+      "person": "Rebecca Kaplan",
+      "name_variants": [
+        "Rebecca Kaplan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2019/1/8099_M___Special_Meeting_of_the_Oakland_City_Council_19-01-07_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Rebecca Kaplan",
+      "name_variants": [
+        "Rebecca Kaplan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2021-01-04",
+      "end_date": "2025-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/241/indexA.htm",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Rowena Brown",
+      "name_variants": [
+        "Rowena Brown"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large",
+      "role": "council_member",
+      "start_date": "2025-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/252/Oakland/001-CityCouncil_AtLarge/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Dan Kalb",
+      "name_variants": [
+        "Dan Kalb"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2019/1/8099_M___Special_Meeting_of_the_Oakland_City_Council_19-01-07_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Dan Kalb",
+      "name_variants": [
+        "Dan Kalb"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2021-01-04",
+      "end_date": "2025-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/241/indexA.htm",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Zac Unger",
+      "name_variants": [
+        "Zac Unger"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 1",
+      "role": "council_member",
+      "start_date": "2025-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/252/Oakland/002-CityCouncil_District_1/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Nikki Fortunato Bas",
+      "name_variants": [
+        "Nikki Bas",
+        "Nikki Fortunato Bas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2023-01-09",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/236/OaklandCouncilD2/Pass%20Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Nikki Fortunato Bas",
+      "name_variants": [
+        "Nikki Bas",
+        "Nikki Fortunato Bas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2023-01-09",
+      "end_date": "2025-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/248/Oakland/002-CityCouncil_District_2/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Rebecca Kaplan",
+      "name_variants": [
+        "Rebecca Kaplan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2025-01-06",
+      "end_date": "2025-05-20",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2025/1/9250_M_Special_Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_City_Council_25-01-06_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Charlene Wang",
+      "name_variants": [
+        "Charlene Wang"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 2",
+      "role": "council_member",
+      "start_date": "2025-05-20",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/257/Oakland/002-CityCouncil_District_2/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2025-04-15"
+    },
+    {
+      "person": "Lynette Gibson McElhaney",
+      "name_variants": [
+        "Lynette McElhaney",
+        "Lynette Gibson McElhaney"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2019/1/8099_M___Special_Meeting_of_the_Oakland_City_Council_19-01-07_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Carroll Fife",
+      "name_variants": [
+        "Carroll Fife"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2021-01-04",
+      "end_date": "2025-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/241/indexA.htm",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Carroll Fife",
+      "name_variants": [
+        "Carroll Fife"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 3",
+      "role": "council_member",
+      "start_date": "2025-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/252/Oakland/003-CityCouncil_District_3/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Sheng Thao",
+      "name_variants": [
+        "Sheng Thao"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2023-01-09",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/236/OaklandCouncilD4/Pass%20Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Janani Ramachandran",
+      "name_variants": [
+        "Janani Ramachandran"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 4",
+      "role": "council_member",
+      "start_date": "2023-01-09",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/248/Oakland/003-CityCouncil_District_4/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Noel Gallo",
+      "name_variants": [
+        "Noel Gallo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2019/1/8099_M___Special_Meeting_of_the_Oakland_City_Council_19-01-07_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Noel Gallo",
+      "name_variants": [
+        "Noel Gallo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2021-01-04",
+      "end_date": "2025-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/241/indexA.htm",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Noel Gallo",
+      "name_variants": [
+        "Noel Gallo"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 5",
+      "role": "council_member",
+      "start_date": "2025-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/252/Oakland/004-CityCouncil_District_5/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Loren Taylor",
+      "name_variants": [
+        "Loren Taylor",
+        "Loren Manuel Taylor"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 6",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2023-01-09",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/236/OaklandCouncilD6/Pass%20Report.pdf",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Kevin Jenkins",
+      "name_variants": [
+        "Kevin Jenkins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 6",
+      "role": "council_member",
+      "start_date": "2023-01-09",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/248/Oakland/004-CityCouncil_District_6/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Larry Reid",
+      "name_variants": [
+        "Larry Reid",
+        "Laurence E. Reid"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 7",
+      "role": "council_member",
+      "start_date": "2019-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2019/1/8099_M___Special_Meeting_of_the_Oakland_City_Council_19-01-07_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Treva Reid",
+      "name_variants": [
+        "Treva Reid",
+        "Treva Reed"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 7",
+      "role": "council_member",
+      "start_date": "2021-01-04",
+      "end_date": "2025-01-06",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/241/indexA.htm",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Ken Houston",
+      "name_variants": [
+        "Ken Houston"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "District 7",
+      "role": "council_member",
+      "start_date": "2025-01-06",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.alamedacountyca.gov/rovresults/rcv/252/Oakland/005-CityCouncil_District_7/RcvDetailedReport.xml",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Rebecca Kaplan",
+      "name_variants": [
+        "Rebecca Kaplan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2019-01-07",
+      "end_date": "2021-01-04",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2019/1/8099_M___Special_Meeting_of_the_Oakland_City_Council_19-01-07_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Nikki Fortunato Bas",
+      "name_variants": [
+        "Nikki Bas",
+        "Nikki Fortunato Bas"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2021-01-04",
+      "end_date": "2025-01-06",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2021/1/8461_M___Special_Meeting_of_the_Oakland_City_Council_21-01-04_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Kevin Jenkins",
+      "name_variants": [
+        "Kevin Jenkins"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-01-06",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://oakland.legistar1.com/oakland/meetings/2025/1/9250_M_Special_Concurrent_Meeting_of_the_Oakland_Redevelopment_Successor_Agency_City_Council_25-01-06_Meeting_Minutes.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CA registry entry for Alameda County is CORRECT but INCOMPLETE. Verified: /rovresults/{ID}/indexA.htm and RCV at /rovresults/rcv/{ID}/rcvresults.htm?race={City}/{RaceCode}. Registry's three known IDs were partly wrong in form: 241=Nov 2020 serves indexA.htm; 248=Nov 2022 and 252=Nov 2024 serve index.htm and 404 on indexA.htm. Newly established IDs: 236=Nov 2018 (certified 2018-12-06), 257=2025-04-15 Oakland special, 259=2026-06-02 primary. 260 is 404, so the Nov 2026 election has no results page as of 2026-08-17. Legacy host acgov.org 302-redirects to alamedacountyca.gov."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Contest lists on the county index pages establish the two classes definitively. Class A (Mayor, D2, D4, D6): 2018, 2022, 2026. Class B (At-Large, D1, D3, D5, D7): 2020, 2024. Plus special 2025-04-15 for 'Mayor, Short Term' and 'Member, City Council, District 2, Short Term'. 8 council seats + directly elected mayor throughout; no seat-count or districting change in the window (Oakland districted since 1988). The Nov 2026 cycle (Mayor, D2, D4, D6) is expected but has NOT yet occurred as of 2026-08-17, so it is omitted from `cycles` rather than recorded as a failure; it seats nobody before January 2027 and has no panel impact."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 1,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "RCV FINAL ROUNDS obtained, not first-round leaders. Two different mechanisms. (a) 2018 (ID 236): static per-contest pages /rovresults/rcv/236/rcvresults_{n}{n}.htm, n=100 Mayor, 101 D2, 102 D4, 103 D6; each links a scrapeable 'Pass Report.pdf' under a race folder (OaklandMayor, OaklandCouncilD2/D4/D6) whose Final State table marks '** WINNER **'. Verbatim: SHENG THAO ** WINNER ** 11736 54.09% (D4, from 34.62% first-choice); LOREN TAYLOR ** WINNER ** 9858 64.26% (D6). (b) 2022/2024/2025 (IDs 248/252/257): the rcvresults.htm page is a JS shell; loadrcv.js reveals the real data at /rovresults/rcv/{ID}/{City}/{NNN-RaceCode}/RcvDetailedReport.xml, whose Textbox21 attributes carry 'X is elected because all other candidates have been eliminated.' This XML endpoint is NOT in the registry and should be added \u2014 it removes the JS gate entirely."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 3,
+      "searches": 1,
+      "detail": "REGISTRY GAP: Alameda County published NO RCV tabulation for the Nov 2020 election (ID 241). indexA.htm carries no rcv hrefs and its footnote says to contact the Registrar; /rovresults/rcv/241/ 404s under every probed filename, as does the acgov.org mirror. Affects 2020 At-Large (Kaplan 48.52% first choice), D3 (Fife 49.14%) and D7 (Reid 35.39%) \u2014 three seats whose winner was NOT determined in round 1. Resolved by corroboration rather than by the canvass: the 2021-01-04 inauguration roll call seats Kaplan, Fife and 'Treva Reed' [sic] alongside the outright first-round winners, confirming all five 2020 winners. Cycle recorded as sourced on the county index URL with the roll call as corroboration."
+    },
+    {
+      "step": "midterm_check",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 2,
+      "detail": "Legistar Web API (client 'oakland') used as the mid-term instrument. /matters with OData substringof() on MatterTitle for 'Vacancy', 'Recall', 'Resignation', 'Election Results', 'Council President', 'Interim Mayor', 'Oath Of Office'. Yield: file 24-0613 (2024-06-18) certifying the Thao recall petition; 25-0346 (passed 2024-12-17) declaring the Nov 5 2024 results; 25-0358 (passed 2024-12-17) declaring vacancies in the Office of the Mayor AND the District 2 council office and calling the April 15 2025 special; 25-0379 (passed 2025-01-06) filling D2 by temporary appointment under Charter sec. 205. NO other council vacancy, resignation or appointment appears anywhere in 2019-2024 \u2014 corroborated by four full roll calls (2019-01-07, 2021-01-04, 2023-01-09, 2024-12-17) each showing the expected 8 members with no substitutions. Legistar /bodies/1/officerecords was tried first and is UNRELIABLE for Oakland exactly as the skill warns: only 36 rows total, Nikki Fortunato Bas absent entirely, and Kevin Jenkins carrying a false 2019-01-07 start (he took office 2023-01-09). It was discarded; nothing in this file rests on it."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 6,
+      "searches": 0,
+      "detail": "Legistar /events (filtered by EventDate) exposes EventMinutesFile PDF URLs directly. Inauguration/organizing minutes extracted with pdftotext -layout for 2019-01-07, 2021-01-04, 2023-01-09, 2024-12-17, 2025-01-06, 2025-05-20 (both the 10:00 AM and 1:00 PM sittings) and 2026-01-06. These give the presiding-officer elections verbatim: Kaplan elected Council President for the term beginning 2019-01-07; Bas for the term beginning 2021-01-04; Bas again for 2023-2025; Jenkins for the term beginning 2025-01-06. Note the 2019 minutes URL is served over http in the API response and returns a 0-byte body; the identical https URL returns the PDF."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 4,
+      "searches": 2,
+      "detail": "Day-of-week checks all pass: 2023-01-09 (Thao inauguration), 2025-01-06 (Jenkins elected Council President / Kaplan appointed to D2) and 2024-12-17 (recall effective) are all Mondays or Tuesdays consistent with Oakland's meeting calendar. Mayoral handover on 2025-05-20 is pinned by the two sittings that day: at 10:00 AM Rebecca Kaplan is still on the D2 roll call and Charlene Wang is not; at 1:00 PM Wang is present, Kaplan is gone and item S3.4 is 'Recognizing Councilmember Rebecca Kaplan'. Mayor Thao is recorded voting AYE at the 2024-12-17 meeting, so she held office through that meeting; item 25-0358 declaring the mayoral vacancy passed the same night. SEPARATE OFFICES, do not conflate: Oakland elects a Council President (the presiding officer, recorded here as seat_label 'Council President'), a President Pro Tempore, AND a ceremonial Vice-Mayor under Charter Art. II sec. 208. Vice-Mayor holders observed but NOT recorded as panel seats: Loren Taylor (2019-2020), Rebecca Kaplan (from 2021-01-04). Pro Tempore holders observed: Sheng Thao (2021), Dan Kalb (2023-2024), Noel Gallo (from 2025-01-06)."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "not_found",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "SOFT BOUNDARY, flagged not gapped: Nikki Fortunato Bas's exact last day in the District 2 seat. The vacancy resolution passed 2024-12-17 (prospectively), her resignation letter is filed as an attachment dated 12/19/2024, and she is on the 2024-12-17 roll call as a sitting councilmember; D2 is vacant at the 2025-01-06 meeting. Both the resignation letter (db26e6e0-...pdf) and Resolution 90588 C.M.S. (cb2da2ce-...pdf) are SCANNED IMAGE PDFs with no text layer, so the effective date could not be read without OCR. 2025-01-06 is recorded as her end date; the alternative is 2024-12-17, which would move at most a handful of days inside the same panel year and changes no seat-year cell."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 1,
+      "detail": "Interim-mayor succession is the one link with no municipal primary record found. KTVU (published 2025-01-06, a Monday) states verbatim that 'Nikki Fortunato Bas, now an Alameda County supervisor, succeeded Sheng Thao after she was recalled in November' and that 'the city council on Monday elected a new council president, Jenkins, thus making the District 6 councilman the newest interim mayor.' The mechanism is the Oakland Charter's rule that the Council President acts as Mayor while the office is vacant, which is consistent with every dated record here: Bas was Council President on 2024-12-17 when Thao's office was declared vacant, and Jenkins was elected Council President on 2025-01-06. Both interim rows are therefore recorded at medium confidence. An oaklandside.org article on the same events returned HTTP 429 and was not retried."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "72 seat-years (9 offices x 8 years) all covered; zero gaps, zero known-vacant seat-years inside the panel (the D2 vacancy 2024-12-17/2025-01-06 to 2025-01-06 spans days, not a year, and every 2025 day of that seat is covered by Bas, Kaplan or Wang). No low-confidence rows; two medium-confidence rows, both interim mayoralties."
+    }
+  ],
+  "totals": {
+    "tool_calls": 44,
+    "searches": 4
+  }
+}

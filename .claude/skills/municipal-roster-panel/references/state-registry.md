@@ -54,10 +54,45 @@ governing-body page naming the mayor and full council with term dates.
 | TN, GA, AZ, VA, MI, NJ | Source class exists; municipal-level index not located or not fetchable. Open leads. |
 | California, Massachusetts | **Ruled out.** State Controller / DLS reports are financial only, never name officials. |
 
-**2. Clarity Elections is used widely and is robots-blocked everywhere.**
-`results.enr.clarityelections.com/{ST}/{County}/{id}/` carries municipal detail in NJ, GA, TX, and
-others — and failed robots checks in every state tested. Do not build on it without a
-browser-capable tool. Election IDs are non-sequential and must be discovered per election.
+**2. ⚠ CLARITY IS NOT ROBOTS-BLOCKED — this entry was WRONG, and it was the project's most
+expensive wrong entry (corrected 2026-08-17).**
+
+`results.enr.clarityelections.com/robots.txt` returns **HTTP 404**, serving the same 2,616-byte
+page as any nonsense path — i.e. **no robots.txt exists**, so no Disallow directive exists either.
+The original finding ("failed robots checks in every state tested") appears to have read a *failed
+check* as a *prohibition* — precisely the confusion Rule 3 above warns against. Clarity carries the
+richest municipal data of anything found in this corpus and was written off from the start on this
+basis.
+
+**And its JSON API is open even where the web UI resists a fetcher.** Route, verified on Essex
+County NJ:
+```
+{county}clerk.com/Election/                     → lists elections with their Clarity election id
+…/{ST}/{County}/{id}/current_ver.txt            → current version string
+…/{ST}/{County}/{id}/{ver}/json/en/summary.json → full contest/candidate/vote arrays, plain JSON
+```
+Election ids remain non-sequential and must be discovered per election. **Confirmed working in
+production**: one city sourced all five of its cycles (2016-2024) from certified county canvass JSON
+this way, after the same county turned out to publish **no canvass PDFs at all**. **This should
+generalize to every Clarity county in the corpus** (NJ, GA, TX, AZ) — all of which were routed around
+at significant cost.
+
+**Three traps in the JSON route, all live:**
+- **Older elections use a different filename and shape** — 2016 served `json/sum.json`, a *dict* with
+  flat vote arrays, rather than `json/en/summary.json`.
+- **Bodies arrive GZIPPED, sometimes with no `Content-Encoding` header** — use `curl --compressed`;
+  raw output looks like binary garbage and reads as a broken endpoint.
+- **ID discovery is the hard part.** `/NJ/{County}/elections.json` returns an **empty array** on
+  multiple counties and every `ElectionList`/`api` variant returns the generic ENR shell — there is
+  often **no past-election index**. What works: sweep `current_ver.txt` across a plausible id range
+  anchored on a known neighbouring county's id (one agent found Middlesex's 2024 id by sweeping
+  122100-123400 anchored on Essex's 122756, hitting exactly two live ids).
+- **Coverage is not universal.** Hudson County NJ exposes only a 2026 primary id, and
+  `/NJ/{County}/elections.json` returned `[]` — no id-discovery route at all, so its historical
+  municipal results had to come from the clerk's own PDF archive instead. A Clarity county may still
+  be a dead end for older years.
+- **The `{ver}` segment is mutable** — always read `current_ver.txt` rather than caching a version. Note one filing quirk: a May municipal election may be filed under a
+"Special Municipal Elections" entry rather than a "May Municipal" one.
 
 **2b. County filing-period incumbent lists are the best small-town source found.** County
 election offices publish *incumbent lists* and *cities-and-towns rosters* as PDFs — these are
@@ -80,7 +115,10 @@ Auburn cycle was missing 4 of its 9 seats for this reason, including the mayor. 
 omissions as missing data produces spurious gaps and a half-empty roster. Certification of an
 unopposed seat is often published **weeks apart** from the contested results, as a separate
 notice. **Before recording a gap for a seat that simply does not appear, establish what the state
-does with unopposed candidates.** **Confirmed statutory in two states so far** — Alabama, and Georgia
+does with unopposed candidates.** **Confirmed statutory in THREE states** — Texas under **Elec. Code §2.053** (the city passes an
+ordinance cancelling the election and declaring the unopposed candidates elected, so the city
+**vanishes from that date's county canvass entirely** — seen in four Texas cities), Alabama, and
+Georgia
 under **O.C.G.A. §21-2-285(c) / §21-2-291** (no election is held in a precinct where no candidate
 is opposed; the unopposed candidate is deemed to have voted for themselves and is certified
 elected). Assume other states have equivalents and check the statute rather than guessing.
@@ -102,7 +140,13 @@ series; and it **names the presiding officer**, which election results structura
 Diffing consecutive years' officials pages also dates council-size changes and
 mid-term replacements directly.
 
-**But the officials page is not infallible — three failure modes, all observed:**
+**But the officials page is not infallible — FOUR failure modes, all observed:**
+0. **It can run AHEAD of its own fiscal year, not just behind.** One city's ACFRs are as-of-
+   *publication* rosters: the FY2020 report (fiscal year ending 2020-06-30, when Croft was still
+   mayor) prints "Jack Miller, Mayor" — the council seated that **December**. This is the mirror
+   image of stale carry-over and would silently mis-date an entire series. **Establish which
+   convention a series uses before trusting any of it**, by checking one year against a dated
+   primary record.
 1. **Stale carry-over.** One FY2025 report still printed the *previous* year's council chair. A
    contemporaneous council agenda named the real one. When an ACFR contradicts a dated primary
    record, the primary record wins.
@@ -117,9 +161,13 @@ mid-term replacements directly.
 **off-domain** (state repositories, EMMA/MSRB bond disclosure, the audit firm), so a robots block
 on the city domain need not reach them.
 
-**4. Ballotpedia is robots-blocked to direct fetch in every state tested.** Search snippets only
-— **but it fetched fine by curl in 2026**, as did `patch.com`. Re-test with curl before writing
-it off.
+**4. Ballotpedia is INTERMITTENT — two agents got opposite results on the same day.** One received
+an **HTTP 202 JavaScript bot-challenge shell**; another, hours later, got **HTTP 200 with full
+content on 18 of 18 URLs** via plain curl with a browser UA, including result tables. Its
+officeholder pages carry **Predecessor / Successor / "Years in office"**, which resolved a seat
+lineage no other source gave. **Always try it — but never conclude it is dead from a single
+failure, and never depend on it.** Robots still disallows it for direct fetch as a stated
+preference.
 
 **5. Two-year terms double your work.** Massachusetts cities and many Texas cities use 2-year
 terms, meaning 4 election cycles per 8-year panel instead of 2.
@@ -295,10 +343,71 @@ https://results.elections.virginia.gov/vaelections/2022%20November%20General/Sit
 ```
 Live results moved to `enr.elections.virginia.gov` — a JS SPA, unfetchable.
 
-**Correction: `historical.elections.virginia.gov` deep links do not work.** Every constructed
-locality/contest path 404s. Treat as non-scriptable.
+**⚠ CORRECTION OF THE CORRECTION (2026-08-17): `historical.elections.virginia.gov` IS scriptable
+— this is the best Virginia source that exists.** Constructed *locality/contest* paths do 404, which
+is what earlier testing found. But the **numeric contest form works**, and there is a CSV API behind
+it returning full precinct-level canvass data:
+```
+https://historical.elections.virginia.gov/elections/view/{contest_id}/
+https://va2.elstats.civera.com/api/download_contest/{id}_table.csv?split_party=false
+```
+**Contest ids are contiguous within an election**, so one seeded id lets you sweep the neighbourhood
+to enumerate that election's other contests. This sourced **every cycle** for one city at Rung 1 and
+should generalize across the state — including to **towns**, whose contests are ids like any other,
+sidestepping the county-nesting problem entirely. **⚠ THE CSV ENDPOINT 307-REDIRECTS — `curl -s` without `-L` returns an HTML stub, so a sweep
+silently finds NOTHING.** One agent swept **540 ids, got zero hits, and nearly recorded "ids are not
+clustered" as a finding**; with `-L` they were clustered exactly as expected. **Always `curl -sL`.**
 
-**VPAP is the working fallback**, archive back to 2015:
+**Try both path forms:** `/elections/view/{id}/` worked on one locality and 404'd on another where
+`/contest/{id}` returned 200. Test both before calling an id dead.
+
+**The mayor contest sits immediately below the council contest id** for the same locality and date —
+confirmed pairs 134206/134209 (2018), 144704/144705 (2020), 161672/161673 (2024).
+
+**Clustering is not universal.** A full sweep of 134240-134300 from a 2018 seed returned no Bristol
+City row at all, though the numeric form worked for that city on other dates. Treat the sweep as a
+cheap first attempt, not a guarantee.
+
+**Sweep from a SAME-ELECTION seed, never from the previous cycle's block — the id blocks are not
+adjacent, and the failure mode is misleading.** Sweeping forward from 2022's block into 168249-168254
+returned `"this contest does not have a division assigned"` **HTTP 500s on every id**, which reads
+like a broken endpoint rather than a wrong neighbourhood; the real 2024 block was 161546-48, *below*
+the guess. Seed ids gathered so far:
+
+| Election | Known contest ids |
+|---|---|
+| 2016 | 81065, 81066 (Portsmouth) |
+| 2018 | 134263 (Poquoson), 134266 (Portsmouth) |
+| 2020 | 144755, 150812-150822 (Poquoson), 144756, 144757 (Portsmouth) |
+| 2022 | 156793 (Poquoson) |
+| 2024 | 161542 (Poquoson), 161546, 161547 (Portsmouth) | The site's own `/search` is a Next.js SPA and useless to a
+fetcher — go straight to the numeric paths.
+
+**⚠ THE REAL VIRGINIA UNLOCK: localities publish their OWN canvass archives (found 2026-08-17).**
+This routes around every broken state portal. Norfolk's Office of Elections hosts **one official
+canvass PDF per election date back to 2008** — plain curl, clean under `pdftotext -layout`:
+```
+https://www.norfolk.gov/4713/Election-Results
+```
+It was found via the **CivicPlus site search** `/Search/Results?searchPhrase=election+results`, which
+is the way to locate the equivalent page on any Virginia locality. **Try this FIRST**, before the
+state portal or VPAP: it is `high`-confidence primary evidence, and for towns the equivalent sits at
+**county** registrar / electoral-board level. Extraction caveat: candidate names sit in **stacked
+header rows above their columns** and must be aligned by character offset, not read in linear order.
+
+**⚠ VPAP is dead — FIVE independent confirmations across five localities. Do not use it.**
+Tazewell got an **HTTP 202 Akamai challenge shell (2,425 bytes)** on both town and county slugs;
+Bristol VA got empty 200s then the same 2,425-byte error page on every date. **The registry's claim
+that VPAP recovered Tazewell's 2020 cycle no longer holds.** Portsmouth identified
+the mechanism: an **AWS WAF JavaScript challenge**, returning HTTP 202 with a ~2.4KB shell to curl
+and 403 to WebFetch on every date. This is not intermittent rendering; it is a bot wall. Poquoson: **HTTP 202 with
+0 bytes** on all five date slugs to curl, **403** to WebFetch — 0 usable of 5. Three dates tried: `20241105`
+returned **HTTP 200 with an entirely empty JS shell**, `20201103` returned **HTTP 500**, `20181106`
+returned **404**. Zero usable pages out of three, contributing nothing. **An empty 200 is a failed
+fetch, not evidence that no election occurred.** It did recover Tazewell's 2020 cycle in an earlier
+pilot, so it is locality-dependent rather than uniformly dead — but do not budget on it.
+
+**VPAP as fallback**, archive back to 2015:
 `https://www.vpap.org/electionresults/{YYYYMMDD}/local/{locality-slug}-va/`. Content rendering is
 inconsistent — 3 of 6 detail pages returned empty on a 200. Confirm non-empty before trusting.
 
@@ -310,9 +419,88 @@ Pocahontas and Richlands. Independent cities (Norfolk, Portsmouth, Bristol, Wayn
 Town elections moved May → November under **SB 1157 (2021)**, effective for elections after
 Jan 1 2022. §24.2-222.1 bars shortening terms — incumbents held over, so terms were *extended*.
 
+**The same shift hit CITIES, not just towns, and earlier (confirmed on Norfolk 2026-08-17).**
+Norfolk voted in **May through 2020** and then moved to November, with terms **lengthened, not cut**:
+wards elected 2018-05 ran to **2022-12-31**, and the 2020 cycle — **postponed to 2020-05-19 by
+COVID** — ran to **2024-12-31**. So Norfolk had **no council contest in Nov 2018 or Nov 2020 at
+all**. Consequences for any Virginia locality: a "missing" November cycle early in the panel is a
+structural fact rather than a gap; a term you assume is four years may be four and a half; and a
+**May 2020 election may have been COVID-postponed to an unexpected date**, which is easily mistaken
+for a cycle that never happened. Establish the calendar before spending escalation budget.
+
+Norfolk is **council-manager**: mayor elected at large, **Vice Mayor chosen by the council from
+among its members**, 8 members (Mayor + Wards 1-5 + Superwards 6-7). Its **ACFR series FY2011-FY2025
+carries a "Municipal Officials" page** (PDF p10 for FY2019-22, p12 for FY2023-25) — an annual spine,
+but **titles only, no ward numbers**, so seat assignment must come from the canvasses.
+
 Mayor: directly elected in Norfolk, Tazewell (town), and Poquoson (an at-large seat that serves as
-mayor); **council-selected in Bristol** (the "mayor" was simply the top vote-getter in an ordinary
-at-large council race); Portsmouth medium-confidence directly elected; Waynesboro unverified.
+mayor); **council-selected in Bristol — and the registry's old wording, "simply the top vote-getter in an
+ordinary at-large council race", was IMPRECISE (corrected 2026-08-17).** Charter §4.05 is explicit:
+*"council shall elect one of its members as chairman, who shall be entitled mayor and one of its
+members as vice chairman, who shall be entitled vice mayor, each of whom shall serve for a term of
+one year."* It is a **distinct charter office filled by an internal annual vote**, not a by-product
+of the poll. **The trap is live:** in 2022 Jake Holmes led the poll with 2,621 votes and did **not**
+get it — Neal Osborne became mayor on 2023-01-03, and Holmes did not become mayor until 2026-01-05.
+Reading the ballot top as a mayoral win would have been wrong by three years and one person.
+
+**The state contest index independently confirms Bristol VA has NO mayoral ballot line**, and the
+proof is a positive control: its 2020 block is `139711` School Board / `139712` City Council and its
+2024 block `161319` City Council / `161320` School Board — no Mayor contest in either — while
+**Chesapeake City in the very same 2020 block does carry one** (`139713` Mayor beside `139714` City
+Council). That rules out an indexing artifact. Bristol VA is council-manager, **5 at-large seats, no districts**,
+4-year staggered in two classes (3+2), with mayor **and** vice mayor selected annually by the
+council. **Waynesboro — RESOLVED as COUNCIL-SELECTED (2026-08-17), closing the registry's open question.**
+Charter §3.4(c): *"The council shall elect one of its members as mayor"*, and a vice mayor likewise,
+both on **two-year** terms (§3.4(d)). Corroborated three ways: the 2022 state-portal locality page
+lists Ward C and Ward D contests and **no** mayoral contest; a 2024 canvass sweep found council
+contests only; and every organizational meeting records a roll-call motion "to appoint … as Mayor
+for the two-year term ending …". Composition (§3.2(a)) is **five members — one resident each of
+Wards A, B, C, D plus one at-large**, four-year terms, with **C+D** elected together (2018, 2022,
+2026) and **A+B+At-Large** together (2020, 2024). Waynesboro **did** shift May→November under
+SB 1157 with terms extended, so there was no council contest in Nov 2018 or Nov 2020; the July 2022
+minutes record the bridge verbatim, moving the mayor's and vice mayor's terms "to terminate on
+January 1, 2023".
+
+**Bristol VA also moved May→November with terms EXTENDED** — first Tuesday in May of even years
+through 2020 (the May 2020 election **COVID-postponed to 2020-05-19**), then November of even years;
+the 2018 class ran to 2022-12-31 and the 2020 class to 2024-12-31. So 2019, 2021, 2023 and 2025 are
+structural holdover years. **Three of six Virginia localities made this shift** — Norfolk, Bristol and Waynesboro — while
+three did not (Portsmouth, Poquoson, Tazewell). It is genuinely per-locality and **splits almost
+evenly**, so check each charter rather than assuming either way. Where it happened, terms were
+**extended**, and a May 2020 election may have been **COVID-postponed to 2020-05-19** — a real cycle
+on an unexpected date, easily mistaken for one that never happened.
+
+**Read the charter FIRST — the single cheapest, highest-yield source in Virginia:**
+`https://law.lis.virginia.gov/charters/{locality}/`. One fetch routinely settles composition,
+calendar, term length, mayor-selection, the organizational-meeting date rule and the vacancy-filling
+deadline. For Bristol it corrected a term boundary (councilmembers serve "from January 1 following
+their election", so the 2022 class began **2023-01-01** — the 2023-01-03 date is merely the oath),
+converted an inferred organizational-meeting date into a **charter-derived** one (§4.03: "nine
+o'clock a.m. on the first business day following January 1"), and its 30-day vacancy rule
+corroborated two appointments (filled in 28 and 24 days). Several rows moved from medium to high
+confidence on the strength of it. It settled Portsmouth's mayor-selection question
+outright and, for Tazewell, disclosed in a single fetch that there was **no May→November transition
+at all** and that its **mayor serves a TWO-year term while councilmen serve four** — a fact that would
+otherwise have mis-stated 2021, 2023 and 2025.
+
+**Portsmouth — RESOLVED as directly elected (2026-08-17), upgrade from "medium-confidence".** Three
+independent proofs: the charter at `law.lis.virginia.gov/charters/portsmouth/` ("a Mayor and six
+Council members to be elected by and from the city at large", mayor elected "in nineteen hundred
+seventy-six and every four years thereafter"); a standalone `Mayor — Portsmouth City` ballot contest
+in 2016, 2020 and 2024; and the city's own bio pages giving explicit term dates. Its **Vice Mayor is
+internal** — council-selected on a 2-year presiding term (Jan 2019/2021/2023/2025) — and the two must
+not be conflated. Composition is **7 at-large seats (Mayor + 6), constant**, no wards at any point,
+3 council seats per November even-year general. Portsmouth **did not vote in May**, so the SB 1157
+shift and COVID postponement that hit Norfolk do not apply — the calendar is genuinely per-locality.
+
+**Portsmouth's CMS is an SPA trap.** `/AgendaCenter/ViewFile/`, `/ArchiveCenter/ViewFile/`,
+`/DocumentCenter/View/` and `/Search/Results?searchPhrase=` all return **HTTP 200 with an identical
+~327KB React shell**, `text/html`, never a PDF — even for documents a search engine has indexed with
+full text. Norfolk's CivicPlus site-search route does **not** work here. The replacement asset host
+does serve real PDFs to plain curl — `https://content.civicplus.com/api/assets/va-portsmouth/{uuid}`
+— but uuids are non-enumerable. The `www2` Laserfiche archive's SSL error is **not** the blocker:
+`curl -kL` gets through to a **WebLink 9 sign-in wall** requiring credentials, so its pre-2023
+minutes are behind authentication and out of reach.
 
 ### Tennessee — MEDIUM-HIGH (prior notes partly wrong)
 
@@ -404,6 +592,16 @@ full Bristol results with vote totals in its Nov 2022 special-election and Nov 2
 **Confirmed: no statewide municipal source.** Verified against the SoS historical index and the
 Texas State Library's own guidance. `results.texas-election.com` 403s.
 
+**El Paso County is confirmed dead**: `epcountyvotes.com/election-archives` indexes 1998-2026 but
+every link points at robots-blocked Clarity. **The city's own pre-Legistar clerk archive is the
+route** — plain HTML, curl-fetchable, with district-labeled headers *and* live roll calls:
+```
+https://www2.elpasotexas.gov/municipal-clerk/agenda/{MM-DD-YY}/minutes.html
+```
+Working 2017-06-27 through 2020; 404 from 2023. **Caution: two files carry wrong internal dates** —
+the 2020-01-07 minutes are headed "January 7, 2019" and the 2020-02-04 minutes "January 21, 2019".
+Date documents from their content and cross-check, not from the header alone.
+
 Work at county level. Vendor map from a single SoS PDF: **ES&S** — Bexar, El Paso, Jefferson,
 Victoria; **Hart/Verity** — Hidalgo, Ector, Montgomery. Four route through Clarity (robots-blocked);
 Ector and Montgomery publish PDFs directly:
@@ -411,21 +609,81 @@ Ector and Montgomery publish PDFs directly:
 https://www.ectorcountytx.gov/DocumentCenter/View/{id}/...
 https://elections.mctx.org/results/{YEAR}_{MONTH}_{Description}.pdf
 ```
+**The `{Description}` segment is NOT guessable — scrape the index instead:**
+`https://elections.mctx.org/ElectionResults.asp` lists every canvass **2006-2026** as plain
+server-rendered hrefs. **Extraction trap:** MCTX canvasses print candidate names **rotated 90°**, so
+`pdftotext -layout` emits them in an order that does **not** match the vote columns — map by
+**horizontal indent** (leftmost name to leftmost number). Reading in line order **reverses** at least
+one known result. Verify the indent rule against a race with an independently known outcome first.
 City races are usually **bundled into joint "City/School" county reports**, not itemized per city.
-Check the city's own DocumentCenter too — Mission hosts its own canvasses.
+**In practice the county was never needed for any Texas city in this corpus** — every one was solved
+city-side. Three city-side routes, all verified:
+
+- **The CivicPlus site search returns full extracted PDF TEXT plus the DocumentCenter id** —
+  `{city}/Search/Results?searchPhrase=<term>`. Every Mission canvass was found this way at **zero
+  WebSearch cost**. Note `/DocumentCenter/View/{id}` must be enumerated with **GET, not HEAD** (HEAD
+  404s on every id; GET exposes filenames via `Content-Disposition`).
+- **The CivicPlus Archive Center, not the site search, is the ACFR route** — `/Archive.aspx?AMID={n}`
+  lists the full series and `/ArchiveCenter/ViewFile/Item/{ADID}` fetches it. Victoria's `AMID=41`
+  gave CAFR/ACFRs 2008-2023 with an `ELECTED OFFICIALS` page naming all seven seats **with district
+  and term-expiry** — a complete annual snapshot, and the single most valuable Texas find of the run.
+  The site search found only three recent copies.
+- **Municode Meetings:** `?year=` and `?page=` **do not filter**; the working control is the Drupal
+  exposed date filter (`date_filter[value][year|month|day]`). Minutes are plain PDFs on
+  `mccmeetings.blob.core.usgovcloudapi.net/{tenant}/MEET-Minutes-{hash}.pdf`.
 
 **Correction: the TML directory does not resolve name variants**, and more importantly it has
 **no term dates and no history** — `directory.tml.org/profile/city/{id}` answers "who holds it
 now," never "who held it in year X." IDs are non-guessable (Castle Hills 1387, Odessa 943,
 Mission 895, Groves 1135); find via external search.
 
-**El Paso is a confirmed exception to the May uniform date** — November of even years since 2018,
-4-year terms, 2-term limit. Castle Hills, Mission, Odessa and Victoria dates remain unverified;
-do not assume May without checking.
+**Texas cities cancel uncontested elections outright** under Elec. Code §2.053 — the city passes an
+ordinance cancelling the election and declaring the unopposed candidates elected, so **the city simply
+does not appear on that date's county canvass**. One city was absent from three separate canvasses for
+this reason. This is Texas's form of the unopposed-seat trap: **an absent city is not a missing cycle**.
+Look for the cancellation ordinance, or fall back to an annual roster source.
 
-Castle Hills' mayor **does not vote** except to break ties. Groves' mayor votes as one of five.
+**Three confirmed calendars, all different — never assume May.**
+- **El Paso:** November of **even** years since 2018, 4-year terms, 2-term limit.
+- **Groves:** November of **EVERY** year on **2-year** terms — Wards 1/3 in odd years, Mayor + Wards
+  2/4 in even years. **Ten cycles in an 8-year panel.** Majority required, so a plurality forces a
+  **December runoff** (two occurred in-window) and **incumbents hold over** past the November canvass
+  — reading the canvass alone mis-dates those tenures.
+- **Shenandoah:** first Saturday in **May, ANNUALLY**, 2-year terms — Mayor + Positions 1/5 in even
+  years, Positions 2/3/4 in odd. **Eight cycles.**
+
+- **Mission:** first Saturday in **May** through 2024-05-04, then **moved to the November uniform
+  date** by a charter amendment adopted at that same election — so **there was no May 2026 election**
+  and the 2022 class runs ~6 months long to 2026-11-03. **4-year** terms; the four cycles come from a
+  **2-year stagger offset**, not short terms. Majority required, so **runoffs are routine** — the
+  runoff seated the mayor in both 2018 and 2022.
+- **Victoria:** **THREE-year** terms — not 2, not 4 — on the May uniform date. Districts 1-4 in 2018 /
+  2021 / 2024; Mayor + Super Districts 5-6 in 2019 / 2022 / 2025. **2020, 2023 and 2026 have no city
+  general election at all.**
+
+- **Odessa:** **November of even years**, 4-year terms, majority-vote with December runoffs.
+  Mayor + At-Large + Districts 1-5. The **At-Large seat did not exist before the 2018 election**
+  (ACFR FY2017/FY2018 show six seats), which is why that election is titled "General/**Special**".
+
+- **Castle Hills:** first Saturday in **May, EVERY year**, 2-year terms — Mayor + Places 2/3 in odd
+  years, Places 1/4/5 in even. **Eight regular cycles** plus a 2019 special. Its mayor is a distinct
+  office, not one of the five Places, which is why he votes only to break ties.
+
+All seven Texas cities are now settled, and **no two share a calendar**. Given the above, **assume nothing**: of five confirmed
+cities, no two share a calendar, terms run 2, 3 and 4 years, and two elect every single year.
+
+Castle Hills' mayor **does not vote** except to break ties. **Groves' mayor occupies one of the five
+seats** rather than presiding over four — its own council page says "The mayor, who serves as one
+member of the Council", and the mayor moves, seconds and votes throughout the minutes. Its **Mayor Pro
+Tem rotates by ward number** on an annual council vote.
 
 ### Arizona — MEDIUM (prior notes substantially wrong)
+
+**Arizona structural facts settled per city (2026-08-17).** The mayor question splits sharply and
+must never be assumed: **directly elected** in Cottonwood (4-year), Page (**2-year**), Chino Valley
+(**2-year**), Show Low (4-year), Phoenix and Tucson; **council-selected** only in Sahuarita. Vice
+mayors are council-designated everywhere observed. Show Low's 2018 vice-mayoralty was decided by
+**drawing cards** (Allsop drew the deuce of clubs).
 
 **Correction: "county sites are robots-blocked" is false as a blanket claim.**
 
@@ -433,19 +691,42 @@ Castle Hills' mayor **does not vote** except to break ties. Groves' mayor votes 
 |---|---|
 | Pima (Tucson, Sahuarita) | **Fully open**, robots.txt permits. `pima.gov/2865/Election-Results`, 2010-2024, explicit municipal coverage. Best AZ source. |
 | Maricopa (Phoenix) | Page loads, but robots.txt **name-blocks ClaudeBot/GPTBot/PerplexityBot**. Fragile. |
-| Navajo (Show Low) | Listing page 429s; **direct `DocumentCenter/View/{id}` PDFs fetch fine.** |
+| Navajo (Show Low) | **The 429 is gone (re-verified 2026-08-17):** `navajocountyaz.gov/506/Election-Results` returns HTTP 200 (161 KB) to plain curl with a browser UA and lists every municipal canvass back to **2004**. No `DocumentCenter` id enumeration needed. 2016 and 2018 canvasses are image-only scans — use the OCR path. |
 | Coconino (Page) | Fully robots-disallowed. |
-| Yavapai (Chino Valley, Cottonwood) | Unresolved — DNS failure and robots timeout. |
+| Yavapai (Chino Valley, Cottonwood) | **BLOCKED, not unresolved (2026-08-17).** `yavapaiaz.gov` **and** the county's real elections host — a separate domain, **`yavapaivotes.gov`** (canvasses at `/files/assets/elections/v/1/documents/results/{year}/{slug}.pdf`) — both return an **Akamai 403 to curl with a browser UA on every path, including `/robots.txt`**. A WAF wall, not robots. **Route around it:** both corpus cities' own CivicPlus Archive Centers publish each canvass **resolution**, which incorporates the County Election Director's certification as Exhibit A — the county canvass without the county. |
 
 **Phoenix runs its own municipal elections separately from Maricopa County** — its races are not
 on the county portal.
 
-**Correction: `{city}.suiteonemedia.com` is Show-Low-specific, not an AZ pattern.** Confirmed 404
-for Cottonwood, Page, Sahuarita. Do not guess it.
+**`{city}.suiteonemedia.com` is Show-Low-specific — and even there the hostname was WRONG
+(corrected 2026-08-17).** `showlow.suiteonemedia.com` does **not exist** (`/`, `/web/home.html`,
+`/Web/DocumentViewer.aspx`, `/Web/Player.aspx`, `/sirepub/*` all 404). The real host is
+**`showlowaz.suiteonemedia.com`** — i.e. the tenant slug, not the city name — with direct endpoints:
+```
+/event/GetMinutesFile/Minutes?mid={id}
+/event/GetAgendaFile/Agenda?aid={id}
+```
+It holds the entire **pre-CivicClerk archive (Dec 2018 → early 2023)** and was the most productive
+source in that city's run: sweeping `mid` 1-300 yielded 142 council minutes and a meeting-by-meeting
+membership series with no unobserved interval longer than ~6 weeks. Still confirmed 404 for
+Cottonwood, Page and Sahuarita — do not guess it elsewhere, but **do try the tenant-slug form** where
+a SIRE/suiteonemedia deployment is suspected.
 
-**Correction: "August primary elects outright" is an *optional* procedure** under A.R.S.
-§9-821.01(D), adopted per municipality — not an automatic statewide rule. In practice standard
-here. Still check the August canvass first: a seat decided in August may not appear in November.
+**"August primary elects outright" is an *optional* procedure** under A.R.S. §9-821.01(D), adopted
+per municipality — **and the corpus now splits both ways, so check each city rather than assuming.**
+
+- **Adopted and load-bearing:** Cottonwood (all three seats in 2018, everything in 2020, the
+  mayoralty plus two of three seats in 2024 decided in the primary and never on a November ballot)
+  and Page (no mayoral race at all on the Nov 2024 canvass — Kidman won outright in July, 781-483).
+- **Does NOT apply:** Tucson, whose August election is a **partisan party primary** — the canvass
+  prints "DEM Council Member Ward 3" / "REP …", so it nominates rather than elects. Nor Phoenix,
+  which runs a November general with a following **March** runoff.
+
+**Arizona permanently moved its primary to the second-to-last Tuesday in JULY** (bill signed
+2026-02-06), so the 2026 primary was **July 21**, not August — do not look for an August 2026 ballot.
+
+Where the rule is adopted, **check the primary canvass FIRST**: a seat decided there never appears
+in November, and recording a gap for its absence is wrong every time.
 
 Sahuarita's mayor is **chosen among council members**, not elected. `azleague.org` is fetchable but
 its officials data sits in an XLSX that could not be verified. `azauditor.gov` has a real
@@ -455,12 +736,56 @@ News routes verified: `wmicentral.com`, `journalaz.com`. `lakepowellchronicle.co
 
 ### California — MEDIUM
 
-**No statewide source** — `sos.ca.gov` is state/federal only. Results are certified at **county**
+**⚠ THERE IS A STATEWIDE SOURCE — the "no statewide source" line was WRONG (2026-08-17).**
+The **California Roster** (Secretary of State) carries an **"Incorporated City and Town Officials"**
+section naming **Mayor, Vice Mayor and the full council for EVERY California city, annually**:
+```
+https://admin.cdn.sos.ca.gov/ca-roster/2019/02j-city-town.pdf
+https://admin.cdn.sos.ca.gov/ca-roster/{YYYY}/cities-towns.pdf    # 2020,2021,2022,2024,2025,2026
+```
+2023 403s under every filename tried.
+
+**⚠ IT IS A CORROBORATOR, NEVER A SPINE — and "check one year" is NOT sufficient.** Measured per
+edition against dated resolutions for one city: **4 correct, 2 stale, 1 unverified.** **Staleness is PER-CITY, not per-edition** — the 2022 edition is a stale carry-over for one city and
+demonstrably correct for another (matching that city's Dec-2021 reorganization and its FY2022 ACFR).
+Never discard a whole edition; check the city you need. The worst case seen is a **2025 edition four
+years stale**, reprinting the same block as 2022. That is not an off-by-one: a spot-check on 2024 or 2026 **passes** and then licenses a
+completely wrong 2025 roster wearing an official state seal. The pattern suggests the SoS reprints the
+last block received when a city does not report. **Verify every edition you rely on, or use it only to
+fill a gap nothing else reaches.**
+
+**⚠ COVERAGE IS NOT UNIVERSAL — check per city per year.** The data is *"provided to the Secretary of
+State's Office by local jurisdictions"* (its own header), so **a city that does not submit is silently
+absent**. Ripon is missing entirely from the 2019, 2020, 2021, 2022 and 2024 editions while its
+alphabetical neighbours Rio Vista and Riverbank appear in all of them — a genuine omission, not a
+page-break artifact. An absence in the Roster says nothing whatever about the city.
+
+**Extraction traps.** It is **two-column**, and `pdftotext -layout` interleaves the neighbouring column
+line-by-line — a naive `grep -A` on a city name returns the *adjacent* city's officials, and in one
+case attached **Riverside's** legislative districts and 324,000 population to **Ripon** (real
+population ~17,000). **Read the left column only, by offset.** **Grep case-INSENSITIVELY:** the 2019-2024 editions print
+`CITY OF X` in caps while 2025-2026 use mixed case `City of X` — a case-sensitive search concludes the
+city is absent from the two newest and most useful editions. Self-reported fields are also unreliable
+— one edition gives a city's website with the wrong TLD — and it carries source typos, misprinting
+"Suza Francina" as "Susan Francina".
+
+Election *results* still have no statewide source — `sos.ca.gov` is state/federal only. Results are certified at **county**
 level, and the portals differ by county:
 
-- **Alameda** (Albany, Oakland): `alamedacountyca.gov/rovresults/{ELECTION_ID}/indexA.htm`, RCV at
-  `/rovresults/rcv/{ID}/rcvresults.htm?race={City}/{RaceCode}`. IDs are small integers minted per
-  election (241 = Nov 2020, 248 = Nov 2022, 252 = Nov 2024) — **not derivable from the date**.
+- **Alameda** (Albany, Oakland): `alamedacountyca.gov/rovresults/{ELECTION_ID}/…`. IDs are small
+  integers minted per election, **not derivable from the date**: **236 = Nov 2018, 241 = Nov 2020,
+  248 = Nov 2022, 252 = Nov 2024, 257 = 2025-04-15 special, 259 = 2026-06-02 primary.**
+  **The index filename varies per election** — 241 serves `indexA.htm`; 248 and 252 serve `index.htm`
+  and **404 on `indexA.htm`**. Try both.
+  **RCV has two mechanisms.** Older (2018): static `rcvresults_{nnn}.htm` pages linking a
+  `Pass Report.pdf` per race. Newer (2022+): the page is JS-gated, but the real data sits at
+  **`/rovresults/rcv/{ID}/{City}/{NNN-RaceCode}/RcvDetailedReport.xml`**, whose `Textbox21` field
+  states "X is elected because all other candidates have been eliminated" — this **removes the JS
+  gate entirely** and is the route to use.
+  **Take the FINAL RCV round, never the first count.** One winner took a seat with **34.62%**
+  first-choice support. **⚠ Alameda published no RCV tabulation at all for Nov 2020 (id 241)** —
+  every path 404s — so three seats decided below 50% in round 1 must be sourced from the January
+  inauguration roll call instead.
 - **San Joaquin** (Ripon) and **Riverside** (Canyon Lake): shared Democracy Live vendor —
   `livevoterturnout.com/ENR/{county}caenr/{ID}/en/Index_{ID}.html`. IDs county-specific, not
   date-ordered.
@@ -471,34 +796,115 @@ level, and the portals differ by county:
 Consolidated onto even-year Novembers under SB 415. Mayor **rotates or is council-selected** in
 Albany, Canyon Lake, Ripon, Yuba City; directly elected in Oakland (RCV) and California City.
 
-**CVRA districting shifts mid-window:** Ojai and Yuba City moved at-large → by-district in 2022.
-Label seats by district from 2023 on, at-large for 2019-2021. Oakland has been districted since
-1988. Ojai's mayor-selection method after Measure L (2022) is **unresolved** — verify before
-asserting.
+**CVRA districting shifts mid-window — and the two cities DIFFER (corrected 2026-08-17).**
+- **Yuba City — as previously stated.** Ordinance adopted **2022-02-01**, first applied 2022-11-08,
+  members seated **2022-12-06**. Districts 1-3 = 2022/2026 group; 4-5 = 2024 group.
+- **⚠ Ojai — the "2022" claim was WRONG.** Ojai transitioned by **Ordinance No. 889, adopted
+  2018-12-11**. 2022 was post-census **redistricting**, not the CVRA transition. The boundary is
+  **split**: **District 4** first elected 2020-11-03, seated **2020-12-15**; **Districts 1-3** first
+  elected 2022-11-08, seated **2022-12-13**. Labelling 2019-2021 uniformly at-large puts District 4
+  under the wrong scheme for a full year.
 
-`canyonlakeca.gov` and `cityofripon.org` robots-blocked. **Query trap:** "Ripon" alone collides
+Oakland has been districted since 1988.
+
+**Ojai's mayor is DIRECTLY ELECTED throughout — RESOLVED (2026-08-17), and the intuitive reading of
+Measure L is BACKWARDS.** Measure L proposed *abolishing* the elected mayoralty and returning to
+council rotation; **its defeat PRESERVED direct election** (Res. 22-62 certifies it "was not
+carried"). The same proposition had already failed once as Measure J in 2018; **Measure A
+(2014-11-04)** created the elected mayoralty. Ojai's council-selected office is the **Mayor Pro
+Tempore**. **Live trap for a later panel: Measure M passed in 2022** (RCV plus reversion to at-large
+from Nov 2024) but was **never implemented** — Nov 2024 still ran by district.
+
+**`canyonlakeca.gov` is NOT robots-blocked in practice** — its `robots.txt` says `Disallow: /` but the
+host served 200s with full HTML to plain curl with a browser UA on every path. Its AgendaQuick portal
+is at **`public.destinyhosted.com/22696/agenda/`**, where
+`default.cfm?mt=ALL&month={M}&year={Y}` returns a six-month window with **direct hrefs to minutes and
+packet PDFs** under `/canyodocs/{year}/CC/{YYYYMMDD}_{id}/` — no JavaScript, covering 2016-2026. That
+single endpoint closed the whole city at **zero searches**. **`cityofripon.org` is NOT (corrected 2026-08-17)** — HTTP 200 to
+plain curl with a browser UA on `/robots.txt`, `/`, `/Archive.aspx` and `/AgendaCenter`, disallowing
+only `/Search`, `/admin`, `/map`. **Ripon's council minutes are not in the AgendaCenter at all** (a
+full sweep returned only Parks & Rec and committee minutes); they live on **IQM2/MinuteTraq** at
+`riponcityca.iqm2.com`: `/Citizens/Calendar.aspx?From=&To=` → `Detail_Meeting.aspx?ID=` →
+`FileOpen.aspx?Type=15&ID={doc}` (Type=12 is the 12-23 MB packet).
+
+**⚠ Ripon's "Seat 1"-"Seat 5" are ROTATING CHAIR POSITIONS, not stable seats.** Seat 1 *is* the Mayor,
+Seat 2 *is* the Vice Mayor, and every member's number changes each December. Copying them produces
+five seats that silently permute every year — use election-cohort lineage labels instead.
+
+**California is the FOURTH state with the unopposed rule** (Elections Code **§10229**, and appointment
+in lieu of election): where candidates equal seats the council appoints them and the city vanishes from
+the county canvass. Confirmed in Canyon Lake (2022, Res. 2022-48) and Ripon (2018, 2022 partial, 2024).
+Joins Alabama, Georgia and Texas.
+
+**California has the unopposed rule too:** where candidates equal seats the council **appoints in lieu
+of election** and the city vanishes from the county canvass (Ripon 2018, 2022 partial, 2024 — in 2024
+no Ripon council contest exists in the county file at all).
+
+**Kern County (California City) is DEAD** — `kernvote.com` and `www.kerncounty.com` both 403 (Akamai)
+to curl *and* WebFetch. That city was rebuilt entirely without the county, via its **Granicus
+viewpublisher, which the census wrongly recorded as robots-blocked**:
+`{tenant}.granicus.com/viewpublisher.php?view_id=1` served a 432-row archive to plain curl, and
+`AgendaViewer.php?view_id=1&clip_id=N` returns each packet as a raw PDF whose cover page prints the
+full council with the Mayor Pro Tem marked. **California City's mayor serves a TWO-year term.** **Query trap:** "Ripon" alone collides
 heavily with Ripon, North Yorkshire, UK — always add "California".
 
 ### New Jersey — MEDIUM
 
 **State PDFs contain zero municipal races** — verified; they carry only state/county contests and
-turnout. Use county clerk canvass PDFs. Camden verified:
+turnout. Use county clerk canvass PDFs where they exist.
+
+**⚠ The Camden URL pattern does NOT generalize across years — SCRAPE THE INDEX, never construct.**
+`…/wp-content/elections/general{YEAR}/{YEAR}_General_Election_Canvasser.pdf` returns 200 **only for
+2023, 2024 and 2025**. It 404s for 2015/2017/2019/2021: those use **hyphens** rather than
+underscores, and **2019 sits one directory deeper** (`/general2019/results/2019-General-Election-Canvasser.pdf`).
+The directory index 403s. The fix is a complete, curl-fetchable href index of every Camden canvass
+**2000-2026**:
 ```
-https://www.camdencounty.com/wp-content/elections/general{YEAR}/{YEAR}_General_Election_Canvasser.pdf
+https://www.camdencounty.com/service/voting-and-elections/election-results/
 ```
+**And the PDF pattern does not generalize across counties either:** Monmouth publishes **no canvass
+PDFs at all** — `monmouthcountyvotes.gov` links only to Clarity for every election 2003-2026, and its
+`wp-json` API is closed (HTTP 401). Where a county has no PDFs, use the Clarity JSON API in
+cross-state finding 2.
 Contest label: `Members of Council {Municipality} — Vote For {N}`. Each county hosts its own path;
-this is one verified instance of a pattern class, not a statewide template. **Hudson's master list
-excludes Jersey City** — do not assume county lists cover every municipality.
+this is one verified instance of a pattern class, not a statewide template. **Hudson's master list excludes Jersey City** — but that is a fact about one list, not a dead end:
+`hudsoncountyclerk.org/elections-archives/` is a single page indexing the **complete** Hudson archive,
+with Jersey City-specific canvass and candidate PDFs for every cycle, and it carried that entire city.
+Hudson's `wp-json` is closed (HTTP 401), so the WordPress media technique does not work there.
+
+**⚠ Hudson district-canvass PDFs print candidate names as ROTATED COLUMN HEADERS**, and `pdftotext`
+emits them in an order that does **not** match the numeric columns — wrong in 4 of 8 contests checked.
+Column order is **ballot-position order**, recoverable from the clerk's certified-candidates PDF,
+which lists every ballot position and daggers incumbents. **Never read a name off those header
+blocks.** Later cycles also publish *Summary Results by Contest* with names and totals on one line —
+prefer those. (This is the same rotated-header trap seen in Montgomery County TX canvasses.)
 
 `data.nj.gov/resource/gkt3-i954.json?$q={muni}` — NJ DCA Mayors Directory, **JSON API works**
 (the HTML page is JS-only). Current mayor, county, term_start/term_end. No council, no history.
 
-**Franklin Township in this corpus = Gloucester County** (mayor John "Jake" Bruno, cross-confirmed
-against the DCA dataset). Not Somerset, Hunterdon, or Warren.
+**Franklin Township in this corpus = Gloucester County — CONFIRMED three ways (2026-08-17):** the DCA
+API returns four NJ Franklin Townships and only Gloucester's (dlgs 805, Franklinville 08322) has mayor
+John Bruno; Resolution R-16-2024 reads "Township of Franklin, **County of Gloucester**"; and Gloucester
+County Clarity carries "TOWNSHIP COMMITTEE - TOWNSHIP OF FRANKLIN" naming the same people as its
+minutes. **Search decoy: `franklin-twp.org` is the HUNTERDON township** and surfaces for
+"Franklin Township NJ election results". Structure: **5 at-large seats, 3-year staggered terms, 1-2-2
+cycle**, mayor selected annually by the committee.
+
+**Gloucester County's Clarity route is its ONLY route** — no canvass PDF exists in the Camden form.
+Its **Previous Election Results page (`gloucestercountynj.gov/1252`) lists all 25 Clarity election ids
+as plain links**, which solves the id-discovery problem outright. Nov 2023 = id 118787, ver 324803.
+`electionsettings.json` did not expose a title or date — identify an election from its contest list.
 
 Forms of government differ and determine mayor selection: Belmar (Small Municipality), Gloucester
-Twp (Mayor-Council Plan B), Howell (Council-Manager — mayor still *directly elected* despite the
-"Township" name), Montclair (Council-Manager), New Brunswick (Mayor-Council), Jersey City
+Twp (Mayor-Council Plan B, confirmed verbatim in its reorganization resolutions — **7 at-large seats,
+4-year terms, two classes: 4 seats in 2015/2019/2023, and 3 seats plus the mayor in 2017/2021/2025**;
+the odd-year-only calendar is confirmed by the *absence* of any Gloucester Twp contest in the 2020,
+2022 and 2026 Camden canvasses), Howell (Council-Manager — mayor still *directly elected* despite the
+"Township" name), Montclair (Council-Manager — but its **mayor is DIRECTLY ELECTED**, confirmed 2026-08-17 from a
+contested "Mayor-Montclair" ballot line on the Essex County canvass in both 2020 and 2024; the
+council-appointed office is the **Deputy Mayor**, whose term the code leaves undefined, which is why
+its rotation is disputed. **No runoffs** — a 2024 ward seat was won on a 45% plurality with none),
+New Brunswick (Mayor-Council), Jersey City
 (Mayor-Council, ward-based). **Franklin Twp is a traditional Township Committee — the committee
 selects the mayor annually at its January reorganization**, so committee results alone won't tell
 you who was mayor.
@@ -507,7 +913,18 @@ Dates vary: Belmar/Franklin/Gloucester Twp/New Brunswick partisan November; Howe
 **even** years only; Gloucester Twp **odd** years only; Montclair nonpartisan **May**, all seats
 concurrent every 4 years; Jersey City nonpartisan November with December runoffs.
 
-**New Brunswick's council grew from 5 to 7 seats in January 2023** — council size is not constant.
+**New Brunswick's council grew from 5 to 7 seats — mechanism and stagger established 2026-08-17.**
+A **citizen petition** under N.J.S.A. 40:69A-190 (Ordinance O-032008, readings 2020-03-18 and
+2020-04-01) put the charter question on the **2020-11-03** ballot; the new seats were first filled at
+**2022-11-08** and seated **2023-01-01**. **The stagger was set by TWO separate contests on that one
+ballot** — `Members of the City Council … Vote For 3` (4-year terms) and `Member of the City Council …
+**Vote For 1**` (an **initial 2-year term**). Only one of the two new seats took a short term; missing
+that second contest mis-dates the whole later stagger. Council size is not constant.
+
+**The unlock there is the January reorganization agenda**, not the minutes: every year's
+`COUNCIL DESIGNATION OF LIAISONS TO VARIOUS AUTHORITIES, BOARDS AND COMMISSIONS FOR {YEAR}` resolution
+**names every member and prints their President/Vice-President titles** — a complete annual roster
+spine in one document series.
 
 `njlm.org`, `twp.howell.nj.us`, `cityofnewbrunswick.org` robots-blocked; `belmar.com` JS-walled.
 
@@ -660,10 +1077,57 @@ election carried only School Committee, Housing Authority, Library Trustees and 
 Oliver Smith Will. Even years have no town election at all. Amherst also **redistricted mid-panel**
 (map adopted 2021-10-29, effective for 2023), so district numbers are discontinuous across 2023.
 
-### South Dakota — MEDIUM, the hardest state measured
+### South Dakota — MEDIUM (the "hardest state measured" framing does NOT hold everywhere)
+
+**Sioux Falls was the cheapest city per seat-year in the entire 64-city corpus** — 8 searches, 80
+seat-years — via the **OnBase Public Access JSON API** at `amv.siouxfalls.gov` (see SKILL.md
+"Retrieval mechanics"). Its **Certificates of Election / Oaths of Office** saved query gives a dated
+per-person seating record *including unopposed seats that never reach a ballot*, and its keyword
+**value dataset** enumerates every officeholder the city has ever indexed — which proves a mid-term
+check complete rather than merely exhausted. The legislative-audit, public-notice and
+newspaper-proceedings routes were **never needed** there.
+
+**⚠ `www.siouxfalls.gov` is 403 to both curl and WebFetch on every path including `/robots.txt`** —
+Akamai. That kills the ACFR spine (finance pages live there). The separate `amv.` host is wide open.
+
+**Unopposed-means-absent is confirmed in South Dakota too** (a fourth state): three cycles had seats
+with no ballot line at all, recovered only from Certificates of Election.
 
 **No centralized municipal results exist.** Confirmed absent at the Secretary of State and four
-county auditors. Cities administer their own April elections. Do not spend budget looking.
+county auditors. Cities administer their own elections — **but "April" is not universal: Mitchell votes in JUNE**,
+even years on the state primary date and odd years with the school election, a pattern holding
+2020-2026 (not a COVID artifact). **Establish each city's month from its own canvass resolutions.**
+Do not spend budget looking for a state or county results portal.
+
+**⚠ South Dakota does not put UNOPPOSED municipal seats on the ballot at all** — confirmed in a
+second city: every canvass there covers only the contested race while the July oath seats four or five
+people. **Reading a canvass as the full slate manufactures three spurious gaps a year.** Take the oath
+of office, not the canvass, as the roster.
+
+**For a domain-move city, query Wayback on the OLD host.** `url={old-domain}&matchType=domain` returned
+2,979 rows and 1,043 PDFs where the *current* domain returned **zero** — recovering a whole minutes
+series **deleted from the live server** under a third filename convention that no amount of guessing
+would have hit.
+
+**SD canvass resolutions are unusually rich** where they exist — naming ward, term length, vote
+totals, *and* the offices where only one petition was filed and the candidate was declared elected
+without a contest. That last part is South Dakota's form of the unopposed rule, and it is heavy:
+3 of 4 seats in one city's 2020 cycle, 2 of 5 in 2021, 2 of 4 in 2023.
+
+**⚠ The SD legislative audit's "City Officials / December 31, {YEAR}" page can be a PUBLICATION-date
+roster, not the Dec 31 snapshot it claims.** `Alcester City 2024.pdf` lists two members appointed in
+**May and June 2025** and omits one who sat through April 2025 — the "runs ahead of its own fiscal
+year" failure mode, in a South Dakota audit. **Prefer dated minutes wherever they exist.**
+
+**⚠ The audit route is unreliable in SD — it failed on THREE of four cities tested.** Hot Springs
+404s for 2018-2024 and its only report (2025) is a **private-CPA financial-statement audit with no
+"City Officials" page at all**; the `/reports/` index 403s. Brandon's 2024 report *does* have one, so
+the route is not dead — just unreliable enough that it cannot be planned around. For
+Mitchell, `legislativeaudit.sd.gov/reports/City/Mitchell City {Year}.pdf` 404s for 2018-2023 and 2025,
+and the one report that exists (2024) is a **bare financial-statement audit with no "City Officials"
+page at all** — it opens at the auditor's report addressed generically "To the City Council". For
+Alcester only 2024 exists and it is a publication-date roster, not the Dec 31 snapshot it claims.
+Budget accordingly and prefer minutes.
 
 **Best source: state legislative audit reports** (see cross-state table). Anchor points to
 interpolate between, not a timeline — the index shows only the most recent report per city, older
@@ -674,5 +1138,13 @@ to a trailing 12 months. Statutory publication of proceedings in the official ne
 attendees, and a hyperlocal blog reprinting proceedings produced a 100% roster for one town at the
 lowest cost of any city measured.
 
-**Robots directives, not missing records, set the ceiling here.** For one city, 2021 and 2023
-council packets fetched fine while every 2019 and 2020 packet was blocked across seven attempts.
+**⚠ The "~50% robots ceiling" for this state does NOT follow from the evidence (re-examined
+2026-08-17).** Hartford's `robots.txt` was fetched and read in full: it returns HTTP 200 and carries a
+genuine blanket `User-agent: * / Disallow: /` — so the block is real and must be honoured — **but there
+is no year-scoped rule anywhere in the file.** The recorded 2019/2020-blocked-vs-2021/2023-fine
+asymmetry cannot come from this file; it was tooling noise misread as policy.
+
+**And the same file explicitly PERMITS `archive.org_bot` and `ia_archiver`**, so Wayback's copy of the
+site was collected with the city's consent and is the **compliant** route in. Via CDX, Hartford turned
+out to be **~100% recoverable, not ~50%**. SD municipal sites commonly whitelist the archive crawlers
+— check for that before accepting any SD ceiling.

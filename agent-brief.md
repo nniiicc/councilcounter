@@ -84,19 +84,64 @@ cycle was missing 4 of 9 seats, including the mayor. Certification for those is 
 weeks apart, as a separate notice. **Establish what the state does before recording a gap for a
 seat that simply does not appear.**
 
-**The ACFR is a near-universal roster source.** Almost every US municipality publishes an Annual
-Comprehensive Financial Report whose **"List of Principal Officials"** page names the mayor, every
-council seat, and usually the presiding officer — **annually**, so one linked series covers every
-panel year, and it names the presiding officer that election results cannot. Diffing consecutive
-years dates council-size changes and mid-term replacements directly. Often hosted off-domain
-(state repositories, EMMA/MSRB, the audit firm), so a robots block on the city domain need not
-reach it.
+**The ACFR is a widely available roster source — but an audit report is NOT an ACFR.** A full
+**Annual Comprehensive Financial Report** has an *introductory section* carrying a **"List of
+Principal Officials"** page naming the mayor, every council seat and usually the presiding officer,
+**annually** — so one series covers every panel year and names the officer election results cannot.
+A bare **financial-statement audit** has no introductory section: it opens at "FINANCIAL SECTION"
+and names nobody. **Check the table of contents before spending budget on a series.** Often hosted
+off-domain (state repositories, EMMA/MSRB, the audit firm), so a robots block on the city domain
+need not reach it — one state's municipal audits are all mirrored on a university portal.
 
-**Portal APIs beat portal HTML.** CivicClerk: `https://{tenant}.api.civicclerk.com/v1/Events`
-(a different host — the `portal.` subpath 404s). CivicEngage AgendaCenter:
-`/AgendaCenter/Search/?CIDs=<id>&startDate=&endDate=` is often reachable by curl when browse URLs
-are blocked. Blogger: `/feeds/posts/default?alt=json&q=<terms>`. WordPress:
-`wp-json/wp/v2/search`. These turn JavaScript-only or robots-blocked portals into live archives.
+**Three ACFR failure modes, all observed:** a **stale carry-over** (one FY2025 page still named the
+prior year's chair — a dated primary record beats it); it is a **fiscal-year-end snapshot**, not a
+span, so someone who left in the autumn still appears; and **extraction quirks** — filenames are
+inconsistent within one series so scrape real hrefs rather than constructing them, some bare domains
+serve a challenge page where `www.` serves the file, and some pages extract with **all spaces
+stripped**. Some cities publish no ACFR at all.
+
+**Portal APIs beat portal HTML.** These turn JavaScript-only or robots-blocked portals into live
+archives, and are the main reason recent batches averaged ~4 searches per city.
+
+- **CivicPlus / CivicEngage AgendaCenter — the highest-yield unlock.** Minutes are served to plain
+  curl at `/AgendaCenter/ViewFile/{KIND}/_MMDDYYYY-NNN`, and **the date segment is cosmetic — only
+  the trailing integer selects the document.** `{KIND}` is `Minutes` on some deployments and
+  `ArchivedMinutes` on others — **try both.** Prefer the dated search where it works:
+  `/AgendaCenter/Search/?term=&CIDs=<id>&startDate=<d>&endDate=<d>` handed one city a complete
+  2018-2026 archive at zero search cost. Where it returns only the current year, sweep the integer
+  range instead — but note the id space may be non-chronological, interleave several bodies, and be
+  ~50% 404. **⚠ CivicPlus integer id spaces are SHARED ACROSS TENANTS** — one city's Minutes id 1
+  returned a *Richmond Hill, Georgia* document, and its sitemap returned a denial addressed to
+  *tucsonaz.gov*. A blind sweep can silently hand you another municipality's roster. **Confirm the
+  city name inside the extracted text of every swept document.** Also try the CivicPlus site search
+  `/Search/Results?searchPhrase=` — it returns full extracted PDF **text** plus the DocumentCenter
+  id, and `/DocumentCenter/View/{id}` must be enumerated with **GET, not HEAD**.
+- **Legistar:** `https://webapi.legistar.com/v1/{client}/officerecords` — dated per-person,
+  per-body membership rows; `/matters` with OData `substringof()` finds dated "Selection of Vice
+  Mayor" and vacancy items. Titles are often back-filled from a person's latest one, some members
+  are absent, and some end-dates are wrong — corroborate boundaries.
+- **CivicClerk:** `https://{tenant}.api.civicclerk.com/v1/Events` — a different **host**; the
+  `portal.` subpath 404s. Only the bare collection responds; `$orderby`/`$filter`/`$select` 404.
+- **WordPress:** `wp-json/wp/v2/posts?search=<term>&after=&before=&per_page=60&_fields=date,link,title`,
+  and **`wp-json/wp/v2/media?search=<term>&per_page=100`** — the media endpoint surfaces documents
+  **not linked from any page**, and pointed at minutes it returned every January meeting across a
+  decade in one call. If `search=` is fuzzy, try `?slug=`; the two behave oppositely site to site.
+- **WordPress.com-HOSTED outlets** (as opposed to self-hosted) 404 on `wp-json` — but the public
+  WordPress.com REST API works with **no key**:
+  `public-api.wordpress.com/rest/v1.1/sites/{host}/posts/?search=&after=&before=&number=100&fields=date,URL,title,content`.
+  One call returned 125 full-content posts and carried an entire town.
+- **Blogger:** `/feeds/posts/default?alt=json&q=<terms>` (note `published-min` is ignored when `q`
+  is present). **Granicus:** `{tenant}.granicus.com/MetaViewer.php?view_id=<n>&clip_id=<n>&meta_id=<n>`
+  returns a real PDF even where the viewer page is recorded as blocked.
+
+**A robots.txt `Disallow: /` is not proof the host will refuse you.** Several corpus sites carrying
+a blanket disallow served everything to plain curl with a browser UA. Test before believing it.
+
+**Local-news bodies are often OBFUSCATED, not absent.** Three outlets in one corpus served article
+text scrambled for non-subscribers while the page returned a clean 200 — two **ROT47** inside
+`kAm…k^Am` wrappers, one **ROT13**. The lede is usually plain and the body decodes in a few lines.
+One city's ACFR even stored two names ROT47-shifted **inside the PDF text layer**. If fetched text
+looks like mojibake rather than a paywall notice, try decoding before concluding it is unreachable.
 
 **A 403 from a local paper is not the end.** Syndication mirrors of the same article
 (yahoo.com and similar) often fetch cleanly when the origin blocks you.
@@ -136,8 +181,9 @@ blocked and move on; do not conclude the record does not exist.
 - **Winning is not holding.** A ballot winner gets a tenure row **only if a source shows them
   seated** — sworn in, on a roll call, or on a roster. Batch 1 found a winner disqualified
   before taking office who would otherwise have been credited four years.
-- **Never merge two people on surname alone.** One city had a Brent Hatch and a Gentry Hatch
-  in adjacent cycles. Record every observed name form in `name_variants`; real cases include
+- **Never merge two people on surname alone.** The canonical case is now confirmed live: **Brent
+  Hatch resigned a council seat on 2026-01-20 and Gentry Hatch was appointed to it the same evening**
+  — two different people, one surname, one seat, one night. Record every observed name form in `name_variants`; real cases include
   `Claudia Ordaz`/`Claudia Ordaz Perez`, `Cissy`/`Cecilia`, and a name change mid-tenure.
 - **Mayor determination.** In council-manager cities the mayor is chosen **by the council from
   among its members** and never appears on a ballot. Election results alone will not give you
@@ -155,7 +201,11 @@ wrong answer.
 
 ## KNOWN DEAD — do not spend budget rediscovering
 
-`web.archive.org` proxy-blocked (403); `archive.org/wayback/available` 429s, `/cdx` 404s.
+**`web.archive.org` CDX WORKS** — `http://web.archive.org/cdx/search/cdx?url={domain}&matchType=domain`
+returns HTTP 200 and thousands of rows to plain curl (the old "proxy-blocked / cdx 404s" note was
+wrong). Only `archive.org/wayback/available` 429s. It is often the **compliant** way into a
+robots-blocked municipal site, which commonly whitelists `archive.org_bot`. **Truncation trap:** a
+payload of exactly 1,048,576 or 5,242,880 bytes is cut, not the document.
 `results.enr.clarityelections.com` robots-blocked in every state tested. JavaScript results
 portals return nothing to a fetcher. `ballotpedia.org` is listed as robots-blocked to direct
 fetch, **but fetched fine by curl in batch 1** — re-test rather than assuming.

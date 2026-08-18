@@ -1,0 +1,562 @@
+{
+  "city_id": 5,
+  "city": "Belmar",
+  "state": "NJ",
+  "profile": {
+    "gov_form": "mayor-council",
+    "seat_count": 5,
+    "seat_scheme": "at-large",
+    "term_length": 3,
+    "stagger_pattern": "Council of 4 at-large members on staggered 3-year terms, elected at the partisan November general EVERY year in a 2-1-1 rotation: 2 seats in 2019/2022/2025, 1 seat in 2020/2023/2026, 1 seat in 2021/2024/2027. Mayor directly elected to a separate 4-year term (2018, 2022, 2026). Terms begin January 1; oath administered at the January reorganization meeting. Verified against Municipal Data Sheet 'Term Expires' fields in the 2020, 2022 and 2024 adopted budgets.",
+    "mayor_selection": "elected",
+    "election_month": "November",
+    "profile_source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2020/358-2020-adopted-budget/file"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-11-06",
+      "seats_up": 2,
+      "status": "flagged",
+      "source_url": null
+    },
+    {
+      "election_date": "2019-11-05",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://patch.com/new-jersey/manasquan/belmar-council-live-2019-election-results"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.tapinto.net/towns/belmar-slash-lake-como/sections/elections/articles/election-2020-tom-brennan-wins-third-term-on-belmar-council-in-largest-known-voter-turnout"
+    },
+    {
+      "election_date": "2021-11-02",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2022-mayor-council-meeting-documents/2022-minutes-mayor-council/135-01-04-2022-mayor-council-meeting-minutes/file"
+    },
+    {
+      "election_date": "2022-11-08",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2023-mayor-council-meeting-documents/2023-minutes-mayor-council/193-01-02-2023-mayor-council-meeting-minutes/file"
+    },
+    {
+      "election_date": "2023-11-07",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2024-mayor-council-meeting-documents/2024-minutes-mayor-council/255-01-02-2024-mayor-council-meeting-minutes/file"
+    },
+    {
+      "election_date": "2024-11-05",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2025-mayor-council-meeting-documents/2025-minutes-mayor-council/433-01-07-2025-mayor-council-meeting-minutes/file"
+    },
+    {
+      "election_date": "2025-11-04",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2026-mayor-council-meeting-documents/2026-mayor-and-council-meeting-minutes/937-01-05-2026-minutes/file"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Mark Walsifer",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2020/358-2020-adopted-budget/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Gerald Buccafusco",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2023-01-01",
+      "end_date": "2026-07-01",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2023-mayor-council-meeting-documents/2023-minutes-mayor-council/193-01-02-2023-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Caitlin Donovan",
+      "name_variants": [
+        "Cindy Donovan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2026-07-06",
+      "end_date": null,
+      "entry_mode": "succeeded",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2026-mayor-council-meeting-documents/2026-mayor-and-council-meeting-minutes/1132-07-06-2026-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Thomas Brennan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2019/363-2019-audit/file",
+      "retrieval_method": "audit_report",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Patricia Wann",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2021-01-05",
+      "end_date": "2021-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2021-mayor-council-meeting-documents/2021-mayor-council-minutes/840-jan-nov-9-2021-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "James McCracken",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2022-01-04",
+      "end_date": "2022-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2022-mayor-council-meeting-documents/2022-minutes-mayor-council/135-01-04-2022-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Thomas Brennan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2023-01-02",
+      "end_date": "2023-06-12",
+      "entry_mode": "appointed",
+      "exit_mode": "resigned",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2023-mayor-council-meeting-documents/2023-minutes-mayor-council/193-01-02-2023-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Mark Levis",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2023-06-13",
+      "end_date": "2024-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2023/375-2023-audit/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Maria Rondinaro",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2025-01-07",
+      "end_date": "2025-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2025-mayor-council-meeting-documents/2025-minutes-mayor-council/433-01-07-2025-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Jodi Kinney",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Council President",
+      "role": "vice_mayor",
+      "start_date": "2026-01-05",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2026-mayor-council-meeting-documents/2026-mayor-and-council-meeting-minutes/937-01-05-2026-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Patricia Wann",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2021-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2020/358-2020-adopted-budget/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2018-11-06"
+    },
+    {
+      "person": "Jodi Kinney",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2022-01-01",
+      "end_date": "2024-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2022-mayor-council-meeting-documents/2022-minutes-mayor-council/135-01-04-2022-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2021-11-02"
+    },
+    {
+      "person": "Jodi Kinney",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat A",
+      "role": "council_member",
+      "start_date": "2025-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2025-mayor-council-meeting-documents/2025-minutes-mayor-council/433-01-07-2025-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-11-05"
+    },
+    {
+      "person": "Thomas Brennan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2020/358-2020-adopted-budget/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Thomas Brennan",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2021-01-01",
+      "end_date": "2023-06-12",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2023/375-2023-audit/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Caitlin Donovan",
+      "name_variants": [
+        "Cindy Donovan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2023-06-13",
+      "end_date": "2023-12-31",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2023/375-2023-audit/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Caitlin Donovan",
+      "name_variants": [
+        "Cindy Donovan"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2024-01-01",
+      "end_date": "2026-07-06",
+      "entry_mode": "elected",
+      "exit_mode": "elevated",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2024-mayor-council-meeting-documents/2024-minutes-mayor-council/255-01-02-2024-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-11-07"
+    },
+    {
+      "person": "Barry Lubin",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat B",
+      "role": "council_member",
+      "start_date": "2026-07-28",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2026-mayor-council-meeting-documents/2026-mayor-and-council-meeting-minutes/1177-07-28-2026-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Thomas Carvelli",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2019/363-2019-audit/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Thomas Carvelli",
+      "name_variants": [
+        "Thomas J. Carvelli"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2020/358-2020-adopted-budget/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Mark Levis",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2023-mayor-council-meeting-documents/2023-minutes-mayor-council/193-01-02-2023-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Michael DeBlasio",
+      "name_variants": [
+        "Mike DeBlasio"
+      ],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat C",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2026-mayor-council-meeting-documents/2026-mayor-and-council-meeting-minutes/937-01-05-2026-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    },
+    {
+      "person": "James McCracken",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2019/363-2019-audit/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "James McCracken",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2020-01-01",
+      "end_date": "2022-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/resident-forms/financial-documents/2020/358-2020-adopted-budget/file",
+      "retrieval_method": "audit_report",
+      "confidence": "high",
+      "election_date": "2019-11-05"
+    },
+    {
+      "person": "Maria Rondinaro",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2023-01-01",
+      "end_date": "2025-12-31",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2023-mayor-council-meeting-documents/2023-minutes-mayor-council/193-01-02-2023-mayor-council-meeting-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-11-08"
+    },
+    {
+      "person": "Kevin Moroney",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "At-Large Seat D",
+      "role": "council_member",
+      "start_date": "2026-01-01",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.belmar.com/government/documents/meeting-documents/mayor-council-meeting/2026-mayor-council-meeting-documents/2026-mayor-and-council-meeting-minutes/937-01-05-2026-minutes/file",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2025-11-04"
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "blocked",
+      "tool_calls": 4,
+      "searches": 0,
+      "detail": "NJ registry entry partly wrong for Monmouth. Monmouth County Clerk's real host is www.monmouthcountyvotes.gov (monmouthcountyvotes.com 301s to it). Its 'Past Election Results' page links ONLY to results.enr.clarityelections.com/NJ/Monmouth/{id}/ for every election 2003-2026 - no canvass PDFs at all. Clarity is robots-blocked, so the 'county clerk canvass PDF' pattern the registry describes for Camden DOES NOT EXIST for Monmouth. The site's wp-json REST API is closed ('DRA: Only authenticated users can access the REST API', HTTP 401), so the media-endpoint trick is unavailable too. Registry claim 'belmar.com JS-walled' is WRONG: belmar.com serves full HTML to plain curl with a browser UA, has an open sitemap.xml, and its Joomla/Koowa document library is fully enumerable."
+    },
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "NJ DCA Mayors Directory JSON API works as documented: data.nj.gov/resource/gkt3-i954.json?$q=Belmar returned mayor 'Cindy Donovan', Monmouth County, term_start 2026-07-01, term_end 2027-12-31. Two cautions: the given name is a nickname/variant of Caitlin Donovan (confirmed against the 2026-07-06 minutes), and the term_end 2027-12-31 is WRONG - she was appointed to Buccafusco's unexpired mayoral term ending 2026-12-31."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "Faulkner Act Small Municipality Plan 3. Governing body = mayor + 4 at-large council members (the mayor sits AS A MEMBER of the council, chairs it and votes; no veto). Council terms are THREE years, staggered, elected at the partisan November general EVERY year in a 2-1-1 rotation; mayor directly elected to a separate FOUR-year term. Derived independently from Municipal Data Sheet 'Term Expires' fields: 2020 budget (Walsifer 12/31/2022; Brennan 12/31/2020; Carvelli 12/31/2022; McCracken 12/31/2022; Wann 12/31/2021), 2022 budget (Brennan 12/31/2023), 2024 budget (Buccafusco 12/31/2026; Donovan 12/31/2026; Kinney 12/31/2024; Levis 12/31/2025). Seat classes: A=2018/2021/2024, B=2017/2020/2023, C+D=2019/2022/2025."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "The productive route was NOT election results. Belmar's own audit series (2019-2025) carries an 'OFFICIALS IN OFFICE AND SURETY BONDS' page naming mayor, council president and every council member - an annual spine covering the whole panel. Cross-checked against January reorganization minutes (oath of office + council-president nomination) for 2021, 2022, 2023, 2024, 2025 and 2026, all fetchable as plain PDFs from belmar.com and clean under pdftotext -layout."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "CRITICAL ACFR-style failure mode observed, of the 'runs AHEAD of its fiscal year' kind. The '2025 Audit Report' officials page lists Buccafusco (Mayor), Kinney (Council President), Donovan, DeBlasio and Moroney - i.e. the JANUARY 2026 council - even though it says 'in office during the period under audit'. Belmar's 2025 minutes show Levis and Rondinaro present at every meeting through 2025-11-25 and Rondinaro serving as Council President all year; DeBlasio and Moroney did not take the oath until 2026-01-05. Trusting that page alone would have deleted two members from 2025 and inserted two a year early. The 2019/2020/2021 audits are explicitly dated 'at December 31, YYYY' and the 2022/2023/2024 audits check out against contemporaneous minutes - so the drift is confined to the newest edition, exactly as the registry's cross-state finding 0 predicts."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 2,
+      "detail": "Four mid-term changes found and dated. (1) 2023-06-12: Councilman/Council President Thomas Brennan left; Caitlin Donovan seated 2023-06-13 to the unexpired term and Mark Levis elevated to Council President the same day (2023 audit officials page annotates both boundaries verbatim: 'Council President to 6/12/23' / 'from 6/13/23'). (2) 2026-07-01: Mayor Gerald Buccafusco resigned on medical advice; last observed presiding 2026-06-23. (3) 2026-07-06: special meeting, three names submitted, Council President Kinney nominated Councilwoman Caitlin Donovan, approved 4-0, oath administered same evening - she vacated her council seat by elevation. (4) 2026-07-28: the Democratic Committee submitted Johanna Roper Robinson, Barry Lubin and Mark Spagnuolo for Donovan's unexpired COUNCIL seat; the first nomination died for want of a second, Barry Lubin was then nominated and approved 4-0 and sworn the same night. Council seat B was therefore vacant 2026-07-06 to 2026-07-27 and the mayoralty 2026-07-01 to 2026-07-05 - both intra-year caveats on sourced seat-years, deliberately NOT filed as gaps."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "not_found",
+      "tool_calls": 0,
+      "searches": 1,
+      "detail": "No mid-term change found for 2019-2021. Composition is identical at the 2019, 2020 and 2021 audit year-end snapshots and at the mid-2020 budget data sheet; the 2021 combined minutes file (Jan-Nov 2021) shows the same five people at every roll call. belmar.com's document library starts at 2021, so the interior of 2019 and 2020 rests on the two audit snapshots plus the budget data sheet rather than on roll calls - the one genuinely thin interval in this city."
+    },
+    {
+      "step": "escalation",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 2,
+      "detail": "Two cycles predating the minutes archive were sourced from local press: Patch 'Belmar Council: Live 2019 Election Results' (Republicans James McCracken and Thomas J. Carvelli won the two seats) and TAPinto 'Election 2020: Tom Brennan Wins Third Term on Belmar Council' (Brennan beat Republican Jodi Kinney, with Gerald Buccafusco running as an independent - the same Kinney and Buccafusco who later won in 2021 and 2022). Patch fetches to plain curl with a browser UA and its article body is embedded as JSON-LD; vote totals in the live article differ from the certified totals a search snippet reported, so no vote counts were recorded."
+    },
+    {
+      "step": "escalation",
+      "rung": 1,
+      "outcome": "blocked",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "2018-11-06 cycle (mayor + seat A) left flagged. Monmouth County publishes results only through robots-blocked Clarity, NJ state PDFs carry no municipal races, and belmar.com's archive starts at 2021. Blast radius is nil in practice: both terms it seated are fully covered by the audit and budget-data-sheet evidence (Walsifer to 12/31/2022, Wann to 12/31/2021)."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 0,
+      "searches": 0,
+      "detail": "Seat-label caveat: the C/D pairing inside the two-seat 2019/2022/2025 class is ARBITRARY - the two seats are elected together at large with no number, so Carvelli/Levis/DeBlasio vs McCracken/Rondinaro/Moroney could be swapped without changing any fact. Seat A and Seat B are genuinely distinguishable by their election years. Homonym note: 'Cindy Donovan' (NJ DCA) and 'Caitlin Donovan' (borough minutes, Wikipedia, audit) are the same person, not two - confirmed by the 2026-07-06 minutes naming Caitlin Donovan as the councilwoman elevated to mayor on the date DCA gives as the mayoral term start."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 1,
+      "searches": 0,
+      "detail": "48 of 48 seat-years covered (6 tracked seats x 8 years), zero gaps, zero known-vacant seat-years, one low-confidence row (none) and one medium-confidence row (Brennan's 2019-2020 Council President designation, whose start is inferred to the January 2019 reorganization from two year-end audit snapshots)."
+    }
+  ],
+  "totals": {
+    "tool_calls": 36,
+    "searches": 4
+  }
+}

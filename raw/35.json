@@ -1,0 +1,398 @@
+{
+  "city_id": 35,
+  "city": "Mission",
+  "state": "TX",
+  "profile": {
+    "gov_form": "council-manager",
+    "seat_count": 5,
+    "seat_scheme": "position-numbered",
+    "term_length": 4,
+    "stagger_pattern": "Charter Sec. 3.01: Mayor + four Councilmembers, all elected AT LARGE by numbered Place 1-4, 4-year terms, two staggered halves two years apart. Mayor + Place 1 + Place 3 = 2018, 2022, next 2026. Place 2 + Place 4 = 2016, 2020, 2024. Sec. 3.01(D) requires a MAJORITY for every position, so runoffs are routine (2018 and 2022 both went to runoff).",
+    "mayor_selection": "elected",
+    "election_month": "May (first Saturday) through the May 4, 2024 election; charter amendment adopted at that same May 4, 2024 election moved the regular municipal election to the NOVEMBER uniform date, first used Nov 3, 2026. Mayor/Place 1/Place 3 terms elected in June 2022 were therefore extended roughly six months beyond May 2026 - there was NO May 2026 Mission city election.",
+    "profile_source_url": "https://www.missiontexas.us/DocumentCenter/View/324/May-4-2024-Special-Election-Charter-Amendments"
+  },
+  "cycles": [
+    {
+      "election_date": "2018-05-05",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/886/Special-Election-PDF"
+    },
+    {
+      "election_date": "2018-06-09",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/881/June-9-2018-Runoff-Election-Canvass-Report-PDF"
+    },
+    {
+      "election_date": "2020-11-03",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/851/Ordinance-4928-Canceling-November-3-2020-General-Election-PDF"
+    },
+    {
+      "election_date": "2022-05-07",
+      "seats_up": 3,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/823/City-of-Mission-May-07-2022-Official-Canvass-Report-PDF"
+    },
+    {
+      "election_date": "2022-06-11",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/820/City-of-Mission-June-11-2022-Runoff-Election-Official-Canvass-Report-PDF"
+    },
+    {
+      "election_date": "2023-12-09",
+      "seats_up": 1,
+      "status": "sourced",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-09ede6264154426ea68351ef4cad76e1.pdf"
+    },
+    {
+      "election_date": "2024-05-04",
+      "seats_up": 2,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/323/May-4-2024-Certification-of-Unopposed-Candidates"
+    },
+    {
+      "election_date": "2026-11-03",
+      "seats_up": 4,
+      "status": "sourced",
+      "source_url": "https://www.missiontexas.us/188/Elections"
+    }
+  ],
+  "tenures": [
+    {
+      "person": "Armando O'cana",
+      "name_variants": ["Armando \"Doc\" O'cana", "Dr. Armando O'cana", "Armando Ocana"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2018-06-09",
+      "end_date": "2022-06-20",
+      "entry_mode": "elected",
+      "exit_mode": "defeated",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/881/June-9-2018-Runoff-Election-Canvass-Report-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-06-09"
+    },
+    {
+      "person": "Norie Gonzalez Garza",
+      "name_variants": ["Noralinda Garza", "Norie Garza Gonzalez"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor",
+      "role": "mayor",
+      "start_date": "2022-06-21",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/820/City-of-Mission-June-11-2022-Runoff-Election-Official-Canvass-Report-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-06-11"
+    },
+    {
+      "person": "Jessica Ortega",
+      "name_variants": ["Jessica Ortega Ochoa", "Jessica Ortega-Ochoa"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 1",
+      "role": "council_member",
+      "start_date": "2018-05-05",
+      "end_date": "2022-06-20",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/886/Special-Election-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-05"
+    },
+    {
+      "person": "Jessica Ortega",
+      "name_variants": ["Jessica Ortega Ochoa"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 1",
+      "role": "council_member",
+      "start_date": "2022-06-21",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/820/City-of-Mission-June-11-2022-Runoff-Election-Official-Canvass-Report-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2022-06-11"
+    },
+    {
+      "person": "Ruben D. Plata",
+      "name_variants": ["Ruben Plata"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "council_member",
+      "start_date": "2016-05-07",
+      "end_date": "2020-11-03",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.missiontexas.us/directory.aspx?eid=14",
+      "retrieval_method": "other",
+      "confidence": "medium",
+      "election_date": "2016-05-07"
+    },
+    {
+      "person": "Ruben D. Plata",
+      "name_variants": ["Ruben Plata"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "council_member",
+      "start_date": "2020-11-03",
+      "end_date": "2024-05-13",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/851/Ordinance-4928-Canceling-November-3-2020-General-Election-PDF",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Ruben D. Plata",
+      "name_variants": ["Ruben Plata"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 2",
+      "role": "council_member",
+      "start_date": "2024-05-13",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-ace58c32b4294faeacd331f6ba42e742.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-05-04"
+    },
+    {
+      "person": "Norie Gonzalez Garza",
+      "name_variants": ["Noralinda Garza"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 3",
+      "role": "council_member",
+      "start_date": "2018-05-05",
+      "end_date": "2022-05-16",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/886/Special-Election-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "high",
+      "election_date": "2018-05-05"
+    },
+    {
+      "person": "Abiel Flores",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Place 3",
+      "role": "council_member",
+      "start_date": "2022-05-16",
+      "end_date": "2023-12-18",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-d6d06398dc4a4392946866f21fcb93d7.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2022-05-07"
+    },
+    {
+      "person": "Marissa Ortega Gerlach",
+      "name_variants": ["Marissa Ortega-Gerlach", "Marissa Gerlach"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 3",
+      "role": "council_member",
+      "start_date": "2023-12-18",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-09ede6264154426ea68351ef4cad76e1.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2023-12-09"
+    },
+    {
+      "person": "Gus Martinez",
+      "name_variants": [],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "council_member",
+      "start_date": "2018-06-09",
+      "end_date": "2019-05-01",
+      "entry_mode": "elected",
+      "exit_mode": "resigned",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/881/June-9-2018-Runoff-Election-Canvass-Report-PDF",
+      "retrieval_method": "county_canvass",
+      "confidence": "medium",
+      "election_date": "2018-06-09"
+    },
+    {
+      "person": "Jose Alberto Vela",
+      "name_variants": ["Alberto Vela", "Jose Alberto \"Beto\" Vela", "Beto Vela"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "council_member",
+      "start_date": "2019-05-01",
+      "end_date": "2020-11-03",
+      "entry_mode": "appointed",
+      "exit_mode": "term_end",
+      "source_url": "https://texasborderbusiness.com/councilman-beto-vela-files-for-re-election-for-mission-city-council-pl-4/",
+      "retrieval_method": "trade_press",
+      "confidence": "medium",
+      "election_date": null
+    },
+    {
+      "person": "Jose Alberto Vela",
+      "name_variants": ["Alberto Vela", "Jose Alberto \"Beto\" Vela"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "council_member",
+      "start_date": "2020-11-03",
+      "end_date": "2024-05-13",
+      "entry_mode": "elected",
+      "exit_mode": "term_end",
+      "source_url": "https://www.missiontexas.us/DocumentCenter/View/851/Ordinance-4928-Canceling-November-3-2020-General-Election-PDF",
+      "retrieval_method": "public_notice",
+      "confidence": "high",
+      "election_date": "2020-11-03"
+    },
+    {
+      "person": "Jose Alberto Vela",
+      "name_variants": ["Alberto Vela", "Jose Alberto \"Beto\" Vela"],
+      "first_name_sourced": 1,
+      "seat_label": "Place 4",
+      "role": "council_member",
+      "start_date": "2024-05-13",
+      "end_date": null,
+      "entry_mode": "elected",
+      "exit_mode": "ongoing",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-ace58c32b4294faeacd331f6ba42e742.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": "2024-05-04"
+    },
+    {
+      "person": "Jessica Ortega",
+      "name_variants": ["Jessica Ortega Ochoa"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2019-01-01",
+      "end_date": "2020-12-31",
+      "entry_mode": "unknown",
+      "exit_mode": "unknown",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-84c8aca300594aeabbcb2498fbdcb92a.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "low",
+      "election_date": null
+    },
+    {
+      "person": "Jessica Ortega",
+      "name_variants": ["Jessica Ortega Ochoa"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2021-01-11",
+      "end_date": "2022-06-20",
+      "entry_mode": "unknown",
+      "exit_mode": "term_end",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-84c8aca300594aeabbcb2498fbdcb92a.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    },
+    {
+      "person": "Ruben D. Plata",
+      "name_variants": ["Ruben Plata"],
+      "first_name_sourced": 1,
+      "seat_label": "Mayor Pro Tem",
+      "role": "vice_mayor",
+      "start_date": "2022-06-21",
+      "end_date": null,
+      "entry_mode": "appointed",
+      "exit_mode": "ongoing",
+      "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-17791648bd2b4e33998cb657cd054393.pdf",
+      "retrieval_method": "minutes_rollcall",
+      "confidence": "high",
+      "election_date": null
+    }
+  ],
+  "gaps": [],
+  "run_log": [
+    {
+      "step": "registry",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "Registry entry for Texas is CORRECT on the one point that mattered: 'Mission hosts its own canvasses' on its city DocumentCenter. Hidalgo County / Clarity was never needed and never touched. Registry claim that TML directory (directory.tml.org/profile/city/895) has no history is also correct - not used. Registry's warning that Mission's calendar was UNVERIFIED is now resolved (see cycle_calendar)."
+    },
+    {
+      "step": "cycle_calendar",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 8,
+      "searches": 0,
+      "detail": "Settled from the charter (DocumentCenter/View/324, the May 2024 charter-amendment compilation of Art. 3): Mayor + 4 numbered Places, ALL AT LARGE, 4-year terms, staggered in two halves two years apart, majority required with runoff. So the panel contains FOUR cycles, not two, but not because of 2-year terms - because of the 2-year stagger offset. Election date was the first Saturday in May through 2024; the May 4, 2024 charter amendment moved it to the November uniform date, first used Nov 3, 2026. Mayor term limit 3 terms; no limit on Places. Vacancy rule (Sec. 3.06): unexpired term of 12 months or less -> council appointment; longer -> special election; no more than one appointment per 12-month period."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 2,
+      "outcome": "success",
+      "tool_calls": 12,
+      "searches": 0,
+      "detail": "The unlock was the CivicPlus site search on the city's own domain: https://www.missiontexas.us/Search/Results?searchPhrase=<term> returns full extracted PDF text plus the DocumentCenter view id, so canvasses were located with ZERO WebSearches. The /DocumentCenter React index serves no folder listing, but /DocumentCenter/View/{id} enumerated by GET (not HEAD - HEAD returns 404 on every id) exposes filenames via Content-Disposition; ids 700-1010 map the whole elections tree. Canvasses retrieved: 2018-05-05 (id 886, covers Mayor + Place 1 + Place 3 general and the Place 4 SPECIAL for an unexpired term), 2018-06-09 runoff (881, Mayor + Place 4), 2022-05-07 (823), 2022-06-11 runoff (820), 2024-05-04 (325). The 2024 canvass contains ONLY charter propositions A-X: the two council races were certified unopposed and cancelled - see id 323."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 7,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "2020 and 2024 both produced NO ballot for council. 2020: Resolution 1652 (id 850, 2020-03-23) postponed the May 2, 2020 election to Nov 3, 2020 under Gov. Abbott's COVID proclamation, expressly holding incumbents in office until successors were sworn; Ordinance 4928 (id 851, 2020-08-06) then cancelled the Nov 3 election and DECLARED Ruben Plata (Place 2) and Alberto 'Beto' Vela (Place 4) elected unopposed. 2024: 'Certification of Unopposed Candidates' (id 323) names Ruben D. Plata (Place 2) and Jose Alberto 'Beto' Vela (Place 4). BOTH documents are image-only scans - pdftotext returns zero lines. Recovered with pdftoppm -r 200 + tesseract. This confirms the brief's 'an absent seat may mean UNOPPOSED, not missing' for Texas: two of the four in-panel cycles produced no council votes at all."
+    },
+    {
+      "step": "midterm_check",
+      "rung": 4,
+      "outcome": "success",
+      "tool_calls": 3,
+      "searches": 2,
+      "detail": "TWO mid-term changes found, both invisible in the election record. (1) 2019: Place 4 councilman GUS MARTINEZ stepped down to become the CITY ATTORNEY, and Jose Alberto 'Beto' Vela was APPOINTED in May 2019 to the remainder of the term (Texas Border Business, Jan 2020: 'Vela has served as Councilman, Place 4, since May 2019, when he was appointed ... to replace Place 4 Councilman Gus Martinez who stepped down from his post to become the city's legal counsel'). Corroborated structurally: Gus Martinez appears as 'Gus Martinez, City Attorney' in the 2021 and 2022 minutes rolls, and the charter permits appointment only because the unexpired term was then ~12 months. EXACT DAY IN MAY 2019 NOT SOURCED - 2019 minutes are published nowhere (see escalation). (2) 2023: Place 3 councilman ABIEL FLORES resigned in October 2023 to run for judge of the 464th District Court (Progress Times, 2023-11-10; resignation accepted by resolution at the 2023-10-23 meeting), triggering the Dec 9, 2023 SPECIAL ELECTION because his unexpired term ran past 12 months. He held over under Tex. Const. Art. XVI Sec. 17 and is still on the roll call of the 2023-12-18 3:30pm special meeting; Marissa Ortega Gerlach was sworn in between that meeting and the 4:30pm regular meeting the same day, where she appears and he does not."
+    },
+    {
+      "step": "cycle_retrieval",
+      "rung": 6,
+      "outcome": "success",
+      "tool_calls": 9,
+      "searches": 0,
+      "detail": "Municode Meetings portal mission-tx.municodemeetings.com: the ?year= and ?page= parameters DO NOT filter (both return the current-year view). The working control is the Drupal exposed date filter: /meetings3?view_id=1&date_filter[value][year|month|day]=..&date_filter_1[value][year|month|day]=.. Minutes are plain PDFs on mccmeetings.blob.core.usgovcloudapi.net/missiontx-pubu/MEET-Minutes-{hash}.pdf and parse cleanly with pdftotext. Every Mission council minute set opens with a full PRESENT/ABSENT roll naming each member by Place and flagging the Mayor Pro-Tem, which is what dated every handover here: 2022-05-16 (Abiel Flores sworn in Place 3, canvass Res. 1774), 2022-06-20 (O'cana still Mayor, Jessica Ortega still Mayor Pro Tem), 2022-06-21 (Norie Gonzalez Garza Mayor; agenda item 25 elects Plata Mayor Pro-Tem), 2023-12-18 (Gerlach seated, Res. 1871 canvassing the special election with vote totals), 2024-05-13 (Plata and Vela sworn in for new 4-year terms), 2026-07-28 (roster unchanged)."
+    },
+    {
+      "step": "escalation",
+      "rung": 6,
+      "outcome": "not_found",
+      "tool_calls": 3,
+      "searches": 0,
+      "detail": "CONFIRMS THE CENSUS WARNING. The Municode Meetings portal has NO 2019 rows at all (a Mar-Jul 2019 date-filtered query returns zero rows), and the Nov/Dec 2020 rows that do exist carry NO agenda and NO minutes files. Earliest minutes PDF actually retrievable is 2021-01-11. The 1976-2029 dropdown is indeed cosmetic. The city's own /Archive.aspx is an empty shell and the /DocumentCenter React index exposes no folder API. No ACFR earlier than FY2024 is published on the city site either, so the usual 'List of Principal Officials' spine is unavailable for 2019-2020. This is an ABSENCE, not a block - nothing 403'd."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "All names taken from locally extracted text (pdftotext -layout, or tesseract for the two scans), never from a page summary. Boundary caveats, filed here rather than as gaps because the seat-years themselves are sourced: (a) Gus Martinez's exit and Vela's appointment are dated only to 'May 2019' - 2019-05-01 is a placeholder within a sourced month, and both rows are marked medium; (b) the 2020-11-03 boundary between Plata's and Vela's terms is the date the cancelled election would have been held - Ordinance 4928 says certificates issue 'following the time the election would have been canvassed' and no oath date is published, but the same person holds each seat on both sides of the boundary so no panel cell is affected; (c) Mayor Pro Tem for 2019-2020 is inferred BACKWARD from the 2021-01-11 roll call and is flagged low - it is split into its own pre-2021 row so the low flag does not contaminate the sourced 2021-2022 span. Day-of-week checks pass: 2018-05-05, 2018-06-09, 2022-05-07, 2022-06-11, 2023-12-09 and 2024-05-04 are all Saturdays, as Texas uniform/runoff dates must be; 2020-11-03 and 2026-11-03 are Tuesdays."
+    },
+    {
+      "step": "export",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 2,
+      "searches": 0,
+      "detail": "2026 note: the Nov 3, 2026 election has NOT yet been held (today is 2026-08-17), so all five seats plus the Mayor Pro Tem are held by incumbents for the whole of panel year 2026 regardless of outcome. Filings on the city elections page show Mayor (Armando Ocana, Ricardo Lee Salinas, Ruben D. Plata, Noralinda Gonzalez Garza), Place 1 (Timothy Ray Brown, Jessica Ortega), Place 3 (Marissa Ortega Gerlach, Albert Alanis Perez, Daniel Tijerina) plus a concurrent SPECIAL election for Place 2 (Ricardo Saldana, Linda Castaneda) - Place 2 is on the ballot because sitting Mayor Pro Tem Ruben Plata filed for Mayor. Every seat-year 2019-2026 is covered by a tenure row; zero gaps."
+    }
+  ],
+  "totals": {"tool_calls": 52, "searches": 2}
+}
