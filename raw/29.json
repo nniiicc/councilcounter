@@ -967,7 +967,7 @@
       "outcome": "not_found",
       "tool_calls": 3,
       "searches": 0,
-      "detail": "ACFR route ruled out for this city. The city's finance page publishes an 'Annual Report' for every year 2019-2025 plus audited financial statements, and all of them fetch and extract cleanly - but they are SDCL-form statutory financial reports (fund-by-fund receipts and disbursements). Zero occurrences of 'mayor', 'ward', 'alderman' or 'officials' in any year. Hot Springs publishes NO Annual Comprehensive Financial Report and therefore has no 'List of Principal Officials' page. No OCR was needed - nothing was image-only."
+      "detail": "ACFR route ruled out for this city, all seven years now verified. The city's finance page publishes an 'Annual Report' for 2019-2025 plus audited financial statements. All are SDCL-form statutory financial reports (fund-by-fund receipts and disbursements) with ZERO occurrences of 'mayor', 'ward', 'alderman', 'council' or 'officials'. Six years extract directly with pdftotext -layout. FY2022 is the exception: a 4-page image-only scan that yields 4 bytes to pdftotext and OCRs to gibberish at native orientation because the pages are rotated 180 degrees - 'sips -r 180' then tesseract renders it cleanly as 'ANNUAL REPORT FOR CITY OF HOT SPRINGS ... DECEMBER 31, 2022', same financial schedule, still no officials page. Hot Springs publishes NO Annual Comprehensive Financial Report and therefore has no 'List of Principal Officials' page anywhere in the series."
     },
     {
       "step": "validation",
@@ -1000,10 +1000,18 @@
       "tool_calls": 2,
       "searches": 0,
       "detail": "The 2021 minutes resolved four open questions. (1) Bob Nelson is already mayor on 2021-01-04, so the Kotti-to-Nelson handover falls between 2020-03-16 and 2021-01-04 and is almost certainly the 2020-06-02 election; the Mayor 2021 gap is closed. (2) Bill Lukens has been Council President since 2021-07-06. (3) Ward 3 Seat B was held by Wes Grimes from 2020-07-06 to 2021-07-06 - the 2021-06-21 mayor's report says verbatim that Linda Varvel 'will replace Wes who chose not to run for Council in Ward 3' and thanks Wes 'for serving on City Council for the past year', i.e. a one-year unexpired term, the same appoint-then-elect pattern seen in 2024 (Telkamp) and 2025 (Burris). (4) Debra Johnston already holds Ward 4 Seat B on 2021-01-04 though she is absent from the 2020-03-16 roster, so she too entered at the 2020 election on a one-year unexpired term. The same report confirms the unopposed rule again: Varvel, Burris and Johnston 'ran unopposed' and only Ward 1 appeared on the 2021 ballot (12.6% turnout, Ward 1 only)."
+    },
+    {
+      "step": "validation",
+      "rung": null,
+      "outcome": "success",
+      "tool_calls": 5,
+      "searches": 0,
+      "detail": "SCRATCHPAD-COLLISION AUDIT (shared scratchpad warning). All working files isolated under hs29/ with city-prefixed names; the eight early root-level downloads were city-prefixed ('hs_YYYY.pdf') and have been moved into hs29/root/, and the three generic-named root files I wrote (city.html, idx.html, sm.xml) carried no data used in this file - the one that did matter, the city home page, was re-fetched into hs29/root/hs29_city_home.html and re-confirmed (12 'Hot Springs' hits, Revize CMS). Municipality re-verified inside ALL 35 extracted documents: every one of the 28 minutes files carries the verbatim header 'MINUTES OF THE ... CITY COUNCIL OF THE CITY OF HOT SPRINGS' and every annual report carries 'ANNUAL REPORT FOR CITY OF HOT SPRINGS'. Two automated flags were run down and both are benign: (a) the 2026-06-15 minutes mention 'the City of Edgemont' because Hot Springs is a co-beneficiary on a joint USDA RBDG application with Edgemont - a real agenda item in a correctly-identified Hot Springs document, not a foreign file; (b) the FY2022 annual report extracted to 4 bytes, which a re-fetch proved is not a clobbered file - the fresh download is md5-identical (1b4128de777b1c4707cdd3fa642d8a3c) to the cached copy and is genuinely an image-only scan. No cross-city contamination found."
     }
   ],
   "totals": {
-    "tool_calls": 56,
+    "tool_calls": 61,
     "searches": 8
   }
 }

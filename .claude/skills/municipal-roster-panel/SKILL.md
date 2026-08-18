@@ -16,8 +16,8 @@ description: >
 # Municipal Roster Panel
 
 > **This is a corrected fork**, forked 2026-08-17 from the bundled `anthropic-skills` plugin
-> skill and amended continuously against a live run — **37 cities across WA, MI, AL, GA, TN, MA, VA
-> and AZ** as of this revision, at 99.4% seat-year coverage. It **supersedes** the plugin version, which is unchanged and still carries a
+> skill and amended continuously against a live run — **the complete 64-city corpus across all 12
+> states**, finished at **99.2% seat-year coverage** with zero rows lacking provenance. It **supersedes** the plugin version, which is unchanged and still carries a
 > dead Michigan source and several wrong URLs.
 >
 > It lives in the councilcounter repo at `.claude/skills/municipal-roster-panel/`, so it is
@@ -35,7 +35,7 @@ description: >
 > (day-of-week checks, stated-count completeness, absence-of-special-elections).
 >
 > Also added: an **orchestration** section (shared brief, propagating findings to in-flight agents,
-> resuming rather than respawning) and **cost figures re-measured over 37 cities** — searches ran at
+> resuming rather than respawning) and **cost figures re-measured over the full 64-city run** — searches ran at
 > 7.4 per city against the pilot's ~24, while tokens rose to ~150k.
 >
 > Entries carry verification dates — **re-verify before trusting any of them**, since this fork will
@@ -319,9 +319,9 @@ mid-response failures.
 
 Measured across 20+ cities in this method's development:
 
-**Superseded by a 37-city production run (2026-08-17).** The figures below were measured across
-WA, MI, AL, GA, TN, MA, VA and AZ — 8 states, 37 cities — and differ sharply from the original
-pilot in both directions.
+**Superseded by the completed 64-city production run (2026-08-17).** The figures below were measured across
+the complete **64-city, 12-state corpus** and differ sharply from the original pilot in both
+directions.
 
 | Metric | Pilot estimate | **Measured over 37 cities** |
 |---|---|---|

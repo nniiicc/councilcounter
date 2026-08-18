@@ -2,7 +2,7 @@
 
 Findings from live runs that correct or extend `municipal-roster-panel`.
 
-**Status: merged upstream (2026-08-17).** Every finding here has been folded into a
+**Status: complete and merged upstream (2026-08-17).** Covers the full 64-city run. Every finding here has been folded into a
 user-level fork of the skill at `~/.claude/skills/municipal-roster-panel/`, which supersedes
 the bundled plugin version and is the operational source of truth for future runs **in any
 project**. **This file is the audit trail** — the evidence, measurements and reasoning behind
@@ -449,3 +449,136 @@ before concluding a document endpoint is broken.
 
 **Virginia Electoral Board minutes are procedural only** — they record that "a canvass was conducted"
 and name no candidates. Ballotpedia had a single Poquoson page across the whole window.
+
+---
+
+# Batches 5-9 — Arizona, Texas, California, New Jersey, South Dakota
+
+Recorded after the fact. The operational versions of all of these are already merged into the
+forked skill; this section restores the evidence trail.
+
+## The two foundational dead sources were both wrong
+
+These had been ruled out **before the run began** (HANDOFF §6) and cost the project real work.
+
+### Clarity Elections was never robots-blocked
+
+`results.enr.clarityelections.com/robots.txt` returns **HTTP 404**, serving the same 2,616-byte page
+as any nonsense path — verified directly. **No robots.txt exists, so no Disallow ever did.** The
+original finding recorded a *failed robots check* as a *prohibition*, which is exactly the
+blocked-vs-absent confusion the registry's own Rule 3 warns against. Clarity was described in the
+same breath as carrying "the richest municipal data of anything found".
+
+Its **JSON API is open**: county clerk site → election id → `/{ST}/{County}/{id}/current_ver.txt` →
+`/{id}/{ver}/json/en/summary.json`. Three counties in New Jersey had **no other route at all** —
+Monmouth publishes no canvass PDFs whatsoever, and Howell sourced all five of its cycles this way.
+Traps: 2016 uses `json/sum.json` with a different shape; bodies arrive gzipped, sometimes with no
+`Content-Encoding`; `elections.json` returns `[]` on several counties, so ids must be found by
+sweeping `current_ver.txt` anchored on a neighbouring county's id.
+
+### Wayback CDX works, and is often the *compliant* route
+
+`web.archive.org/cdx/search/cdx?url={domain}&matchType=domain` returned **HTTP 200 and 8,000 rows to
+plain curl** for Hartford — 1,529 archived PDFs including the complete 2019-2026 council-packet
+series, i.e. the exact files recorded as unreachable. Only `archive.org/wayback/available` genuinely
+429s.
+
+**And municipal robots.txt files frequently whitelist `archive.org_bot` and `ia_archiver` while
+carrying a blanket `Disallow: /` for everyone else** — so the archive's copy was collected with the
+site's consent. For a domain-move city, query the **old** host: `hs-sd.org` returned 2,979 rows and
+1,043 PDFs where the current domain returned zero, recovering a minutes series **deleted from the
+live server**.
+
+*Truncation trap:* some payloads are cut at an exact power of two (1,048,576 or 5,242,880 bytes)
+while still indexing 200 — reads as a corrupt PDF when it is a cut download.
+
+## The South Dakota ~50% ceiling was not real
+
+Hartford's `robots.txt` **is** a genuine blanket Disallow and was honoured — but it contains **no
+year-scoped rule**, so the recorded "2019/2020 blocked, 2021/2023 fine" asymmetry that produced the
+ceiling was tooling noise misread as policy. Via the archive route above, Hartford proved ~100%
+recoverable. **South Dakota finished at 98.1% against a 50-55% forecast**, and Sioux Falls was the
+cheapest city per seat-year in the entire corpus (8 searches, 80 seat-years) via an open **OnBase
+Public Access JSON API** whose *Certificates of Election / Oaths of Office* query returns dated
+per-person seating records — including for unopposed seats that never reach a ballot — and whose
+keyword endpoint returns the **complete value dataset**, letting a mid-term check be *proven*
+complete rather than merely exhausted.
+
+## Unopposed candidates vanish from the record in FIVE states
+
+Alabama, Georgia (O.C.G.A. §21-2-285(c)/§21-2-291), Texas (Elec. Code §2.053 — the city cancels the
+election by ordinance and **disappears from the county canvass entirely**), California (Elec. Code
+§10229 — appointment in lieu of election) and South Dakota (unopposed seats are simply not balloted;
+take the **oath of office**, not the canvass, as the roster). Massachusetts is the confirmed
+counter-example: uncontested MA seats appear with full vote counts, so there an absent seat really is
+missing data. This single rule prevented spurious gaps in more than a dozen cities.
+
+## Resignation is not vacancy
+
+The El Paso contradiction — the project's only open one — resolved with **neither** proposed
+hypothesis. The minutes were live *and* the resignation date was right: Tex. Const. art. XVI §65
+makes a resign-to-run announcement an automatic resignation while **§17 keeps the incumbent in office
+"until their successors shall be duly qualified"**. Ordaz announced in October 2019 and was *chairing
+business* on 17 December. It fired five times in El Paso alone and produced no vacant seat-year; a
+certified canvass even styles a resigned member "Incumbent" while she wins the special for the seat
+she resigned. Most states have an equivalent holdover provision — establish it before recording any
+vacancy.
+
+## Annual roster series: powerful, and wrong in four distinct ways
+
+The ACFR "List of Principal Officials" (and its equivalents — municipal audits, budget cover pages,
+the California Roster, NJ "Officials in Office and Surety Bonds") became the workhorse annual spine.
+All four failure modes were observed live:
+
+1. **Stale carry-over** — one FY2025 page still named the prior year's chair.
+2. **Runs AHEAD of its own year** — a FY2020 report printed the council seated that *December*; a NJ
+   "2025 Audit Report" printed the January 2026 council; an SD audit's "December 31, 2024" page
+   listed members appointed in May and June **2025**.
+3. **Not an ACFR at all** — a bare financial-statement audit has no introductory section and names
+   nobody. Selma, Ripon and three of four SD cities.
+4. **Derived columns lie** — one ACFR's "Years of Service" credited a member with 4 years when he had
+   served 2; the structural `Term Expires` column was correct.
+
+**A stale carry-over is invisible inside a single series.** Yuba City's FY2020 audit was
+character-identical to FY2019 and silently hid a vice-mayor change — caught only when a second annual
+series disagreed. **Diff two independent series wherever possible.**
+
+## The California Roster: real, but a corroborator only
+
+The registry said California had no statewide source. It does — the SoS *California Roster*'s
+"Incorporated City and Town Officials" section names mayor, vice mayor and full council annually. But
+it is **not** a spine: cities self-report, so **Ripon is absent entirely from five editions** while
+its alphabetical neighbours appear in all of them; the **2025 edition is four years stale** (so
+spot-checking 2024 or 2026 passes and licenses a wrong 2025); staleness is **per-city, not
+per-edition**; it is two-column, so a naive extract attached **Riverside's** population to Ripon; and
+searches must be case-insensitive because the newest editions switch to mixed case.
+
+## Structural traps that would have silently corrupted rosters
+
+- **Ojai's Measure L reads backwards.** It proposed *abolishing* the elected mayoralty; its defeat
+  **preserved** direct election. The registry also dated Ojai's CVRA transition to 2022 — it was
+  **Ordinance 889, December 2018**, and split (District 4 from 2020, Districts 1-3 from 2022).
+- **Ripon's "Seat 1-5" are rotating chair positions**, not stable seats — Seat 1 *is* the mayor, and
+  every member's number changes each December. Copying them permutes five seats every year.
+- **Members change seats without leaving office** — one held an at-large seat 2019-2024 then won a
+  *ward* seat; a continuity read merges them.
+- **A URL path can lie about a document's vintage** — one city overwrites its "Elected Officials" PDF
+  in place, so the 2020 upload path served the 2024-25 roster.
+- **CivicPlus integer id spaces are shared across tenants** — one city's Minutes id 1 returned a
+  *Richmond Hill, Georgia* document. Always confirm the municipality inside a swept file.
+- **A hyperlocal outlet can change the town it covers** — one blog reprinted Alcester SD roll calls
+  through early 2024, then switched entirely to Spirit Lake, Iowa, same format.
+- **International homonyms fail silently with real names and dates** — Dublin/Ireland,
+  Bristol/England, Portsmouth/England, Ripon/North Yorkshire, Brandon/Manitoba.
+
+## Orchestration
+
+- **The session scratchpad is SHARED across concurrent agents.** One agent found another city's
+  downloads inside a directory it had created. This is the root cause of an earlier incident where a
+  cached minutes file OCR'd as a different city's council entirely — caught only by the
+  city-name check. Agents must work in city-specific subdirectories with prefixed filenames.
+- **Propagating a finding to in-flight siblings was decisive repeatedly** — the unopposed rule, the
+  Clarity correction, the Carl Vinson audit mirror and the California Roster each reached agents
+  mid-run and changed their results.
+- **Resume a capped agent rather than respawning it** — one went from 7 gaps to 0 on a 15-call resume
+  at zero searches.

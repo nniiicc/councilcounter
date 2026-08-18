@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+# SQLite WAL sidecars — transient, regenerated on open
+*.db-shm
+*.db-wal
+
+.DS_Store

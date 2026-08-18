@@ -89,6 +89,40 @@ exhausted its search quota; the registry run used 27 searches.
 
 ## 5. Open items
 
+> **STATUS AS OF 2026-08-17 — the run is complete (64/64 cities, 99.2%). Items 1-4 and 6 are
+> RESOLVED; the resolutions are recorded below inline and in `registry-corrections.md` /
+> the forked skill. Item 5 was never a task, only a warning, and it held.**
+>
+> 1. **RESOLVED — and neither hypothesis was right.** The El Paso minutes were live *and* the
+>    resignation date was correct: **resignation is not vacancy.** Tex. Const. art. XVI §65 makes a
+>    resign-to-run announcement an automatic resignation while §17 keeps the incumbent in office
+>    "until their successors shall be duly qualified". Ordaz was chairing business on 17 Dec 2019.
+>    This fired five times in El Paso alone and produced no vacant seat-year.
+> 2. **RESOLVED per city, without the pre-pass.** Each agent settled its own calendar in Step A —
+>    the pre-pass was unnecessary. TX: all seven differ, terms of 2/3/4 years, three cities voting
+>    annually. AZ: mayor directly elected in six of seven, council-selected only in Sahuarita.
+>    Ojai: **Measure L's defeat PRESERVED direct election** (it proposed abolishing it).
+>    Greenfield: 4-year terms with half the council up every 2 years — the wording was never
+>    contradictory. Alabama: 3 of 5 cities affected by the 2021 Act.
+> 3. **RESOLVED — an OCR path now exists and works.** `pdftoppm -r 300 -png` + `tesseract --psm 4
+>    -c preserve_interword_spaces=1`. It recovered five otherwise-lost cycles including an entire
+>    county's run of summary PDFs. Watch orientation (some scans need 180° rotation, others are
+>    destroyed by it) and glob `{prefix}-*.png`, not `-001`.
+> 4. **RESOLVED — the ~50% South Dakota ceiling was not real.** Hartford's robots.txt is a genuine
+>    blanket Disallow and was honoured, but it contains **no year-scoped rule**; the 2019/2020-vs-
+>    2021/2023 asymmetry was tooling noise. The same file explicitly permits `archive.org_bot`, so
+>    Wayback is the *compliant* route — and Wayback's CDX API, this project's first-listed dead
+>    source, returns 8,000 rows to plain curl. **South Dakota finished at 98.1%, not 50-55%.**
+> 6. **RESOLVED by measurement.** No cap was ever hit. The full run averaged **~7 searches per
+>    city** against the ~24 predicted, because portal APIs and constructed URLs replaced search
+>    almost entirely; several cities finished on 0-2 searches.
+>
+> **Two foundational "dead sources" in §6 below were also wrong:** Clarity Elections serves
+> `robots.txt` as **HTTP 404** (no Disallow ever existed) and its JSON API is open; Wayback CDX
+> works. Both had been ruled out before the run began. See `registry-corrections.md`.
+
+### Original open items, as written at handoff
+
 1. **El Paso, District 6, December 2019 — unresolved contradiction.** The elections arm has the
    seat vacant (Claudia Ordaz resigned ~Oct–Nov 2019 to run for the Texas House; successor Claudia
    Lizette Rodriguez seated Jan 2020). The minutes arm read the Dec 17 2019 council minutes and
