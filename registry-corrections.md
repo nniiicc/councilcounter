@@ -582,3 +582,102 @@ searches must be case-insensitive because the newest editions switch to mixed ca
   mid-run and changed their results.
 - **Resume a capped agent rather than respawning it** — one went from 7 gaps to 0 on a 15-call resume
   at zero searches.
+
+
+## seat_count normalization (2026-08-18)
+
+`cities.seat_count` was inconsistent — some cities stored the whole governing body including
+the mayor, some the council only, and restructured cities stored a stale pre-change count.
+Normalized in two verification rounds (10 + 8 read-only agents, grouped by state), then
+applied to `raw/*.json` profiles and re-ingested. **The panel was verified byte-identical
+before and after** (5,657 rows, same SHA-256) — seat_count feeds no view.
+
+**Convention adopted** (user-decided, in `schema.sql`): seat_count = **full voting members of
+the governing body**. A separately-elected mayor counts iff charter/statute text gives them a
+full vote as a member; tie-break-only mayors and non-member executives do not; council-selected
+mayors occupy a counted seat; titles are not seats; restructured cities carry the end-of-panel
+count.
+
+**Method lesson**: the first round applied a blunter rule — "separately-elected mayor never
+counts" — and it was wrong in ways only statute text reveals. Arizona's direct-election statutes
+(ARS 9-232.03/9-272.01) change only how the mayor is *chosen*; the mayor remains a full voting
+member of the statutory 7-member council, so all six AZ "corrections" from round 1 were
+themselves wrong. Same for CA general-law elected mayors (Gov. Code 34903), VA council-manager
+charters (Norfolk 17.1, Portsmouth 3.09), NJ Small-Municipality and Council-Manager plans
+(NJSA 40:69A-120, -87), and AL council-manager cities (11-43A-8: "the mayor, who shall be a
+voting member"). Membership and voting power are separate questions — Sioux Falls's charter
+makes the mayor a *member* of the council with a tie-break-only vote (2.11(c)), and El Paso's
+charter calls the mayor "a non-voting member of Council". Never infer either from the roster page.
+
+**Also surfaced**: Auburn AL is a council-manager city under 11-43A (not mayor-council);
+Homewood's end-of-panel count is 5 under its new 2025 council-manager form; Nashville's stored
+42 had counted both the non-member metro mayor and the tie-break-only vice mayor.
+
+19 of 64 stored values changed (bolded). Per-city audit (stored → final, mayoral status, basis):
+
+| id | city | stored | final | mayor status | basis |
+|---|---|---|---|---|---|
+| 1 | Albany, CA | 5 | 5 | council_selected | https://albanyca.primegov.com/Public/CompiledDocument/23502 |
+| 2 | Alcester, SD | 6 | 6 | tie_break_only | https://sdlegislature.gov/Statutes/9-8-3 |
+| 3 | Amherst town, Massachusetts | 13 | 13 | no_mayor | https://www.amherstma.gov/DocumentCenter/View/45823 |
+| 4 | Auburn city, Alabama | 9 | 9 | full | https://law.onecle.com/alabama/title-11/11-43A-8.html |
+| 5 | Belmar, NJ | 5 | 5 | full | https://nj.gov/dca/dlgs/resources/misc_publications/optional_muni_charter_law.pdf |
+| 6 | Bothell city, Washington | 7 | 7 | council_selected | https://www.bothellwa.gov/261/City-Council |
+| 7 | Brandon, South Dakota | 7 | **6** | tie_break_only | https://sdlegislature.gov/Statutes/9-8-3 |
+| 8 | Bristol, Tennessee | 5 | 5 | council_selected | https://www.bristoltn.gov/AgendaCenter/ViewFile/Minutes/_02222022-1265 |
+| 9 | Bristol, Virginia | 5 | 5 | council_selected | https://law.lis.virginia.gov/charters/bristol/ |
+| 10 | Brockton city, Massachusetts | 12 | **11** | not_member | https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter43/Section59 |
+| 11 | California City, CA | 5 | 5 | full | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=34903 |
+| 12 | Canyon Lake, California | 5 | 5 | council_selected | https://www.canyonlakeca.gov/election |
+| 13 | Castle Hills, TX | 6 | **5** | tie_break_only | https://www.cityofcastlehills.com/2152/City-Council |
+| 14 | Chino Valley town, Arizona | 7 | 7 | full | https://www.azleg.gov/ars/9/00231.htm |
+| 15 | College Place city, Washington | 8 | **7** | tie_break_only | https://app.leg.wa.gov/RCW/default.aspx?cite=35A.12.100 |
+| 16 | Cookeville city, Tennessee | 5 | 5 | council_selected | https://putnamcountytn.gov/electionresults/2022-08/ |
+| 17 | Cottonwood, AZ | 7 | 7 | full | https://www.azleg.gov/ars/9/00271.htm |
+| 18 | Dearborn Heights city, Michigan | 7 | 7 | not_member | https://www.dearbornheightsmi.gov/231/City-Council |
+| 19 | Dublin, GA | 8 | **7** | tie_break_only | https://www.cityofdublin.org/content/userfiles/files/FY%202025%20Annual%20Comprehensive%20Financial%20Report.pdf |
+| 20 | El Paso, TX | 9 | **8** | tie_break_only | https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/elections/2022-11-08/2022-Packet-Contents/3.%20-%20Articles%20I%20&%20II%20of%20the%20El%20Paso%20City%20Charter.pdf |
+| 21 | Fairhope city, Alabama | 6 | **5** | not_member | https://law.onecle.com/alabama/title-11/11-43-40.html |
+| 22 | Federal Way city, Washington | 8 | **7** | tie_break_only | https://www.codepublishing.com/WA/FederalWay/html/FederalWay02/FederalWay0208.html |
+| 23 | Franklin Township, NJ | 5 | 5 | council_selected | https://www.franklintownshipnj.org/AgendaCenter/ViewFile/Minutes/_01012026-1152 |
+| 24 | Gloucester Township, NJ | 7 | 7 | not_member | https://nj.gov/dca/dlgs/resources/misc_publications/optional_muni_charter_law.pdf |
+| 25 | Greenfield, Massachusetts | 13 | 13 | not_member | https://ecode360.com/38857665 |
+| 26 | Groves, TX | 5 | 5 | full | http://www.slavinmanagementconsultants.com/PDFs/grovescm.pdf |
+| 27 | Hartford, SD | 7 | **6** | tie_break_only | https://sdlegislature.gov/Statutes/9-8-3 |
+| 28 | Homewood city, Alabama | 12 | **5** | full | https://law.onecle.com/alabama/title-11/11-43A-8.html |
+| 29 | Hot Springs, SD | 9 | **8** | tie_break_only | https://sdlegislature.gov/Statutes/9-8-3 |
+| 30 | Howell Township, NJ | 5 | 5 | full | https://nj.gov/dca/dlgs/resources/misc_publications/optional_muni_charter_law.pdf |
+| 31 | Jersey City city, New Jersey | 9 | 9 | not_member | https://nj.gov/dca/dlgs/resources/misc_publications/optional_muni_charter_law.pdf |
+| 32 | Lacey city, Washington | 7 | 7 | council_selected | https://cityoflacey.org/government/lacey-city-council/ |
+| 33 | Memphis city, Tennessee | 13 | 13 | not_member | https://memphistn.gov/wp-content/uploads/2025/03/Council-Rules-of-Procedure-01-2025.pdf |
+| 34 | Milledgeville city, Georgia | 6 | 6 | tie_break_only | https://caselaw.findlaw.com/ga-supreme-court/1332593.html |
+| 35 | Mission, TX | 5 | 5 | full | https://www.missiontexas.us/DocumentCenter/View/324/May-4-2024-Special-Election-Charter-Amendments |
+| 36 | Mitchell, South Dakota | 9 | **8** | tie_break_only | https://sdlegislature.gov/Statutes/9-8-3 |
+| 37 | Mobile city, Alabama | 8 | **7** | not_member | https://www.cityofmobile.gov/pdf/zoghby_act.pdf |
+| 38 | Montclair township, New Jersey | 7 | 7 | full | https://nj.gov/dca/dlgs/resources/misc_publications/optional_muni_charter_law.pdf |
+| 39 | Nashville city, Tennessee | 42 | **40** | not_member | https://citybellemeade.org/wp-content/uploads/2018/11/Charter-of-Metropolitan-Government-of-Nashville-and-Davidson-County-Tennessee.pdf |
+| 40 | New Brunswick, NJ | 7 | 7 | not_member | https://nj.gov/dca/dlgs/resources/misc_publications/optional_muni_charter_law.pdf |
+| 41 | Norfolk, Virginia | 8 | 8 | full | https://law.lis.virginia.gov/charters/norfolk/ |
+| 42 | Oak Harbor city, Washington | 7 | 7 | tie_break_only | https://www.codepublishing.com/WA/OakHarbor/html/OakHarbor01/OakHarbor0116.html |
+| 43 | Oakland, California | 8 | 8 | not_member | https://cao-94612.s3.amazonaws.com/documents/A-Oakland-City-Charter_2022-04-15-204856_hoik.pdf |
+| 44 | Odessa, TX | 7 | 7 | full | https://ecode360.com/39848739 |
+| 45 | Ojai, CA | 5 | 5 | full | https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=34903 |
+| 46 | Page, AZ | 7 | 7 | full | https://www.azleg.gov/ars/9/00271.htm |
+| 47 | Phoenix, Arizona | 9 | 9 | full | https://phoenix.municipal.codes/Charter/III_Sec1 |
+| 48 | Poquoson, VA | 7 | 7 | council_selected | https://law.lis.virginia.gov/charters/poquoson/ |
+| 49 | Portsmouth, VA | 7 | 7 | full | https://law.lis.virginia.gov/charters/portsmouth/ |
+| 50 | Richmond city (Richmond Hill), Georgia | 5 | **4** | tie_break_only | https://gov.georgia.gov/document/2021-signed-legislation/hb-546/download |
+| 51 | Ripon, California | 5 | 5 | council_selected | https://www.cityofripon.org/181/Ripon-City-Council |
+| 52 | Sahuarita town, Arizona | 7 | 7 | council_selected | https://www.sahuaritaaz.gov/265/Election-Information |
+| 53 | Seattle city, Washington | 9 | 9 | not_member | https://library.municode.com/wa/seattle/codes/municipal_code?nodeId=THCHSE |
+| 54 | Selma city, Alabama | 9 | 9 | not_member | https://law.onecle.com/alabama/title-11/11-43-40.html |
+| 55 | Shenandoah, TX | 6 | **5** | tie_break_only | https://texas.public.law/statutes/tex._local_gov%27t_code_section_22.037 |
+| 56 | Show Low, Arizona | 7 | 7 | full | https://www.azleg.gov/ars/9/00271.htm |
+| 57 | Sioux Falls city, South Dakota | 8 | 8 | tie_break_only | https://web.archive.org/web/20040703154138/http://www.siouxfalls.org/media/charter.pdf |
+| 58 | Tazewell, VA | 7 | **6** | tie_break_only | https://law.lis.virginia.gov/charters/tazewell/ |
+| 59 | Tucson, Arizona | 7 | 7 | full | https://codelibrary.amlegal.com/codes/tucson/latest/tucson_az/0-0-0-217 |
+| 60 | Vader city, Washington | 6 | **5** | tie_break_only | https://app.leg.wa.gov/RCW/default.aspx?cite=35A.12.100 |
+| 61 | Victoria, TX | 7 | 7 | full | https://www.victoriatx.gov/DocumentCenter/View/12913 |
+| 62 | Waynesboro, VA | 5 | 5 | council_selected | https://law.lis.virginia.gov/charters/waynesboro/ |
+| 63 | Westmoreland town, Tennessee | 6 | **5** | tie_break_only | https://westmorelandtn.gov/wp-content/uploads/2021/09/2021-Charter-MTAS-Copy.pdf |
+| 64 | Yuba City city, California | 5 | 5 | council_selected | https://www.yubacity.net/city_council/yuba_city_district.php |

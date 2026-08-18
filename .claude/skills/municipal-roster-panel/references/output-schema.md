@@ -21,7 +21,7 @@ the work.
 | `city_id` | |
 | `city`, `state`, `fips` | |
 | `gov_form` | `mayor-council`, `council-manager`, `commission`, `township` |
-| `seat_count` | Excluding mayor |
+| `seat_count` | **Full voting members of the governing body.** A separately-elected mayor counts iff the charter/statute gives them a full vote as a member (AZ common councils, VA council-manager charters, NJ Small-Municipality/Council-Manager plans, AL council-manager cities, CA general-law elected mayors per Gov. Code §34903). Tie-break-only mayors (WA RCW 35A.12.100, SD SDCL 9-8-3, TX §22.037, most GA charters) and non-member executives (strong-mayor forms) do not count. Council-selected mayors occupy a counted seat. Titles (vice mayor, president) are not seats. Verify from charter/statute text — city roster pages conflate "the council" with "the governing body" in both directions. |
 | `seat_scheme` | `at-large`, `ward`, `position-numbered`, `mixed` |
 | `term_length_years` | |
 | `stagger_pattern` | Which seats in which cycles |

@@ -4,7 +4,7 @@
   "state": "TX",
   "profile": {
     "gov_form": "council-manager",
-    "seat_count": 6,
+    "seat_count": 5,
     "seat_scheme": "position-numbered",
     "term_length": 2,
     "stagger_pattern": "ANNUAL elections on the Texas uniform date (first Saturday in May), 2-year terms, two staggered groups. EVEN years (2018, 2020, 2022, 2024, 2026): Mayor + Position 1 + Position 5. ODD years (2017, 2019, 2021, 2023, 2025): Positions 2, 3, 4. Confirmed by the city's own Elections page (2027 ballot = Positions 2, 3 and 4) and by which Shenandoah races appear in each Montgomery County canvass.",

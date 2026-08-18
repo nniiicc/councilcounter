@@ -10,7 +10,15 @@ CREATE TABLE cities (
   state           TEXT    NOT NULL,
   fips            TEXT,
   gov_form        TEXT,               -- mayor-council | council-manager | commission | township
-  seat_count      INTEGER,            -- council seats, excluding mayor
+  seat_count      INTEGER,            -- FULL VOTING MEMBERS of the governing body.
+                                      -- A separately-elected mayor counts iff they hold a
+                                      -- full vote as a member (weak-mayor/BOMA forms);
+                                      -- tie-break-only and non-member executive mayors do
+                                      -- not. Council-selected mayors occupy a counted
+                                      -- seat. Vice mayor / president are titles, not
+                                      -- seats. Restructured cities carry the end-of-panel
+                                      -- count; history lives in stagger_pattern.
+                                      -- Normalized 2026-08-18 against charter/statute text.
   seat_scheme     TEXT,               -- at-large | ward | position-numbered | mixed
   term_length     INTEGER,            -- years
   stagger_pattern TEXT,               -- free text: which seats in which cycles

@@ -4,7 +4,7 @@
   "state": "TX",
   "profile": {
     "gov_form": "council-manager",
-    "seat_count": 6,
+    "seat_count": 5,
     "seat_scheme": "position-numbered",
     "term_length": 2,
     "stagger_pattern": "Two-year terms, Texas uniform election date (first Saturday in May), EVERY year. ODD years elect Mayor + Alderman Place 2 + Alderman Place 3 (2019-05-04, 2021-05-01, 2023-05-06, 2025-05-03). EVEN years elect Aldermen Places 1, 4 and 5 (2020-05-02, 2022-05-07, 2024-05-04, 2026-05-02). Four cycles per side = EIGHT cycles in the 2019-2026 panel, plus one special election (2019-11-05) for the unexpired Place 1 and Place 3 terms. Mayor Pro Tem is an internal office, filled by council vote at the first meeting after each May election.",

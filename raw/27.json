@@ -4,7 +4,7 @@
   "state": "SD",
   "profile": {
     "gov_form": "mayor-council",
-    "seat_count": 7,
+    "seat_count": 6,
     "seat_scheme": "ward",
     "term_length": 2,
     "stagger_pattern": "Annual April election; 6 council seats on staggered 2-year terms (two per ward), roughly 3 seats up each year, plus the mayor at-large on a 2-year term. Seats with a single qualified candidate are seated without a ballot; if no petition is filed the seat becomes vacant and is filled by council appointment until the next April election (this happened to 4 seats + the mayoralty in 2021, when the election was cancelled outright). A Council President and Vice-President are elected by the council from among its members each May for 1-year terms.",

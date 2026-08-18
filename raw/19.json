@@ -4,7 +4,7 @@
   "state": "GA",
   "profile": {
     "gov_form": "mayor-council",
-    "seat_count": 8,
+    "seat_count": 7,
     "seat_scheme": "mixed",
     "term_length": 4,
     "stagger_pattern": "ACFR verbatim: 'Policy-making and legislative authority are vested in the governing council consisting of the mayor and seven other members... Council members serve four-year staggered terms, with an election held every two years. The mayor is also elected to serve a four-year term. Four of the council members are elected by district. The mayor and the three remaining council members are elected at large.' Observed split: Wards I-IV all elected together in Nov 2019 and Nov 2023 (terms Jan 2020-Dec 2023, Jan 2024-Dec 2027); Mayor + the three At Large seats elected together in Nov 2021 and Nov 2025 (terms Jan 2022-Dec 2025, Jan 2026-Dec 2029). At Large seats are unnumbered and run as a single group, top three elected.",

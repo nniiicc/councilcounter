@@ -4,7 +4,7 @@
   "state": "SD",
   "profile": {
     "gov_form": "mayor-council",
-    "seat_count": 9,
+    "seat_count": 8,
     "seat_scheme": "ward",
     "term_length": 2,
     "stagger_pattern": "Aldermanic form: a mayor plus two aldermen from each of four wards; every office is a 2-year term. One alderman per ward is elected EVERY year, so there is an election every year; the mayoralty is on the ballot in even years. Seat labels used here: 'Ward N Seat A' = the class elected in EVEN years (2018/2020/2022/2024/2026); 'Ward N Seat B' = the class elected in ODD years (2019/2021/2023/2025). Election day is the first Tuesday after the first Monday in JUNE (verified 2021-06-08, 2022-06-07, 2023-06-06, 2024-06-04, 2025-06-03, 2026-06-02). Winners take the oath at the first regular council meeting in July. An internal Council President (presiding officer) and Council Vice President are elected by the council at that same July meeting; Council President is tracked here as its own seat with role vice_mayor.",

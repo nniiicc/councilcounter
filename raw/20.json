@@ -4,7 +4,7 @@
  "state": "TX",
  "profile": {
   "gov_form": "council-manager",
-  "seat_count": 9,
+  "seat_count": 8,
   "seat_scheme": "ward",
   "term_length": 4,
   "stagger_pattern": "Two cohorts. Cohort A = Districts 1, 5, 6, 8 elected 2018, 2022, 2026. Cohort B = Mayor + Districts 2, 3, 4, 7 elected 2020, 2024. Majority-vote charter: each November general is followed by a December runoff for any office under 50%. Terms begin at the first regular council meeting of January (2019-01-08, 2021-01-05, 2023-01-03, 2025-01-07). Two-term limit.",
